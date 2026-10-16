@@ -1,0 +1,90 @@
+2026-10-01 22:54:31,690 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:32,660 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 422
+2026-10-01 22:54:32,663 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[POST-program-None-payload0] passed.
+2026-10-01 22:54:32,667 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:33,599 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 422
+2026-10-01 22:54:33,601 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[POST-program-None-payload1] passed.
+2026-10-01 22:54:33,604 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:34,553 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 409
+2026-10-01 22:54:34,555 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[POST-program-None-payload2] passed.
+2026-10-01 22:54:34,558 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:35,546 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 409
+2026-10-01 22:54:35,549 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[POST-program-None-payload3] passed.
+2026-10-01 22:54:35,554 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:36,543 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-10-01 22:54:36,614 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[POST-program-None-payload4] failed
+2026-10-01 22:54:36,617 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:37,566 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 409
+2026-10-01 22:54:37,569 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[POST-program-None-payload5] passed.
+2026-10-01 22:54:37,571 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:38,506 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 409
+2026-10-01 22:54:38,508 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[POST-program-None-payload6] passed.
+2026-10-01 22:54:38,510 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:39,582 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 409
+2026-10-01 22:54:39,585 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[POST-program-None-payload7] passed.
+2026-10-01 22:54:39,589 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:40,522 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 422
+2026-10-01 22:54:40,523 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[POST-program-None-payload8] passed.
+2026-10-01 22:54:40,525 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:41,495 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-10-01 22:54:41,505 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[POST-program-None-payload9] failed
+2026-10-01 22:54:41,507 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:42,428 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/invalid_pool -> 404
+2026-10-01 22:54:42,431 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[GET-invalid_pool-None-None] passed.
+2026-10-01 22:54:42,434 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:43,365 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=-1&limit=40 -> 422
+2026-10-01 22:54:43,367 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[GET-program?skip=-1&limit=40-None-None] passed.
+2026-10-01 22:54:43,371 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:44,072 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=-1 -> 422
+2026-10-01 22:54:44,074 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[GET-program?skip=0&limit=-1-None-None] passed.
+2026-10-01 22:54:44,076 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:44,762 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=abc&limit=40 -> 422
+2026-10-01 22:54:44,764 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[GET-program?skip=abc&limit=40-None-None] passed.
+2026-10-01 22:54:44,766 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:45,725 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/99999999 -> 422
+2026-10-01 22:54:45,727 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[PATCH-program-99999999-payload14] passed.
+2026-10-01 22:54:45,729 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:46,665 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/99999999 -> 404
+2026-10-01 22:54:46,668 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[PATCH-program-99999999-payload15] passed.
+2026-10-01 22:54:46,672 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:47,585 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/99999999 -> 404
+2026-10-01 22:54:47,587 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[PATCH-master-99999999-payload16] passed.
+2026-10-01 22:54:47,589 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:48,558 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/99999999 -> 404
+2026-10-01 22:54:48,561 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[PATCH-system-99999999-payload17] passed.
+2026-10-01 22:54:48,566 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:49,807 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/99999999 -> 404
+2026-10-01 22:54:49,810 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[PATCH-program-99999999-payload18] passed.
+2026-10-01 22:54:49,814 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:50,758 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/99999999 -> 422
+2026-10-01 22:54:50,761 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[PATCH-master-99999999-payload19] passed.
+2026-10-01 22:54:50,763 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:51,714 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/invalid_pid -> 404
+2026-10-01 22:54:51,716 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[PATCH-system-invalid_pid-payload20] passed.
+2026-10-01 22:54:51,717 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:52,636 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/99999999 -> 404
+2026-10-01 22:54:52,638 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[DELETE-program-99999999-None] passed.
+2026-10-01 22:54:52,640 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:53,598 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/99999999 -> 404
+2026-10-01 22:54:53,599 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[DELETE-master-99999999-None] passed.
+2026-10-01 22:54:53,601 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:54,666 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/99999999 -> 404
+2026-10-01 22:54:54,669 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[DELETE-system-99999999-None] passed.
+2026-10-01 22:54:54,672 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:55,677 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/invalid_pid -> 404
+2026-10-01 22:54:55,679 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[DELETE-program-invalid_pid-None] passed.
+2026-10-01 22:54:55,682 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:56,410 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/invalid_pid -> 404
+2026-10-01 22:54:56,412 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[DELETE-master-invalid_pid-None] passed.
+2026-10-01 22:54:56,416 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 22:54:57,362 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/invalid_pid -> 404
+2026-10-01 22:54:57,364 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[DELETE-system-invalid_pid-None] passed.
+2026-10-01 22:54:57,365 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-10-01 22:54:57,366 - conftest.py - Line: 109 - INFO - Total tests passed: 25
+2026-10-01 22:54:57,366 - conftest.py - Line: 110 - INFO - Total tests failed: 2
+2026-10-01 22:54:57,366 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-10-01 22:54:57,366 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-10-01 22:54:57,366 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[POST-program-None-payload4] failed
+2026-10-01 22:54:57,367 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[POST-program-None-payload9] failed
+2026-10-01 22:54:57,367 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

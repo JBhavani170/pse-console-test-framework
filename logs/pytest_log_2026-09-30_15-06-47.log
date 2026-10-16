@@ -1,0 +1,19 @@
+2026-09-30 15:06:48,015 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 15:06:48,790 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 409
+2026-09-30 15:06:48,878 - conftest.py - Line: 102 - ERROR - Test pool_management/pool.py::test_pool_crud[program-https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=50-https://pse-console-cloud-dev.intel.com/api/v1/pool/program-Upda-program_pid] failed
+2026-09-30 15:06:48,880 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 15:06:49,586 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 409
+2026-09-30 15:06:49,594 - conftest.py - Line: 102 - ERROR - Test pool_management/pool.py::test_pool_crud[master-https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=40-https://pse-console-cloud-dev.intel.com/api/v1/pool/master-Upda-master_pid] failed
+2026-09-30 15:06:49,597 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 15:06:50,363 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 409
+2026-09-30 15:06:50,375 - conftest.py - Line: 102 - ERROR - Test pool_management/pool.py::test_pool_crud[system-https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=40-https://pse-console-cloud-dev.intel.com/api/v1/pool/system-Upda-system_pid] failed
+2026-09-30 15:06:50,378 - conftest.py - Line: 112 - INFO - 
+Test execution complete.
+2026-09-30 15:06:50,379 - conftest.py - Line: 113 - INFO - Total tests passed: 0
+2026-09-30 15:06:50,380 - conftest.py - Line: 114 - INFO - Total tests failed: 3
+2026-09-30 15:06:50,380 - conftest.py - Line: 117 - ERROR - ===================================================================================================================
+2026-09-30 15:06:50,380 - conftest.py - Line: 118 - ERROR - Test Summary Info
+2026-09-30 15:06:50,380 - conftest.py - Line: 121 - ERROR - pool_management/pool.py::test_pool_crud[program-https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=50-https://pse-console-cloud-dev.intel.com/api/v1/pool/program-Upda-program_pid] failed
+2026-09-30 15:06:50,380 - conftest.py - Line: 121 - ERROR - pool_management/pool.py::test_pool_crud[master-https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=40-https://pse-console-cloud-dev.intel.com/api/v1/pool/master-Upda-master_pid] failed
+2026-09-30 15:06:50,381 - conftest.py - Line: 121 - ERROR - pool_management/pool.py::test_pool_crud[system-https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=40-https://pse-console-cloud-dev.intel.com/api/v1/pool/system-Upda-system_pid] failed
+2026-09-30 15:06:50,381 - conftest.py - Line: 122 - ERROR - ===================================================================================================================

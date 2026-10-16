@@ -1,0 +1,91 @@
+2026-09-28 00:13:42,444 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 00:13:43,977 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=40&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-28 00:13:43,978 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 00:13:45,187 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 200
+2026-09-28 00:13:45,188 - resource_management.py - Line: 580 - INFO - current program names:[]
+2026-09-28 00:13:45,189 - resource_management.py - Line: 584 - INFO - master pool name:{'pid': 'cf3891f3756246fd9e31ed49efc8e3bd', 'name': 'EV', 'description': 'testing', 'insert_time': '2026-08-03T08:54:33.085000', 'owners': ['reetux.d@intel.com'], 'ppid': '539cb8cbe3df44e6b5da84aa464a8ea0', 'program_pool': 'new3'}
+2026-09-28 00:13:45,189 - resource_management.py - Line: 586 - INFO - pid:cf3891f3756246fd9e31ed49efc8e3bd
+2026-09-28 00:13:45,189 - resource_management.py - Line: 588 - INFO - [
+    {
+        "system_id": "cs16ca101cs0307",
+        "pools": {
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "mpid": "cf3891f3756246fd9e31ed49efc8e3bd"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0308",
+        "pools": {
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "mpid": "cf3891f3756246fd9e31ed49efc8e3bd"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0401",
+        "pools": {
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "mpid": "cf3891f3756246fd9e31ed49efc8e3bd"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0402",
+        "pools": {
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "mpid": "cf3891f3756246fd9e31ed49efc8e3bd"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0403",
+        "pools": {
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "mpid": "cf3891f3756246fd9e31ed49efc8e3bd"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0404",
+        "pools": {
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "mpid": "cf3891f3756246fd9e31ed49efc8e3bd"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0405",
+        "pools": {
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "mpid": "cf3891f3756246fd9e31ed49efc8e3bd"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0406",
+        "pools": {
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "mpid": "cf3891f3756246fd9e31ed49efc8e3bd"
+        }
+    },
+    {
+        "system_id": "cs16ca101ds0101",
+        "pools": {
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "mpid": "cf3891f3756246fd9e31ed49efc8e3bd"
+        }
+    },
+    {
+        "system_id": "cs16ca101ds0102",
+        "pools": {
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "mpid": "cf3891f3756246fd9e31ed49efc8e3bd"
+        }
+    }
+]
+2026-09-28 00:13:45,189 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 00:13:47,416 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 200
+2026-09-28 00:13:47,417 - resource_management.py - Line: 592 - INFO - Response:
+{
+    "success": 10,
+    "failure": 0
+}
+2026-09-28 00:13:47,420 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_move_systems_to_master_pool passed.
+2026-09-28 00:13:47,421 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-28 00:13:47,421 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-28 00:13:47,422 - conftest.py - Line: 110 - INFO - Total tests failed: 0

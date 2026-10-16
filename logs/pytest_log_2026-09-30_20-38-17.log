@@ -1,0 +1,23 @@
+2026-09-30 20:38:18,014 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 20:38:18,996 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-30 20:38:19,976 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 201
+2026-09-30 20:38:20,948 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 201
+2026-09-30 20:38:20,953 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 20:38:20,956 - conftest.py - Line: 348 - ERROR - Request failed: No connection adapters were found for "('https://pse-console-cloud-dev.intel.com/api/v1/pool/program',)"
+2026-09-30 20:38:21,066 - conftest.py - Line: 102 - ERROR - Test pse-cloud/pool_management/pool.py::test_pool_negative_scenarios[url0] failed
+2026-09-30 20:38:21,068 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 20:38:21,069 - conftest.py - Line: 348 - ERROR - Request failed: No connection adapters were found for "('https://pse-console-cloud-dev.intel.com/api/v1/pool/master',)"
+2026-09-30 20:38:21,111 - conftest.py - Line: 102 - ERROR - Test pse-cloud/pool_management/pool.py::test_pool_negative_scenarios[url1] failed
+2026-09-30 20:38:21,114 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 20:38:21,115 - conftest.py - Line: 348 - ERROR - Request failed: No connection adapters were found for "('https://pse-console-cloud-dev.intel.com/api/v1/pool/system',)"
+2026-09-30 20:38:21,157 - conftest.py - Line: 102 - ERROR - Test pse-cloud/pool_management/pool.py::test_pool_negative_scenarios[url2] failed
+2026-09-30 20:38:21,159 - conftest.py - Line: 112 - INFO - 
+Test execution complete.
+2026-09-30 20:38:21,160 - conftest.py - Line: 113 - INFO - Total tests passed: 0
+2026-09-30 20:38:21,161 - conftest.py - Line: 114 - INFO - Total tests failed: 3
+2026-09-30 20:38:21,161 - conftest.py - Line: 117 - ERROR - ===================================================================================================================
+2026-09-30 20:38:21,161 - conftest.py - Line: 118 - ERROR - Test Summary Info
+2026-09-30 20:38:21,161 - conftest.py - Line: 121 - ERROR - pse-cloud/pool_management/pool.py::test_pool_negative_scenarios[url0] failed
+2026-09-30 20:38:21,162 - conftest.py - Line: 121 - ERROR - pse-cloud/pool_management/pool.py::test_pool_negative_scenarios[url1] failed
+2026-09-30 20:38:21,162 - conftest.py - Line: 121 - ERROR - pse-cloud/pool_management/pool.py::test_pool_negative_scenarios[url2] failed
+2026-09-30 20:38:21,162 - conftest.py - Line: 122 - ERROR - ===================================================================================================================

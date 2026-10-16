@@ -1,0 +1,1380 @@
+2026-09-30 13:00:35,650 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 13:00:36,594 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 200
+2026-09-30 13:00:36,595 - resource_management.py - Line: 479 - INFO - get response:{
+    "data": [
+        {
+            "pid": "f623d6407c85496394b714481a8ff8bb",
+            "name": "RPL-E Refresh",
+            "description": "**validation**",
+            "insert_time": "2026-06-24T07:16:00.471000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "reetux.d@intel.com"
+            ]
+        },
+        {
+            "pid": "e1c184b8a9c84405b6dc4b308a0f07f6",
+            "name": "SPR-SP",
+            "description": "testing",
+            "insert_time": "2026-06-24T07:16:33.545000",
+            "owners": [
+                "kesamsettix.gayatri@intel.com",
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "f47067f5e9594746a0dca854a8841cfb",
+            "name": "SNR",
+            "description": "1234567890qwerttyuiopasddfghjjkl;;;;;,mnvzm,.yhgfvccv",
+            "insert_time": "2026-06-24T07:17:15.365000",
+            "owners": [
+                "sumitx.dahiya@intel.com"
+            ]
+        },
+        {
+            "pid": "8eb2fdd9c94940bda7c292bd6e43a77b",
+            "name": "SRF-AP",
+            "description": "testing",
+            "insert_time": "2026-06-24T07:18:09.731000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "729078498c9b476196b4eab9406e4066",
+            "name": "DMR-D",
+            "description": "testing spr-sp",
+            "insert_time": "2026-06-25T04:36:40.669000",
+            "owners": [
+                "sumitx.dahiya@intel.com"
+            ]
+        },
+        {
+            "pid": "d7bcfa4f60204e84809fa878a3ae9794",
+            "name": "!@#$$%^&**((()_+{}:\"<>?|1234567890-=[]\\;',./\\|.,abcdefjhijklmnop",
+            "description": "testingggggggggggggggggggggggggggggg!@#$%^&*()",
+            "insert_time": "2026-07-01T06:00:46.745000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "10bff9db47e042e6bdf3c29c553b36a3",
+            "name": "testing_pool_feat",
+            "description": "testing_pool_feat",
+            "insert_time": "2026-07-01T06:57:48.732000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "kesamsettix.gayatri@intel.com"
+            ]
+        },
+        {
+            "pid": "b91dfccdbce1456899308f1b5b71ac1e",
+            "name": "DMR- Pool",
+            "description": "ddddddddddd",
+            "insert_time": "2026-07-08T09:36:42.067000",
+            "owners": [
+                "santosh.gore@intel.com"
+            ]
+        },
+        {
+            "pid": "85d3e9cea59f43a0b0e8b2e961ed4fa2",
+            "name": "new",
+            "description": "newww",
+            "insert_time": "2026-07-13T05:49:51.790000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "c621852474c6437197244dfcbe6bd699",
+            "name": "testing_pool_11",
+            "description": "testing_pool_1",
+            "insert_time": "2026-07-14T11:03:47.703000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "name": "new3",
+            "description": "testing",
+            "insert_time": "2026-08-03T08:50:51.963000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ]
+        },
+        {
+            "pid": "8a14f439e84e4353937bccedffdb8e26",
+            "name": "SRF-AP1",
+            "description": "prg pool1",
+            "insert_time": "2026-08-03T09:54:55.587000",
+            "owners": [
+                "kesamsettix.gayatri@intel.com",
+                "anjalix.na@intel.com",
+                "janardhanx.gs@intel.com",
+                "reetux.d@intel.com",
+                "ragini.ramachandran@intel.com",
+                "sumitx.dahiya@intel.com",
+                "asimx.ghosh@intel.com"
+            ]
+        },
+        {
+            "pid": "e4729a1281774a09bf36bb13880e6b0f",
+            "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "description": "testing",
+            "insert_time": "2026-08-14T06:00:17.127000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "kesamsettix.gayatri@intel.com"
+            ]
+        },
+        {
+            "pid": "aa7a60a12b4f4479a0491f9e5c50c600",
+            "name": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "description": "tetinggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "insert_time": "2026-08-14T06:14:53.578000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "sumitx.dahiya@intel.com",
+                "kesamsettix.gayatri@intel.com",
+                "reetux.d@intel.com",
+                "pse_user@intel.com",
+                "ragini.ramachandran@intel.com",
+                "asimx.ghosh@intel.com"
+            ]
+        },
+        {
+            "pid": "9f980966c4274acfb84a6951ee6474d1",
+            "name": "test_demo",
+            "description": "test_demo",
+            "insert_time": "2026-08-14T09:23:24.384000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "name": "UI",
+            "description": "UI_Testing",
+            "insert_time": "2026-08-17T06:15:33.109000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ]
+        },
+        {
+            "pid": "577885727acf44b0a2d523f94b2e2205",
+            "name": "tqhgswjhefiufqoiwjrknqmbnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+            "description": "hjhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhuuuuuuuuuuuuuuuuuuuuuuuuuutttttt",
+            "insert_time": "2026-08-17T06:34:57.672000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "name": "validation team",
+            "description": "val team",
+            "insert_time": "2026-08-18T11:05:46.806000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "himansu@intel.com",
+                "sys_evf_jira@intel.com"
+            ]
+        },
+        {
+            "pid": "499c72be1f2b4430835bf42c8fb9e7ce",
+            "name": "SRF-SP",
+            "description": "testing",
+            "insert_time": "2026-09-11T05:14:55.619000",
+            "owners": [
+                "test_user_pse@intel.com",
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "64e658a00f1343ff86f64b531a65dd26",
+            "name": "DMR ProgramPool",
+            "description": "Description of program pool",
+            "insert_time": "2026-09-17T14:43:21.003000",
+            "owners": [
+                "santosh.gore@intel.com"
+            ]
+        },
+        {
+            "pid": "cc2c8c862d894f15b3fcb45702867845",
+            "name": "PROGRA",
+            "description": "testing",
+            "insert_time": "2026-09-28T15:06:41.968000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "1c089e5d4f10482882c7cb30265d469b",
+            "name": "abcabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "description": "testing",
+            "insert_time": "2026-09-29T08:54:41.175000",
+            "owners": [
+                "test_user_pse@intel.com"
+            ]
+        }
+    ],
+    "total_records": 27
+}
+2026-09-30 13:00:36,601 - resource_management.py - Line: 481 - INFO - get response:[
+    {
+        "pid": "f623d6407c85496394b714481a8ff8bb",
+        "name": "RPL-E Refresh",
+        "description": "**validation**",
+        "insert_time": "2026-06-24T07:16:00.471000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "reetux.d@intel.com"
+        ]
+    },
+    {
+        "pid": "e1c184b8a9c84405b6dc4b308a0f07f6",
+        "name": "SPR-SP",
+        "description": "testing",
+        "insert_time": "2026-06-24T07:16:33.545000",
+        "owners": [
+            "kesamsettix.gayatri@intel.com",
+            "anjalix.na@intel.com"
+        ]
+    },
+    {
+        "pid": "f47067f5e9594746a0dca854a8841cfb",
+        "name": "SNR",
+        "description": "1234567890qwerttyuiopasddfghjjkl;;;;;,mnvzm,.yhgfvccv",
+        "insert_time": "2026-06-24T07:17:15.365000",
+        "owners": [
+            "sumitx.dahiya@intel.com"
+        ]
+    },
+    {
+        "pid": "8eb2fdd9c94940bda7c292bd6e43a77b",
+        "name": "SRF-AP",
+        "description": "testing",
+        "insert_time": "2026-06-24T07:18:09.731000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ]
+    },
+    {
+        "pid": "729078498c9b476196b4eab9406e4066",
+        "name": "DMR-D",
+        "description": "testing spr-sp",
+        "insert_time": "2026-06-25T04:36:40.669000",
+        "owners": [
+            "sumitx.dahiya@intel.com"
+        ]
+    },
+    {
+        "pid": "d7bcfa4f60204e84809fa878a3ae9794",
+        "name": "!@#$$%^&**((()_+{}:\"<>?|1234567890-=[]\\;',./\\|.,abcdefjhijklmnop",
+        "description": "testingggggggggggggggggggggggggggggg!@#$%^&*()",
+        "insert_time": "2026-07-01T06:00:46.745000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ]
+    },
+    {
+        "pid": "10bff9db47e042e6bdf3c29c553b36a3",
+        "name": "testing_pool_feat",
+        "description": "testing_pool_feat",
+        "insert_time": "2026-07-01T06:57:48.732000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "kesamsettix.gayatri@intel.com"
+        ]
+    },
+    {
+        "pid": "b91dfccdbce1456899308f1b5b71ac1e",
+        "name": "DMR- Pool",
+        "description": "ddddddddddd",
+        "insert_time": "2026-07-08T09:36:42.067000",
+        "owners": [
+            "santosh.gore@intel.com"
+        ]
+    },
+    {
+        "pid": "85d3e9cea59f43a0b0e8b2e961ed4fa2",
+        "name": "new",
+        "description": "newww",
+        "insert_time": "2026-07-13T05:49:51.790000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ]
+    },
+    {
+        "pid": "c621852474c6437197244dfcbe6bd699",
+        "name": "testing_pool_11",
+        "description": "testing_pool_1",
+        "insert_time": "2026-07-14T11:03:47.703000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ]
+    },
+    {
+        "pid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+        "name": "new3",
+        "description": "testing",
+        "insert_time": "2026-08-03T08:50:51.963000",
+        "owners": [
+            "sys_evf_jira@intel.com"
+        ]
+    },
+    {
+        "pid": "8a14f439e84e4353937bccedffdb8e26",
+        "name": "SRF-AP1",
+        "description": "prg pool1",
+        "insert_time": "2026-08-03T09:54:55.587000",
+        "owners": [
+            "kesamsettix.gayatri@intel.com",
+            "anjalix.na@intel.com",
+            "janardhanx.gs@intel.com",
+            "reetux.d@intel.com",
+            "ragini.ramachandran@intel.com",
+            "sumitx.dahiya@intel.com",
+            "asimx.ghosh@intel.com"
+        ]
+    },
+    {
+        "pid": "e4729a1281774a09bf36bb13880e6b0f",
+        "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "description": "testing",
+        "insert_time": "2026-08-14T06:00:17.127000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "kesamsettix.gayatri@intel.com"
+        ]
+    },
+    {
+        "pid": "aa7a60a12b4f4479a0491f9e5c50c600",
+        "name": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "description": "tetinggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "insert_time": "2026-08-14T06:14:53.578000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "sumitx.dahiya@intel.com",
+            "kesamsettix.gayatri@intel.com",
+            "reetux.d@intel.com",
+            "pse_user@intel.com",
+            "ragini.ramachandran@intel.com",
+            "asimx.ghosh@intel.com"
+        ]
+    },
+    {
+        "pid": "9f980966c4274acfb84a6951ee6474d1",
+        "name": "test_demo",
+        "description": "test_demo",
+        "insert_time": "2026-08-14T09:23:24.384000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ]
+    },
+    {
+        "pid": "d51ae3b4d9e94c51a97860436ac3b833",
+        "name": "UI",
+        "description": "UI_Testing",
+        "insert_time": "2026-08-17T06:15:33.109000",
+        "owners": [
+            "sys_evf_jira@intel.com"
+        ]
+    },
+    {
+        "pid": "577885727acf44b0a2d523f94b2e2205",
+        "name": "tqhgswjhefiufqoiwjrknqmbnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+        "description": "hjhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhuuuuuuuuuuuuuuuuuuuuuuuuuutttttt",
+        "insert_time": "2026-08-17T06:34:57.672000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ]
+    },
+    {
+        "pid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+        "name": "validation team",
+        "description": "val team",
+        "insert_time": "2026-08-18T11:05:46.806000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "himansu@intel.com",
+            "sys_evf_jira@intel.com"
+        ]
+    },
+    {
+        "pid": "499c72be1f2b4430835bf42c8fb9e7ce",
+        "name": "SRF-SP",
+        "description": "testing",
+        "insert_time": "2026-09-11T05:14:55.619000",
+        "owners": [
+            "test_user_pse@intel.com",
+            "anjalix.na@intel.com"
+        ]
+    },
+    {
+        "pid": "64e658a00f1343ff86f64b531a65dd26",
+        "name": "DMR ProgramPool",
+        "description": "Description of program pool",
+        "insert_time": "2026-09-17T14:43:21.003000",
+        "owners": [
+            "santosh.gore@intel.com"
+        ]
+    },
+    {
+        "pid": "cc2c8c862d894f15b3fcb45702867845",
+        "name": "PROGRA",
+        "description": "testing",
+        "insert_time": "2026-09-28T15:06:41.968000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ]
+    },
+    {
+        "pid": "1c089e5d4f10482882c7cb30265d469b",
+        "name": "abcabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "description": "testing",
+        "insert_time": "2026-09-29T08:54:41.175000",
+        "owners": [
+            "test_user_pse@intel.com"
+        ]
+    }
+]
+2026-09-30 13:00:36,602 - resource_management.py - Line: 439 - INFO - pools:{
+    "pid": "cc2c8c862d894f15b3fcb45702867845",
+    "name": "PROGRA",
+    "description": "testing",
+    "insert_time": "2026-09-28T15:06:41.968000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-30 13:00:36,603 - resource_management.py - Line: 444 - INFO - selected Program Pool:{
+    "pid": "cc2c8c862d894f15b3fcb45702867845",
+    "name": "PROGRA",
+    "description": "testing",
+    "insert_time": "2026-09-28T15:06:41.968000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-30 13:00:36,603 - resource_management.py - Line: 445 - INFO - selected pid:cc2c8c862d894f15b3fcb45702867845
+2026-09-30 13:00:36,603 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 13:00:37,529 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 200
+2026-09-30 13:00:37,530 - resource_management.py - Line: 479 - INFO - get response:{
+    "data": [
+        {
+            "pid": "1b07fdb5e813457185af4d93b73b2868",
+            "name": "SECOE",
+            "description": "testiing",
+            "insert_time": "2026-06-24T07:24:02.159000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "f47067f5e9594746a0dca854a8841cfb",
+            "program_pool": "SNR"
+        },
+        {
+            "pid": "0deece40b7db4a71bea12dad8805afd2",
+            "name": "test __",
+            "description": "validation",
+            "insert_time": "2026-06-24T07:28:23.193000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "f623d6407c85496394b714481a8ff8bb",
+            "program_pool": "RPL-E Refresh"
+        },
+        {
+            "pid": "93038e3af89b468c8c663422453ae685",
+            "name": "testing",
+            "description": "testing",
+            "insert_time": "2026-07-01T04:44:49.542000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6",
+            "program_pool": "SPR-SP"
+        },
+        {
+            "pid": "02482bc2853747c28fe72e1edb5b092f",
+            "name": "testing=testing-pool-feat",
+            "description": "testing=testing-pool-feattttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+            "insert_time": "2026-07-01T06:58:55.307000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "reetux.d@intel.com"
+            ],
+            "ppid": "10bff9db47e042e6bdf3c29c553b36a3",
+            "program_pool": "testing_pool_feat"
+        },
+        {
+            "pid": "6f62111464404fa885675bc1d0367fff",
+            "name": "DAES",
+            "description": "testing",
+            "insert_time": "2026-07-07T09:21:19.246000",
+            "owners": [
+                "sumitx.dahiya@intel.com"
+            ],
+            "ppid": "f47067f5e9594746a0dca854a8841cfb",
+            "program_pool": "SNR"
+        },
+        {
+            "pid": "0edfe8a1d38240669c47e21508e928a6",
+            "name": "test-001",
+            "description": "testing-0001",
+            "insert_time": "2026-07-14T11:07:15.204000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "c621852474c6437197244dfcbe6bd699",
+            "program_pool": "testing_pool_11"
+        },
+        {
+            "pid": "cf3891f3756246fd9e31ed49efc8e3bd",
+            "name": "EV",
+            "description": "testing",
+            "insert_time": "2026-08-03T08:54:33.085000",
+            "owners": [
+                "reetux.d@intel.com"
+            ],
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "program_pool": "new3"
+        },
+        {
+            "pid": "863a7b3d72954306b572229bc845ab17",
+            "name": "PPV-testing",
+            "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "insert_time": "2026-08-14T06:29:49.589000",
+            "owners": [
+                "test_user_pse@intel.com",
+                "anjalix.na@intel.com",
+                "sumitx.dahiya@intel.com",
+                "asimx.ghosh@intel.com",
+                "ragini.ramachandran@intel.com"
+            ],
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+            "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+        },
+        {
+            "pid": "523348f5737e4b099e11a973f52f09d7",
+            "name": "test_demo_1",
+            "description": "testing5",
+            "insert_time": "2026-08-14T09:23:54.680000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "9f980966c4274acfb84a6951ee6474d1",
+            "program_pool": "test_demo"
+        },
+        {
+            "pid": "a6b0837c5ddf497692624edb20afbccd",
+            "name": "UI_2",
+            "description": "UI_Testing",
+            "insert_time": "2026-08-17T06:16:08.874000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ],
+            "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "program_pool": "UI"
+        },
+        {
+            "pid": "790bf7b512f94f12b64c9a3942f3eb48",
+            "name": "val",
+            "description": "validation",
+            "insert_time": "2026-08-18T11:06:23.082000",
+            "owners": [
+                "kesamsettix.gayatri@intel.com",
+                "himansu@intel.com",
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "program_pool": "validation team"
+        },
+        {
+            "pid": "7832f19b187a44f7bfce17007f3b89da",
+            "name": "testing",
+            "description": "testing",
+            "insert_time": "2026-09-11T05:17:11.701000",
+            "owners": [
+                "test_user_pse@intel.com"
+            ],
+            "ppid": "499c72be1f2b4430835bf42c8fb9e7ce",
+            "program_pool": "SRF-SP"
+        }
+    ],
+    "total_records": 12
+}
+2026-09-30 13:00:37,531 - resource_management.py - Line: 481 - INFO - get response:[
+    {
+        "pid": "1b07fdb5e813457185af4d93b73b2868",
+        "name": "SECOE",
+        "description": "testiing",
+        "insert_time": "2026-06-24T07:24:02.159000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "f47067f5e9594746a0dca854a8841cfb",
+        "program_pool": "SNR"
+    },
+    {
+        "pid": "0deece40b7db4a71bea12dad8805afd2",
+        "name": "test __",
+        "description": "validation",
+        "insert_time": "2026-06-24T07:28:23.193000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "f623d6407c85496394b714481a8ff8bb",
+        "program_pool": "RPL-E Refresh"
+    },
+    {
+        "pid": "93038e3af89b468c8c663422453ae685",
+        "name": "testing",
+        "description": "testing",
+        "insert_time": "2026-07-01T04:44:49.542000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6",
+        "program_pool": "SPR-SP"
+    },
+    {
+        "pid": "02482bc2853747c28fe72e1edb5b092f",
+        "name": "testing=testing-pool-feat",
+        "description": "testing=testing-pool-feattttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+        "insert_time": "2026-07-01T06:58:55.307000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "reetux.d@intel.com"
+        ],
+        "ppid": "10bff9db47e042e6bdf3c29c553b36a3",
+        "program_pool": "testing_pool_feat"
+    },
+    {
+        "pid": "6f62111464404fa885675bc1d0367fff",
+        "name": "DAES",
+        "description": "testing",
+        "insert_time": "2026-07-07T09:21:19.246000",
+        "owners": [
+            "sumitx.dahiya@intel.com"
+        ],
+        "ppid": "f47067f5e9594746a0dca854a8841cfb",
+        "program_pool": "SNR"
+    },
+    {
+        "pid": "0edfe8a1d38240669c47e21508e928a6",
+        "name": "test-001",
+        "description": "testing-0001",
+        "insert_time": "2026-07-14T11:07:15.204000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "c621852474c6437197244dfcbe6bd699",
+        "program_pool": "testing_pool_11"
+    },
+    {
+        "pid": "cf3891f3756246fd9e31ed49efc8e3bd",
+        "name": "EV",
+        "description": "testing",
+        "insert_time": "2026-08-03T08:54:33.085000",
+        "owners": [
+            "reetux.d@intel.com"
+        ],
+        "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+        "program_pool": "new3"
+    },
+    {
+        "pid": "863a7b3d72954306b572229bc845ab17",
+        "name": "PPV-testing",
+        "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "insert_time": "2026-08-14T06:29:49.589000",
+        "owners": [
+            "test_user_pse@intel.com",
+            "anjalix.na@intel.com",
+            "sumitx.dahiya@intel.com",
+            "asimx.ghosh@intel.com",
+            "ragini.ramachandran@intel.com"
+        ],
+        "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+        "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+    },
+    {
+        "pid": "523348f5737e4b099e11a973f52f09d7",
+        "name": "test_demo_1",
+        "description": "testing5",
+        "insert_time": "2026-08-14T09:23:54.680000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "9f980966c4274acfb84a6951ee6474d1",
+        "program_pool": "test_demo"
+    },
+    {
+        "pid": "a6b0837c5ddf497692624edb20afbccd",
+        "name": "UI_2",
+        "description": "UI_Testing",
+        "insert_time": "2026-08-17T06:16:08.874000",
+        "owners": [
+            "sys_evf_jira@intel.com"
+        ],
+        "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+        "program_pool": "UI"
+    },
+    {
+        "pid": "790bf7b512f94f12b64c9a3942f3eb48",
+        "name": "val",
+        "description": "validation",
+        "insert_time": "2026-08-18T11:06:23.082000",
+        "owners": [
+            "kesamsettix.gayatri@intel.com",
+            "himansu@intel.com",
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+        "program_pool": "validation team"
+    },
+    {
+        "pid": "7832f19b187a44f7bfce17007f3b89da",
+        "name": "testing",
+        "description": "testing",
+        "insert_time": "2026-09-11T05:17:11.701000",
+        "owners": [
+            "test_user_pse@intel.com"
+        ],
+        "ppid": "499c72be1f2b4430835bf42c8fb9e7ce",
+        "program_pool": "SRF-SP"
+    }
+]
+2026-09-30 13:00:37,532 - resource_management.py - Line: 452 - INFO - Related master pools:[]
+2026-09-30 13:00:37,532 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 13:00:38,462 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 200
+2026-09-30 13:00:38,463 - resource_management.py - Line: 479 - INFO - get response:{
+    "data": [
+        {
+            "pid": "ee375fab1870465db470182d6a68d2fa",
+            "name": "Accelerator",
+            "description": "testinggg",
+            "insert_time": "2026-07-09T06:37:22.650000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "0deece40b7db4a71bea12dad8805afd2",
+            "ppid": "f623d6407c85496394b714481a8ff8bb",
+            "program_pool": "RPL-E Refresh",
+            "master_pool": "test __",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 0
+        },
+        {
+            "pid": "62a63e5cc0044c868f30526a22fcd9b3",
+            "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggdfdfdfd",
+            "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestinggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "insert_time": "2026-08-14T06:49:49.149000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "863a7b3d72954306b572229bc845ab17",
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+            "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "master_pool": "PPV-testing",
+            "utilization_threshold": 4.0,
+            "planned_capacity": 100
+        },
+        {
+            "pid": "5d6d53a85ada4efda12fa8ddc4da9071",
+            "name": "test_demo_2",
+            "description": "testing",
+            "insert_time": "2026-08-14T09:25:33.258000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "523348f5737e4b099e11a973f52f09d7",
+            "ppid": "9f980966c4274acfb84a6951ee6474d1",
+            "program_pool": "test_demo",
+            "master_pool": "test_demo_1",
+            "utilization_threshold": 70.0,
+            "planned_capacity": 60
+        },
+        {
+            "pid": "9807f032ad05468a8159865ad23909fd",
+            "name": "UI_3",
+            "description": "UI_Testing",
+            "insert_time": "2026-08-17T06:16:54.564000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ],
+            "mpid": "a6b0837c5ddf497692624edb20afbccd",
+            "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "program_pool": "UI",
+            "master_pool": "UI_2",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 65
+        },
+        {
+            "pid": "d1ec074f40744b59946db90accc76989",
+            "name": "val_group",
+            "description": "vali dation",
+            "insert_time": "2026-08-18T11:07:50.181000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "himansu@intel.com",
+                "sumitx.dahiya@intel.com"
+            ],
+            "mpid": "790bf7b512f94f12b64c9a3942f3eb48",
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "program_pool": "validation team",
+            "master_pool": "val",
+            "utilization_threshold": 10.0,
+            "planned_capacity": 5
+        }
+    ],
+    "total_records": 5
+}
+2026-09-30 13:00:38,465 - resource_management.py - Line: 481 - INFO - get response:[
+    {
+        "pid": "ee375fab1870465db470182d6a68d2fa",
+        "name": "Accelerator",
+        "description": "testinggg",
+        "insert_time": "2026-07-09T06:37:22.650000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "mpid": "0deece40b7db4a71bea12dad8805afd2",
+        "ppid": "f623d6407c85496394b714481a8ff8bb",
+        "program_pool": "RPL-E Refresh",
+        "master_pool": "test __",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 0
+    },
+    {
+        "pid": "62a63e5cc0044c868f30526a22fcd9b3",
+        "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggdfdfdfd",
+        "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestinggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "insert_time": "2026-08-14T06:49:49.149000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "mpid": "863a7b3d72954306b572229bc845ab17",
+        "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+        "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "master_pool": "PPV-testing",
+        "utilization_threshold": 4.0,
+        "planned_capacity": 100
+    },
+    {
+        "pid": "5d6d53a85ada4efda12fa8ddc4da9071",
+        "name": "test_demo_2",
+        "description": "testing",
+        "insert_time": "2026-08-14T09:25:33.258000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "mpid": "523348f5737e4b099e11a973f52f09d7",
+        "ppid": "9f980966c4274acfb84a6951ee6474d1",
+        "program_pool": "test_demo",
+        "master_pool": "test_demo_1",
+        "utilization_threshold": 70.0,
+        "planned_capacity": 60
+    },
+    {
+        "pid": "9807f032ad05468a8159865ad23909fd",
+        "name": "UI_3",
+        "description": "UI_Testing",
+        "insert_time": "2026-08-17T06:16:54.564000",
+        "owners": [
+            "sys_evf_jira@intel.com"
+        ],
+        "mpid": "a6b0837c5ddf497692624edb20afbccd",
+        "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+        "program_pool": "UI",
+        "master_pool": "UI_2",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 65
+    },
+    {
+        "pid": "d1ec074f40744b59946db90accc76989",
+        "name": "val_group",
+        "description": "vali dation",
+        "insert_time": "2026-08-18T11:07:50.181000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "himansu@intel.com",
+            "sumitx.dahiya@intel.com"
+        ],
+        "mpid": "790bf7b512f94f12b64c9a3942f3eb48",
+        "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+        "program_pool": "validation team",
+        "master_pool": "val",
+        "utilization_threshold": 10.0,
+        "planned_capacity": 5
+    }
+]
+2026-09-30 13:00:38,467 - resource_management.py - Line: 456 - INFO - Related system:[]
+2026-09-30 13:00:38,468 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 13:00:39,302 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/cc2c8c862d894f15b3fcb45702867845 -> 204
+2026-09-30 13:00:39,302 - resource_management.py - Line: 471 - INFO - Delete response status code:204
+2026-09-30 13:00:39,302 - resource_management.py - Line: 473 - INFO - Program Pool deleted successfully
+2026-09-30 13:00:39,303 - conftest.py - Line: 104 - INFO - Test pool_management/resource_management.py::test_deleting_the_pool[Program Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool/program] passed.
+2026-09-30 13:00:39,305 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 13:00:40,233 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 200
+2026-09-30 13:00:40,234 - resource_management.py - Line: 479 - INFO - get response:{
+    "data": [
+        {
+            "pid": "1b07fdb5e813457185af4d93b73b2868",
+            "name": "SECOE",
+            "description": "testiing",
+            "insert_time": "2026-06-24T07:24:02.159000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "f47067f5e9594746a0dca854a8841cfb",
+            "program_pool": "SNR"
+        },
+        {
+            "pid": "0deece40b7db4a71bea12dad8805afd2",
+            "name": "test __",
+            "description": "validation",
+            "insert_time": "2026-06-24T07:28:23.193000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "f623d6407c85496394b714481a8ff8bb",
+            "program_pool": "RPL-E Refresh"
+        },
+        {
+            "pid": "93038e3af89b468c8c663422453ae685",
+            "name": "testing",
+            "description": "testing",
+            "insert_time": "2026-07-01T04:44:49.542000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6",
+            "program_pool": "SPR-SP"
+        },
+        {
+            "pid": "02482bc2853747c28fe72e1edb5b092f",
+            "name": "testing=testing-pool-feat",
+            "description": "testing=testing-pool-feattttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+            "insert_time": "2026-07-01T06:58:55.307000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "reetux.d@intel.com"
+            ],
+            "ppid": "10bff9db47e042e6bdf3c29c553b36a3",
+            "program_pool": "testing_pool_feat"
+        },
+        {
+            "pid": "6f62111464404fa885675bc1d0367fff",
+            "name": "DAES",
+            "description": "testing",
+            "insert_time": "2026-07-07T09:21:19.246000",
+            "owners": [
+                "sumitx.dahiya@intel.com"
+            ],
+            "ppid": "f47067f5e9594746a0dca854a8841cfb",
+            "program_pool": "SNR"
+        },
+        {
+            "pid": "0edfe8a1d38240669c47e21508e928a6",
+            "name": "test-001",
+            "description": "testing-0001",
+            "insert_time": "2026-07-14T11:07:15.204000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "c621852474c6437197244dfcbe6bd699",
+            "program_pool": "testing_pool_11"
+        },
+        {
+            "pid": "cf3891f3756246fd9e31ed49efc8e3bd",
+            "name": "EV",
+            "description": "testing",
+            "insert_time": "2026-08-03T08:54:33.085000",
+            "owners": [
+                "reetux.d@intel.com"
+            ],
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "program_pool": "new3"
+        },
+        {
+            "pid": "863a7b3d72954306b572229bc845ab17",
+            "name": "PPV-testing",
+            "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "insert_time": "2026-08-14T06:29:49.589000",
+            "owners": [
+                "test_user_pse@intel.com",
+                "anjalix.na@intel.com",
+                "sumitx.dahiya@intel.com",
+                "asimx.ghosh@intel.com",
+                "ragini.ramachandran@intel.com"
+            ],
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+            "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+        },
+        {
+            "pid": "523348f5737e4b099e11a973f52f09d7",
+            "name": "test_demo_1",
+            "description": "testing5",
+            "insert_time": "2026-08-14T09:23:54.680000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "9f980966c4274acfb84a6951ee6474d1",
+            "program_pool": "test_demo"
+        },
+        {
+            "pid": "a6b0837c5ddf497692624edb20afbccd",
+            "name": "UI_2",
+            "description": "UI_Testing",
+            "insert_time": "2026-08-17T06:16:08.874000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ],
+            "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "program_pool": "UI"
+        },
+        {
+            "pid": "790bf7b512f94f12b64c9a3942f3eb48",
+            "name": "val",
+            "description": "validation",
+            "insert_time": "2026-08-18T11:06:23.082000",
+            "owners": [
+                "kesamsettix.gayatri@intel.com",
+                "himansu@intel.com",
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "program_pool": "validation team"
+        },
+        {
+            "pid": "7832f19b187a44f7bfce17007f3b89da",
+            "name": "testing",
+            "description": "testing",
+            "insert_time": "2026-09-11T05:17:11.701000",
+            "owners": [
+                "test_user_pse@intel.com"
+            ],
+            "ppid": "499c72be1f2b4430835bf42c8fb9e7ce",
+            "program_pool": "SRF-SP"
+        }
+    ],
+    "total_records": 12
+}
+2026-09-30 13:00:40,235 - resource_management.py - Line: 481 - INFO - get response:[
+    {
+        "pid": "1b07fdb5e813457185af4d93b73b2868",
+        "name": "SECOE",
+        "description": "testiing",
+        "insert_time": "2026-06-24T07:24:02.159000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "f47067f5e9594746a0dca854a8841cfb",
+        "program_pool": "SNR"
+    },
+    {
+        "pid": "0deece40b7db4a71bea12dad8805afd2",
+        "name": "test __",
+        "description": "validation",
+        "insert_time": "2026-06-24T07:28:23.193000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "f623d6407c85496394b714481a8ff8bb",
+        "program_pool": "RPL-E Refresh"
+    },
+    {
+        "pid": "93038e3af89b468c8c663422453ae685",
+        "name": "testing",
+        "description": "testing",
+        "insert_time": "2026-07-01T04:44:49.542000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6",
+        "program_pool": "SPR-SP"
+    },
+    {
+        "pid": "02482bc2853747c28fe72e1edb5b092f",
+        "name": "testing=testing-pool-feat",
+        "description": "testing=testing-pool-feattttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+        "insert_time": "2026-07-01T06:58:55.307000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "reetux.d@intel.com"
+        ],
+        "ppid": "10bff9db47e042e6bdf3c29c553b36a3",
+        "program_pool": "testing_pool_feat"
+    },
+    {
+        "pid": "6f62111464404fa885675bc1d0367fff",
+        "name": "DAES",
+        "description": "testing",
+        "insert_time": "2026-07-07T09:21:19.246000",
+        "owners": [
+            "sumitx.dahiya@intel.com"
+        ],
+        "ppid": "f47067f5e9594746a0dca854a8841cfb",
+        "program_pool": "SNR"
+    },
+    {
+        "pid": "0edfe8a1d38240669c47e21508e928a6",
+        "name": "test-001",
+        "description": "testing-0001",
+        "insert_time": "2026-07-14T11:07:15.204000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "c621852474c6437197244dfcbe6bd699",
+        "program_pool": "testing_pool_11"
+    },
+    {
+        "pid": "cf3891f3756246fd9e31ed49efc8e3bd",
+        "name": "EV",
+        "description": "testing",
+        "insert_time": "2026-08-03T08:54:33.085000",
+        "owners": [
+            "reetux.d@intel.com"
+        ],
+        "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+        "program_pool": "new3"
+    },
+    {
+        "pid": "863a7b3d72954306b572229bc845ab17",
+        "name": "PPV-testing",
+        "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "insert_time": "2026-08-14T06:29:49.589000",
+        "owners": [
+            "test_user_pse@intel.com",
+            "anjalix.na@intel.com",
+            "sumitx.dahiya@intel.com",
+            "asimx.ghosh@intel.com",
+            "ragini.ramachandran@intel.com"
+        ],
+        "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+        "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+    },
+    {
+        "pid": "523348f5737e4b099e11a973f52f09d7",
+        "name": "test_demo_1",
+        "description": "testing5",
+        "insert_time": "2026-08-14T09:23:54.680000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "9f980966c4274acfb84a6951ee6474d1",
+        "program_pool": "test_demo"
+    },
+    {
+        "pid": "a6b0837c5ddf497692624edb20afbccd",
+        "name": "UI_2",
+        "description": "UI_Testing",
+        "insert_time": "2026-08-17T06:16:08.874000",
+        "owners": [
+            "sys_evf_jira@intel.com"
+        ],
+        "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+        "program_pool": "UI"
+    },
+    {
+        "pid": "790bf7b512f94f12b64c9a3942f3eb48",
+        "name": "val",
+        "description": "validation",
+        "insert_time": "2026-08-18T11:06:23.082000",
+        "owners": [
+            "kesamsettix.gayatri@intel.com",
+            "himansu@intel.com",
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+        "program_pool": "validation team"
+    },
+    {
+        "pid": "7832f19b187a44f7bfce17007f3b89da",
+        "name": "testing",
+        "description": "testing",
+        "insert_time": "2026-09-11T05:17:11.701000",
+        "owners": [
+            "test_user_pse@intel.com"
+        ],
+        "ppid": "499c72be1f2b4430835bf42c8fb9e7ce",
+        "program_pool": "SRF-SP"
+    }
+]
+2026-09-30 13:00:40,322 - conftest.py - Line: 102 - ERROR - Test pool_management/resource_management.py::test_deleting_the_pool[Master Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool/master] failed
+2026-09-30 13:00:40,324 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 13:00:41,246 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 200
+2026-09-30 13:00:41,247 - resource_management.py - Line: 479 - INFO - get response:{
+    "data": [
+        {
+            "pid": "ee375fab1870465db470182d6a68d2fa",
+            "name": "Accelerator",
+            "description": "testinggg",
+            "insert_time": "2026-07-09T06:37:22.650000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "0deece40b7db4a71bea12dad8805afd2",
+            "ppid": "f623d6407c85496394b714481a8ff8bb",
+            "program_pool": "RPL-E Refresh",
+            "master_pool": "test __",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 0
+        },
+        {
+            "pid": "62a63e5cc0044c868f30526a22fcd9b3",
+            "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggdfdfdfd",
+            "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestinggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "insert_time": "2026-08-14T06:49:49.149000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "863a7b3d72954306b572229bc845ab17",
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+            "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "master_pool": "PPV-testing",
+            "utilization_threshold": 4.0,
+            "planned_capacity": 100
+        },
+        {
+            "pid": "5d6d53a85ada4efda12fa8ddc4da9071",
+            "name": "test_demo_2",
+            "description": "testing",
+            "insert_time": "2026-08-14T09:25:33.258000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "523348f5737e4b099e11a973f52f09d7",
+            "ppid": "9f980966c4274acfb84a6951ee6474d1",
+            "program_pool": "test_demo",
+            "master_pool": "test_demo_1",
+            "utilization_threshold": 70.0,
+            "planned_capacity": 60
+        },
+        {
+            "pid": "9807f032ad05468a8159865ad23909fd",
+            "name": "UI_3",
+            "description": "UI_Testing",
+            "insert_time": "2026-08-17T06:16:54.564000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ],
+            "mpid": "a6b0837c5ddf497692624edb20afbccd",
+            "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "program_pool": "UI",
+            "master_pool": "UI_2",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 65
+        },
+        {
+            "pid": "d1ec074f40744b59946db90accc76989",
+            "name": "val_group",
+            "description": "vali dation",
+            "insert_time": "2026-08-18T11:07:50.181000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "himansu@intel.com",
+                "sumitx.dahiya@intel.com"
+            ],
+            "mpid": "790bf7b512f94f12b64c9a3942f3eb48",
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "program_pool": "validation team",
+            "master_pool": "val",
+            "utilization_threshold": 10.0,
+            "planned_capacity": 5
+        }
+    ],
+    "total_records": 5
+}
+2026-09-30 13:00:41,249 - resource_management.py - Line: 481 - INFO - get response:[
+    {
+        "pid": "ee375fab1870465db470182d6a68d2fa",
+        "name": "Accelerator",
+        "description": "testinggg",
+        "insert_time": "2026-07-09T06:37:22.650000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "mpid": "0deece40b7db4a71bea12dad8805afd2",
+        "ppid": "f623d6407c85496394b714481a8ff8bb",
+        "program_pool": "RPL-E Refresh",
+        "master_pool": "test __",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 0
+    },
+    {
+        "pid": "62a63e5cc0044c868f30526a22fcd9b3",
+        "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggdfdfdfd",
+        "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestinggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "insert_time": "2026-08-14T06:49:49.149000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "mpid": "863a7b3d72954306b572229bc845ab17",
+        "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+        "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "master_pool": "PPV-testing",
+        "utilization_threshold": 4.0,
+        "planned_capacity": 100
+    },
+    {
+        "pid": "5d6d53a85ada4efda12fa8ddc4da9071",
+        "name": "test_demo_2",
+        "description": "testing",
+        "insert_time": "2026-08-14T09:25:33.258000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "mpid": "523348f5737e4b099e11a973f52f09d7",
+        "ppid": "9f980966c4274acfb84a6951ee6474d1",
+        "program_pool": "test_demo",
+        "master_pool": "test_demo_1",
+        "utilization_threshold": 70.0,
+        "planned_capacity": 60
+    },
+    {
+        "pid": "9807f032ad05468a8159865ad23909fd",
+        "name": "UI_3",
+        "description": "UI_Testing",
+        "insert_time": "2026-08-17T06:16:54.564000",
+        "owners": [
+            "sys_evf_jira@intel.com"
+        ],
+        "mpid": "a6b0837c5ddf497692624edb20afbccd",
+        "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+        "program_pool": "UI",
+        "master_pool": "UI_2",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 65
+    },
+    {
+        "pid": "d1ec074f40744b59946db90accc76989",
+        "name": "val_group",
+        "description": "vali dation",
+        "insert_time": "2026-08-18T11:07:50.181000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "himansu@intel.com",
+            "sumitx.dahiya@intel.com"
+        ],
+        "mpid": "790bf7b512f94f12b64c9a3942f3eb48",
+        "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+        "program_pool": "validation team",
+        "master_pool": "val",
+        "utilization_threshold": 10.0,
+        "planned_capacity": 5
+    }
+]
+2026-09-30 13:00:41,280 - conftest.py - Line: 102 - ERROR - Test pool_management/resource_management.py::test_deleting_the_pool[System Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool/system] failed
+2026-09-30 13:00:41,281 - conftest.py - Line: 112 - INFO - 
+Test execution complete.
+2026-09-30 13:00:41,282 - conftest.py - Line: 113 - INFO - Total tests passed: 1
+2026-09-30 13:00:41,282 - conftest.py - Line: 114 - INFO - Total tests failed: 2
+2026-09-30 13:00:41,282 - conftest.py - Line: 117 - ERROR - ===================================================================================================================
+2026-09-30 13:00:41,283 - conftest.py - Line: 118 - ERROR - Test Summary Info
+2026-09-30 13:00:41,283 - conftest.py - Line: 121 - ERROR - pool_management/resource_management.py::test_deleting_the_pool[Master Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool/master] failed
+2026-09-30 13:00:41,283 - conftest.py - Line: 121 - ERROR - pool_management/resource_management.py::test_deleting_the_pool[System Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool/system] failed
+2026-09-30 13:00:41,283 - conftest.py - Line: 122 - ERROR - ===================================================================================================================

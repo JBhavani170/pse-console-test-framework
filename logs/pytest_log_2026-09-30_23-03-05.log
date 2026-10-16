@@ -1,0 +1,144 @@
+2026-09-30 23:03:05,257 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:06,334 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-30 23:03:07,640 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 201
+2026-09-30 23:03:09,160 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 201
+2026-09-30 23:03:09,163 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:19,842 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=40 -> 200
+2026-09-30 23:03:19,843 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:21,035 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/83e747053478437d811af999db718e09 -> 200
+2026-09-30 23:03:21,036 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:22,173 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=40 -> 200
+2026-09-30 23:03:22,179 - conftest.py - Line: 104 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_crud[program-https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=40-https://pse-console-cloud-dev.intel.com/api/v1/pool/program-Update76-program_pid] passed.
+2026-09-30 23:03:22,183 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:23,393 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=40 -> 200
+2026-09-30 23:03:23,394 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:24,233 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/32078a42271d45fcb85ee31f2a0e10b8 -> 200
+2026-09-30 23:03:24,233 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:25,469 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=40 -> 200
+2026-09-30 23:03:25,472 - conftest.py - Line: 104 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_crud[master-https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=40-https://pse-console-cloud-dev.intel.com/api/v1/pool/master-Updated45-master_pid] passed.
+2026-09-30 23:03:25,475 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:26,707 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=40 -> 200
+2026-09-30 23:03:26,708 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:27,834 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/6256bcf7806d445fb304bc371c7238f8 -> 200
+2026-09-30 23:03:27,835 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:29,257 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=40 -> 200
+2026-09-30 23:03:29,261 - conftest.py - Line: 104 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_crud[system-https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=40-https://pse-console-cloud-dev.intel.com/api/v1/pool/system-Updated67-system_pid] passed.
+2026-09-30 23:03:29,264 - pool_manager.py - Line: 172 - INFO - Deleting system : 6256bcf7806d445fb304bc371c7238f8
+2026-09-30 23:03:29,265 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:30,811 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/6256bcf7806d445fb304bc371c7238f8 -> 204
+2026-09-30 23:03:30,812 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:32,177 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=40 -> 200
+2026-09-30 23:03:32,178 - pool_manager.py - Line: 172 - INFO - Deleting master : 32078a42271d45fcb85ee31f2a0e10b8
+2026-09-30 23:03:32,179 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:33,279 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/32078a42271d45fcb85ee31f2a0e10b8 -> 204
+2026-09-30 23:03:33,280 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:34,601 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=40 -> 200
+2026-09-30 23:03:34,602 - pool_manager.py - Line: 172 - INFO - Deleting program : 83e747053478437d811af999db718e09
+2026-09-30 23:03:34,602 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:35,751 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/83e747053478437d811af999db718e09 -> 204
+2026-09-30 23:03:35,753 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:36,911 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=40 -> 200
+2026-09-30 23:03:36,917 - conftest.py - Line: 104 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_delete_pools passed.
+2026-09-30 23:03:36,922 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:37,847 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 422
+2026-09-30 23:03:37,848 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:38,995 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=40 -> 200
+2026-09-30 23:03:38,996 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:40,014 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/f623d6407c85496394b714481a8ff8bb -> 422
+2026-09-30 23:03:40,014 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:40,991 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/invalid_pid -> 404
+2026-09-30 23:03:40,996 - conftest.py - Line: 104 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[https://pse-console-cloud-dev.intel.com/api/v1/pool/program-https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=40] passed.
+2026-09-30 23:03:40,999 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:41,932 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 422
+2026-09-30 23:03:41,933 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:43,130 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=40 -> 200
+2026-09-30 23:03:43,131 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:44,042 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/1b07fdb5e813457185af4d93b73b2868 -> 422
+2026-09-30 23:03:44,043 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:44,990 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/invalid_pid -> 404
+2026-09-30 23:03:44,996 - conftest.py - Line: 104 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[https://pse-console-cloud-dev.intel.com/api/v1/pool/master-https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=40] passed.
+2026-09-30 23:03:44,999 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:45,916 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 422
+2026-09-30 23:03:45,917 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:47,152 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=40 -> 200
+2026-09-30 23:03:47,153 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:48,064 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/ee375fab1870465db470182d6a68d2fa -> 422
+2026-09-30 23:03:48,066 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:49,047 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/invalid_pid -> 404
+2026-09-30 23:03:49,050 - conftest.py - Line: 104 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_pool_negative_scenarios[https://pse-console-cloud-dev.intel.com/api/v1/pool/system-https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=40] passed.
+2026-09-30 23:03:49,052 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:49,992 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 404
+2026-09-30 23:03:50,318 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:51,552 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-30 23:03:51,555 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:52,515 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=40 -> 200
+2026-09-30 23:03:52,516 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:53,454 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 404
+2026-09-30 23:03:53,471 - conftest.py - Line: 102 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_filter_by_pool_name[Program Pool-program-https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=40-ppids] failed
+2026-09-30 23:03:53,476 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:54,675 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-30 23:03:54,679 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:55,624 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=40 -> 200
+2026-09-30 23:03:55,625 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:56,619 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 404
+2026-09-30 23:03:56,637 - conftest.py - Line: 102 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_filter_by_pool_name[Master Pool-master-https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=40-mpids] failed
+2026-09-30 23:03:56,640 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:57,797 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-30 23:03:57,800 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:58,951 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=40 -> 200
+2026-09-30 23:03:58,952 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:03:59,874 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 404
+2026-09-30 23:03:59,897 - conftest.py - Line: 102 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_filter_by_pool_name[System Pool-system-https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=40-spids] failed
+2026-09-30 23:03:59,901 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:04:00,808 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/audit/events?start=0&limit=10&event_types=Pool+Management -> 404
+2026-09-30 23:04:00,829 - conftest.py - Line: 102 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_pool_management_audit_logs failed
+2026-09-30 23:04:00,835 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:04:01,753 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v2/systems/attribute-options?attributes_options=system_types,hw_config -> 404
+2026-09-30 23:04:01,754 - conftest.py - Line: 320 - WARNING - Failure with status 404
+2026-09-30 23:04:01,768 - conftest.py - Line: 102 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_hw_hsdes_config_filters[HW Config-one of-None] failed
+2026-09-30 23:04:01,773 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:04:02,707 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 404
+2026-09-30 23:04:02,732 - conftest.py - Line: 102 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_hw_hsdes_config_filters[HSDES Config-contains-] failed
+2026-09-30 23:04:02,740 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:04:03,647 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 404
+2026-09-30 23:04:03,665 - conftest.py - Line: 102 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_hw_hsdes_config_filters[HSDES Config-not contain-] failed
+2026-09-30 23:04:03,670 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:04:04,577 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 404
+2026-09-30 23:04:04,596 - conftest.py - Line: 102 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_hw_hsdes_config_filters[HSDES Config-is empty-] failed
+2026-09-30 23:04:04,601 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:04:05,599 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 404
+2026-09-30 23:04:05,618 - conftest.py - Line: 102 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_hw_hsdes_config_filters[HSDES Config-not empty-] failed
+2026-09-30 23:04:05,622 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:04:06,564 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope?skip=0&limit=10 -> 200
+2026-09-30 23:04:06,566 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:04:07,483 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 404
+2026-09-30 23:04:07,506 - conftest.py - Line: 102 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_dashboard_utilization[Program Scope-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=program_scope&statistics_types=capacity&statistics_types=utilization-program_scope] failed
+2026-09-30 23:04:07,512 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:04:08,509 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10 -> 200
+2026-09-30 23:04:08,512 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:04:09,428 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 404
+2026-09-30 23:04:09,442 - conftest.py - Line: 102 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_dashboard_utilization[Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=pool&statistics_types=capacity&statistics_types=utilization-pool] failed
+2026-09-30 23:04:09,446 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:04:11,073 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10 -> 200
+2026-09-30 23:04:11,075 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 23:04:12,003 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 404
+2026-09-30 23:04:12,030 - conftest.py - Line: 102 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_dashboard_utilization[Sub Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=sub_pool&statistics_types=capacity&statistics_types=utilization-sub_pool] failed
+2026-09-30 23:04:12,034 - conftest.py - Line: 112 - INFO - 
+Test execution complete.
+2026-09-30 23:04:12,036 - conftest.py - Line: 113 - INFO - Total tests passed: 7
+2026-09-30 23:04:12,036 - conftest.py - Line: 114 - INFO - Total tests failed: 12
+2026-09-30 23:04:12,037 - conftest.py - Line: 117 - ERROR - ===================================================================================================================
+2026-09-30 23:04:12,038 - conftest.py - Line: 118 - ERROR - Test Summary Info
+2026-09-30 23:04:12,039 - conftest.py - Line: 121 - ERROR - pse-cloud/pool_management/pool_manager.py::test_filter_by_pool_name[Program Pool-program-https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=40-ppids] failed
+2026-09-30 23:04:12,039 - conftest.py - Line: 121 - ERROR - pse-cloud/pool_management/pool_manager.py::test_filter_by_pool_name[Master Pool-master-https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=40-mpids] failed
+2026-09-30 23:04:12,040 - conftest.py - Line: 121 - ERROR - pse-cloud/pool_management/pool_manager.py::test_filter_by_pool_name[System Pool-system-https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=40-spids] failed
+2026-09-30 23:04:12,040 - conftest.py - Line: 121 - ERROR - pse-cloud/pool_management/pool_manager.py::test_pool_management_audit_logs failed
+2026-09-30 23:04:12,041 - conftest.py - Line: 121 - ERROR - pse-cloud/pool_management/pool_manager.py::test_hw_hsdes_config_filters[HW Config-one of-None] failed
+2026-09-30 23:04:12,042 - conftest.py - Line: 121 - ERROR - pse-cloud/pool_management/pool_manager.py::test_hw_hsdes_config_filters[HSDES Config-contains-] failed
+2026-09-30 23:04:12,043 - conftest.py - Line: 121 - ERROR - pse-cloud/pool_management/pool_manager.py::test_hw_hsdes_config_filters[HSDES Config-not contain-] failed
+2026-09-30 23:04:12,043 - conftest.py - Line: 121 - ERROR - pse-cloud/pool_management/pool_manager.py::test_hw_hsdes_config_filters[HSDES Config-is empty-] failed
+2026-09-30 23:04:12,043 - conftest.py - Line: 121 - ERROR - pse-cloud/pool_management/pool_manager.py::test_hw_hsdes_config_filters[HSDES Config-not empty-] failed
+2026-09-30 23:04:12,043 - conftest.py - Line: 121 - ERROR - pse-cloud/pool_management/pool_manager.py::test_dashboard_utilization[Program Scope-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=program_scope&statistics_types=capacity&statistics_types=utilization-program_scope] failed
+2026-09-30 23:04:12,044 - conftest.py - Line: 121 - ERROR - pse-cloud/pool_management/pool_manager.py::test_dashboard_utilization[Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=pool&statistics_types=capacity&statistics_types=utilization-pool] failed
+2026-09-30 23:04:12,044 - conftest.py - Line: 121 - ERROR - pse-cloud/pool_management/pool_manager.py::test_dashboard_utilization[Sub Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=sub_pool&statistics_types=capacity&statistics_types=utilization-sub_pool] failed
+2026-09-30 23:04:12,044 - conftest.py - Line: 122 - ERROR - ===================================================================================================================

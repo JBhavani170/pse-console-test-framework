@@ -1,0 +1,26 @@
+2026-09-28 22:56:09,188 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 22:56:10,339 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-28 22:56:10,340 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 22:56:11,539 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-28 22:56:11,546 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 22:56:12,990 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 200
+2026-09-28 22:56:12,991 - conftest.py - Line: 100 - INFO - Test pool_management/pool.py::test_pool_assignment[program-program_pool-ppid] passed.
+2026-09-28 22:56:12,992 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 22:56:14,169 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-28 22:56:14,172 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 22:56:15,196 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 200
+2026-09-28 22:56:15,270 - conftest.py - Line: 98 - ERROR - Test pool_management/pool.py::test_pool_assignment[master-master_pool-mpid] failed
+2026-09-28 22:56:15,271 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 22:56:16,495 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-28 22:56:16,496 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 22:56:17,581 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 200
+2026-09-28 22:56:17,588 - conftest.py - Line: 98 - ERROR - Test pool_management/pool.py::test_pool_assignment[system-system_pool-spid] failed
+2026-09-28 22:56:17,590 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-28 22:56:17,590 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-28 22:56:17,590 - conftest.py - Line: 110 - INFO - Total tests failed: 2
+2026-09-28 22:56:17,591 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-28 22:56:17,591 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-28 22:56:17,591 - conftest.py - Line: 117 - ERROR - pool_management/pool.py::test_pool_assignment[master-master_pool-mpid] failed
+2026-09-28 22:56:17,592 - conftest.py - Line: 117 - ERROR - pool_management/pool.py::test_pool_assignment[system-system_pool-spid] failed
+2026-09-28 22:56:17,592 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

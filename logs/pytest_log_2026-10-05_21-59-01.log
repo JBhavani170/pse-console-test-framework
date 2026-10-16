@@ -1,0 +1,16 @@
+2026-10-05 21:59:01,768 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-05 21:59:02,730 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 200
+2026-10-05 21:59:03,746 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope/02e495d6f57146a6a5e4b7e8033145dc -> 200
+2026-10-05 21:59:03,747 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_update_existing_resources[program-scope-patch_payload0] passed.
+2026-10-05 21:59:03,750 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-05 21:59:04,827 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 200
+2026-10-05 21:59:05,754 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool/6e5105a85e6d4e35a296bc2d76364100 -> 200
+2026-10-05 21:59:05,755 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_update_existing_resources[pool-patch_payload1] passed.
+2026-10-05 21:59:05,757 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-05 21:59:07,435 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool -> 200
+2026-10-05 21:59:08,531 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool/f5bda4e479214bb0a8dbaf2b3d71347b -> 200
+2026-10-05 21:59:08,532 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_update_existing_resources[sub-pool-patch_payload2] passed.
+2026-10-05 21:59:08,533 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-10-05 21:59:08,533 - conftest.py - Line: 109 - INFO - Total tests passed: 3
+2026-10-05 21:59:08,534 - conftest.py - Line: 110 - INFO - Total tests failed: 0

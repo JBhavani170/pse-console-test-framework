@@ -1,0 +1,505 @@
+2026-09-29 14:28:49,819 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 14:28:50,771 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=50 -> 200
+2026-09-29 14:28:50,772 - resource_management.py - Line: 69 - INFO - get response:{
+    "data": [
+        {
+            "pid": "f623d6407c85496394b714481a8ff8bb",
+            "name": "RPL-E Refresh",
+            "description": "**validation**",
+            "insert_time": "2026-06-24T07:16:00.471000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "reetux.d@intel.com"
+            ]
+        },
+        {
+            "pid": "e1c184b8a9c84405b6dc4b308a0f07f6",
+            "name": "SPR-SP",
+            "description": "testing",
+            "insert_time": "2026-06-24T07:16:33.545000",
+            "owners": [
+                "kesamsettix.gayatri@intel.com",
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "f47067f5e9594746a0dca854a8841cfb",
+            "name": "SNR",
+            "description": "1234567890qwerttyuiopasddfghjjkl;;;;;,mnvzm,.yhgfvccv",
+            "insert_time": "2026-06-24T07:17:15.365000",
+            "owners": [
+                "sumitx.dahiya@intel.com"
+            ]
+        },
+        {
+            "pid": "8eb2fdd9c94940bda7c292bd6e43a77b",
+            "name": "SRF-AP",
+            "description": "testing",
+            "insert_time": "2026-06-24T07:18:09.731000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "729078498c9b476196b4eab9406e4066",
+            "name": "DMR-D",
+            "description": "testing spr-sp",
+            "insert_time": "2026-06-25T04:36:40.669000",
+            "owners": [
+                "sumitx.dahiya@intel.com"
+            ]
+        },
+        {
+            "pid": "d7bcfa4f60204e84809fa878a3ae9794",
+            "name": "!@#$$%^&**((()_+{}:\"<>?|1234567890-=[]\\;',./\\|.,abcdefjhijklmnop",
+            "description": "testingggggggggggggggggggggggggggggg!@#$%^&*()",
+            "insert_time": "2026-07-01T06:00:46.745000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "10bff9db47e042e6bdf3c29c553b36a3",
+            "name": "testing_pool_feat",
+            "description": "testing_pool_feat",
+            "insert_time": "2026-07-01T06:57:48.732000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "kesamsettix.gayatri@intel.com"
+            ]
+        },
+        {
+            "pid": "b91dfccdbce1456899308f1b5b71ac1e",
+            "name": "DMR- Pool",
+            "description": "ddddddddddd",
+            "insert_time": "2026-07-08T09:36:42.067000",
+            "owners": [
+                "santosh.gore@intel.com"
+            ]
+        },
+        {
+            "pid": "85d3e9cea59f43a0b0e8b2e961ed4fa2",
+            "name": "new",
+            "description": "newww",
+            "insert_time": "2026-07-13T05:49:51.790000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "c621852474c6437197244dfcbe6bd699",
+            "name": "testing_pool_11",
+            "description": "testing_pool_1",
+            "insert_time": "2026-07-14T11:03:47.703000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "name": "new3",
+            "description": "testing",
+            "insert_time": "2026-08-03T08:50:51.963000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ]
+        },
+        {
+            "pid": "8a14f439e84e4353937bccedffdb8e26",
+            "name": "SRF-AP1",
+            "description": "prg pool1",
+            "insert_time": "2026-08-03T09:54:55.587000",
+            "owners": [
+                "kesamsettix.gayatri@intel.com",
+                "anjalix.na@intel.com",
+                "janardhanx.gs@intel.com",
+                "reetux.d@intel.com",
+                "ragini.ramachandran@intel.com",
+                "sumitx.dahiya@intel.com",
+                "asimx.ghosh@intel.com"
+            ]
+        },
+        {
+            "pid": "e4729a1281774a09bf36bb13880e6b0f",
+            "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "description": "testing",
+            "insert_time": "2026-08-14T06:00:17.127000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "kesamsettix.gayatri@intel.com"
+            ]
+        },
+        {
+            "pid": "aa7a60a12b4f4479a0491f9e5c50c600",
+            "name": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "description": "tetinggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "insert_time": "2026-08-14T06:14:53.578000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "sumitx.dahiya@intel.com",
+                "kesamsettix.gayatri@intel.com",
+                "reetux.d@intel.com",
+                "pse_user@intel.com",
+                "ragini.ramachandran@intel.com",
+                "asimx.ghosh@intel.com"
+            ]
+        },
+        {
+            "pid": "9f980966c4274acfb84a6951ee6474d1",
+            "name": "test_demo",
+            "description": "test_demo",
+            "insert_time": "2026-08-14T09:23:24.384000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "name": "UI",
+            "description": "UI_Testing",
+            "insert_time": "2026-08-17T06:15:33.109000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ]
+        },
+        {
+            "pid": "577885727acf44b0a2d523f94b2e2205",
+            "name": "tqhgswjhefiufqoiwjrknqmbnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+            "description": "hjhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhuuuuuuuuuuuuuuuuuuuuuuuuuutttttt",
+            "insert_time": "2026-08-17T06:34:57.672000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "name": "validation team",
+            "description": "val team",
+            "insert_time": "2026-08-18T11:05:46.806000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "himansu@intel.com",
+                "sys_evf_jira@intel.com"
+            ]
+        },
+        {
+            "pid": "499c72be1f2b4430835bf42c8fb9e7ce",
+            "name": "SRF-SP",
+            "description": "testing",
+            "insert_time": "2026-09-11T05:14:55.619000",
+            "owners": [
+                "test_user_pse@intel.com",
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "64e658a00f1343ff86f64b531a65dd26",
+            "name": "DMR ProgramPool",
+            "description": "Description of program pool",
+            "insert_time": "2026-09-17T14:43:21.003000",
+            "owners": [
+                "santosh.gore@intel.com"
+            ]
+        },
+        {
+            "pid": "29ad7fedc20046998c2364ccf09e6e09",
+            "name": "PROGRAM_POOL",
+            "description": "testing",
+            "insert_time": "2026-09-28T14:07:16.444000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "eb4d009d97154962b26ca42eb01c79b4",
+            "name": "PROGRAM_POO",
+            "description": "testing",
+            "insert_time": "2026-09-28T14:10:16.663000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "cde7cb83e2974eb0afa6601f48132f92",
+            "name": "UpdatedProgram12",
+            "description": "updated",
+            "insert_time": "2026-09-28T14:15:17.305000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "438b77979e234f27b9f35f56e191640a",
+            "name": "PROGRAM",
+            "description": "testing",
+            "insert_time": "2026-09-28T14:51:11.886000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "0710f89c51464594b700d0fa1ad4cb89",
+            "name": "PROGRAM1",
+            "description": "testing",
+            "insert_time": "2026-09-28T14:52:45.728000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "d098bc7ead834be09fa6c7476ebed9d6",
+            "name": "UpdatedProgram6",
+            "description": "updated",
+            "insert_time": "2026-09-28T14:53:43.836000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "016af5ea898d44808783f080a6fd91cd",
+            "name": "PROGRAM9",
+            "description": "testing",
+            "insert_time": "2026-09-28T14:54:55.270000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "35e0bde2a0fb41328866bed08f95fa7b",
+            "name": "UpdatedProgram60",
+            "description": "updated",
+            "insert_time": "2026-09-28T14:56:10.810000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "0a65e1dd19c1424293b8aedf68b99836",
+            "name": "UpdatedProgra",
+            "description": "updated",
+            "insert_time": "2026-09-28T15:03:16.423000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "cc2c8c862d894f15b3fcb45702867845",
+            "name": "PROGRA",
+            "description": "testing",
+            "insert_time": "2026-09-28T15:06:41.968000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "8cd74ff2547a45ec9a9a8ea50b4879c3",
+            "name": "UpdatedProgr",
+            "description": "updated",
+            "insert_time": "2026-09-28T15:12:55.871000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "ac46b1ace29042bb8b549ea6d679ddf4",
+            "name": "PROGRA1",
+            "description": "testing",
+            "insert_time": "2026-09-28T15:30:48.666000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "b13417f7eeb14edaaf775abbe5e6a90c",
+            "name": "UpdatedProgr1",
+            "description": "updated",
+            "insert_time": "2026-09-28T15:31:46.048000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "47a12a9c79234851bb1e348740ac2416",
+            "name": "UpdatedProgr18",
+            "description": "updated",
+            "insert_time": "2026-09-28T15:33:39.789000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "e3b3ff3b4d8a46c1b163918ff1789d0d",
+            "name": "UpdatedProgr189",
+            "description": "updated",
+            "insert_time": "2026-09-29T06:39:18.261000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "3cbecd9038db49d0951b964b3c77ac01",
+            "name": "PROGRA1837",
+            "description": "testing",
+            "insert_time": "2026-09-29T06:39:47.952000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "823751652fef4605a1b83230419d8516",
+            "name": "UpdatedProgr1890",
+            "description": "updated",
+            "insert_time": "2026-09-29T06:41:14.863000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "4427dfed3ef345adbdb056ff5e5eceaa",
+            "name": "PROGRA18378",
+            "description": "testing",
+            "insert_time": "2026-09-29T06:41:41.335000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "ed89efed9b104fcea347917b6ca360f3",
+            "name": "UpdatedPro",
+            "description": "updated",
+            "insert_time": "2026-09-29T07:49:20.934000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "33bc5be54d024c3ab606d334ecd03588",
+            "name": "PROG",
+            "description": "testing",
+            "insert_time": "2026-09-29T07:51:09.538000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "6b60e732247b4965a9b8fa3b68b2da14",
+            "name": "PROG1",
+            "description": "testing",
+            "insert_time": "2026-09-29T08:00:41.004000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "22917d50db004984bca376c16960d27c",
+            "name": "PROG2",
+            "description": "testing",
+            "insert_time": "2026-09-29T08:02:39.565000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "54b6598a3c754ab1b033ffed4cc658af",
+            "name": "PROG5",
+            "description": "testing",
+            "insert_time": "2026-09-29T08:03:33.012000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "9452e0e415074fc68c19386c7e0dca89",
+            "name": "PROG8",
+            "description": "testing",
+            "insert_time": "2026-09-29T08:09:41.781000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "2e47e7d841db44299b78bfce98a0cd91",
+            "name": "UpdatedPro390",
+            "description": "updated",
+            "insert_time": "2026-09-29T08:12:26.721000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "1c089e5d4f10482882c7cb30265d469b",
+            "name": "abcabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "description": "testing",
+            "insert_time": "2026-09-29T08:54:41.175000",
+            "owners": [
+                "test_user_pse@intel.com"
+            ]
+        },
+        {
+            "pid": "77fb140535704124b4954c912d272edf",
+            "name": "abcabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb123",
+            "description": "testing",
+            "insert_time": "2026-09-29T08:58:11.037000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ]
+        }
+    ],
+    "total_records": 47
+}
+2026-09-29 14:28:50,775 - resource_management.py - Line: 72 - INFO - pid:f623d6407c85496394b714481a8ff8bb,name:RPL-E Refresh
+2026-09-29 14:28:50,776 - resource_management.py - Line: 72 - INFO - pid:e1c184b8a9c84405b6dc4b308a0f07f6,name:SPR-SP
+2026-09-29 14:28:50,777 - resource_management.py - Line: 72 - INFO - pid:f47067f5e9594746a0dca854a8841cfb,name:SNR
+2026-09-29 14:28:50,777 - resource_management.py - Line: 72 - INFO - pid:8eb2fdd9c94940bda7c292bd6e43a77b,name:SRF-AP
+2026-09-29 14:28:50,778 - resource_management.py - Line: 72 - INFO - pid:729078498c9b476196b4eab9406e4066,name:DMR-D
+2026-09-29 14:28:50,779 - resource_management.py - Line: 72 - INFO - pid:d7bcfa4f60204e84809fa878a3ae9794,name:!@#$$%^&**((()_+{}:"<>?|1234567890-=[]\;',./\|.,abcdefjhijklmnop
+2026-09-29 14:28:50,780 - resource_management.py - Line: 72 - INFO - pid:10bff9db47e042e6bdf3c29c553b36a3,name:testing_pool_feat
+2026-09-29 14:28:50,781 - resource_management.py - Line: 72 - INFO - pid:b91dfccdbce1456899308f1b5b71ac1e,name:DMR- Pool
+2026-09-29 14:28:50,781 - resource_management.py - Line: 72 - INFO - pid:85d3e9cea59f43a0b0e8b2e961ed4fa2,name:new
+2026-09-29 14:28:50,782 - resource_management.py - Line: 72 - INFO - pid:c621852474c6437197244dfcbe6bd699,name:testing_pool_11
+2026-09-29 14:28:50,783 - resource_management.py - Line: 72 - INFO - pid:539cb8cbe3df44e6b5da84aa464a8ea0,name:new3
+2026-09-29 14:28:50,784 - resource_management.py - Line: 72 - INFO - pid:8a14f439e84e4353937bccedffdb8e26,name:SRF-AP1
+2026-09-29 14:28:50,784 - resource_management.py - Line: 72 - INFO - pid:e4729a1281774a09bf36bb13880e6b0f,name:testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+2026-09-29 14:28:50,785 - resource_management.py - Line: 72 - INFO - pid:aa7a60a12b4f4479a0491f9e5c50c600,name:tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+2026-09-29 14:28:50,786 - resource_management.py - Line: 72 - INFO - pid:9f980966c4274acfb84a6951ee6474d1,name:test_demo
+2026-09-29 14:28:50,787 - resource_management.py - Line: 72 - INFO - pid:d51ae3b4d9e94c51a97860436ac3b833,name:UI
+2026-09-29 14:28:50,788 - resource_management.py - Line: 72 - INFO - pid:577885727acf44b0a2d523f94b2e2205,name:tqhgswjhefiufqoiwjrknqmbnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+2026-09-29 14:28:50,788 - resource_management.py - Line: 72 - INFO - pid:4f6f95d5fec64c9e91b8e433d3a6cd76,name:validation team
+2026-09-29 14:28:50,789 - resource_management.py - Line: 72 - INFO - pid:499c72be1f2b4430835bf42c8fb9e7ce,name:SRF-SP
+2026-09-29 14:28:50,790 - resource_management.py - Line: 72 - INFO - pid:64e658a00f1343ff86f64b531a65dd26,name:DMR ProgramPool
+2026-09-29 14:28:50,791 - resource_management.py - Line: 72 - INFO - pid:29ad7fedc20046998c2364ccf09e6e09,name:PROGRAM_POOL
+2026-09-29 14:28:50,791 - resource_management.py - Line: 72 - INFO - pid:eb4d009d97154962b26ca42eb01c79b4,name:PROGRAM_POO
+2026-09-29 14:28:50,792 - resource_management.py - Line: 72 - INFO - pid:cde7cb83e2974eb0afa6601f48132f92,name:UpdatedProgram12
+2026-09-29 14:28:50,793 - resource_management.py - Line: 72 - INFO - pid:438b77979e234f27b9f35f56e191640a,name:PROGRAM
+2026-09-29 14:28:50,794 - resource_management.py - Line: 72 - INFO - pid:0710f89c51464594b700d0fa1ad4cb89,name:PROGRAM1
+2026-09-29 14:28:50,794 - resource_management.py - Line: 72 - INFO - pid:d098bc7ead834be09fa6c7476ebed9d6,name:UpdatedProgram6
+2026-09-29 14:28:50,795 - resource_management.py - Line: 72 - INFO - pid:016af5ea898d44808783f080a6fd91cd,name:PROGRAM9
+2026-09-29 14:28:50,797 - resource_management.py - Line: 72 - INFO - pid:35e0bde2a0fb41328866bed08f95fa7b,name:UpdatedProgram60
+2026-09-29 14:28:50,798 - resource_management.py - Line: 72 - INFO - pid:0a65e1dd19c1424293b8aedf68b99836,name:UpdatedProgra
+2026-09-29 14:28:50,799 - resource_management.py - Line: 72 - INFO - pid:cc2c8c862d894f15b3fcb45702867845,name:PROGRA
+2026-09-29 14:28:50,799 - resource_management.py - Line: 72 - INFO - pid:8cd74ff2547a45ec9a9a8ea50b4879c3,name:UpdatedProgr
+2026-09-29 14:28:50,800 - resource_management.py - Line: 72 - INFO - pid:ac46b1ace29042bb8b549ea6d679ddf4,name:PROGRA1
+2026-09-29 14:28:50,800 - resource_management.py - Line: 72 - INFO - pid:b13417f7eeb14edaaf775abbe5e6a90c,name:UpdatedProgr1
+2026-09-29 14:28:50,801 - resource_management.py - Line: 72 - INFO - pid:47a12a9c79234851bb1e348740ac2416,name:UpdatedProgr18
+2026-09-29 14:28:50,802 - resource_management.py - Line: 72 - INFO - pid:e3b3ff3b4d8a46c1b163918ff1789d0d,name:UpdatedProgr189
+2026-09-29 14:28:50,803 - resource_management.py - Line: 72 - INFO - pid:3cbecd9038db49d0951b964b3c77ac01,name:PROGRA1837
+2026-09-29 14:28:50,803 - resource_management.py - Line: 72 - INFO - pid:823751652fef4605a1b83230419d8516,name:UpdatedProgr1890
+2026-09-29 14:28:50,804 - resource_management.py - Line: 72 - INFO - pid:4427dfed3ef345adbdb056ff5e5eceaa,name:PROGRA18378
+2026-09-29 14:28:50,804 - resource_management.py - Line: 72 - INFO - pid:ed89efed9b104fcea347917b6ca360f3,name:UpdatedPro
+2026-09-29 14:28:50,805 - resource_management.py - Line: 72 - INFO - pid:33bc5be54d024c3ab606d334ecd03588,name:PROG
+2026-09-29 14:28:50,805 - resource_management.py - Line: 72 - INFO - pid:6b60e732247b4965a9b8fa3b68b2da14,name:PROG1
+2026-09-29 14:28:50,806 - resource_management.py - Line: 72 - INFO - pid:22917d50db004984bca376c16960d27c,name:PROG2
+2026-09-29 14:28:50,807 - resource_management.py - Line: 72 - INFO - pid:54b6598a3c754ab1b033ffed4cc658af,name:PROG5
+2026-09-29 14:28:50,808 - resource_management.py - Line: 72 - INFO - pid:9452e0e415074fc68c19386c7e0dca89,name:PROG8
+2026-09-29 14:28:50,808 - resource_management.py - Line: 72 - INFO - pid:2e47e7d841db44299b78bfce98a0cd91,name:UpdatedPro390
+2026-09-29 14:28:50,809 - resource_management.py - Line: 72 - INFO - pid:1c089e5d4f10482882c7cb30265d469b,name:abcabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2026-09-29 14:28:50,809 - resource_management.py - Line: 72 - INFO - pid:77fb140535704124b4954c912d272edf,name:abcabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb123
+2026-09-29 14:28:50,921 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_get_program_pool failed
+2026-09-29 14:28:50,922 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-29 14:28:50,923 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-29 14:28:50,923 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-29 14:28:50,923 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-29 14:28:50,923 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-29 14:28:50,923 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_get_program_pool failed
+2026-09-29 14:28:50,924 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

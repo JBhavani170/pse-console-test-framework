@@ -1,0 +1,100 @@
+2026-09-26 12:34:53,901 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 12:34:55,113 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-26 12:34:55,114 - resource_management.py - Line: 321 - INFO - selected pool type:Program Pool
+2026-09-26 12:34:55,114 - resource_management.py - Line: 322 - INFO - selected pool id:f00fbc5cecda4cbe83e2100563fb58c2
+2026-09-26 12:34:55,115 - resource_management.py - Line: 323 - INFO - selected pool name:ABC
+2026-09-26 12:34:55,115 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 12:34:56,105 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 200
+2026-09-26 12:34:56,106 - resource_management.py - Line: 334 - INFO - Pool table response:{
+    "data": [
+        {
+            "pid": "f00fbc5cecda4cbe83e2100563fb58c2",
+            "name": "ABC",
+            "description": "testing5",
+            "insert_time": "2026-09-25T09:29:16.367000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        }
+    ],
+    "total_records": 1
+}
+2026-09-26 12:34:56,106 - resource_management.py - Line: 339 - INFO - Pool 'ABC' found in Program Pool table
+2026-09-26 12:34:56,107 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 12:34:57,212 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-26 12:34:57,213 - resource_management.py - Line: 344 - INFO - system response:{'systems': [{'system_id': 'cs16ca101ls0602', 'sut_reachable': True, 'node_type': 'cluster', 'system_state': 'online', 'hma_timestamp': '', 'name': 'cs16ca101ls0602', 'system_type': 'BHS-BNC-GNR', 'program_pool': 'ABC', 'master_pool': '', 'system_pool': '', 'system_utilization': 0.0, 'hsdes_config': '', 'hw_config': '', 'category_id': 'xeon', 'org_id': 'paiv', 'site_id': 'cs', 'building_id': '1', 'floor_id': '6', 'lab_id': 'ca1', 'row_id': '01l'}, {'system_id': 'cs17ca101as0602', 'sut_reachable': True, 'node_type': 'rasp', 'system_state': 'online', 'hma_timestamp': '2026-09-26T06:46:26.733000', 'name': 'cs17ca101as0602', 'system_type': 'KVL-KVL-GNRD', 'program_pool': 'ABC', 'master_pool': '', 'system_pool': '', 'system_utilization': 0.8680555555555557, 'hsdes_config': '16023162304', 'hw_config': '', 'category_id': 'xeon', 'org_id': 'paiv', 'site_id': 'cs', 'building_id': '1', 'floor_id': '7', 'lab_id': 'ca1', 'row_id': '01a'}], 'count': 2}
+2026-09-26 12:34:57,214 - resource_management.py - Line: 347 - INFO - Associated systems:[{'system_id': 'cs16ca101ls0602', 'sut_reachable': True, 'node_type': 'cluster', 'system_state': 'online', 'hma_timestamp': '', 'name': 'cs16ca101ls0602', 'system_type': 'BHS-BNC-GNR', 'program_pool': 'ABC', 'master_pool': '', 'system_pool': '', 'system_utilization': 0.0, 'hsdes_config': '', 'hw_config': '', 'category_id': 'xeon', 'org_id': 'paiv', 'site_id': 'cs', 'building_id': '1', 'floor_id': '6', 'lab_id': 'ca1', 'row_id': '01l'}, {'system_id': 'cs17ca101as0602', 'sut_reachable': True, 'node_type': 'rasp', 'system_state': 'online', 'hma_timestamp': '2026-09-26T06:46:26.733000', 'name': 'cs17ca101as0602', 'system_type': 'KVL-KVL-GNRD', 'program_pool': 'ABC', 'master_pool': '', 'system_pool': '', 'system_utilization': 0.8680555555555557, 'hsdes_config': '16023162304', 'hw_config': '', 'category_id': 'xeon', 'org_id': 'paiv', 'site_id': 'cs', 'building_id': '1', 'floor_id': '7', 'lab_id': 'ca1', 'row_id': '01a'}]
+2026-09-26 12:34:57,215 - resource_management.py - Line: 348 - INFO - Associated system count:2
+2026-09-26 12:34:57,218 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_filter_by_pool_name[Program Pool-program-https://pse-console-cloud-dev.intel.com/api/v1/pool/program-ppids] passed.
+2026-09-26 12:34:57,222 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 12:34:58,738 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-26 12:34:58,738 - resource_management.py - Line: 321 - INFO - selected pool type:Master Pool
+2026-09-26 12:34:58,738 - resource_management.py - Line: 322 - INFO - selected pool id:863a7b3d72954306b572229bc845ab17
+2026-09-26 12:34:58,739 - resource_management.py - Line: 323 - INFO - selected pool name:PPV-testing
+2026-09-26 12:34:58,739 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 12:35:00,171 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 200
+2026-09-26 12:35:00,172 - resource_management.py - Line: 334 - INFO - Pool table response:{
+    "data": [
+        {
+            "pid": "863a7b3d72954306b572229bc845ab17",
+            "name": "PPV-testing",
+            "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "insert_time": "2026-08-14T06:29:49.589000",
+            "owners": [
+                "test_user_pse@intel.com",
+                "anjalix.na@intel.com",
+                "sumitx.dahiya@intel.com",
+                "asimx.ghosh@intel.com",
+                "ragini.ramachandran@intel.com"
+            ],
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+            "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+        }
+    ],
+    "total_records": 1
+}
+2026-09-26 12:35:00,172 - resource_management.py - Line: 339 - INFO - Pool 'PPV-testing' found in Master Pool table
+2026-09-26 12:35:00,173 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 12:35:01,307 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-26 12:35:01,308 - resource_management.py - Line: 344 - INFO - system response:{'systems': [], 'count': 0}
+2026-09-26 12:35:01,308 - resource_management.py - Line: 347 - INFO - Associated systems:[]
+2026-09-26 12:35:01,309 - resource_management.py - Line: 348 - INFO - Associated system count:0
+2026-09-26 12:35:01,313 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_filter_by_pool_name[Master Pool-master-https://pse-console-cloud-dev.intel.com/api/v1/pool/master-mpids] passed.
+2026-09-26 12:35:01,315 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 12:35:02,515 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-26 12:35:02,516 - resource_management.py - Line: 321 - INFO - selected pool type:System Pool
+2026-09-26 12:35:02,517 - resource_management.py - Line: 322 - INFO - selected pool id:ee375fab1870465db470182d6a68d2fa
+2026-09-26 12:35:02,517 - resource_management.py - Line: 323 - INFO - selected pool name:Accelerator
+2026-09-26 12:35:02,518 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 12:35:03,471 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 200
+2026-09-26 12:35:03,472 - resource_management.py - Line: 334 - INFO - Pool table response:{
+    "data": [
+        {
+            "pid": "ee375fab1870465db470182d6a68d2fa",
+            "name": "Accelerator",
+            "description": "testinggg",
+            "insert_time": "2026-07-09T06:37:22.650000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "0deece40b7db4a71bea12dad8805afd2",
+            "ppid": "f623d6407c85496394b714481a8ff8bb",
+            "program_pool": "RPL-E Refresh",
+            "master_pool": "test __",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 0
+        }
+    ],
+    "total_records": 1
+}
+2026-09-26 12:35:03,472 - resource_management.py - Line: 339 - INFO - Pool 'Accelerator' found in System Pool table
+2026-09-26 12:35:03,472 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 12:35:04,532 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-26 12:35:04,533 - resource_management.py - Line: 344 - INFO - system response:{'systems': [], 'count': 0}
+2026-09-26 12:35:04,534 - resource_management.py - Line: 347 - INFO - Associated systems:[]
+2026-09-26 12:35:04,534 - resource_management.py - Line: 348 - INFO - Associated system count:0
+2026-09-26 12:35:04,537 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_filter_by_pool_name[System Pool-system-https://pse-console-cloud-dev.intel.com/api/v1/pool/system-spids] passed.
+2026-09-26 12:35:04,538 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-26 12:35:04,539 - conftest.py - Line: 109 - INFO - Total tests passed: 3
+2026-09-26 12:35:04,539 - conftest.py - Line: 110 - INFO - Total tests failed: 0

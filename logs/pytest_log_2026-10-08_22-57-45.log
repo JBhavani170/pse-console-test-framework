@@ -1,0 +1,43 @@
+2026-10-08 22:57:45,310 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 22:57:47,145 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=100&fields=category_id,org_id,site_id,building_id,floor_id,lab_id,row_id,chassis_type,name,system_type,cpu_serial_number,cpu_cores,cpu_qdf,cpu_stepping,memory_size,memory_speed,bios_version,bmc_version,cpld_version,cpld_pfr_version,cluster_pool,board_product,board_serial,pba,supergroup,group,team,division,subdivision,discipline,val_team,function,pool,domain,processor,project,activity,product,owner,active_state,hw_config,nga_project,nga_automation_status,nga_execution_status,nga_pool,nga_activity,nga_config,nga_recipe,nga_notes,site,last_scan,pci_device,bat_result,hma_version,bat_version,location,label,host_type,sut_state,nuc_state,bmc_state,inv_inconsistent,sut_os,nga_station_url,hma_active,program_pool,master_pool,system_pool,program_scope,pool,sub_pool,system_utilization,hsdes_config, -> 200
+2026-10-08 22:57:47,148 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 22:57:48,108 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 201
+2026-10-08 22:57:48,980 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 201
+2026-10-08 22:57:49,869 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool -> 201
+2026-10-08 22:57:49,871 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 22:57:50,950 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 200
+2026-10-08 22:57:50,950 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 22:57:56,867 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/config/bulk -> 200
+2026-10-08 22:57:56,868 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 22:58:02,820 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/config/bulk -> 200
+2026-10-08 22:58:02,821 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 22:58:03,823 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/config/bulk -> 200
+2026-10-08 22:58:03,824 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_assignment[program-scope] passed.
+2026-10-08 22:58:03,826 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 22:58:04,768 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 200
+2026-10-08 22:58:04,769 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 22:58:10,567 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/config/bulk -> 200
+2026-10-08 22:58:10,568 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 22:58:16,675 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/config/bulk -> 200
+2026-10-08 22:58:16,676 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 22:58:17,653 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/config/bulk -> 200
+2026-10-08 22:58:17,654 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_assignment[pool] passed.
+2026-10-08 22:58:17,656 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 22:58:18,844 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool -> 200
+2026-10-08 22:58:18,845 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 22:58:23,285 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/config/bulk -> 200
+2026-10-08 22:58:23,286 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 22:58:27,711 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/config/bulk -> 200
+2026-10-08 22:58:27,712 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 22:58:28,480 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/config/bulk -> 200
+2026-10-08 22:58:28,481 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 22:58:29,457 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool/a4d0c649ee19453b87c4b5e47590cfee -> 204
+2026-10-08 22:58:29,458 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 22:58:30,420 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool/1cc524d2aa2747508128cbf69c01eae0 -> 204
+2026-10-08 22:58:30,421 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 22:58:31,392 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope/80c9fbf672244d7b84ba2796f17476e7 -> 204
+2026-10-08 22:58:31,393 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_assignment[sub-pool] passed.
+2026-10-08 22:58:31,394 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-10-08 22:58:31,395 - conftest.py - Line: 109 - INFO - Total tests passed: 3
+2026-10-08 22:58:31,395 - conftest.py - Line: 110 - INFO - Total tests failed: 0

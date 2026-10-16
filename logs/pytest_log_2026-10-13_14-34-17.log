@@ -1,0 +1,48 @@
+2026-10-13 14:34:17,809 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-13 14:34:18,997 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 201
+2026-10-13 14:34:19,893 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 201
+2026-10-13 14:34:20,776 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool -> 201
+2026-10-13 14:34:20,778 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-13 14:34:21,928 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/audit/events?start=0&limit=50&event_types=Pool+Management -> 200
+2026-10-13 14:34:21,929 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-13 14:34:22,968 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 500
+2026-10-13 14:34:23,000 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_crud[program-scope-program_pid-patch_payload0] failed
+2026-10-13 14:34:23,002 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-13 14:34:24,146 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/audit/events?start=0&limit=50&event_types=Pool+Management -> 200
+2026-10-13 14:34:24,147 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-13 14:34:25,415 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 500
+2026-10-13 14:34:25,429 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_crud[pool-pool_pid-patch_payload1] failed
+2026-10-13 14:34:25,431 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-13 14:34:26,580 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/audit/events?start=0&limit=50&event_types=Pool+Management -> 200
+2026-10-13 14:34:26,581 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-13 14:34:28,065 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool -> 200
+2026-10-13 14:34:28,065 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-13 14:34:29,249 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool/3e099f453a234635acd5608789134b5e -> 200
+2026-10-13 14:34:29,249 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-13 14:34:30,669 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool -> 200
+2026-10-13 14:34:30,670 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-13 14:34:31,776 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/audit/events?start=0&limit=50&event_types=Pool+Management -> 200
+2026-10-13 14:34:31,776 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-13 14:34:33,045 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool/3e099f453a234635acd5608789134b5e -> 204
+2026-10-13 14:34:33,045 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-13 14:34:34,498 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool/8298583a21ca4cd8b70f9c23ce29fe7e -> 204
+2026-10-13 14:34:34,498 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-13 14:34:35,664 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope/fe8aefde47d0441aa65ffefddc1759b2 -> 204
+2026-10-13 14:34:35,665 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-13 14:34:36,862 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool -> 200
+2026-10-13 14:34:36,863 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-13 14:34:37,899 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 500
+2026-10-13 14:34:37,899 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-13 14:34:38,906 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 500
+2026-10-13 14:34:38,906 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-13 14:34:40,093 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/audit/events?start=0&limit=50&event_types=Pool+Management -> 200
+2026-10-13 14:34:40,094 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_crud[sub-pool-sub_pool_pid-patch_payload2] passed.
+2026-10-13 14:34:40,095 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-10-13 14:34:40,095 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-10-13 14:34:40,096 - conftest.py - Line: 110 - INFO - Total tests failed: 2
+2026-10-13 14:34:40,096 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-10-13 14:34:40,096 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-10-13 14:34:40,096 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_crud[program-scope-program_pid-patch_payload0] failed
+2026-10-13 14:34:40,096 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_crud[pool-pool_pid-patch_payload1] failed
+2026-10-13 14:34:40,097 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

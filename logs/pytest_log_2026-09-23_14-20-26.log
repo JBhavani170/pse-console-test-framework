@@ -1,0 +1,33 @@
+2026-09-23 14:20:26,227 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:20:27,264 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/options?fields=tags.supergroup,tags.group,tags.discipline,tags.team,tags.val_team,tags.project,tags.product,tags.activity,tags.active_state,tags.hw_config,tags.prognos_id -> 200
+2026-09-23 14:20:27,266 - resource_management.py - Line: 78 - INFO - <class 'list'>
+2026-09-23 14:20:27,267 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:20:28,290 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-23 14:20:28,290 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:20:29,016 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-23 14:20:29,017 - resource_management.py - Line: 87 - INFO - Status Code:201
+2026-09-23 14:20:29,018 - resource_management.py - Line: 92 - INFO - {
+    "pid": "2c046ab412d04dc296034335bf338810",
+    "name": "CWF",
+    "description": "K00yqVQZqEMNaXJSsdwgQ2WfdoobCJapeNISqDZIp9KXDf1GIxNJWfR2UWq2obPF1q4bOcVHqJSBFMF0HRD77RhICNxc9JOOCc3jwB2V0qw7QZCabKnTOKQu974OBuRvqYSS31KrRYDKyWvuCcsl3KugNIjo0wu4ivhmjVeDRLYljzlYjxsF4OtJeTL6xM8Cmq7SLRBWpYyFOIKLGdgxxx0FI28JwS0xSYxcgpRpRNBc3PGd09cDrcosLn8rDtSucNZzomH1pwKvCHAHBFlgX1SOlsfaHlJHhs6QqxzPlywcvXbTWhjWwHKBBPphuHop76zkjQvTsrTzBnjPRgL49BDDiSeXqhOAAcZ56N4bWoebGsnAs2ZmtIfTVs0tbCPl5Z6wjZ443xIsE8IqpAgwJ1riLWT6",
+    "insert_time": "2026-09-23T08:50:31.240572Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-23 14:20:29,022 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:20:29,917 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/2c046ab412d04dc296034335bf338810 -> 200
+2026-09-23 14:20:29,918 - resource_management.py - Line: 125 - INFO - {
+    "pid": "2c046ab412d04dc296034335bf338810",
+    "name": "CWF",
+    "description": "rmg6oUV9bbwZkCbYc3irM3PHqvnuq99EqaqrDXIRPgAGYVyOF25X67FH11NTyNBDux0jyWrg0zSAA63TtUBzriWX5CJlgJb7GskWgLQVtppJWJ5CnV9acyz0uzrNGrsGoE7cqMgVbReX2PwEvcTkbso8kmSHIzIOjvcesWUhIQN7HTEDgqZ",
+    "insert_time": "2026-09-23T08:50:31.240000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-23 14:20:29,920 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_patch_program_pool passed.
+2026-09-23 14:20:29,923 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-23 14:20:29,923 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-23 14:20:29,924 - conftest.py - Line: 110 - INFO - Total tests failed: 0

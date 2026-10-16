@@ -1,0 +1,625 @@
+2026-09-28 15:57:36,566 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 15:57:37,611 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope?skip=0&limit=10 -> 200
+2026-09-28 15:57:37,612 - resource_management.py - Line: 791 - INFO - selected pool:{'pgid': 'e7cb9ba62d9f49ee977261c01a23d8b8', 'name': 'DMR-D', 'description': 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.', 'insert_time': '2026-09-28T08:35:18.386000', 'update_at': '2026-09-28T08:35:18.386000', 'owners': ['ragini.ramachandran@intel.com', 'anjalix.na@intel.com']}
+2026-09-28 15:57:37,613 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 15:57:38,567 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_scope,pool,sub_pool,system_utilization,hsdes_config,hw_config,val_team,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-28 15:57:38,567 - resource_management.py - Line: 797 - INFO - System Response:
+{
+    "systems": [
+        {
+            "system_id": "cs17ca101es0908",
+            "sut_reachable": false,
+            "node_type": "cluster",
+            "system_state": "offline",
+            "hma_timestamp": "",
+            "name": "cs17ca101es0908",
+            "system_type": "KVL-KVL-GNRD",
+            "program_scope": "DMR-D",
+            "pool": "xVST",
+            "sub_pool": "FV_sysdebug",
+            "system_utilization": 1.0416666666666665,
+            "hsdes_config": "16021421333",
+            "hw_config": "",
+            "val_team": "FV.SYSDBG",
+            "category_id": "xeon",
+            "org_id": "paiv",
+            "site_id": "cs",
+            "building_id": "1",
+            "floor_id": "7",
+            "lab_id": "ca1",
+            "row_id": "01e"
+        }
+    ],
+    "count": 1
+}
+2026-09-28 15:57:38,568 - resource_management.py - Line: 803 - INFO - utilization:1.0416666666666665
+2026-09-28 15:57:38,568 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 15:57:39,509 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=program_scope&statistics_types=capacity&statistics_types=utilization -> 200
+2026-09-28 15:57:39,510 - resource_management.py - Line: 807 - INFO - statistics_response:{
+    "pool_type": "program_scope",
+    "descriptions": [
+        {
+            "program_scope": "Diamond Rapid pilot",
+            "description": "Diamond Rapid"
+        },
+        {
+            "program_scope": "DMR-D",
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec."
+        },
+        {
+            "program_scope": "GNR-SP",
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus e"
+        },
+        {
+            "program_scope": "Diamond Rapid",
+            "description": "Diamond Rapid Program scope"
+        },
+        {
+            "program_scope": "HSX",
+            "description": "testing"
+        }
+    ],
+    "statistics": [
+        {
+            "statistics_type": "capacity",
+            "data": [
+                {
+                    "total_actual_capacity": 3,
+                    "total_planned_capacity": 10,
+                    "program_scope": "Diamond Rapid pilot"
+                },
+                {
+                    "total_actual_capacity": 1,
+                    "total_planned_capacity": 10,
+                    "program_scope": "DMR-D"
+                },
+                {
+                    "total_actual_capacity": 6,
+                    "total_planned_capacity": 0,
+                    "program_scope": "HSX"
+                }
+            ]
+        },
+        {
+            "statistics_type": "utilization",
+            "data": [
+                {
+                    "avg_utilization": 20.457175925925924,
+                    "avg_utilization_goal": 100.0,
+                    "program_scope": "Diamond Rapid pilot"
+                },
+                {
+                    "avg_utilization": 1.0416666666666665,
+                    "avg_utilization_goal": 100.0,
+                    "program_scope": "DMR-D"
+                },
+                {
+                    "avg_utilization": 45.39958923384168,
+                    "avg_utilization_goal": 100.0,
+                    "program_scope": "HSX"
+                },
+                {
+                    "avg_utilization": 3.808593749999999,
+                    "avg_utilization_goal": 0,
+                    "program_scope": "Diamond Rapid"
+                }
+            ]
+        }
+    ]
+}
+2026-09-28 15:57:39,595 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_comparing_values[Program Scope-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=program_scope&statistics_types=capacity&statistics_types=utilization] failed
+2026-09-28 15:57:39,598 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 15:57:40,532 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10 -> 200
+2026-09-28 15:57:40,532 - resource_management.py - Line: 791 - INFO - selected pool:{'pgid': 'f967fb71814646db8daba3f0574b7109', 'name': 'xVST', 'description': 'testi                               ng', 'insert_time': '2026-09-28T08:55:12.189000', 'update_at': '2026-09-28T08:55:12.189000', 'owners': ['anjalix.na@intel.com'], 'psid': '3cc89c8625084f03b30ac7ef0c575090', 'program_scope': 'HSX'}
+2026-09-28 15:57:40,533 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 15:57:41,460 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_scope,pool,sub_pool,system_utilization,hsdes_config,hw_config,val_team,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-28 15:57:41,462 - resource_management.py - Line: 797 - INFO - System Response:
+{
+    "systems": [
+        {
+            "system_id": "an411bm18bs0303",
+            "sut_reachable": true,
+            "node_type": "rasp",
+            "system_state": "online",
+            "hma_timestamp": "",
+            "name": "an411bm18bs0303",
+            "system_type": "OKS-JC-DMR",
+            "program_scope": "HSX",
+            "pool": "xVST",
+            "sub_pool": "PV_sysdebug",
+            "system_utilization": 40.50925925925926,
+            "hsdes_config": "",
+            "hw_config": "",
+            "val_team": "PV.SYSDBG",
+            "category_id": "xeon",
+            "org_id": "paiv",
+            "site_id": "an",
+            "building_id": "4",
+            "floor_id": "1",
+            "lab_id": "1bm",
+            "row_id": "18b"
+        },
+        {
+            "system_id": "an411bm18bs0401",
+            "sut_reachable": true,
+            "node_type": "rasp",
+            "system_state": "online",
+            "hma_timestamp": "",
+            "name": "an411bm18bs0401",
+            "system_type": "OKS-JC-DMR",
+            "program_scope": "HSX",
+            "pool": "xVST",
+            "sub_pool": "PV_sysdebug",
+            "system_utilization": 39.03186274509803,
+            "hsdes_config": "",
+            "hw_config": "",
+            "val_team": "PV.SYSDBG",
+            "category_id": "xeon",
+            "org_id": "paiv",
+            "site_id": "an",
+            "building_id": "4",
+            "floor_id": "1",
+            "lab_id": "1bm",
+            "row_id": "18b"
+        },
+        {
+            "system_id": "an411bm18bs0402",
+            "sut_reachable": true,
+            "node_type": "rasp",
+            "system_state": "online",
+            "hma_timestamp": "",
+            "name": "an411bm18bs0402",
+            "system_type": "OKS-JC-DMR",
+            "program_scope": "HSX",
+            "pool": "xVST",
+            "sub_pool": "PV_sysdebug",
+            "system_utilization": 0.06127450980392156,
+            "hsdes_config": "",
+            "hw_config": "CDU5",
+            "val_team": "PV.SYSDBG",
+            "category_id": "xeon",
+            "org_id": "paiv",
+            "site_id": "an",
+            "building_id": "4",
+            "floor_id": "1",
+            "lab_id": "1bm",
+            "row_id": "18b"
+        },
+        {
+            "system_id": "an411bm18bs0403",
+            "sut_reachable": false,
+            "node_type": "rasp",
+            "system_state": "online",
+            "hma_timestamp": "",
+            "name": "an411bm18bs0403",
+            "system_type": "OKS-JC-DMR",
+            "program_scope": "HSX",
+            "pool": "xVST",
+            "sub_pool": "PV_sysdebug",
+            "system_utilization": 0.0,
+            "hsdes_config": "",
+            "hw_config": "",
+            "val_team": "PV.SYSDBG",
+            "category_id": "xeon",
+            "org_id": "paiv",
+            "site_id": "an",
+            "building_id": "4",
+            "floor_id": "1",
+            "lab_id": "1bm",
+            "row_id": "18b"
+        },
+        {
+            "system_id": "an411bm18bs0501",
+            "sut_reachable": true,
+            "node_type": "rasp",
+            "system_state": "online",
+            "hma_timestamp": "",
+            "name": "an411bm18bs0501",
+            "system_type": "OKS-JC-DMR",
+            "program_scope": "HSX",
+            "pool": "xVST",
+            "sub_pool": "PV_sysdebug",
+            "system_utilization": 96.70138888888887,
+            "hsdes_config": "",
+            "hw_config": "FDU7",
+            "val_team": "PV.SYSDBG",
+            "category_id": "xeon",
+            "org_id": "paiv",
+            "site_id": "an",
+            "building_id": "4",
+            "floor_id": "1",
+            "lab_id": "1bm",
+            "row_id": "18b"
+        },
+        {
+            "system_id": "an411bm18bs0502",
+            "sut_reachable": false,
+            "node_type": "rasp",
+            "system_state": "online",
+            "hma_timestamp": "",
+            "name": "an411bm18bs0502",
+            "system_type": "OKS-JC-DMR",
+            "program_scope": "HSX",
+            "pool": "xVST",
+            "sub_pool": "PV_sysdebug",
+            "system_utilization": 96.09374999999999,
+            "hsdes_config": "",
+            "hw_config": "FDU5",
+            "val_team": "PV.SYSDBG",
+            "category_id": "xeon",
+            "org_id": "paiv",
+            "site_id": "an",
+            "building_id": "4",
+            "floor_id": "1",
+            "lab_id": "1bm",
+            "row_id": "18b"
+        },
+        {
+            "system_id": "cs17ca101es0908",
+            "sut_reachable": false,
+            "node_type": "cluster",
+            "system_state": "offline",
+            "hma_timestamp": "",
+            "name": "cs17ca101es0908",
+            "system_type": "KVL-KVL-GNRD",
+            "program_scope": "DMR-D",
+            "pool": "xVST",
+            "sub_pool": "FV_sysdebug",
+            "system_utilization": 1.0416666666666665,
+            "hsdes_config": "16021421333",
+            "hw_config": "",
+            "val_team": "FV.SYSDBG",
+            "category_id": "xeon",
+            "org_id": "paiv",
+            "site_id": "cs",
+            "building_id": "1",
+            "floor_id": "7",
+            "lab_id": "ca1",
+            "row_id": "01e"
+        }
+    ],
+    "count": 7
+}
+2026-09-28 15:57:41,463 - resource_management.py - Line: 803 - INFO - utilization:39.06274315281667
+2026-09-28 15:57:41,464 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 15:57:42,669 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=pool&statistics_types=capacity&statistics_types=utilization -> 200
+2026-09-28 15:57:42,670 - resource_management.py - Line: 807 - INFO - statistics_response:{
+    "pool_type": "pool",
+    "descriptions": [
+        {
+            "pool": "Volume Validation",
+            "program_scope": "Diamond Rapid pilot",
+            "description": "Testing"
+        },
+        {
+            "pool": "xVST",
+            "program_scope": "DMR-D",
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus e"
+        },
+        {
+            "pool": "Volume Validation",
+            "program_scope": "Diamond Rapid",
+            "description": "This is pool for VV"
+        },
+        {
+            "pool": "xVST",
+            "program_scope": "HSX",
+            "description": "testi                               ng"
+        }
+    ],
+    "statistics": [
+        {
+            "statistics_type": "capacity",
+            "data": [
+                {
+                    "total_actual_capacity": 1,
+                    "total_planned_capacity": 10,
+                    "pool": "xVST",
+                    "program_scope": "DMR-D"
+                },
+                {
+                    "total_actual_capacity": 6,
+                    "total_planned_capacity": 0,
+                    "pool": "xVST",
+                    "program_scope": "HSX"
+                },
+                {
+                    "total_actual_capacity": 3,
+                    "total_planned_capacity": 10,
+                    "pool": "Volume Validation",
+                    "program_scope": "Diamond Rapid pilot"
+                }
+            ]
+        },
+        {
+            "statistics_type": "utilization",
+            "data": [
+                {
+                    "avg_utilization": 1.0416666666666665,
+                    "avg_utilization_goal": 100.0,
+                    "pool": "xVST",
+                    "program_scope": "DMR-D"
+                },
+                {
+                    "avg_utilization": 3.808593749999999,
+                    "avg_utilization_goal": 0,
+                    "pool": "Volume Validation",
+                    "program_scope": "Diamond Rapid"
+                },
+                {
+                    "avg_utilization": 20.457175925925924,
+                    "avg_utilization_goal": 100.0,
+                    "pool": "Volume Validation",
+                    "program_scope": "Diamond Rapid pilot"
+                },
+                {
+                    "avg_utilization": 45.39958923384168,
+                    "avg_utilization_goal": 100.0,
+                    "pool": "xVST",
+                    "program_scope": "HSX"
+                }
+            ]
+        }
+    ]
+}
+2026-09-28 15:57:42,700 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_comparing_values[Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=pool&statistics_types=capacity&statistics_types=utilization] failed
+2026-09-28 15:57:42,702 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 15:57:43,892 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10 -> 200
+2026-09-28 15:57:43,893 - resource_management.py - Line: 791 - INFO - selected pool:{'pgid': 'd07ca4e612b84e0a9d55270d26fc4189', 'name': 'PV_sysdebug', 'description': 'testing', 'insert_time': '2026-09-28T08:55:38.525000', 'update_at': '2026-09-28T08:55:38.525000', 'owners': ['anjalix.na@intel.com'], 'pid': 'f967fb71814646db8daba3f0574b7109', 'psid': '3cc89c8625084f03b30ac7ef0c575090', 'program_scope': 'HSX', 'pool': 'xVST', 'utilization_threshold': 100.0, 'planned_capacity': 0, 'max_reservation_duration': 2160, 'restricted': True}
+2026-09-28 15:57:43,893 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 15:57:44,806 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_scope,pool,sub_pool,system_utilization,hsdes_config,hw_config,val_team,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-28 15:57:44,807 - resource_management.py - Line: 797 - INFO - System Response:
+{
+    "systems": [
+        {
+            "system_id": "an411bm18bs0303",
+            "sut_reachable": true,
+            "node_type": "rasp",
+            "system_state": "online",
+            "hma_timestamp": "",
+            "name": "an411bm18bs0303",
+            "system_type": "OKS-JC-DMR",
+            "program_scope": "HSX",
+            "pool": "xVST",
+            "sub_pool": "PV_sysdebug",
+            "system_utilization": 40.50925925925926,
+            "hsdes_config": "",
+            "hw_config": "",
+            "val_team": "PV.SYSDBG",
+            "category_id": "xeon",
+            "org_id": "paiv",
+            "site_id": "an",
+            "building_id": "4",
+            "floor_id": "1",
+            "lab_id": "1bm",
+            "row_id": "18b"
+        },
+        {
+            "system_id": "an411bm18bs0401",
+            "sut_reachable": true,
+            "node_type": "rasp",
+            "system_state": "online",
+            "hma_timestamp": "",
+            "name": "an411bm18bs0401",
+            "system_type": "OKS-JC-DMR",
+            "program_scope": "HSX",
+            "pool": "xVST",
+            "sub_pool": "PV_sysdebug",
+            "system_utilization": 39.03186274509803,
+            "hsdes_config": "",
+            "hw_config": "",
+            "val_team": "PV.SYSDBG",
+            "category_id": "xeon",
+            "org_id": "paiv",
+            "site_id": "an",
+            "building_id": "4",
+            "floor_id": "1",
+            "lab_id": "1bm",
+            "row_id": "18b"
+        },
+        {
+            "system_id": "an411bm18bs0402",
+            "sut_reachable": true,
+            "node_type": "rasp",
+            "system_state": "online",
+            "hma_timestamp": "",
+            "name": "an411bm18bs0402",
+            "system_type": "OKS-JC-DMR",
+            "program_scope": "HSX",
+            "pool": "xVST",
+            "sub_pool": "PV_sysdebug",
+            "system_utilization": 0.06127450980392156,
+            "hsdes_config": "",
+            "hw_config": "CDU5",
+            "val_team": "PV.SYSDBG",
+            "category_id": "xeon",
+            "org_id": "paiv",
+            "site_id": "an",
+            "building_id": "4",
+            "floor_id": "1",
+            "lab_id": "1bm",
+            "row_id": "18b"
+        },
+        {
+            "system_id": "an411bm18bs0403",
+            "sut_reachable": false,
+            "node_type": "rasp",
+            "system_state": "online",
+            "hma_timestamp": "",
+            "name": "an411bm18bs0403",
+            "system_type": "OKS-JC-DMR",
+            "program_scope": "HSX",
+            "pool": "xVST",
+            "sub_pool": "PV_sysdebug",
+            "system_utilization": 0.0,
+            "hsdes_config": "",
+            "hw_config": "",
+            "val_team": "PV.SYSDBG",
+            "category_id": "xeon",
+            "org_id": "paiv",
+            "site_id": "an",
+            "building_id": "4",
+            "floor_id": "1",
+            "lab_id": "1bm",
+            "row_id": "18b"
+        },
+        {
+            "system_id": "an411bm18bs0501",
+            "sut_reachable": true,
+            "node_type": "rasp",
+            "system_state": "online",
+            "hma_timestamp": "",
+            "name": "an411bm18bs0501",
+            "system_type": "OKS-JC-DMR",
+            "program_scope": "HSX",
+            "pool": "xVST",
+            "sub_pool": "PV_sysdebug",
+            "system_utilization": 96.70138888888887,
+            "hsdes_config": "",
+            "hw_config": "FDU7",
+            "val_team": "PV.SYSDBG",
+            "category_id": "xeon",
+            "org_id": "paiv",
+            "site_id": "an",
+            "building_id": "4",
+            "floor_id": "1",
+            "lab_id": "1bm",
+            "row_id": "18b"
+        },
+        {
+            "system_id": "an411bm18bs0502",
+            "sut_reachable": false,
+            "node_type": "rasp",
+            "system_state": "online",
+            "hma_timestamp": "",
+            "name": "an411bm18bs0502",
+            "system_type": "OKS-JC-DMR",
+            "program_scope": "HSX",
+            "pool": "xVST",
+            "sub_pool": "PV_sysdebug",
+            "system_utilization": 96.09374999999999,
+            "hsdes_config": "",
+            "hw_config": "FDU5",
+            "val_team": "PV.SYSDBG",
+            "category_id": "xeon",
+            "org_id": "paiv",
+            "site_id": "an",
+            "building_id": "4",
+            "floor_id": "1",
+            "lab_id": "1bm",
+            "row_id": "18b"
+        }
+    ],
+    "count": 6
+}
+2026-09-28 15:57:44,808 - resource_management.py - Line: 803 - INFO - utilization:45.39958923384168
+2026-09-28 15:57:44,809 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 15:57:46,052 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=sub_pool&statistics_types=capacity&statistics_types=utilization -> 200
+2026-09-28 15:57:46,053 - resource_management.py - Line: 807 - INFO - statistics_response:{
+    "pool_type": "sub_pool",
+    "descriptions": [
+        {
+            "sub_pool": "PV_VV",
+            "program_scope": "Diamond Rapid pilot",
+            "pool": "Volume Validation",
+            "description": "Subpool for PV Volume Validation"
+        },
+        {
+            "sub_pool": "Reserved",
+            "program_scope": "Diamond Rapid pilot",
+            "pool": "Volume Validation",
+            "description": "test-004"
+        },
+        {
+            "sub_pool": "FV_sysdebug",
+            "program_scope": "DMR-D",
+            "pool": "xVST",
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus e"
+        },
+        {
+            "sub_pool": "PV_sysdebug",
+            "program_scope": "HSX",
+            "pool": "xVST",
+            "description": "testing"
+        }
+    ],
+    "statistics": [
+        {
+            "statistics_type": "capacity",
+            "data": [
+                {
+                    "total_actual_capacity": 0,
+                    "total_planned_capacity": 0,
+                    "sub_pool": "Reserved",
+                    "program_scope": "Diamond Rapid pilot",
+                    "pool": "Volume Validation"
+                },
+                {
+                    "total_actual_capacity": 3,
+                    "total_planned_capacity": 10,
+                    "sub_pool": "PV_VV",
+                    "program_scope": "Diamond Rapid pilot",
+                    "pool": "Volume Validation"
+                },
+                {
+                    "total_actual_capacity": 6,
+                    "total_planned_capacity": 0,
+                    "sub_pool": "PV_sysdebug",
+                    "program_scope": "HSX",
+                    "pool": "xVST"
+                },
+                {
+                    "total_actual_capacity": 1,
+                    "total_planned_capacity": 10,
+                    "sub_pool": "FV_sysdebug",
+                    "program_scope": "DMR-D",
+                    "pool": "xVST"
+                }
+            ]
+        },
+        {
+            "statistics_type": "utilization",
+            "data": [
+                {
+                    "avg_utilization": 1.0416666666666665,
+                    "avg_utilization_goal": 100.0,
+                    "sub_pool": "FV_sysdebug",
+                    "program_scope": "DMR-D",
+                    "pool": "xVST"
+                },
+                {
+                    "avg_utilization": 0,
+                    "avg_utilization_goal": 100.0,
+                    "sub_pool": "Reserved",
+                    "program_scope": "Diamond Rapid pilot",
+                    "pool": "Volume Validation"
+                },
+                {
+                    "avg_utilization": 45.39958923384168,
+                    "avg_utilization_goal": 100.0,
+                    "sub_pool": "PV_sysdebug",
+                    "program_scope": "HSX",
+                    "pool": "xVST"
+                },
+                {
+                    "avg_utilization": 20.457175925925924,
+                    "avg_utilization_goal": 100.0,
+                    "sub_pool": "PV_VV",
+                    "program_scope": "Diamond Rapid pilot",
+                    "pool": "Volume Validation"
+                }
+            ]
+        }
+    ]
+}
+2026-09-28 15:57:46,090 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_comparing_values[Sub Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=sub_pool&statistics_types=capacity&statistics_types=utilization] failed
+2026-09-28 15:57:46,091 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-28 15:57:46,092 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-28 15:57:46,093 - conftest.py - Line: 110 - INFO - Total tests failed: 3
+2026-09-28 15:57:46,093 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-28 15:57:46,093 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-28 15:57:46,094 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_comparing_values[Program Scope-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=program_scope&statistics_types=capacity&statistics_types=utilization] failed
+2026-09-28 15:57:46,094 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_comparing_values[Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=pool&statistics_types=capacity&statistics_types=utilization] failed
+2026-09-28 15:57:46,094 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_comparing_values[Sub Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=sub_pool&statistics_types=capacity&statistics_types=utilization] failed
+2026-09-28 15:57:46,094 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

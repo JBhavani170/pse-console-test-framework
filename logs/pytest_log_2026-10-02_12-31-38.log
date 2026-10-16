@@ -1,0 +1,19 @@
+2026-10-02 12:31:38,438 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-02 12:31:39,483 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope?skip=0&limit=10 -> 200
+2026-10-02 12:31:39,566 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_dashboard_utilization[program_scope-Program Scope-program_scope] failed
+2026-10-02 12:31:39,569 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-02 12:31:40,570 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10 -> 200
+2026-10-02 12:31:40,580 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_dashboard_utilization[pool-Pool-pool] failed
+2026-10-02 12:31:40,582 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-02 12:31:41,755 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10 -> 200
+2026-10-02 12:31:41,763 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_dashboard_utilization[sub_pool-Sub Pool-sub_pool] failed
+2026-10-02 12:31:41,764 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-10-02 12:31:41,765 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-10-02 12:31:41,765 - conftest.py - Line: 110 - INFO - Total tests failed: 3
+2026-10-02 12:31:41,766 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-10-02 12:31:41,766 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-10-02 12:31:41,766 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_manager.py::test_dashboard_utilization[program_scope-Program Scope-program_scope] failed
+2026-10-02 12:31:41,766 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_manager.py::test_dashboard_utilization[pool-Pool-pool] failed
+2026-10-02 12:31:41,766 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_manager.py::test_dashboard_utilization[sub_pool-Sub Pool-sub_pool] failed
+2026-10-02 12:31:41,767 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

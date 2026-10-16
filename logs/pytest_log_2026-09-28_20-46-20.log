@@ -1,0 +1,30 @@
+2026-09-28 20:46:20,710 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 20:46:21,666 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-28 20:46:22,756 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 201
+2026-09-28 20:46:23,795 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 201
+2026-09-28 20:46:23,797 - pool.py - Line: 184 - INFO - Deleting system : 0945aa47cf7c40cf8c52088c9ba5b139
+2026-09-28 20:46:23,798 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 20:46:24,956 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/0945aa47cf7c40cf8c52088c9ba5b139 -> 204
+2026-09-28 20:46:24,957 - pool.py - Line: 193 - INFO - system delete response: 204
+2026-09-28 20:46:24,957 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 20:46:26,197 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=40 -> 200
+2026-09-28 20:46:26,235 - pool.py - Line: 226 - INFO - system pool deleted successfully
+2026-09-28 20:46:26,240 - pool.py - Line: 184 - INFO - Deleting master : aca844a71e4a414caf3560afc06a9297
+2026-09-28 20:46:26,241 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 20:46:27,567 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/aca844a71e4a414caf3560afc06a9297 -> 204
+2026-09-28 20:46:27,568 - pool.py - Line: 193 - INFO - master delete response: 204
+2026-09-28 20:46:27,568 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 20:46:29,040 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=40 -> 200
+2026-09-28 20:46:29,042 - pool.py - Line: 226 - INFO - master pool deleted successfully
+2026-09-28 20:46:29,042 - pool.py - Line: 184 - INFO - Deleting program : 72eac3836aae455e9748d8f9bc34d19a
+2026-09-28 20:46:29,043 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 20:46:30,134 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/72eac3836aae455e9748d8f9bc34d19a -> 204
+2026-09-28 20:46:30,136 - pool.py - Line: 193 - INFO - program delete response: 204
+2026-09-28 20:46:30,136 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 20:46:31,299 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=40 -> 200
+2026-09-28 20:46:31,300 - pool.py - Line: 226 - INFO - program pool deleted successfully
+2026-09-28 20:46:31,302 - conftest.py - Line: 100 - INFO - Test pool_management/pool.py::test_delete_pools passed.
+2026-09-28 20:46:31,302 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-28 20:46:31,310 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-28 20:46:31,311 - conftest.py - Line: 110 - INFO - Total tests failed: 0

@@ -1,0 +1,55 @@
+2026-09-25 19:29:58,125 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 19:29:59,541 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-25 19:29:59,541 - resource_management.py - Line: 282 - INFO - system id:an411bm18bs0401
+2026-09-25 19:29:59,541 - resource_management.py - Line: 283 - INFO - Program Pool before:SPR-SP
+2026-09-25 19:29:59,547 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 19:30:00,835 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-25 19:30:00,836 - resource_management.py - Line: 294 - INFO - Program Pool after:new3
+2026-09-25 19:30:00,836 - resource_management.py - Line: 295 - INFO - Program Pool pid:539cb8cbe3df44e6b5da84aa464a8ea0
+2026-09-25 19:30:00,837 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 19:30:02,000 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 200
+2026-09-25 19:30:02,002 - resource_management.py - Line: 298 - INFO - response:{
+    "success": 1,
+    "failure": 0
+}
+2026-09-25 19:30:02,003 - resource_management.py - Line: 300 - INFO - Program Pool before:SPR-SP
+2026-09-25 19:30:02,003 - resource_management.py - Line: 301 - INFO - Program Pool after:new3
+2026-09-25 19:30:02,007 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_pool_to_single_system[Program Pool-program-program_pool-ppid] passed.
+2026-09-25 19:30:02,010 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 19:30:02,959 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-25 19:30:02,960 - resource_management.py - Line: 282 - INFO - system id:an411bm18bs0301
+2026-09-25 19:30:02,961 - resource_management.py - Line: 283 - INFO - Master Pool before:
+2026-09-25 19:30:02,962 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 19:30:04,189 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-25 19:30:04,190 - resource_management.py - Line: 294 - INFO - Master Pool after:DAES
+2026-09-25 19:30:04,190 - resource_management.py - Line: 295 - INFO - Master Pool pid:6f62111464404fa885675bc1d0367fff
+2026-09-25 19:30:04,191 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 19:30:05,222 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 200
+2026-09-25 19:30:05,223 - resource_management.py - Line: 298 - INFO - response:{
+    "success": 0,
+    "failure": 1
+}
+2026-09-25 19:30:05,224 - resource_management.py - Line: 300 - INFO - Master Pool before:
+2026-09-25 19:30:05,224 - resource_management.py - Line: 301 - INFO - Master Pool after:DAES
+2026-09-25 19:30:05,228 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_pool_to_single_system[Master Pool-master-master_pool-mpid] passed.
+2026-09-25 19:30:05,230 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 19:30:06,765 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-25 19:30:06,766 - resource_management.py - Line: 282 - INFO - system id:an411bm18bs0501
+2026-09-25 19:30:06,767 - resource_management.py - Line: 283 - INFO - System Pool before:
+2026-09-25 19:30:06,768 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 19:30:08,022 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-25 19:30:08,023 - resource_management.py - Line: 294 - INFO - System Pool after:testingggggggggggggggggggggggggggggggggggggggggggggggggggdfdfdfd
+2026-09-25 19:30:08,024 - resource_management.py - Line: 295 - INFO - System Pool pid:62a63e5cc0044c868f30526a22fcd9b3
+2026-09-25 19:30:08,024 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 19:30:09,026 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 200
+2026-09-25 19:30:09,027 - resource_management.py - Line: 298 - INFO - response:{
+    "success": 0,
+    "failure": 1
+}
+2026-09-25 19:30:09,027 - resource_management.py - Line: 300 - INFO - System Pool before:
+2026-09-25 19:30:09,027 - resource_management.py - Line: 301 - INFO - System Pool after:testingggggggggggggggggggggggggggggggggggggggggggggggggggdfdfdfd
+2026-09-25 19:30:09,032 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_pool_to_single_system[System Pool-system-system_pool-spid] passed.
+2026-09-25 19:30:09,034 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-25 19:30:09,035 - conftest.py - Line: 109 - INFO - Total tests passed: 3
+2026-09-25 19:30:09,036 - conftest.py - Line: 110 - INFO - Total tests failed: 0

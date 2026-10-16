@@ -1,0 +1,45 @@
+2026-10-09 12:11:01,772 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-09 12:11:03,484 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=100&fields=category_id,org_id,site_id,building_id,floor_id,lab_id,row_id,chassis_type,name,system_type,cpu_serial_number,cpu_cores,cpu_qdf,cpu_stepping,memory_size,memory_speed,bios_version,bmc_version,cpld_version,cpld_pfr_version,cluster_pool,board_product,board_serial,pba,supergroup,group,team,division,subdivision,discipline,val_team,function,pool,domain,processor,project,activity,product,owner,active_state,hw_config,nga_project,nga_automation_status,nga_execution_status,nga_pool,nga_activity,nga_config,nga_recipe,nga_notes,site,last_scan,pci_device,bat_result,hma_version,bat_version,location,label,host_type,sut_state,nuc_state,bmc_state,inv_inconsistent,sut_os,nga_station_url,hma_active,program_pool,master_pool,system_pool,program_scope,pool,sub_pool,system_utilization,hsdes_config, -> 200
+2026-10-09 12:11:03,489 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-09 12:11:04,423 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 201
+2026-10-09 12:11:05,309 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 201
+2026-10-09 12:11:06,275 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool -> 201
+2026-10-09 12:11:06,277 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-09 12:11:07,384 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 200
+2026-10-09 12:11:07,385 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-09 12:11:13,190 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/config/bulk -> 200
+2026-10-09 12:11:13,191 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-09 12:11:19,070 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/config/bulk -> 200
+2026-10-09 12:11:19,071 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-09 12:11:20,226 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/config/bulk -> 200
+2026-10-09 12:11:20,227 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_assignment_and_utilization[program-scope] passed.
+2026-10-09 12:11:20,230 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-09 12:11:21,193 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 200
+2026-10-09 12:11:21,194 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-09 12:11:27,057 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/config/bulk -> 200
+2026-10-09 12:11:27,057 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-09 12:11:32,629 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/config/bulk -> 200
+2026-10-09 12:11:32,629 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-09 12:11:33,706 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/config/bulk -> 200
+2026-10-09 12:11:33,707 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_assignment_and_utilization[pool] passed.
+2026-10-09 12:11:33,709 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-09 12:11:34,874 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool -> 200
+2026-10-09 12:11:34,875 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-09 12:11:39,168 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/config/bulk -> 200
+2026-10-09 12:11:39,169 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-09 12:11:40,613 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=sub_pool&statistics_types=capacity&statistics_types=utilization -> 200
+2026-10-09 12:11:40,613 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-09 12:11:44,910 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/config/bulk -> 200
+2026-10-09 12:11:44,910 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-09 12:11:45,877 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/config/bulk -> 200
+2026-10-09 12:11:45,877 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-09 12:11:46,930 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool/238464b78bc1415da16259300d497683 -> 204
+2026-10-09 12:11:46,930 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-09 12:11:47,907 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool/f88ff2b2a9954bd196097915ac0f39a4 -> 204
+2026-10-09 12:11:47,908 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-09 12:11:48,976 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope/53da13caab3b42009a6868977ed4e0f7 -> 204
+2026-10-09 12:11:48,978 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_assignment_and_utilization[sub-pool] passed.
+2026-10-09 12:11:48,979 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-10-09 12:11:48,980 - conftest.py - Line: 109 - INFO - Total tests passed: 3
+2026-10-09 12:11:48,980 - conftest.py - Line: 110 - INFO - Total tests failed: 0

@@ -1,0 +1,183 @@
+2026-10-06 19:50:50,220 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:50:51,084 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 422
+2026-10-06 19:50:51,085 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload0] passed.
+2026-10-06 19:50:51,087 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:50:51,991 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 409
+2026-10-06 19:50:52,022 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload1] failed
+2026-10-06 19:50:52,023 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:50:52,892 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 409
+2026-10-06 19:50:52,901 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload2] failed
+2026-10-06 19:50:52,903 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:50:53,763 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 409
+2026-10-06 19:50:53,772 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload3] failed
+2026-10-06 19:50:53,774 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:50:54,640 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 409
+2026-10-06 19:50:54,658 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload4] failed
+2026-10-06 19:50:54,660 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:50:55,526 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 422
+2026-10-06 19:50:55,527 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload5] passed.
+2026-10-06 19:50:55,529 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:50:56,393 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 422
+2026-10-06 19:50:56,394 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload6] passed.
+2026-10-06 19:50:56,396 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:50:57,252 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 422
+2026-10-06 19:50:57,253 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload7] passed.
+2026-10-06 19:50:57,254 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:50:58,114 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 422
+2026-10-06 19:50:58,115 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload8] passed.
+2026-10-06 19:50:58,117 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:50:58,990 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 422
+2026-10-06 19:50:58,991 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload9] passed.
+2026-10-06 19:50:58,993 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:50:59,855 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 422
+2026-10-06 19:50:59,856 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload10] passed.
+2026-10-06 19:50:59,858 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:51:00,714 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 422
+2026-10-06 19:51:00,715 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload11] passed.
+2026-10-06 19:51:00,717 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:51:01,576 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 422
+2026-10-06 19:51:01,577 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload12] passed.
+2026-10-06 19:51:01,580 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:51:02,443 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 422
+2026-10-06 19:51:02,445 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload13] passed.
+2026-10-06 19:51:02,447 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:51:03,309 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 409
+2026-10-06 19:51:03,318 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload14] failed
+2026-10-06 19:51:03,320 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:51:04,190 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 422
+2026-10-06 19:51:04,191 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload15] passed.
+2026-10-06 19:51:04,194 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:51:05,066 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 422
+2026-10-06 19:51:05,067 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload16] passed.
+2026-10-06 19:51:05,076 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload17] failed
+2026-10-06 19:51:05,085 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload18] failed
+2026-10-06 19:51:05,093 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload19] failed
+2026-10-06 19:51:05,095 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:51:05,975 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 422
+2026-10-06 19:51:05,976 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload20] passed.
+2026-10-06 19:51:05,986 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload21] failed
+2026-10-06 19:51:05,995 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload22] failed
+2026-10-06 19:51:06,003 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload23] failed
+2026-10-06 19:51:06,005 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:51:06,957 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 404
+2026-10-06 19:51:06,966 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload24] failed
+2026-10-06 19:51:06,975 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload25] failed
+2026-10-06 19:51:06,983 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload26] failed
+2026-10-06 19:51:06,985 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:51:07,850 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 422
+2026-10-06 19:51:07,851 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload27] passed.
+2026-10-06 19:51:07,853 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:51:08,718 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 422
+2026-10-06 19:51:08,719 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload28] passed.
+2026-10-06 19:51:08,729 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload29] failed
+2026-10-06 19:51:08,737 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload30] failed
+2026-10-06 19:51:08,745 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload31] failed
+2026-10-06 19:51:08,747 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:51:09,620 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 422
+2026-10-06 19:51:09,621 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload32] passed.
+2026-10-06 19:51:09,624 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:51:10,281 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 422
+2026-10-06 19:51:10,282 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload33] passed.
+2026-10-06 19:51:10,284 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 19:51:10,957 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 422
+2026-10-06 19:51:10,958 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload34] passed.
+2026-10-06 19:51:10,968 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload35] failed
+2026-10-06 19:51:10,978 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload36] failed
+2026-10-06 19:51:10,987 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload37] failed
+2026-10-06 19:51:10,996 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload38] failed
+2026-10-06 19:51:11,007 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload39] failed
+2026-10-06 19:51:11,016 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload40] failed
+2026-10-06 19:51:11,026 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload41] failed
+2026-10-06 19:51:11,035 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload42] failed
+2026-10-06 19:51:11,044 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload43] failed
+2026-10-06 19:51:11,054 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload44] failed
+2026-10-06 19:51:11,063 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload45] failed
+2026-10-06 19:51:11,071 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload46] failed
+2026-10-06 19:51:11,079 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload47] failed
+2026-10-06 19:51:11,087 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload48] failed
+2026-10-06 19:51:11,095 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload49] failed
+2026-10-06 19:51:11,104 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload50] failed
+2026-10-06 19:51:11,112 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload51] failed
+2026-10-06 19:51:11,119 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload52] failed
+2026-10-06 19:51:11,139 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload53] failed
+2026-10-06 19:51:11,147 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload54] failed
+2026-10-06 19:51:11,155 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload55] failed
+2026-10-06 19:51:11,164 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload56] failed
+2026-10-06 19:51:11,172 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload57] failed
+2026-10-06 19:51:11,181 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload58] failed
+2026-10-06 19:51:11,190 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload59] failed
+2026-10-06 19:51:11,199 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload60] failed
+2026-10-06 19:51:11,207 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload61] failed
+2026-10-06 19:51:11,215 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload62] failed
+2026-10-06 19:51:11,223 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload63] failed
+2026-10-06 19:51:11,231 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload64] failed
+2026-10-06 19:51:11,239 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload65] failed
+2026-10-06 19:51:11,246 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload66] failed
+2026-10-06 19:51:11,254 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload67] failed
+2026-10-06 19:51:11,262 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload68] failed
+2026-10-06 19:51:11,270 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload69] failed
+2026-10-06 19:51:11,277 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload70] failed
+2026-10-06 19:51:11,285 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload71] failed
+2026-10-06 19:51:11,293 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload72] failed
+2026-10-06 19:51:11,294 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-10-06 19:51:11,294 - conftest.py - Line: 109 - INFO - Total tests passed: 18
+2026-10-06 19:51:11,294 - conftest.py - Line: 110 - INFO - Total tests failed: 55
+2026-10-06 19:51:11,294 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-10-06 19:51:11,295 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-10-06 19:51:11,295 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload1] failed
+2026-10-06 19:51:11,295 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload2] failed
+2026-10-06 19:51:11,295 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload3] failed
+2026-10-06 19:51:11,295 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload4] failed
+2026-10-06 19:51:11,295 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[program-scope-payload14] failed
+2026-10-06 19:51:11,295 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload17] failed
+2026-10-06 19:51:11,295 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload18] failed
+2026-10-06 19:51:11,296 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload19] failed
+2026-10-06 19:51:11,296 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload21] failed
+2026-10-06 19:51:11,296 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload22] failed
+2026-10-06 19:51:11,296 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload23] failed
+2026-10-06 19:51:11,296 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload24] failed
+2026-10-06 19:51:11,296 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload25] failed
+2026-10-06 19:51:11,296 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload26] failed
+2026-10-06 19:51:11,297 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload29] failed
+2026-10-06 19:51:11,297 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload30] failed
+2026-10-06 19:51:11,297 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[pool-payload31] failed
+2026-10-06 19:51:11,297 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload35] failed
+2026-10-06 19:51:11,297 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload36] failed
+2026-10-06 19:51:11,297 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload37] failed
+2026-10-06 19:51:11,297 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload38] failed
+2026-10-06 19:51:11,298 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload39] failed
+2026-10-06 19:51:11,298 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload40] failed
+2026-10-06 19:51:11,298 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload41] failed
+2026-10-06 19:51:11,298 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload42] failed
+2026-10-06 19:51:11,298 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload43] failed
+2026-10-06 19:51:11,298 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload44] failed
+2026-10-06 19:51:11,298 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload45] failed
+2026-10-06 19:51:11,298 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload46] failed
+2026-10-06 19:51:11,299 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload47] failed
+2026-10-06 19:51:11,299 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload48] failed
+2026-10-06 19:51:11,299 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload49] failed
+2026-10-06 19:51:11,299 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload50] failed
+2026-10-06 19:51:11,299 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload51] failed
+2026-10-06 19:51:11,299 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload52] failed
+2026-10-06 19:51:11,299 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload53] failed
+2026-10-06 19:51:11,299 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload54] failed
+2026-10-06 19:51:11,300 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload55] failed
+2026-10-06 19:51:11,300 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload56] failed
+2026-10-06 19:51:11,300 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload57] failed
+2026-10-06 19:51:11,300 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload58] failed
+2026-10-06 19:51:11,300 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload59] failed
+2026-10-06 19:51:11,300 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload60] failed
+2026-10-06 19:51:11,301 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload61] failed
+2026-10-06 19:51:11,301 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload62] failed
+2026-10-06 19:51:11,301 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload63] failed
+2026-10-06 19:51:11,301 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload64] failed
+2026-10-06 19:51:11,301 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload65] failed
+2026-10-06 19:51:11,301 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload66] failed
+2026-10-06 19:51:11,302 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload67] failed
+2026-10-06 19:51:11,302 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload68] failed
+2026-10-06 19:51:11,302 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload69] failed
+2026-10-06 19:51:11,302 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload70] failed
+2026-10-06 19:51:11,302 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload71] failed
+2026-10-06 19:51:11,302 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_negative_scenarios[sub-pool-payload72] failed
+2026-10-06 19:51:11,302 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

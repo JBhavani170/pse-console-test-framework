@@ -1,0 +1,80 @@
+2026-09-28 00:00:44,261 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 00:00:45,677 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=40&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-28 00:00:45,678 - resource_management.py - Line: 530 - INFO - ['cs16ca101cs0403', 'cs16ca101cs0404', 'cs16ca101cs0308', 'cs16ca101ds0101', 'cs16ca101cs0401', 'cs16ca101cs0402', 'cs16ca101ds0102', 'cs16ca101cs0405', 'cs16ca101cs0406', 'cs16ca101cs0307']
+2026-09-28 00:00:45,684 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 00:00:46,908 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=20 -> 200
+2026-09-28 00:00:46,909 - resource_management.py - Line: 536 - INFO - current program names:[set()]
+2026-09-28 00:00:46,910 - resource_management.py - Line: 541 - INFO - selected pool:{'pid': 'aa7a60a12b4f4479a0491f9e5c50c600', 'name': 'tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg', 'description': 'tetinggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg', 'insert_time': '2026-08-14T06:14:53.578000', 'owners': ['anjalix.na@intel.com', 'sumitx.dahiya@intel.com', 'kesamsettix.gayatri@intel.com', 'reetux.d@intel.com', 'pse_user@intel.com', 'ragini.ramachandran@intel.com', 'asimx.ghosh@intel.com']}
+2026-09-28 00:00:46,912 - resource_management.py - Line: 548 - INFO - [
+    {
+        "system_id": "cs16ca101cs0403",
+        "pools": {
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0404",
+        "pools": {
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0308",
+        "pools": {
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600"
+        }
+    },
+    {
+        "system_id": "cs16ca101ds0101",
+        "pools": {
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0401",
+        "pools": {
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0402",
+        "pools": {
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600"
+        }
+    },
+    {
+        "system_id": "cs16ca101ds0102",
+        "pools": {
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0405",
+        "pools": {
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0406",
+        "pools": {
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0307",
+        "pools": {
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600"
+        }
+    }
+]
+2026-09-28 00:00:46,912 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 00:00:48,448 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 200
+2026-09-28 00:00:48,449 - resource_management.py - Line: 552 - INFO - {
+    "success": 10,
+    "failure": 0
+}
+2026-09-28 00:00:48,451 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_move_systems_to_program_pool passed.
+2026-09-28 00:00:48,452 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-28 00:00:48,452 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-28 00:00:48,452 - conftest.py - Line: 110 - INFO - Total tests failed: 0

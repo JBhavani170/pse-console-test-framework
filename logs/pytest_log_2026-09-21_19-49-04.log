@@ -1,0 +1,12 @@
+2026-09-21 19:49:04,346 - resource_management.py - Line: 74 - INFO - Fetching HW Config options from Attribute Options API
+2026-09-21 19:49:04,347 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-21 19:49:05,524 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v2/systems/attribute-options?attributes_options=system_types,hw_config -> 200
+2026-09-21 19:49:05,602 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_hw_config_filter failed
+2026-09-21 19:49:05,604 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-21 19:49:05,604 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-21 19:49:05,605 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-21 19:49:05,605 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-21 19:49:05,605 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-21 19:49:05,606 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_hw_config_filter failed
+2026-09-21 19:49:05,606 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

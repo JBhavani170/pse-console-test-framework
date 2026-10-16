@@ -1,0 +1,21 @@
+2026-10-05 21:42:17,727 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-05 21:42:18,739 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 200
+2026-10-05 21:42:19,703 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope/02e495d6f57146a6a5e4b7e8033145dc -> 200
+2026-10-05 21:42:19,704 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_update_existing_resources[program-scope-testing1] passed.
+2026-10-05 21:42:19,707 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-05 21:42:20,713 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 200
+2026-10-05 21:42:21,675 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool/b14c99bb360d43d1918980fa41d8054f -> 400
+2026-10-05 21:42:21,697 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_update_existing_resources[pool-testing3] failed
+2026-10-05 21:42:21,699 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-05 21:42:23,120 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool -> 200
+2026-10-05 21:42:24,131 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool/208d4506afef43eda311d8551cf5407f -> 400
+2026-10-05 21:42:24,137 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_update_existing_resources[sub-pool-TESTING7] failed
+2026-10-05 21:42:24,138 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-10-05 21:42:24,138 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-10-05 21:42:24,139 - conftest.py - Line: 110 - INFO - Total tests failed: 2
+2026-10-05 21:42:24,139 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-10-05 21:42:24,139 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-10-05 21:42:24,139 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_update_existing_resources[pool-testing3] failed
+2026-10-05 21:42:24,139 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_update_existing_resources[sub-pool-TESTING7] failed
+2026-10-05 21:42:24,139 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

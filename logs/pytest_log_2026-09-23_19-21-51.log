@@ -1,0 +1,18 @@
+2026-09-23 19:21:51,637 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 19:21:53,054 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/options?fields=tags.supergroup,tags.group,tags.discipline,tags.team,tags.val_team,tags.project,tags.product,tags.activity,tags.active_state,tags.hw_config,tags.prognos_id -> 200
+2026-09-23 19:21:53,055 - resource_management.py - Line: 23 - INFO - <class 'list'>
+2026-09-23 19:21:53,055 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 19:21:54,397 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-23 19:21:54,400 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 19:21:55,598 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 422
+2026-09-23 19:21:55,604 - resource_management.py - Line: 33 - INFO - Status Code:422
+2026-09-23 19:21:55,605 - resource_management.py - Line: 34 - INFO - response:{"detail":[{"type":"value_error","loc":["body"],"msg":"Value error, '' is not a valid email address","input":{"name":"SKL","description":"I9V4pU0A3EkijeOrvG2DUVWk2qwhqWqa96gJOHffkLzhukgxSyly6TWqMdoZYuIX4t8BDY1KDWQ44IBw3QuoCt2AXGEnoH5YmWku627zMovbtkH99SrVscppFj6qfpvUIfk66WYfRPCHxDARa8t51omylwlSmeAzzktJQo7SyEloFAeAuOe1POODw9L6KowzXebweXTpzMIJdCUOANtYL8DUdnD1f7TRHPIhwDdbXx2lSckwXbADYQJ4ruzUmA9svGEsRm0OqWajeTOgJGp6WI7yNtVIu0goMRz4k8dPH8wPKDavF3B6UqZJtyesweoBRRs97CcEEXHZphLTaqBGfn3s9thmbX4lYbVb9JCQ3OhBjI2O8PrGP3dz2ESRaNrdoPTZzXpkHIFsGNXwUJRJyvHKem7pAT5BmrMZ9BbuiHbW0Z5AOWaC74dMVh8Xd71FRy3itWr9TlOndcIaDwCBIrqa2dwKZkvf8wHGS","owners":[""]},"ctx":{"error":{}}}]}
+2026-09-23 19:21:55,754 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_create_program_pool failed
+2026-09-23 19:21:55,755 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-23 19:21:55,756 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-23 19:21:55,756 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-23 19:21:55,756 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-23 19:21:55,757 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-23 19:21:55,757 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_create_program_pool failed
+2026-09-23 19:21:55,757 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

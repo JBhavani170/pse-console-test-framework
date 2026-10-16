@@ -1,0 +1,26 @@
+2026-09-29 12:09:45,876 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 12:09:46,803 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-29 12:09:47,613 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 201
+2026-09-29 12:09:48,450 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 201
+2026-09-29 12:09:48,453 - pool.py - Line: 152 - INFO - Deleting system : 2a7723d9d78045cf8868db8f0eb94125
+2026-09-29 12:09:48,455 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 12:09:49,304 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/2a7723d9d78045cf8868db8f0eb94125 -> 204
+2026-09-29 12:09:49,305 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 12:09:51,101 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=40 -> 200
+2026-09-29 12:09:51,102 - pool.py - Line: 152 - INFO - Deleting master : 68b4ff3225ae43dfb246b4d3c1332f76
+2026-09-29 12:09:51,102 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 12:09:52,021 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/68b4ff3225ae43dfb246b4d3c1332f76 -> 204
+2026-09-29 12:09:52,022 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 12:09:53,258 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=40 -> 200
+2026-09-29 12:09:53,260 - pool.py - Line: 152 - INFO - Deleting program : 3cbecd9038db49d0951b964b3c77ac01
+2026-09-29 12:09:53,260 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 12:09:54,073 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/3cbecd9038db49d0951b964b3c77ac01 -> 404
+2026-09-29 12:09:54,186 - conftest.py - Line: 98 - ERROR - Test pool_management/pool.py::test_delete_pools failed
+2026-09-29 12:09:54,188 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-29 12:09:54,188 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-29 12:09:54,189 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-29 12:09:54,189 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-29 12:09:54,189 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-29 12:09:54,189 - conftest.py - Line: 117 - ERROR - pool_management/pool.py::test_delete_pools failed
+2026-09-29 12:09:54,190 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

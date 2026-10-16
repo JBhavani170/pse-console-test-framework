@@ -1,0 +1,29 @@
+2026-09-29 13:30:38,670 - conftest.py - Line: 193 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 13:30:39,452 - conftest.py - Line: 307 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-29 13:30:40,236 - conftest.py - Line: 307 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 201
+2026-09-29 13:30:41,036 - conftest.py - Line: 307 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 201
+2026-09-29 13:30:41,041 - conftest.py - Line: 193 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 13:30:41,948 - conftest.py - Line: 307 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=40 -> 200
+2026-09-29 13:30:42,028 - conftest.py - Line: 101 - ERROR - Test pool_management/pool.py::test_pool_crud[program-https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=40-https://pse-console-cloud-dev.intel.com/api/v1/pool/program-UpdatedPro1-program_pid] failed
+2026-09-29 13:30:42,030 - conftest.py - Line: 193 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 13:30:43,346 - conftest.py - Line: 307 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=40 -> 200
+2026-09-29 13:30:43,347 - conftest.py - Line: 193 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 13:30:44,265 - conftest.py - Line: 307 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/ecb2e24e6d3a432daf8bad21b07eafe7 -> 200
+2026-09-29 13:30:44,265 - conftest.py - Line: 193 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 13:30:45,189 - conftest.py - Line: 307 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=40 -> 200
+2026-09-29 13:30:45,191 - conftest.py - Line: 103 - INFO - Test pool_management/pool.py::test_pool_crud[master-https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=40-https://pse-console-cloud-dev.intel.com/api/v1/pool/master-UpdatedMast1-master_pid] passed.
+2026-09-29 13:30:45,193 - conftest.py - Line: 193 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 13:30:46,429 - conftest.py - Line: 307 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=40 -> 200
+2026-09-29 13:30:46,430 - conftest.py - Line: 193 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 13:30:47,297 - conftest.py - Line: 307 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/384bee1e9a9d4e4f95861596d5a86d94 -> 200
+2026-09-29 13:30:47,298 - conftest.py - Line: 193 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 13:30:48,917 - conftest.py - Line: 307 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=40 -> 200
+2026-09-29 13:30:48,919 - conftest.py - Line: 103 - INFO - Test pool_management/pool.py::test_pool_crud[system-https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=40-https://pse-console-cloud-dev.intel.com/api/v1/pool/system-UpdatedSyst1-system_pid] passed.
+2026-09-29 13:30:48,921 - conftest.py - Line: 111 - INFO - 
+Test execution complete.
+2026-09-29 13:30:48,921 - conftest.py - Line: 112 - INFO - Total tests passed: 2
+2026-09-29 13:30:48,921 - conftest.py - Line: 113 - INFO - Total tests failed: 1
+2026-09-29 13:30:48,922 - conftest.py - Line: 116 - ERROR - ===================================================================================================================
+2026-09-29 13:30:48,922 - conftest.py - Line: 117 - ERROR - Test Summary Info
+2026-09-29 13:30:48,922 - conftest.py - Line: 120 - ERROR - pool_management/pool.py::test_pool_crud[program-https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=40-https://pse-console-cloud-dev.intel.com/api/v1/pool/program-UpdatedPro1-program_pid] failed
+2026-09-29 13:30:48,922 - conftest.py - Line: 121 - ERROR - ===================================================================================================================

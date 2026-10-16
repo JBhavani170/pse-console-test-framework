@@ -1,0 +1,39 @@
+2026-10-02 16:56:33,059 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-02 16:56:34,336 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/attribute-options?attributes_options=system_types,hw_config,pool,val_team -> 200
+2026-10-02 16:56:34,422 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_filters[HW Config-hw_config-one of] failed
+2026-10-02 16:56:34,424 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-02 16:56:35,429 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/attribute-options?attributes_options=system_types,hw_config,pool,val_team -> 200
+2026-10-02 16:56:35,447 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_filters[System Type-system_types-one of] failed
+2026-10-02 16:56:35,450 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-02 16:56:36,790 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/attribute-options?attributes_options=system_types,hw_config,pool,val_team -> 200
+2026-10-02 16:56:36,799 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_filters[Val Team-val_team-one of] failed
+2026-10-02 16:56:36,801 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-02 16:56:37,982 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-10-02 16:56:37,995 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_filters[Program Scope-program_scope-one of] failed
+2026-10-02 16:56:37,997 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-02 16:56:39,265 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-10-02 16:56:39,278 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_filters[Pool-pool-one of] failed
+2026-10-02 16:56:39,280 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-02 16:56:40,544 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-10-02 16:56:40,553 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_filters[Sub Pool-sub_pool-one of] failed
+2026-10-02 16:56:40,566 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_filters[HSDES Config-hsdes_config-contains] failed
+2026-10-02 16:56:40,577 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_filters[HSDES Config-hsdes_config-not contain] failed
+2026-10-02 16:56:40,587 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_filters[HSDES Config-hsdes_config-is empty] failed
+2026-10-02 16:56:40,602 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_manager.py::test_filters[HSDES Config-hsdes_config-not empty] failed
+2026-10-02 16:56:40,604 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-10-02 16:56:40,605 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-10-02 16:56:40,605 - conftest.py - Line: 110 - INFO - Total tests failed: 10
+2026-10-02 16:56:40,605 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-10-02 16:56:40,606 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-10-02 16:56:40,606 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_manager.py::test_filters[HW Config-hw_config-one of] failed
+2026-10-02 16:56:40,606 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_manager.py::test_filters[System Type-system_types-one of] failed
+2026-10-02 16:56:40,607 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_manager.py::test_filters[Val Team-val_team-one of] failed
+2026-10-02 16:56:40,608 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_manager.py::test_filters[Program Scope-program_scope-one of] failed
+2026-10-02 16:56:40,608 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_manager.py::test_filters[Pool-pool-one of] failed
+2026-10-02 16:56:40,608 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_manager.py::test_filters[Sub Pool-sub_pool-one of] failed
+2026-10-02 16:56:40,608 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_manager.py::test_filters[HSDES Config-hsdes_config-contains] failed
+2026-10-02 16:56:40,609 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_manager.py::test_filters[HSDES Config-hsdes_config-not contain] failed
+2026-10-02 16:56:40,609 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_manager.py::test_filters[HSDES Config-hsdes_config-is empty] failed
+2026-10-02 16:56:40,609 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_manager.py::test_filters[HSDES Config-hsdes_config-not empty] failed
+2026-10-02 16:56:40,609 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

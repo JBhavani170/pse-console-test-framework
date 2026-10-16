@@ -1,0 +1,276 @@
+2026-09-28 15:41:37,568 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 15:41:38,542 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope?skip=0&limit=10 -> 200
+2026-09-28 15:41:38,543 - resource_management.py - Line: 791 - INFO - selected pool:{'pgid': '9058f72b40a24e769c06b907be96993f', 'name': 'GNR-SP', 'description': 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus e', 'insert_time': '2026-09-28T08:36:40.776000', 'update_at': '2026-09-28T08:36:40.776000', 'owners': ['ragini.ramachandran@intel.com']}
+2026-09-28 15:41:38,544 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 15:41:39,428 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_scope,pool,sub_pool,system_utilization,hsdes_config,hw_config,val_team,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-28 15:41:39,514 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_comparing_values[Program Scope-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=program_scope&statistics_types=capacity&statistics_types=utilization] failed
+2026-09-28 15:41:39,515 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 15:41:40,435 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10 -> 200
+2026-09-28 15:41:40,436 - resource_management.py - Line: 791 - INFO - selected pool:{'pgid': 'd41304245aa74e5ca0fdddcdf538309e', 'name': 'Volume Validation', 'description': 'This is pool for VV', 'insert_time': '2026-09-28T08:42:43.942000', 'update_at': '2026-09-28T08:42:43.942000', 'owners': ['santosh.gore@intel.com'], 'psid': 'e465205d8beb428cbf626929b7e3e8a2', 'program_scope': 'Diamond Rapid'}
+2026-09-28 15:41:40,437 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 15:41:41,357 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_scope,pool,sub_pool,system_utilization,hsdes_config,hw_config,val_team,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-28 15:41:41,358 - resource_management.py - Line: 800 - INFO - utilization:12.080439814814815
+2026-09-28 15:41:41,358 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 15:41:42,276 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=pool&statistics_types=capacity&statistics_types=utilization -> 200
+2026-09-28 15:41:42,277 - resource_management.py - Line: 804 - INFO - statistics_response:{
+    "pool_type": "pool",
+    "descriptions": [
+        {
+            "pool": "Volume Validation",
+            "program_scope": "Diamond Rapid pilot",
+            "description": "Testing"
+        },
+        {
+            "pool": "xVST",
+            "program_scope": "DMR-D",
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus e"
+        },
+        {
+            "pool": "Volume Validation",
+            "program_scope": "Diamond Rapid",
+            "description": "This is pool for VV"
+        },
+        {
+            "pool": "xVST",
+            "program_scope": "HSX",
+            "description": "testi                               ng"
+        }
+    ],
+    "statistics": [
+        {
+            "statistics_type": "capacity",
+            "data": [
+                {
+                    "total_actual_capacity": 3,
+                    "total_planned_capacity": 10,
+                    "pool": "Volume Validation",
+                    "program_scope": "Diamond Rapid pilot"
+                },
+                {
+                    "total_actual_capacity": 1,
+                    "total_planned_capacity": 10,
+                    "pool": "xVST",
+                    "program_scope": "DMR-D"
+                },
+                {
+                    "total_actual_capacity": 6,
+                    "total_planned_capacity": 0,
+                    "pool": "xVST",
+                    "program_scope": "HSX"
+                }
+            ]
+        },
+        {
+            "statistics_type": "utilization",
+            "data": [
+                {
+                    "avg_utilization": 3.808593749999999,
+                    "avg_utilization_goal": 0,
+                    "pool": "Volume Validation",
+                    "program_scope": "Diamond Rapid"
+                },
+                {
+                    "avg_utilization": 1.0416666666666665,
+                    "avg_utilization_goal": 100.0,
+                    "pool": "xVST",
+                    "program_scope": "DMR-D"
+                },
+                {
+                    "avg_utilization": 20.457175925925924,
+                    "avg_utilization_goal": 100.0,
+                    "pool": "Volume Validation",
+                    "program_scope": "Diamond Rapid pilot"
+                },
+                {
+                    "avg_utilization": 45.39958923384168,
+                    "avg_utilization_goal": 100.0,
+                    "pool": "xVST",
+                    "program_scope": "HSX"
+                }
+            ]
+        }
+    ]
+}
+2026-09-28 15:41:42,278 - resource_management.py - Line: 806 - INFO - {
+    "statistics_type": "utilization",
+    "data": [
+        {
+            "avg_utilization": 3.808593749999999,
+            "avg_utilization_goal": 0,
+            "pool": "Volume Validation",
+            "program_scope": "Diamond Rapid"
+        },
+        {
+            "avg_utilization": 1.0416666666666665,
+            "avg_utilization_goal": 100.0,
+            "pool": "xVST",
+            "program_scope": "DMR-D"
+        },
+        {
+            "avg_utilization": 20.457175925925924,
+            "avg_utilization_goal": 100.0,
+            "pool": "Volume Validation",
+            "program_scope": "Diamond Rapid pilot"
+        },
+        {
+            "avg_utilization": 45.39958923384168,
+            "avg_utilization_goal": 100.0,
+            "pool": "xVST",
+            "program_scope": "HSX"
+        }
+    ]
+}
+2026-09-28 15:41:42,279 - resource_management.py - Line: 810 - INFO - Avg Utilization: 3.808593749999999
+2026-09-28 15:41:42,279 - resource_management.py - Line: 811 - INFO - Avg Utilization Goal: 0
+2026-09-28 15:41:42,308 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_comparing_values[Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=pool&statistics_types=capacity&statistics_types=utilization] failed
+2026-09-28 15:41:42,310 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 15:41:43,241 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10 -> 200
+2026-09-28 15:41:43,242 - resource_management.py - Line: 791 - INFO - selected pool:{'pgid': '8d44d57404e343c38a38a24ee4a0f9d0', 'name': 'PV_VV', 'description': 'Subpool for PV Volume Validation', 'insert_time': '2026-09-28T07:32:48.998000', 'update_at': '2026-09-28T07:32:48.998000', 'owners': ['santosh.gore@intel.com'], 'pid': '97d104b599de40e6928bc68b6ba2ce32', 'psid': '187db13a5bbc4798b9b3f02c9ce00d39', 'program_scope': 'Diamond Rapid pilot', 'pool': 'Volume Validation', 'utilization_threshold': 100.0, 'planned_capacity': 10, 'max_reservation_duration': 2160, 'restricted': True}
+2026-09-28 15:41:43,243 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 15:41:44,169 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_scope,pool,sub_pool,system_utilization,hsdes_config,hw_config,val_team,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-28 15:41:44,170 - resource_management.py - Line: 800 - INFO - utilization:20.457175925925924
+2026-09-28 15:41:44,171 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 15:41:45,163 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=sub_pool&statistics_types=capacity&statistics_types=utilization -> 200
+2026-09-28 15:41:45,164 - resource_management.py - Line: 804 - INFO - statistics_response:{
+    "pool_type": "sub_pool",
+    "descriptions": [
+        {
+            "sub_pool": "PV_VV",
+            "program_scope": "Diamond Rapid pilot",
+            "pool": "Volume Validation",
+            "description": "Subpool for PV Volume Validation"
+        },
+        {
+            "sub_pool": "Reserved",
+            "program_scope": "Diamond Rapid pilot",
+            "pool": "Volume Validation",
+            "description": "test-004"
+        },
+        {
+            "sub_pool": "FV_sysdebug",
+            "program_scope": "DMR-D",
+            "pool": "xVST",
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus e"
+        },
+        {
+            "sub_pool": "PV_sysdebug",
+            "program_scope": "HSX",
+            "pool": "xVST",
+            "description": "testing"
+        }
+    ],
+    "statistics": [
+        {
+            "statistics_type": "capacity",
+            "data": [
+                {
+                    "total_actual_capacity": 1,
+                    "total_planned_capacity": 10,
+                    "sub_pool": "FV_sysdebug",
+                    "program_scope": "DMR-D",
+                    "pool": "xVST"
+                },
+                {
+                    "total_actual_capacity": 6,
+                    "total_planned_capacity": 0,
+                    "sub_pool": "PV_sysdebug",
+                    "program_scope": "HSX",
+                    "pool": "xVST"
+                },
+                {
+                    "total_actual_capacity": 0,
+                    "total_planned_capacity": 0,
+                    "sub_pool": "Reserved",
+                    "program_scope": "Diamond Rapid pilot",
+                    "pool": "Volume Validation"
+                },
+                {
+                    "total_actual_capacity": 3,
+                    "total_planned_capacity": 10,
+                    "sub_pool": "PV_VV",
+                    "program_scope": "Diamond Rapid pilot",
+                    "pool": "Volume Validation"
+                }
+            ]
+        },
+        {
+            "statistics_type": "utilization",
+            "data": [
+                {
+                    "avg_utilization": 1.0416666666666665,
+                    "avg_utilization_goal": 100.0,
+                    "sub_pool": "FV_sysdebug",
+                    "program_scope": "DMR-D",
+                    "pool": "xVST"
+                },
+                {
+                    "avg_utilization": 20.457175925925924,
+                    "avg_utilization_goal": 100.0,
+                    "sub_pool": "PV_VV",
+                    "program_scope": "Diamond Rapid pilot",
+                    "pool": "Volume Validation"
+                },
+                {
+                    "avg_utilization": 0,
+                    "avg_utilization_goal": 100.0,
+                    "sub_pool": "Reserved",
+                    "program_scope": "Diamond Rapid pilot",
+                    "pool": "Volume Validation"
+                },
+                {
+                    "avg_utilization": 45.39958923384168,
+                    "avg_utilization_goal": 100.0,
+                    "sub_pool": "PV_sysdebug",
+                    "program_scope": "HSX",
+                    "pool": "xVST"
+                }
+            ]
+        }
+    ]
+}
+2026-09-28 15:41:45,165 - resource_management.py - Line: 806 - INFO - {
+    "statistics_type": "utilization",
+    "data": [
+        {
+            "avg_utilization": 1.0416666666666665,
+            "avg_utilization_goal": 100.0,
+            "sub_pool": "FV_sysdebug",
+            "program_scope": "DMR-D",
+            "pool": "xVST"
+        },
+        {
+            "avg_utilization": 20.457175925925924,
+            "avg_utilization_goal": 100.0,
+            "sub_pool": "PV_VV",
+            "program_scope": "Diamond Rapid pilot",
+            "pool": "Volume Validation"
+        },
+        {
+            "avg_utilization": 0,
+            "avg_utilization_goal": 100.0,
+            "sub_pool": "Reserved",
+            "program_scope": "Diamond Rapid pilot",
+            "pool": "Volume Validation"
+        },
+        {
+            "avg_utilization": 45.39958923384168,
+            "avg_utilization_goal": 100.0,
+            "sub_pool": "PV_sysdebug",
+            "program_scope": "HSX",
+            "pool": "xVST"
+        }
+    ]
+}
+2026-09-28 15:41:45,166 - resource_management.py - Line: 810 - INFO - Avg Utilization: 1.0416666666666665
+2026-09-28 15:41:45,166 - resource_management.py - Line: 811 - INFO - Avg Utilization Goal: 100.0
+2026-09-28 15:41:45,197 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_comparing_values[Sub Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=sub_pool&statistics_types=capacity&statistics_types=utilization] failed
+2026-09-28 15:41:45,198 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-28 15:41:45,199 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-28 15:41:45,199 - conftest.py - Line: 110 - INFO - Total tests failed: 3
+2026-09-28 15:41:45,199 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-28 15:41:45,200 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-28 15:41:45,200 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_comparing_values[Program Scope-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=program_scope&statistics_types=capacity&statistics_types=utilization] failed
+2026-09-28 15:41:45,200 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_comparing_values[Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=pool&statistics_types=capacity&statistics_types=utilization] failed
+2026-09-28 15:41:45,200 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_comparing_values[Sub Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=sub_pool&statistics_types=capacity&statistics_types=utilization] failed
+2026-09-28 15:41:45,201 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

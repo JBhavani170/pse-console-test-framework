@@ -1,0 +1,26 @@
+2026-09-24 19:53:12,915 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-24 19:53:16,607 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?pool_type=program -> 200
+2026-09-24 19:53:16,608 - resource_management.py - Line: 142 - INFO - selected name:{'pid': 'c621852474c6437197244dfcbe6bd699', 'name': 'testing_pool_11'}
+2026-09-24 19:53:16,609 - resource_management.py - Line: 144 - INFO - c621852474c6437197244dfcbe6bd699
+2026-09-24 19:53:16,610 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-24 19:53:18,774 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 201
+2026-09-24 19:53:18,775 - resource_management.py - Line: 152 - INFO - {
+    "pid": "79418f725e724f308ff9c0b845f99185",
+    "name": "PV",
+    "description": "testing",
+    "insert_time": "2026-09-24T14:23:19.853977Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "ppid": "c621852474c6437197244dfcbe6bd699"
+}
+2026-09-24 19:53:18,776 - resource_management.py - Line: 154 - INFO - master_pool_id:79418f725e724f308ff9c0b845f99185
+2026-09-24 19:53:18,778 - resource_management.py - Line: 178 - INFO - pid used for get:79418f725e724f308ff9c0b845f99185
+2026-09-24 19:53:18,778 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-24 19:53:20,985 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 200
+2026-09-24 19:53:20,986 - resource_management.py - Line: 187 - INFO - created pool found:{'pid': '79418f725e724f308ff9c0b845f99185', 'name': 'PV', 'description': 'testing', 'insert_time': '2026-09-24T14:23:19.853000', 'owners': ['jx.bhavani@intel.com'], 'ppid': 'c621852474c6437197244dfcbe6bd699', 'program_pool': 'testing_pool_11'}
+2026-09-24 19:53:20,988 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_get_master_pool_by_id passed.
+2026-09-24 19:53:20,990 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-24 19:53:20,991 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-24 19:53:20,992 - conftest.py - Line: 110 - INFO - Total tests failed: 0

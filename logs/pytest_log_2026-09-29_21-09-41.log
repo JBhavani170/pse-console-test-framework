@@ -1,0 +1,24 @@
+2026-09-29 21:09:41,894 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:09:43,152 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope?skip=0&limit=10 -> 200
+2026-09-29 21:09:43,155 - resource_management.py - Line: 859 - INFO - Pool Name: asdf
+2026-09-29 21:09:43,156 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:09:44,249 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-29 21:09:44,259 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:09:45,485 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10 -> 200
+2026-09-29 21:09:45,486 - resource_management.py - Line: 859 - INFO - Pool Name: Volume Validation
+2026-09-29 21:09:45,486 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:09:46,465 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-29 21:09:46,559 - conftest.py - Line: 102 - ERROR - Test pool_management/resource_management.py::test_dashboard_utilization[Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=pool&statistics_types=capacity&statistics_types=utilization-pool] failed
+2026-09-29 21:09:46,561 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:09:47,965 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10 -> 200
+2026-09-29 21:09:47,966 - resource_management.py - Line: 859 - INFO - Pool Name: PV_VV
+2026-09-29 21:09:47,967 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:09:49,297 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-29 21:09:49,300 - conftest.py - Line: 112 - INFO - 
+Test execution complete.
+2026-09-29 21:09:49,300 - conftest.py - Line: 113 - INFO - Total tests passed: 0
+2026-09-29 21:09:49,301 - conftest.py - Line: 114 - INFO - Total tests failed: 1
+2026-09-29 21:09:49,301 - conftest.py - Line: 117 - ERROR - ===================================================================================================================
+2026-09-29 21:09:49,301 - conftest.py - Line: 118 - ERROR - Test Summary Info
+2026-09-29 21:09:49,301 - conftest.py - Line: 121 - ERROR - pool_management/resource_management.py::test_dashboard_utilization[Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=pool&statistics_types=capacity&statistics_types=utilization-pool] failed
+2026-09-29 21:09:49,301 - conftest.py - Line: 122 - ERROR - ===================================================================================================================

@@ -1,0 +1,14 @@
+2026-09-28 20:21:08,854 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 20:21:09,869 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-28 20:21:09,869 - pool.py - Line: 29 - INFO - Program Status: 201
+2026-09-28 20:21:09,869 - pool.py - Line: 30 - INFO - Program Response: {"pid":"438b77979e234f27b9f35f56e191640a","name":"PROGRAM","description":"testing","insert_time":"2026-09-28T14:51:11.886909Z","owners":["jx.bhavani@intel.com"]}
+2026-09-28 20:21:10,818 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 201
+2026-09-28 20:21:10,819 - pool.py - Line: 47 - INFO - Master Status: 201
+2026-09-28 20:21:10,819 - pool.py - Line: 48 - INFO - Master Response: {"pid":"26e7079b202f4b0084c92bcd471c3977","name":"MASTER_POOL","description":"testing","insert_time":"2026-09-28T14:51:12.883506Z","owners":["jx.bhavani@intel.com"],"ppid":"438b77979e234f27b9f35f56e191640a"}
+2026-09-28 20:21:11,831 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 201
+2026-09-28 20:21:11,832 - pool.py - Line: 69 - INFO - System Status: 201
+2026-09-28 20:21:11,832 - pool.py - Line: 70 - INFO - System Response: {"pid":"7a6df51c91c34112b1c09e6b96f82eb5","name":"SYSTEM_POOL","description":"testing","insert_time":"2026-09-28T14:51:13.886216Z","owners":["jx.bhavani@intel.com"],"mpid":"26e7079b202f4b0084c92bcd471c3977","ppid":"438b77979e234f27b9f35f56e191640a"}
+2026-09-28 20:21:11,847 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-28 20:21:11,849 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-28 20:21:11,850 - conftest.py - Line: 110 - INFO - Total tests failed: 0

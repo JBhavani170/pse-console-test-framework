@@ -1,0 +1,22 @@
+2026-09-26 20:29:58,242 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:29:59,512 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-26 20:29:59,513 - resource_management.py - Line: 472 - INFO - selected filter:filter type:Program Poolselected pool:DMR- Pool
+2026-09-26 20:29:59,586 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_system_level_filter[Program Pool-program] failed
+2026-09-26 20:29:59,588 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:30:00,861 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-26 20:30:00,862 - resource_management.py - Line: 472 - INFO - selected filter:filter type:Master Poolselected pool:EV
+2026-09-26 20:30:00,881 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_system_level_filter[Master Pool-master] failed
+2026-09-26 20:30:00,882 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:30:02,090 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-26 20:30:02,091 - resource_management.py - Line: 472 - INFO - selected filter:filter type:System Poolselected pool:UI_3
+2026-09-26 20:30:02,110 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_system_level_filter[System Pool-system] failed
+2026-09-26 20:30:02,114 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-26 20:30:02,115 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-26 20:30:02,115 - conftest.py - Line: 110 - INFO - Total tests failed: 3
+2026-09-26 20:30:02,116 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-26 20:30:02,116 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-26 20:30:02,116 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_system_level_filter[Program Pool-program] failed
+2026-09-26 20:30:02,117 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_system_level_filter[Master Pool-master] failed
+2026-09-26 20:30:02,117 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_system_level_filter[System Pool-system] failed
+2026-09-26 20:30:02,118 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

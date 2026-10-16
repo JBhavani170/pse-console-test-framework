@@ -1,0 +1,31 @@
+2026-09-24 18:58:00,699 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-24 18:58:02,965 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?pool_type=program -> 200
+2026-09-24 18:58:02,965 - resource_management.py - Line: 141 - INFO - selected name:{'pid': 'a51b1162f7dd4e08b58a45651d1db7a6', 'name': 'BDX'}
+2026-09-24 18:58:02,966 - resource_management.py - Line: 143 - INFO - a51b1162f7dd4e08b58a45651d1db7a6
+2026-09-24 18:58:02,966 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-24 18:58:04,918 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 201
+2026-09-24 18:58:04,918 - resource_management.py - Line: 151 - INFO - {
+    "pid": "a24c99a3b5fd4ffeb213d901625467da",
+    "name": "FSV",
+    "description": "testing",
+    "insert_time": "2026-09-24T13:28:05.790623Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "ppid": "a51b1162f7dd4e08b58a45651d1db7a6"
+}
+2026-09-24 18:58:04,919 - resource_management.py - Line: 153 - INFO - master_pool_id:a24c99a3b5fd4ffeb213d901625467da
+2026-09-24 18:58:04,921 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-24 18:58:06,838 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/a24c99a3b5fd4ffeb213d901625467da -> 405
+2026-09-24 18:58:06,839 - resource_management.py - Line: 167 - INFO - {
+    "detail": "Method Not Allowed"
+}
+2026-09-24 18:58:06,920 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_get_master_pool failed
+2026-09-24 18:58:06,922 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-24 18:58:06,922 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-24 18:58:06,923 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-24 18:58:06,923 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-24 18:58:06,923 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-24 18:58:06,923 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_get_master_pool failed
+2026-09-24 18:58:06,923 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

@@ -1,0 +1,305 @@
+2026-09-25 16:31:33,208 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 16:31:35,935 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-25 16:31:35,935 - resource_management.py - Line: 189 - INFO - available pool response:{
+    "program": [
+        {
+            "pid": "f623d6407c85496394b714481a8ff8bb",
+            "name": "RPL-E Refresh"
+        },
+        {
+            "pid": "e1c184b8a9c84405b6dc4b308a0f07f6",
+            "name": "SPR-SP"
+        },
+        {
+            "pid": "f47067f5e9594746a0dca854a8841cfb",
+            "name": "SNR"
+        },
+        {
+            "pid": "8eb2fdd9c94940bda7c292bd6e43a77b",
+            "name": "SRF-AP"
+        },
+        {
+            "pid": "729078498c9b476196b4eab9406e4066",
+            "name": "DMR-D"
+        },
+        {
+            "pid": "d7bcfa4f60204e84809fa878a3ae9794",
+            "name": "!@#$$%^&**((()_+{}:\"<>?|1234567890-=[]\\;',./\\|.,abcdefjhijklmnop"
+        },
+        {
+            "pid": "10bff9db47e042e6bdf3c29c553b36a3",
+            "name": "testing_pool_feat"
+        },
+        {
+            "pid": "b91dfccdbce1456899308f1b5b71ac1e",
+            "name": "DMR- Pool"
+        },
+        {
+            "pid": "85d3e9cea59f43a0b0e8b2e961ed4fa2",
+            "name": "new"
+        },
+        {
+            "pid": "c621852474c6437197244dfcbe6bd699",
+            "name": "testing_pool_11"
+        },
+        {
+            "pid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "name": "new3"
+        },
+        {
+            "pid": "8a14f439e84e4353937bccedffdb8e26",
+            "name": "SRF-AP1"
+        },
+        {
+            "pid": "e4729a1281774a09bf36bb13880e6b0f",
+            "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+        },
+        {
+            "pid": "aa7a60a12b4f4479a0491f9e5c50c600",
+            "name": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+        },
+        {
+            "pid": "9f980966c4274acfb84a6951ee6474d1",
+            "name": "test_demo"
+        },
+        {
+            "pid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "name": "UI"
+        },
+        {
+            "pid": "577885727acf44b0a2d523f94b2e2205",
+            "name": "tqhgswjhefiufqoiwjrknqmbnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"
+        },
+        {
+            "pid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "name": "validation team"
+        },
+        {
+            "pid": "499c72be1f2b4430835bf42c8fb9e7ce",
+            "name": "SRF-SP"
+        },
+        {
+            "pid": "64e658a00f1343ff86f64b531a65dd26",
+            "name": "DMR ProgramPool"
+        },
+        {
+            "pid": "f00fbc5cecda4cbe83e2100563fb58c2",
+            "name": "ABC"
+        }
+    ],
+    "master": [
+        {
+            "pid": "1b07fdb5e813457185af4d93b73b2868",
+            "name": "SECOE"
+        },
+        {
+            "pid": "0deece40b7db4a71bea12dad8805afd2",
+            "name": "test __"
+        },
+        {
+            "pid": "93038e3af89b468c8c663422453ae685",
+            "name": "testing"
+        },
+        {
+            "pid": "02482bc2853747c28fe72e1edb5b092f",
+            "name": "testing=testing-pool-feat"
+        },
+        {
+            "pid": "6f62111464404fa885675bc1d0367fff",
+            "name": "DAES"
+        },
+        {
+            "pid": "0edfe8a1d38240669c47e21508e928a6",
+            "name": "test-001"
+        },
+        {
+            "pid": "cf3891f3756246fd9e31ed49efc8e3bd",
+            "name": "EV"
+        },
+        {
+            "pid": "863a7b3d72954306b572229bc845ab17",
+            "name": "PPV-testing"
+        },
+        {
+            "pid": "523348f5737e4b099e11a973f52f09d7",
+            "name": "test_demo_1"
+        },
+        {
+            "pid": "a6b0837c5ddf497692624edb20afbccd",
+            "name": "UI_2"
+        },
+        {
+            "pid": "790bf7b512f94f12b64c9a3942f3eb48",
+            "name": "val"
+        },
+        {
+            "pid": "7832f19b187a44f7bfce17007f3b89da",
+            "name": "testing"
+        },
+        {
+            "pid": "c2136fd23e454c17bdbbacf1880c861e",
+            "name": "GHI"
+        }
+    ],
+    "system": [
+        {
+            "pid": "ee375fab1870465db470182d6a68d2fa",
+            "name": "Accelerator"
+        },
+        {
+            "pid": "62a63e5cc0044c868f30526a22fcd9b3",
+            "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggdfdfdfd"
+        },
+        {
+            "pid": "5d6d53a85ada4efda12fa8ddc4da9071",
+            "name": "test_demo_2"
+        },
+        {
+            "pid": "9807f032ad05468a8159865ad23909fd",
+            "name": "UI_3"
+        },
+        {
+            "pid": "d1ec074f40744b59946db90accc76989",
+            "name": "val_group"
+        }
+    ]
+}
+2026-09-25 16:31:35,941 - resource_management.py - Line: 191 - INFO - programs extracted:[{'pid': 'f623d6407c85496394b714481a8ff8bb', 'name': 'RPL-E Refresh'}, {'pid': 'e1c184b8a9c84405b6dc4b308a0f07f6', 'name': 'SPR-SP'}, {'pid': 'f47067f5e9594746a0dca854a8841cfb', 'name': 'SNR'}, {'pid': '8eb2fdd9c94940bda7c292bd6e43a77b', 'name': 'SRF-AP'}, {'pid': '729078498c9b476196b4eab9406e4066', 'name': 'DMR-D'}, {'pid': 'd7bcfa4f60204e84809fa878a3ae9794', 'name': '!@#$$%^&**((()_+{}:"<>?|1234567890-=[]\\;\',./\\|.,abcdefjhijklmnop'}, {'pid': '10bff9db47e042e6bdf3c29c553b36a3', 'name': 'testing_pool_feat'}, {'pid': 'b91dfccdbce1456899308f1b5b71ac1e', 'name': 'DMR- Pool'}, {'pid': '85d3e9cea59f43a0b0e8b2e961ed4fa2', 'name': 'new'}, {'pid': 'c621852474c6437197244dfcbe6bd699', 'name': 'testing_pool_11'}, {'pid': '539cb8cbe3df44e6b5da84aa464a8ea0', 'name': 'new3'}, {'pid': '8a14f439e84e4353937bccedffdb8e26', 'name': 'SRF-AP1'}, {'pid': 'e4729a1281774a09bf36bb13880e6b0f', 'name': 'testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg'}, {'pid': 'aa7a60a12b4f4479a0491f9e5c50c600', 'name': 'tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg'}, {'pid': '9f980966c4274acfb84a6951ee6474d1', 'name': 'test_demo'}, {'pid': 'd51ae3b4d9e94c51a97860436ac3b833', 'name': 'UI'}, {'pid': '577885727acf44b0a2d523f94b2e2205', 'name': 'tqhgswjhefiufqoiwjrknqmbnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn'}, {'pid': '4f6f95d5fec64c9e91b8e433d3a6cd76', 'name': 'validation team'}, {'pid': '499c72be1f2b4430835bf42c8fb9e7ce', 'name': 'SRF-SP'}, {'pid': '64e658a00f1343ff86f64b531a65dd26', 'name': 'DMR ProgramPool'}, {'pid': 'f00fbc5cecda4cbe83e2100563fb58c2', 'name': 'ABC'}]
+2026-09-25 16:31:35,942 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 16:31:38,581 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 201
+2026-09-25 16:31:38,581 - resource_management.py - Line: 204 - INFO - Status Code:201
+2026-09-25 16:31:38,582 - resource_management.py - Line: 205 - INFO - response:{"program":[{"pid":"f623d6407c85496394b714481a8ff8bb","name":"RPL-E Refresh"},{"pid":"e1c184b8a9c84405b6dc4b308a0f07f6","name":"SPR-SP"},{"pid":"f47067f5e9594746a0dca854a8841cfb","name":"SNR"},{"pid":"8eb2fdd9c94940bda7c292bd6e43a77b","name":"SRF-AP"},{"pid":"729078498c9b476196b4eab9406e4066","name":"DMR-D"},{"pid":"d7bcfa4f60204e84809fa878a3ae9794","name":"!@#$$%^&**((()_+{}:\"<>?|1234567890-=[]\\;',./\\|.,abcdefjhijklmnop"},{"pid":"10bff9db47e042e6bdf3c29c553b36a3","name":"testing_pool_feat"},{"pid":"b91dfccdbce1456899308f1b5b71ac1e","name":"DMR- Pool"},{"pid":"85d3e9cea59f43a0b0e8b2e961ed4fa2","name":"new"},{"pid":"c621852474c6437197244dfcbe6bd699","name":"testing_pool_11"},{"pid":"539cb8cbe3df44e6b5da84aa464a8ea0","name":"new3"},{"pid":"8a14f439e84e4353937bccedffdb8e26","name":"SRF-AP1"},{"pid":"e4729a1281774a09bf36bb13880e6b0f","name":"testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"},{"pid":"aa7a60a12b4f4479a0491f9e5c50c600","name":"tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"},{"pid":"9f980966c4274acfb84a6951ee6474d1","name":"test_demo"},{"pid":"d51ae3b4d9e94c51a97860436ac3b833","name":"UI"},{"pid":"577885727acf44b0a2d523f94b2e2205","name":"tqhgswjhefiufqoiwjrknqmbnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"},{"pid":"4f6f95d5fec64c9e91b8e433d3a6cd76","name":"validation team"},{"pid":"499c72be1f2b4430835bf42c8fb9e7ce","name":"SRF-SP"},{"pid":"64e658a00f1343ff86f64b531a65dd26","name":"DMR ProgramPool"},{"pid":"f00fbc5cecda4cbe83e2100563fb58c2","name":"ABC"}],"master":[{"pid":"1b07fdb5e813457185af4d93b73b2868","name":"SECOE"},{"pid":"0deece40b7db4a71bea12dad8805afd2","name":"test __"},{"pid":"93038e3af89b468c8c663422453ae685","name":"testing"},{"pid":"02482bc2853747c28fe72e1edb5b092f","name":"testing=testing-pool-feat"},{"pid":"6f62111464404fa885675bc1d0367fff","name":"DAES"},{"pid":"0edfe8a1d38240669c47e21508e928a6","name":"test-001"},{"pid":"cf3891f3756246fd9e31ed49efc8e3bd","name":"EV"},{"pid":"863a7b3d72954306b572229bc845ab17","name":"PPV-testing"},{"pid":"523348f5737e4b099e11a973f52f09d7","name":"test_demo_1"},{"pid":"a6b0837c5ddf497692624edb20afbccd","name":"UI_2"},{"pid":"790bf7b512f94f12b64c9a3942f3eb48","name":"val"},{"pid":"7832f19b187a44f7bfce17007f3b89da","name":"testing"},{"pid":"c2136fd23e454c17bdbbacf1880c861e","name":"GHI"}],"system":[{"pid":"ee375fab1870465db470182d6a68d2fa","name":"Accelerator"},{"pid":"62a63e5cc0044c868f30526a22fcd9b3","name":"testingggggggggggggggggggggggggggggggggggggggggggggggggggdfdfdfd"},{"pid":"5d6d53a85ada4efda12fa8ddc4da9071","name":"test_demo_2"},{"pid":"9807f032ad05468a8159865ad23909fd","name":"UI_3"},{"pid":"d1ec074f40744b59946db90accc76989","name":"val_group"}]}
+2026-09-25 16:31:38,584 - resource_management.py - Line: 216 - INFO - selected pid:2f85509ecb2543e8a51dfb989f34f9ac
+2026-09-25 16:31:38,584 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_create_system_pool passed.
+2026-09-25 16:31:38,586 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 16:31:43,628 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=10 -> 200
+2026-09-25 16:31:43,629 - resource_management.py - Line: 228 - INFO - {
+    "data": [
+        {
+            "pid": "ee375fab1870465db470182d6a68d2fa",
+            "name": "Accelerator",
+            "description": "testinggg",
+            "insert_time": "2026-07-09T06:37:22.650000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "0deece40b7db4a71bea12dad8805afd2",
+            "ppid": "f623d6407c85496394b714481a8ff8bb",
+            "program_pool": "RPL-E Refresh",
+            "master_pool": "test __",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 0
+        },
+        {
+            "pid": "62a63e5cc0044c868f30526a22fcd9b3",
+            "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggdfdfdfd",
+            "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestinggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "insert_time": "2026-08-14T06:49:49.149000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "863a7b3d72954306b572229bc845ab17",
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+            "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "master_pool": "PPV-testing",
+            "utilization_threshold": 4.0,
+            "planned_capacity": 100
+        },
+        {
+            "pid": "5d6d53a85ada4efda12fa8ddc4da9071",
+            "name": "test_demo_2",
+            "description": "testing",
+            "insert_time": "2026-08-14T09:25:33.258000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "523348f5737e4b099e11a973f52f09d7",
+            "ppid": "9f980966c4274acfb84a6951ee6474d1",
+            "program_pool": "test_demo",
+            "master_pool": "test_demo_1",
+            "utilization_threshold": 70.0,
+            "planned_capacity": 60
+        },
+        {
+            "pid": "9807f032ad05468a8159865ad23909fd",
+            "name": "UI_3",
+            "description": "UI_Testing",
+            "insert_time": "2026-08-17T06:16:54.564000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ],
+            "mpid": "a6b0837c5ddf497692624edb20afbccd",
+            "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "program_pool": "UI",
+            "master_pool": "UI_2",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 65
+        },
+        {
+            "pid": "d1ec074f40744b59946db90accc76989",
+            "name": "val_group",
+            "description": "vali dation",
+            "insert_time": "2026-08-18T11:07:50.181000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "himansu@intel.com",
+                "sumitx.dahiya@intel.com"
+            ],
+            "mpid": "790bf7b512f94f12b64c9a3942f3eb48",
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "program_pool": "validation team",
+            "master_pool": "val",
+            "utilization_threshold": 10.0,
+            "planned_capacity": 5
+        },
+        {
+            "pid": "2f85509ecb2543e8a51dfb989f34f9ac",
+            "name": "RWS123",
+            "description": "testing",
+            "insert_time": "2026-09-25T11:01:40.237000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "6f62111464404fa885675bc1d0367fff",
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "program_pool": "new3",
+            "master_pool": "DAES",
+            "utilization_threshold": 57.0,
+            "planned_capacity": 41543
+        }
+    ],
+    "total_records": 6
+}
+2026-09-25 16:31:43,630 - resource_management.py - Line: 231 - INFO - pid:ee375fab1870465db470182d6a68d2fa,name:Accelerator
+2026-09-25 16:31:43,631 - resource_management.py - Line: 231 - INFO - pid:62a63e5cc0044c868f30526a22fcd9b3,name:testingggggggggggggggggggggggggggggggggggggggggggggggggggdfdfdfd
+2026-09-25 16:31:43,631 - resource_management.py - Line: 231 - INFO - pid:5d6d53a85ada4efda12fa8ddc4da9071,name:test_demo_2
+2026-09-25 16:31:43,632 - resource_management.py - Line: 231 - INFO - pid:9807f032ad05468a8159865ad23909fd,name:UI_3
+2026-09-25 16:31:43,632 - resource_management.py - Line: 231 - INFO - pid:d1ec074f40744b59946db90accc76989,name:val_group
+2026-09-25 16:31:43,632 - resource_management.py - Line: 231 - INFO - pid:2f85509ecb2543e8a51dfb989f34f9ac,name:RWS123
+2026-09-25 16:31:43,633 - resource_management.py - Line: 234 - INFO - created pid:2f85509ecb2543e8a51dfb989f34f9ac
+2026-09-25 16:31:43,633 - resource_management.py - Line: 235 - INFO - get pid:2f85509ecb2543e8a51dfb989f34f9ac
+2026-09-25 16:31:43,635 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_get_system_pool passed.
+2026-09-25 16:31:43,637 - resource_management.py - Line: 242 - INFO - update payload:{
+    "name": "1234",
+    "description": "testing",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-25 16:31:43,654 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 16:31:45,709 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=10/2f85509ecb2543e8a51dfb989f34f9ac -> 405
+2026-09-25 16:31:45,781 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_update_system_pool failed
+2026-09-25 16:31:45,783 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 16:31:52,458 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=10/2f85509ecb2543e8a51dfb989f34f9ac -> 405
+2026-09-25 16:31:52,459 - resource_management.py - Line: 263 - INFO - Delete Status Code: 405
+2026-09-25 16:31:52,459 - resource_management.py - Line: 264 - INFO - delete:{"detail":"Method Not Allowed"}
+2026-09-25 16:31:52,469 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_delete_system_pool failed
+2026-09-25 16:31:52,470 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-25 16:31:52,470 - conftest.py - Line: 109 - INFO - Total tests passed: 2
+2026-09-25 16:31:52,470 - conftest.py - Line: 110 - INFO - Total tests failed: 2
+2026-09-25 16:31:52,471 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-25 16:31:52,471 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-25 16:31:52,471 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_update_system_pool failed
+2026-09-25 16:31:52,471 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_delete_system_pool failed
+2026-09-25 16:31:52,471 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

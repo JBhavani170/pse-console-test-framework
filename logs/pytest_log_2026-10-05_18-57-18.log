@@ -1,0 +1,23 @@
+2026-10-05 18:57:18,047 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-05 18:57:19,034 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 201
+2026-10-05 18:57:19,953 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 201
+2026-10-05 18:57:21,008 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool -> 201
+2026-10-05 18:57:21,010 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-05 18:57:21,930 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 200
+2026-10-05 18:57:21,930 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-05 18:57:22,853 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope/728bba2794ca4b2abf7411f1e0dc6779 -> 200
+2026-10-05 18:57:22,854 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-05 18:57:23,812 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 200
+2026-10-05 18:57:23,813 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-05 18:57:24,757 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 200
+2026-10-05 18:57:24,758 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-05 18:57:25,672 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool/8694fcaef2eb4f749ba09b2e29f26ca0 -> 400
+2026-10-05 18:57:25,697 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_update_pools failed
+2026-10-05 18:57:25,698 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-10-05 18:57:25,698 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-10-05 18:57:25,699 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-10-05 18:57:25,699 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-10-05 18:57:25,699 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-10-05 18:57:25,699 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_update_pools failed
+2026-10-05 18:57:25,699 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

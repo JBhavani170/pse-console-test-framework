@@ -1,0 +1,104 @@
+2026-09-26 21:06:02,775 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 21:06:04,169 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/audit/events?start=0&limit=10&event_types=Pool+Management -> 200
+2026-09-26 21:06:04,170 - resource_management.py - Line: 497 - INFO - Status code:200
+2026-09-26 21:06:04,171 - resource_management.py - Line: 500 - INFO - Pool management audit logs:
+{
+    "data": [
+        {
+            "system_id": "RWS123",
+            "username": "sys_evf_jira",
+            "event_type": "Pool Management",
+            "timestamp": "2026-09-26T14:06:38.613931Z",
+            "severity": "info",
+            "description": "System pool deleted successfully",
+            "additional_details": ""
+        },
+        {
+            "system_id": "DEFht",
+            "username": "sys_evf_jira",
+            "event_type": "Pool Management",
+            "timestamp": "2026-09-26T14:06:36.719166Z",
+            "severity": "info",
+            "description": "Master pool deleted successfully",
+            "additional_details": ""
+        },
+        {
+            "system_id": "ABCde",
+            "username": "sys_evf_jira",
+            "event_type": "Pool Management",
+            "timestamp": "2026-09-26T14:06:32.239837Z",
+            "severity": "info",
+            "description": "Program pool deleted successfully",
+            "additional_details": ""
+        },
+        {
+            "system_id": "ABCde",
+            "username": "sys_evf_jira",
+            "event_type": "Pool Management",
+            "timestamp": "2026-09-26T14:06:18.678321Z",
+            "severity": "info",
+            "description": "Program pool created successfully",
+            "additional_details": "Pool name: ABCde"
+        },
+        {
+            "system_id": "RWS123",
+            "username": "sys_evf_jira",
+            "event_type": "Pool Management",
+            "timestamp": "2026-09-26T14:04:32.160416Z",
+            "severity": "info",
+            "description": "System pool created successfully",
+            "additional_details": "Pool name: RWS123"
+        },
+        {
+            "system_id": "RWS123",
+            "username": "sys_evf_jira",
+            "event_type": "Pool Management",
+            "timestamp": "2026-09-26T14:04:27.722505Z",
+            "severity": "info",
+            "description": "System pool created successfully",
+            "additional_details": "Pool name: RWS123"
+        },
+        {
+            "system_id": "RWS123",
+            "username": "sys_evf_jira",
+            "event_type": "Pool Management",
+            "timestamp": "2026-09-26T14:04:21.585024Z",
+            "severity": "info",
+            "description": "System pool created successfully",
+            "additional_details": "Pool name: RWS123"
+        },
+        {
+            "system_id": "RWS123",
+            "username": "sys_evf_jira",
+            "event_type": "Pool Management",
+            "timestamp": "2026-09-26T14:04:15.429770Z",
+            "severity": "info",
+            "description": "System pool created successfully",
+            "additional_details": "Pool name: RWS123"
+        },
+        {
+            "system_id": "DEFht",
+            "username": "sys_evf_jira",
+            "event_type": "Pool Management",
+            "timestamp": "2026-09-26T14:04:07.433205Z",
+            "severity": "info",
+            "description": "Master pool created successfully",
+            "additional_details": "Pool name: DEFht"
+        },
+        {
+            "system_id": "DEFht",
+            "username": "sys_evf_jira",
+            "event_type": "Pool Management",
+            "timestamp": "2026-09-26T14:03:55.407760Z",
+            "severity": "info",
+            "description": "Master pool created successfully",
+            "additional_details": "Pool name: DEFht"
+        }
+    ],
+    "total_records": 2392
+}
+2026-09-26 21:06:04,173 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_pool_management_audit_logs passed.
+2026-09-26 21:06:04,175 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-26 21:06:04,175 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-26 21:06:04,176 - conftest.py - Line: 110 - INFO - Total tests failed: 0

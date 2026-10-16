@@ -1,0 +1,33 @@
+2026-09-26 17:04:42,982 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 17:04:43,986 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-26 17:04:43,987 - resource_management.py - Line: 22 - INFO - Status Code:201
+2026-09-26 17:04:43,987 - resource_management.py - Line: 23 - INFO - response body:{"pid":"2533ee74c2ad46b7b5f9d8e87779da83","name":"ABCd","description":"testing","insert_time":"2026-09-26T11:34:44.448060Z","owners":["jx.bhavani@intel.com"]}
+2026-09-26 17:04:43,993 - resource_management.py - Line: 26 - INFO - create response:{
+    "pid": "2533ee74c2ad46b7b5f9d8e87779da83",
+    "name": "ABCd",
+    "description": "testing",
+    "insert_time": "2026-09-26T11:34:44.448060Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-26 17:04:43,993 - resource_management.py - Line: 28 - INFO - created program pool pid:2533ee74c2ad46b7b5f9d8e87779da83
+2026-09-26 17:04:43,995 - resource_management.py - Line: 38 - INFO - create response:{
+    "pid": "2533ee74c2ad46b7b5f9d8e87779da83",
+    "name": "ABCd",
+    "description": "testing",
+    "insert_time": "2026-09-26T11:34:44.448060Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-26 17:04:43,995 - resource_management.py - Line: 40 - INFO - created pid:2533ee74c2ad46b7b5f9d8e87779da83
+2026-09-26 17:04:44,078 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_program_pool failed
+2026-09-26 17:04:44,080 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-26 17:04:44,080 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-26 17:04:44,081 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-26 17:04:44,081 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-26 17:04:44,081 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-26 17:04:44,082 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_program_pool failed
+2026-09-26 17:04:44,082 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

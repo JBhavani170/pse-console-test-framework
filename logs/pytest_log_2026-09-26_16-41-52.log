@@ -1,0 +1,59 @@
+2026-09-26 16:41:52,649 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 16:41:53,922 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 200
+2026-09-26 16:41:54,063 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_deleting_the_pool[Program Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool/program] failed
+2026-09-26 16:41:54,065 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 16:41:55,318 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 200
+2026-09-26 16:41:55,321 - resource_management.py - Line: 414 - INFO - selected Master Pool:{
+    "pid": "c2136fd23e454c17bdbbacf1880c861e",
+    "name": "GHI",
+    "description": "testing5",
+    "insert_time": "2026-09-25T10:17:52.677000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6",
+    "program_pool": "SPR-SP"
+}
+2026-09-26 16:41:55,322 - resource_management.py - Line: 415 - INFO - selected pid:c2136fd23e454c17bdbbacf1880c861e
+2026-09-26 16:41:55,322 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 16:41:56,627 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 200
+2026-09-26 16:41:56,628 - resource_management.py - Line: 432 - INFO - related system pools:[]
+2026-09-26 16:41:56,629 - resource_management.py - Line: 433 - INFO - parent program pool id:e1c184b8a9c84405b6dc4b308a0f07f6
+2026-09-26 16:41:56,629 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 16:41:57,741 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/c2136fd23e454c17bdbbacf1880c861e -> 204
+2026-09-26 16:41:57,741 - resource_management.py - Line: 441 - INFO - Delete response status code:204
+2026-09-26 16:41:57,742 - resource_management.py - Line: 443 - INFO - Master Pool deleted successfully
+2026-09-26 16:41:57,743 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_deleting_the_pool[Master Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool/master] passed.
+2026-09-26 16:41:57,745 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 16:41:59,019 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 200
+2026-09-26 16:41:59,021 - resource_management.py - Line: 414 - INFO - selected System Pool:{
+    "pid": "2f85509ecb2543e8a51dfb989f34f9ac",
+    "name": "RWS123679",
+    "description": "testing",
+    "insert_time": "2026-09-25T11:01:40.237000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "mpid": "6f62111464404fa885675bc1d0367fff",
+    "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+    "program_pool": "new3",
+    "master_pool": "DAES",
+    "utilization_threshold": 65.0,
+    "planned_capacity": 41543
+}
+2026-09-26 16:41:59,022 - resource_management.py - Line: 415 - INFO - selected pid:2f85509ecb2543e8a51dfb989f34f9ac
+2026-09-26 16:41:59,023 - resource_management.py - Line: 437 - INFO - master pool id:6f62111464404fa885675bc1d0367fff
+2026-09-26 16:41:59,024 - resource_management.py - Line: 438 - INFO - program pool id:539cb8cbe3df44e6b5da84aa464a8ea0
+2026-09-26 16:41:59,025 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 16:42:00,542 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/2f85509ecb2543e8a51dfb989f34f9ac -> 204
+2026-09-26 16:42:00,543 - resource_management.py - Line: 441 - INFO - Delete response status code:204
+2026-09-26 16:42:00,543 - resource_management.py - Line: 443 - INFO - System Pool deleted successfully
+2026-09-26 16:42:00,546 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_deleting_the_pool[System Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool/system] passed.
+2026-09-26 16:42:00,548 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-26 16:42:00,549 - conftest.py - Line: 109 - INFO - Total tests passed: 2
+2026-09-26 16:42:00,549 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-26 16:42:00,550 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-26 16:42:00,550 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-26 16:42:00,551 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_deleting_the_pool[Program Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool/program] failed
+2026-09-26 16:42:00,551 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

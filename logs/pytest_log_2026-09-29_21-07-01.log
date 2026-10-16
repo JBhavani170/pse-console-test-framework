@@ -1,0 +1,48 @@
+2026-09-29 21:07:01,758 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:07:03,432 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope?skip=0&limit=10 -> 200
+2026-09-29 21:07:03,434 - resource_management.py - Line: 859 - INFO - Pool Name: Diamond Rapid pilot
+2026-09-29 21:07:03,434 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:07:04,565 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-29 21:07:04,578 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:07:05,954 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10 -> 200
+2026-09-29 21:07:05,956 - resource_management.py - Line: 859 - INFO - Pool Name: Volume Validation
+2026-09-29 21:07:05,956 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:07:07,007 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-29 21:07:07,008 - resource_management.py - Line: 890 - INFO - Utilizations: [36.86342592592592, 0.057870370370370364, 0.0, 96.83333333333331, 96.20833333333331, 0.0, 0.0, 8.791666666666664, 1.6249999999999993, 0.6249999999999999]
+2026-09-29 21:07:07,009 - resource_management.py - Line: 891 - INFO - Calculated Avg: 24.1
+2026-09-29 21:07:07,009 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:07:08,753 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=pool&statistics_types=capacity&statistics_types=utilization -> 200
+2026-09-29 21:07:08,755 - resource_management.py - Line: 918 - INFO - Dashboard Data: {
+    "avg_utilization": 32.85185185185184,
+    "avg_utilization_goal": 100.0,
+    "pool": "Volume Validation",
+    "program_scope": "7898888889999999999999999999999999999999999999999999999999999999"
+}
+2026-09-29 21:07:08,756 - resource_management.py - Line: 929 - INFO - UI Avg: 32.9
+2026-09-29 21:07:08,855 - conftest.py - Line: 102 - ERROR - Test pool_management/resource_management.py::test_dashboard_utilization[Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=pool&statistics_types=capacity&statistics_types=utilization-pool] failed
+2026-09-29 21:07:08,857 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:07:10,647 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10 -> 200
+2026-09-29 21:07:10,648 - resource_management.py - Line: 859 - INFO - Pool Name: ARS
+2026-09-29 21:07:10,649 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:07:12,022 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-29 21:07:12,025 - resource_management.py - Line: 890 - INFO - Utilizations: [0.6249999999999999, 0.0]
+2026-09-29 21:07:12,025 - resource_management.py - Line: 891 - INFO - Calculated Avg: 0.3
+2026-09-29 21:07:12,026 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:07:14,074 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=sub_pool&statistics_types=capacity&statistics_types=utilization -> 200
+2026-09-29 21:07:14,077 - resource_management.py - Line: 918 - INFO - Dashboard Data: {
+    "avg_utilization": null,
+    "avg_utilization_goal": 100.0,
+    "sub_pool": "ARS",
+    "program_scope": "SKX",
+    "pool": "E2E_Domains"
+}
+2026-09-29 21:07:14,107 - conftest.py - Line: 102 - ERROR - Test pool_management/resource_management.py::test_dashboard_utilization[Sub Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=sub_pool&statistics_types=capacity&statistics_types=utilization-sub_pool] failed
+2026-09-29 21:07:14,109 - conftest.py - Line: 112 - INFO - 
+Test execution complete.
+2026-09-29 21:07:14,111 - conftest.py - Line: 113 - INFO - Total tests passed: 0
+2026-09-29 21:07:14,113 - conftest.py - Line: 114 - INFO - Total tests failed: 2
+2026-09-29 21:07:14,113 - conftest.py - Line: 117 - ERROR - ===================================================================================================================
+2026-09-29 21:07:14,113 - conftest.py - Line: 118 - ERROR - Test Summary Info
+2026-09-29 21:07:14,114 - conftest.py - Line: 121 - ERROR - pool_management/resource_management.py::test_dashboard_utilization[Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=pool&statistics_types=capacity&statistics_types=utilization-pool] failed
+2026-09-29 21:07:14,114 - conftest.py - Line: 121 - ERROR - pool_management/resource_management.py::test_dashboard_utilization[Sub Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=sub_pool&statistics_types=capacity&statistics_types=utilization-sub_pool] failed
+2026-09-29 21:07:14,114 - conftest.py - Line: 122 - ERROR - ===================================================================================================================

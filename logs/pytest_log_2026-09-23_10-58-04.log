@@ -1,0 +1,16 @@
+2026-09-23 10:58:04,838 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 10:58:05,872 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/options?fields=tags.supergroup,tags.group,tags.discipline,tags.team,tags.val_team,tags.project,tags.product,tags.activity,tags.active_state,tags.hw_config,tags.prognos_id -> 200
+2026-09-23 10:58:05,873 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 10:58:06,861 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-23 10:58:06,862 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 10:58:07,668 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-23 10:58:07,669 - resource_management.py - Line: 87 - INFO - Status Code:201
+2026-09-23 10:58:07,756 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_create_program_pool failed
+2026-09-23 10:58:07,757 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-23 10:58:07,758 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-23 10:58:07,758 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-23 10:58:07,758 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-23 10:58:07,759 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-23 10:58:07,759 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_create_program_pool failed
+2026-09-23 10:58:07,759 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

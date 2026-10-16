@@ -1,0 +1,22 @@
+2026-09-24 19:45:32,576 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-24 19:45:34,592 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?pool_type=program -> 200
+2026-09-24 19:45:34,593 - resource_management.py - Line: 142 - INFO - selected name:{'pid': '499c72be1f2b4430835bf42c8fb9e7ce', 'name': 'SRF-SP'}
+2026-09-24 19:45:34,593 - resource_management.py - Line: 144 - INFO - 499c72be1f2b4430835bf42c8fb9e7ce
+2026-09-24 19:45:34,594 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-24 19:45:42,786 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 201
+2026-09-24 19:45:42,787 - resource_management.py - Line: 152 - INFO - {
+    "pid": "4a6659d632c24ba080ddd08bbd8d457c",
+    "name": "FV",
+    "description": "testing",
+    "insert_time": "2026-09-24T14:15:43.878017Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "ppid": "499c72be1f2b4430835bf42c8fb9e7ce"
+}
+2026-09-24 19:45:42,787 - resource_management.py - Line: 154 - INFO - master_pool_id:4a6659d632c24ba080ddd08bbd8d457c
+2026-09-24 19:45:42,790 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_create_master_pool passed.
+2026-09-24 19:45:42,792 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-24 19:45:42,793 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-24 19:45:42,793 - conftest.py - Line: 110 - INFO - Total tests failed: 0

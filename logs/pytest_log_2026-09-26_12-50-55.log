@@ -1,0 +1,13 @@
+2026-09-26 12:50:55,231 - resource_management.py - Line: 68 - INFO - {'https://pse-console-cloud-dev.intel.com/api/v1/pool/program'}
+2026-09-26 12:50:55,232 - resource_management.py - Line: 69 - INFO - {None}
+2026-09-26 12:50:55,232 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 12:50:56,805 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/None -> 422
+2026-09-26 12:50:56,925 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_patch_program_pool failed
+2026-09-26 12:50:56,929 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-26 12:50:56,930 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-26 12:50:56,930 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-26 12:50:56,931 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-26 12:50:56,931 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-26 12:50:56,931 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_patch_program_pool failed
+2026-09-26 12:50:56,932 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

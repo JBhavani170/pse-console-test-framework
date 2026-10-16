@@ -1,0 +1,53 @@
+2026-09-29 21:05:04,061 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:05:05,200 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope?skip=0&limit=10 -> 200
+2026-09-29 21:05:05,205 - resource_management.py - Line: 859 - INFO - Pool Name: HSX
+2026-09-29 21:05:05,206 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:05:06,319 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-29 21:05:06,323 - resource_management.py - Line: 890 - INFO - Utilizations: [0.0, 10.75, 8.875000000000002, 0.16666666666666663, 0.125, 0.0, 0.0, 0.0, 4.375, 20.083333333333336]
+2026-09-29 21:05:06,324 - resource_management.py - Line: 891 - INFO - Calculated Avg: 4.4
+2026-09-29 21:05:06,325 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:05:07,920 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=program_scope&statistics_types=capacity&statistics_types=utilization -> 200
+2026-09-29 21:05:07,923 - resource_management.py - Line: 918 - INFO - Dashboard Data: {
+    "avg_utilization": 26.040441176470587,
+    "avg_utilization_goal": 100.0,
+    "program_scope": "HSX"
+}
+2026-09-29 21:05:07,924 - resource_management.py - Line: 929 - INFO - UI Avg: 26.0
+2026-09-29 21:05:08,035 - conftest.py - Line: 102 - ERROR - Test pool_management/resource_management.py::test_dashboard_utilization[Program Scope-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=program_scope&statistics_types=capacity&statistics_types=utilization-program_scope] failed
+2026-09-29 21:05:08,038 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:05:09,460 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10 -> 200
+2026-09-29 21:05:09,463 - resource_management.py - Line: 859 - INFO - Pool Name: xVST
+2026-09-29 21:05:09,464 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:05:10,608 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-29 21:05:10,609 - resource_management.py - Line: 890 - INFO - Utilizations: [16.17324561403509, 0.0, 43.64035087719298, 0.0, 10.75, 8.875000000000002, 0.16666666666666663, 0.125, 0.0, 0.0]
+2026-09-29 21:05:10,610 - resource_management.py - Line: 891 - INFO - Calculated Avg: 8.0
+2026-09-29 21:05:10,610 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:05:12,160 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=pool&statistics_types=capacity&statistics_types=utilization -> 200
+2026-09-29 21:05:12,162 - resource_management.py - Line: 918 - INFO - Dashboard Data: {
+    "avg_utilization": 19.93786549707602,
+    "avg_utilization_goal": 100.0,
+    "pool": "xVST",
+    "program_scope": "DMR-D"
+}
+2026-09-29 21:05:12,165 - resource_management.py - Line: 929 - INFO - UI Avg: 19.9
+2026-09-29 21:05:12,204 - conftest.py - Line: 102 - ERROR - Test pool_management/resource_management.py::test_dashboard_utilization[Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=pool&statistics_types=capacity&statistics_types=utilization-pool] failed
+2026-09-29 21:05:12,207 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:05:13,861 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10 -> 200
+2026-09-29 21:05:13,864 - resource_management.py - Line: 859 - INFO - Pool Name: Reserved
+2026-09-29 21:05:13,865 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:05:15,566 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-29 21:05:15,567 - resource_management.py - Line: 890 - INFO - Utilizations: [36.86342592592592, 0.057870370370370364, 0.0, 96.83333333333331, 96.20833333333331, 0.0, 0.0]
+2026-09-29 21:05:15,567 - resource_management.py - Line: 891 - INFO - Calculated Avg: 32.9
+2026-09-29 21:05:15,568 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-29 21:05:15,568 - conftest.py - Line: 348 - ERROR - Request failed: Invalid URL 'STATISTICS_SUB_POOL_URL': No scheme supplied. Perhaps you meant https://STATISTICS_SUB_POOL_URL?
+2026-09-29 21:05:15,660 - conftest.py - Line: 102 - ERROR - Test pool_management/resource_management.py::test_dashboard_utilization[Sub Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10-STATISTICS_SUB_POOL_URL-sub_pool] failed
+2026-09-29 21:05:15,661 - conftest.py - Line: 112 - INFO - 
+Test execution complete.
+2026-09-29 21:05:15,662 - conftest.py - Line: 113 - INFO - Total tests passed: 0
+2026-09-29 21:05:15,662 - conftest.py - Line: 114 - INFO - Total tests failed: 3
+2026-09-29 21:05:15,662 - conftest.py - Line: 117 - ERROR - ===================================================================================================================
+2026-09-29 21:05:15,663 - conftest.py - Line: 118 - ERROR - Test Summary Info
+2026-09-29 21:05:15,663 - conftest.py - Line: 121 - ERROR - pool_management/resource_management.py::test_dashboard_utilization[Program Scope-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=program_scope&statistics_types=capacity&statistics_types=utilization-program_scope] failed
+2026-09-29 21:05:15,663 - conftest.py - Line: 121 - ERROR - pool_management/resource_management.py::test_dashboard_utilization[Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=pool&statistics_types=capacity&statistics_types=utilization-pool] failed
+2026-09-29 21:05:15,664 - conftest.py - Line: 121 - ERROR - pool_management/resource_management.py::test_dashboard_utilization[Sub Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10-STATISTICS_SUB_POOL_URL-sub_pool] failed
+2026-09-29 21:05:15,664 - conftest.py - Line: 122 - ERROR - ===================================================================================================================

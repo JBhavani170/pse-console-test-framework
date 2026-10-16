@@ -1,0 +1,31 @@
+2026-09-30 15:36:28,914 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 15:36:29,699 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-30 15:36:30,457 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 201
+2026-09-30 15:36:31,228 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 201
+2026-09-30 15:36:31,233 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 15:36:31,922 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 422
+2026-09-30 15:36:31,923 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 15:36:32,648 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/55532160c46249ce9d79e13f5e4f4b55 -> 200
+2026-09-30 15:36:32,648 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 15:36:33,357 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/999999999 -> 404
+2026-09-30 15:36:33,358 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 15:36:34,038 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 422
+2026-09-30 15:36:34,040 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 15:36:34,765 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/8a533e79b4104484a4c9161af92a2e40 -> 200
+2026-09-30 15:36:34,767 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 15:36:35,504 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/999999999 -> 404
+2026-09-30 15:36:35,507 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 15:36:36,193 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 422
+2026-09-30 15:36:36,196 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 15:36:36,915 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/06a8c3035d5b483687607b02301e84cf -> 200
+2026-09-30 15:36:36,916 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 15:36:37,636 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/999999999 -> 404
+2026-09-30 15:36:37,713 - conftest.py - Line: 102 - ERROR - Test pool_management/pool.py::test_pool_negative_scenarios failed
+2026-09-30 15:36:37,736 - conftest.py - Line: 112 - INFO - 
+Test execution complete.
+2026-09-30 15:36:37,737 - conftest.py - Line: 113 - INFO - Total tests passed: 0
+2026-09-30 15:36:37,738 - conftest.py - Line: 114 - INFO - Total tests failed: 1
+2026-09-30 15:36:37,738 - conftest.py - Line: 117 - ERROR - ===================================================================================================================
+2026-09-30 15:36:37,738 - conftest.py - Line: 118 - ERROR - Test Summary Info
+2026-09-30 15:36:37,738 - conftest.py - Line: 121 - ERROR - pool_management/pool.py::test_pool_negative_scenarios failed
+2026-09-30 15:36:37,738 - conftest.py - Line: 122 - ERROR - ===================================================================================================================

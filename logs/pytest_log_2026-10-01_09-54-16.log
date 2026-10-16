@@ -1,0 +1,19 @@
+2026-10-01 09:54:17,027 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 09:54:18,075 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope?skip=0&limit=10 -> 200
+2026-10-01 09:54:18,078 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 09:54:19,090 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=program_scope&statistics_types=capacity&statistics_types=utilization -> 200
+2026-10-01 09:54:19,092 - conftest.py - Line: 104 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_dashboard_utilization[Program Scope-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=program_scope&statistics_types=capacity&statistics_types=utilization-program_scope] passed.
+2026-10-01 09:54:19,094 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 09:54:20,167 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10 -> 200
+2026-10-01 09:54:20,168 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 09:54:21,342 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=pool&statistics_types=capacity&statistics_types=utilization -> 200
+2026-10-01 09:54:21,345 - conftest.py - Line: 104 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_dashboard_utilization[Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=pool&statistics_types=capacity&statistics_types=utilization-pool] passed.
+2026-10-01 09:54:21,350 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 09:54:22,605 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10 -> 200
+2026-10-01 09:54:22,607 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 09:54:24,015 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=sub_pool&statistics_types=capacity&statistics_types=utilization -> 200
+2026-10-01 09:54:24,017 - conftest.py - Line: 104 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_dashboard_utilization[Sub Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/statistics?pool_type=sub_pool&statistics_types=capacity&statistics_types=utilization-sub_pool] passed.
+2026-10-01 09:54:24,018 - conftest.py - Line: 112 - INFO - 
+Test execution complete.
+2026-10-01 09:54:24,019 - conftest.py - Line: 113 - INFO - Total tests passed: 3
+2026-10-01 09:54:24,021 - conftest.py - Line: 114 - INFO - Total tests failed: 0

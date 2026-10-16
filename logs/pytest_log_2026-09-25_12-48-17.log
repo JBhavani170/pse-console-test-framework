@@ -1,0 +1,8 @@
+2026-09-25 12:48:17,359 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 12:48:20,014 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 409
+2026-09-25 12:48:20,014 - resource_management.py - Line: 24 - INFO - Status Code:409
+2026-09-25 12:48:20,015 - resource_management.py - Line: 25 - INFO - response body:{"detail":"Program pool with name ABC already exists."}
+2026-09-25 12:48:20,099 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-25 12:48:20,100 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-25 12:48:20,100 - conftest.py - Line: 110 - INFO - Total tests failed: 0

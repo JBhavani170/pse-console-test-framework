@@ -1,0 +1,11 @@
+2026-10-05 19:54:03,290 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-05 19:54:04,415 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool -> 200
+2026-10-05 19:54:05,467 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 200
+2026-10-05 19:54:06,415 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 200
+2026-10-05 19:54:07,332 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope/728bba2794ca4b2abf7411f1e0dc6779 -> 400
+2026-10-05 19:54:08,240 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope/5a48eb11acf44f78be419d51043f7dc9 -> 400
+2026-10-05 19:54:08,241 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_delete_owned_resources passed.
+2026-10-05 19:54:08,242 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-10-05 19:54:08,242 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-10-05 19:54:08,243 - conftest.py - Line: 110 - INFO - Total tests failed: 0

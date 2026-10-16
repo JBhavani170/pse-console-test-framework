@@ -1,0 +1,14 @@
+2026-09-25 15:16:49,545 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 15:16:51,856 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?pool_type=program -> 200
+2026-09-25 15:16:51,857 - resource_management.py - Line: 111 - INFO - selected name:{'pid': '64e658a00f1343ff86f64b531a65dd26', 'name': 'DMR ProgramPool'}
+2026-09-25 15:16:51,857 - resource_management.py - Line: 113 - INFO - 64e658a00f1343ff86f64b531a65dd26
+2026-09-25 15:16:51,857 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 15:16:53,863 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 201
+2026-09-25 15:16:53,864 - resource_management.py - Line: 117 - INFO - status code:201
+2026-09-25 15:16:53,865 - resource_management.py - Line: 118 - INFO - response:{"pid":"8965983530284476bf880c70945d4fe9","name":"DEF","description":"testing","insert_time":"2026-09-25T09:46:55.223065Z","owners":["jx.bhavani@intel.com"],"ppid":"64e658a00f1343ff86f64b531a65dd26"}
+2026-09-25 15:16:53,867 - resource_management.py - Line: 129 - INFO - master pool id:8965983530284476bf880c70945d4fe9
+2026-09-25 15:16:53,868 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_create_master_pool passed.
+2026-09-25 15:16:53,869 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-25 15:16:53,870 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-25 15:16:53,870 - conftest.py - Line: 110 - INFO - Total tests failed: 0

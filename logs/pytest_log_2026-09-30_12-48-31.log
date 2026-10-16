@@ -1,0 +1,16 @@
+2026-09-30 12:48:31,191 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 12:48:32,452 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-30 12:48:33,151 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 201
+2026-09-30 12:48:33,883 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 201
+2026-09-30 12:48:33,888 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 12:48:34,564 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 422
+2026-09-30 12:48:35,278 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/a435af04d7cd4fb79db4d66835f4cec4 -> 200
+2026-09-30 12:48:35,374 - conftest.py - Line: 102 - ERROR - Test pool_management/pool.py::test_pool_negative_scenarios failed
+2026-09-30 12:48:35,376 - conftest.py - Line: 112 - INFO - 
+Test execution complete.
+2026-09-30 12:48:35,376 - conftest.py - Line: 113 - INFO - Total tests passed: 0
+2026-09-30 12:48:35,376 - conftest.py - Line: 114 - INFO - Total tests failed: 1
+2026-09-30 12:48:35,377 - conftest.py - Line: 117 - ERROR - ===================================================================================================================
+2026-09-30 12:48:35,377 - conftest.py - Line: 118 - ERROR - Test Summary Info
+2026-09-30 12:48:35,377 - conftest.py - Line: 121 - ERROR - pool_management/pool.py::test_pool_negative_scenarios failed
+2026-09-30 12:48:35,378 - conftest.py - Line: 122 - ERROR - ===================================================================================================================

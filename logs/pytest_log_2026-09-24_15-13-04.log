@@ -1,0 +1,11 @@
+2026-09-24 15:13:04,957 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-24 15:13:04,960 - conftest.py - Line: 344 - ERROR - Request failed: Invalid leading whitespace, reserved character(s), or return character(s) in header value: 'Bearer q2y3UnRrDaS4yLSTGvV0-gWCOB5fntnD4Jla2pR7OCmURlUx7F5vVID5PRmeoYD35Mt-c2DuVAZaLQ84CI5G81u5kpMvYfv4aJB5VMDvCNnBsBqi2r6CwlOjVQ2Xv1Gx\n '
+2026-09-24 15:13:05,114 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_create_master_pool failed
+2026-09-24 15:13:05,115 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-24 15:13:05,116 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-24 15:13:05,116 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-24 15:13:05,116 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-24 15:13:05,117 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-24 15:13:05,117 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_create_master_pool failed
+2026-09-24 15:13:05,117 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

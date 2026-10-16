@@ -1,0 +1,236 @@
+2026-09-25 15:53:27,088 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 15:53:29,131 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?pool_type=program -> 200
+2026-09-25 15:53:29,132 - resource_management.py - Line: 111 - INFO - selected name:{'pid': '8eb2fdd9c94940bda7c292bd6e43a77b', 'name': 'SRF-AP'}
+2026-09-25 15:53:29,132 - resource_management.py - Line: 113 - INFO - 8eb2fdd9c94940bda7c292bd6e43a77b
+2026-09-25 15:53:29,133 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 15:53:31,151 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 201
+2026-09-25 15:53:31,152 - resource_management.py - Line: 117 - INFO - status code:201
+2026-09-25 15:53:31,153 - resource_management.py - Line: 118 - INFO - response:{"pid":"1ca46e658715482c84c2fe53c44d288b","name":"DEF","description":"testing","insert_time":"2026-09-25T10:23:32.671803Z","owners":["jx.bhavani@intel.com"],"ppid":"8eb2fdd9c94940bda7c292bd6e43a77b"}
+2026-09-25 15:53:31,156 - resource_management.py - Line: 129 - INFO - master pool id:1ca46e658715482c84c2fe53c44d288b
+2026-09-25 15:53:31,156 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_create_master_pool passed.
+2026-09-25 15:53:31,158 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 15:53:33,239 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 200
+2026-09-25 15:53:33,241 - resource_management.py - Line: 144 - INFO - {
+    "data": [
+        {
+            "pid": "1b07fdb5e813457185af4d93b73b2868",
+            "name": "SECOE",
+            "description": "testiing",
+            "insert_time": "2026-06-24T07:24:02.159000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "f47067f5e9594746a0dca854a8841cfb",
+            "program_pool": "SNR"
+        },
+        {
+            "pid": "0deece40b7db4a71bea12dad8805afd2",
+            "name": "test __",
+            "description": "validation",
+            "insert_time": "2026-06-24T07:28:23.193000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "f623d6407c85496394b714481a8ff8bb",
+            "program_pool": "RPL-E Refresh"
+        },
+        {
+            "pid": "93038e3af89b468c8c663422453ae685",
+            "name": "testing",
+            "description": "testing",
+            "insert_time": "2026-07-01T04:44:49.542000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6",
+            "program_pool": "SPR-SP"
+        },
+        {
+            "pid": "02482bc2853747c28fe72e1edb5b092f",
+            "name": "testing=testing-pool-feat",
+            "description": "testing=testing-pool-feattttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+            "insert_time": "2026-07-01T06:58:55.307000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "reetux.d@intel.com"
+            ],
+            "ppid": "10bff9db47e042e6bdf3c29c553b36a3",
+            "program_pool": "testing_pool_feat"
+        },
+        {
+            "pid": "6f62111464404fa885675bc1d0367fff",
+            "name": "DAES",
+            "description": "testing",
+            "insert_time": "2026-07-07T09:21:19.246000",
+            "owners": [
+                "sumitx.dahiya@intel.com"
+            ],
+            "ppid": "f47067f5e9594746a0dca854a8841cfb",
+            "program_pool": "SNR"
+        },
+        {
+            "pid": "0edfe8a1d38240669c47e21508e928a6",
+            "name": "test-001",
+            "description": "testing-0001",
+            "insert_time": "2026-07-14T11:07:15.204000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "c621852474c6437197244dfcbe6bd699",
+            "program_pool": "testing_pool_11"
+        },
+        {
+            "pid": "cf3891f3756246fd9e31ed49efc8e3bd",
+            "name": "EV",
+            "description": "testing",
+            "insert_time": "2026-08-03T08:54:33.085000",
+            "owners": [
+                "reetux.d@intel.com"
+            ],
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "program_pool": "new3"
+        },
+        {
+            "pid": "863a7b3d72954306b572229bc845ab17",
+            "name": "PPV-testing",
+            "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "insert_time": "2026-08-14T06:29:49.589000",
+            "owners": [
+                "test_user_pse@intel.com",
+                "anjalix.na@intel.com",
+                "sumitx.dahiya@intel.com",
+                "asimx.ghosh@intel.com",
+                "ragini.ramachandran@intel.com"
+            ],
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+            "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+        },
+        {
+            "pid": "523348f5737e4b099e11a973f52f09d7",
+            "name": "test_demo_1",
+            "description": "test_demo_1",
+            "insert_time": "2026-08-14T09:23:54.680000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "9f980966c4274acfb84a6951ee6474d1",
+            "program_pool": "test_demo"
+        },
+        {
+            "pid": "a6b0837c5ddf497692624edb20afbccd",
+            "name": "UI_2",
+            "description": "UI_Testing",
+            "insert_time": "2026-08-17T06:16:08.874000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ],
+            "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "program_pool": "UI"
+        },
+        {
+            "pid": "790bf7b512f94f12b64c9a3942f3eb48",
+            "name": "val",
+            "description": "validation",
+            "insert_time": "2026-08-18T11:06:23.082000",
+            "owners": [
+                "kesamsettix.gayatri@intel.com",
+                "himansu@intel.com",
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "program_pool": "validation team"
+        },
+        {
+            "pid": "7832f19b187a44f7bfce17007f3b89da",
+            "name": "testing",
+            "description": "testing",
+            "insert_time": "2026-09-11T05:17:11.701000",
+            "owners": [
+                "test_user_pse@intel.com"
+            ],
+            "ppid": "499c72be1f2b4430835bf42c8fb9e7ce",
+            "program_pool": "SRF-SP"
+        },
+        {
+            "pid": "c2136fd23e454c17bdbbacf1880c861e",
+            "name": "GHI",
+            "description": "testing",
+            "insert_time": "2026-09-25T10:17:52.677000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6",
+            "program_pool": "SPR-SP"
+        },
+        {
+            "pid": "aeec89428750418da49afd5b7d652610",
+            "name": "GHI",
+            "description": "testing",
+            "insert_time": "2026-09-25T10:21:42.566000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "c621852474c6437197244dfcbe6bd699",
+            "program_pool": "testing_pool_11"
+        },
+        {
+            "pid": "1ca46e658715482c84c2fe53c44d288b",
+            "name": "DEF",
+            "description": "testing",
+            "insert_time": "2026-09-25T10:23:32.671000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b",
+            "program_pool": "SRF-AP"
+        }
+    ],
+    "total_records": 15
+}
+2026-09-25 15:53:33,242 - resource_management.py - Line: 147 - INFO - pid:1b07fdb5e813457185af4d93b73b2868,name:SECOE
+2026-09-25 15:53:33,243 - resource_management.py - Line: 147 - INFO - pid:0deece40b7db4a71bea12dad8805afd2,name:test __
+2026-09-25 15:53:33,243 - resource_management.py - Line: 147 - INFO - pid:93038e3af89b468c8c663422453ae685,name:testing
+2026-09-25 15:53:33,243 - resource_management.py - Line: 147 - INFO - pid:02482bc2853747c28fe72e1edb5b092f,name:testing=testing-pool-feat
+2026-09-25 15:53:33,244 - resource_management.py - Line: 147 - INFO - pid:6f62111464404fa885675bc1d0367fff,name:DAES
+2026-09-25 15:53:33,245 - resource_management.py - Line: 147 - INFO - pid:0edfe8a1d38240669c47e21508e928a6,name:test-001
+2026-09-25 15:53:33,245 - resource_management.py - Line: 147 - INFO - pid:cf3891f3756246fd9e31ed49efc8e3bd,name:EV
+2026-09-25 15:53:33,246 - resource_management.py - Line: 147 - INFO - pid:863a7b3d72954306b572229bc845ab17,name:PPV-testing
+2026-09-25 15:53:33,246 - resource_management.py - Line: 147 - INFO - pid:523348f5737e4b099e11a973f52f09d7,name:test_demo_1
+2026-09-25 15:53:33,247 - resource_management.py - Line: 147 - INFO - pid:a6b0837c5ddf497692624edb20afbccd,name:UI_2
+2026-09-25 15:53:33,247 - resource_management.py - Line: 147 - INFO - pid:790bf7b512f94f12b64c9a3942f3eb48,name:val
+2026-09-25 15:53:33,248 - resource_management.py - Line: 147 - INFO - pid:7832f19b187a44f7bfce17007f3b89da,name:testing
+2026-09-25 15:53:33,248 - resource_management.py - Line: 147 - INFO - pid:c2136fd23e454c17bdbbacf1880c861e,name:GHI
+2026-09-25 15:53:33,249 - resource_management.py - Line: 147 - INFO - pid:aeec89428750418da49afd5b7d652610,name:GHI
+2026-09-25 15:53:33,249 - resource_management.py - Line: 147 - INFO - pid:1ca46e658715482c84c2fe53c44d288b,name:DEF
+2026-09-25 15:53:33,249 - resource_management.py - Line: 150 - INFO - created pid:1ca46e658715482c84c2fe53c44d288b
+2026-09-25 15:53:33,250 - resource_management.py - Line: 151 - INFO - get pid:1ca46e658715482c84c2fe53c44d288b
+2026-09-25 15:53:33,251 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_get_master_pool passed.
+2026-09-25 15:53:33,253 - resource_management.py - Line: 159 - INFO - update payload:{
+    "name": "GHI",
+    "description": "testing",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-25 15:53:33,253 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 15:53:35,391 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/1ca46e658715482c84c2fe53c44d288b -> 200
+2026-09-25 15:53:35,392 - resource_management.py - Line: 166 - INFO - patch response:{
+    "pid": "1ca46e658715482c84c2fe53c44d288b",
+    "name": "GHI",
+    "description": "testing",
+    "insert_time": "2026-09-25T10:23:32.671000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+}
+2026-09-25 15:53:35,393 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_update_master_pool passed.
+2026-09-25 15:53:35,394 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 15:53:37,502 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/1ca46e658715482c84c2fe53c44d288b -> 204
+2026-09-25 15:53:37,502 - resource_management.py - Line: 182 - INFO - Delete Status Code: 204
+2026-09-25 15:53:37,502 - resource_management.py - Line: 183 - INFO - delete:
+2026-09-25 15:53:37,503 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_delete_master_pool passed.
+2026-09-25 15:53:37,505 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-25 15:53:37,505 - conftest.py - Line: 109 - INFO - Total tests passed: 4
+2026-09-25 15:53:37,506 - conftest.py - Line: 110 - INFO - Total tests failed: 0

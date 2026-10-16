@@ -1,0 +1,32 @@
+2026-09-28 18:18:01,911 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 18:18:03,159 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-28 18:18:03,161 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 18:18:04,126 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 201
+2026-09-28 18:18:04,128 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 18:18:05,100 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 201
+2026-09-28 18:18:05,104 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 18:18:06,224 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=30 -> 200
+2026-09-28 18:18:06,225 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 18:18:07,716 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/feee732f06304ee68d48e95a0c53660d -> 200
+2026-09-28 18:18:07,717 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 18:18:08,948 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=30 -> 200
+2026-09-28 18:18:08,950 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 18:18:10,383 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/feee732f06304ee68d48e95a0c53660d -> 204
+2026-09-28 18:18:10,384 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 18:18:11,578 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=30 -> 200
+2026-09-28 18:18:11,583 - conftest.py - Line: 100 - INFO - Test pool_management/pool.py::test_pool_crud[program-https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=30-https://pse-console-cloud-dev.intel.com/api/v1/pool/program-UpdatedProgram] passed.
+2026-09-28 18:18:11,586 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 18:18:12,832 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 200
+2026-09-28 18:18:12,908 - conftest.py - Line: 98 - ERROR - Test pool_management/pool.py::test_pool_crud[master-https://pse-console-cloud-dev.intel.com/api/v1/pool/master-https://pse-console-cloud-dev.intel.com/api/v1/pool/master-UpdatedMaster] failed
+2026-09-28 18:18:12,910 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 18:18:14,471 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=10 -> 200
+2026-09-28 18:18:14,476 - conftest.py - Line: 98 - ERROR - Test pool_management/pool.py::test_pool_crud[system-https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool/system-UpdatedSystem] failed
+2026-09-28 18:18:14,477 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-28 18:18:14,478 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-28 18:18:14,478 - conftest.py - Line: 110 - INFO - Total tests failed: 2
+2026-09-28 18:18:14,479 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-28 18:18:14,479 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-28 18:18:14,479 - conftest.py - Line: 117 - ERROR - pool_management/pool.py::test_pool_crud[master-https://pse-console-cloud-dev.intel.com/api/v1/pool/master-https://pse-console-cloud-dev.intel.com/api/v1/pool/master-UpdatedMaster] failed
+2026-09-28 18:18:14,479 - conftest.py - Line: 117 - ERROR - pool_management/pool.py::test_pool_crud[system-https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=10-https://pse-console-cloud-dev.intel.com/api/v1/pool/system-UpdatedSystem] failed
+2026-09-28 18:18:14,480 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

@@ -1,0 +1,14 @@
+2026-09-26 18:27:46,065 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 18:27:47,085 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?pool_type=program -> 200
+2026-09-26 18:27:47,086 - resource_management.py - Line: 107 - INFO - selected name:{'pid': 'e4729a1281774a09bf36bb13880e6b0f', 'name': 'testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg'}
+2026-09-26 18:27:47,087 - resource_management.py - Line: 109 - INFO - e4729a1281774a09bf36bb13880e6b0f
+2026-09-26 18:27:47,090 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 18:27:47,847 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 201
+2026-09-26 18:27:47,848 - resource_management.py - Line: 113 - INFO - status code:201
+2026-09-26 18:27:47,848 - resource_management.py - Line: 114 - INFO - response:{"pid":"e94a0eb4fa51466cb1fa447282b5624b","name":"DEFht","description":"testing","insert_time":"2026-09-26T12:57:48.693225Z","owners":["jx.bhavani@intel.com"],"ppid":"e4729a1281774a09bf36bb13880e6b0f"}
+2026-09-26 18:27:47,850 - resource_management.py - Line: 125 - INFO - master pool id:e94a0eb4fa51466cb1fa447282b5624b
+2026-09-26 18:27:47,850 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_create_master_pool passed.
+2026-09-26 18:27:47,851 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-26 18:27:47,852 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-26 18:27:47,852 - conftest.py - Line: 110 - INFO - Total tests failed: 0

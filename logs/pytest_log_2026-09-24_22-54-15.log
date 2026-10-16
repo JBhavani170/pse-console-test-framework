@@ -1,0 +1,22 @@
+2026-09-24 22:54:15,292 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-24 22:54:20,920 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/options?fields=tags.supergroup,tags.group,tags.discipline,tags.team,tags.val_team,tags.project,tags.product,tags.activity,tags.active_state,tags.hw_config,tags.prognos_id -> 200
+2026-09-24 22:54:20,921 - resource_management.py - Line: 22 - INFO - <class 'list'>
+2026-09-24 22:54:20,922 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-24 22:54:23,415 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-24 22:54:23,416 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-24 22:54:25,420 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-24 22:54:25,421 - resource_management.py - Line: 32 - INFO - Status Code:201
+2026-09-24 22:54:25,422 - resource_management.py - Line: 36 - INFO - {
+    "pid": "5525191bdc2c4430928de8c8e7b3f5d7",
+    "name": "SPR",
+    "description": "VEWVG5LZHXYvc978Dai5lwqARByte8PMDfFbASiQ3YUiKyEW2",
+    "insert_time": "2026-09-24T17:24:27.315357Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-24 22:54:25,425 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_create_program_pool passed.
+2026-09-24 22:54:25,427 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-24 22:54:25,427 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-24 22:54:25,427 - conftest.py - Line: 110 - INFO - Total tests failed: 0

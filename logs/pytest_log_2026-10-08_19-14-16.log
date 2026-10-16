@@ -1,0 +1,23 @@
+2026-10-08 19:14:16,615 - conftest.py - Line: 191 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 19:14:17,522 - conftest.py - Line: 305 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 409
+2026-10-08 19:14:18,373 - conftest.py - Line: 305 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 422
+2026-10-08 19:14:19,221 - conftest.py - Line: 305 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool -> 422
+2026-10-08 19:14:19,223 - conftest.py - Line: 191 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 19:14:20,152 - conftest.py - Line: 305 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 200
+2026-10-08 19:14:20,185 - conftest.py - Line: 99 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_crud_and_delete[program-scope-program_pid-patch_payload0] failed
+2026-10-08 19:14:20,187 - conftest.py - Line: 191 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 19:14:21,422 - conftest.py - Line: 305 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 200
+2026-10-08 19:14:21,444 - conftest.py - Line: 99 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_crud_and_delete[pool-pool_pid-patch_payload1] failed
+2026-10-08 19:14:21,446 - conftest.py - Line: 191 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 19:14:22,632 - conftest.py - Line: 305 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool -> 200
+2026-10-08 19:14:22,645 - conftest.py - Line: 99 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_pool_crud_and_delete[sub-pool-sub_pool_pid-patch_payload2] failed
+2026-10-08 19:14:22,646 - conftest.py - Line: 109 - INFO - 
+Test execution complete.
+2026-10-08 19:14:22,646 - conftest.py - Line: 110 - INFO - Total tests passed: 0
+2026-10-08 19:14:22,646 - conftest.py - Line: 111 - INFO - Total tests failed: 3
+2026-10-08 19:14:22,646 - conftest.py - Line: 114 - ERROR - ===================================================================================================================
+2026-10-08 19:14:22,646 - conftest.py - Line: 115 - ERROR - Test Summary Info
+2026-10-08 19:14:22,647 - conftest.py - Line: 118 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_crud_and_delete[program-scope-program_pid-patch_payload0] failed
+2026-10-08 19:14:22,647 - conftest.py - Line: 118 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_crud_and_delete[pool-pool_pid-patch_payload1] failed
+2026-10-08 19:14:22,647 - conftest.py - Line: 118 - ERROR - pse-cloud/pool_management/pool_management.py::test_pool_crud_and_delete[sub-pool-sub_pool_pid-patch_payload2] failed
+2026-10-08 19:14:22,647 - conftest.py - Line: 119 - ERROR - ===================================================================================================================

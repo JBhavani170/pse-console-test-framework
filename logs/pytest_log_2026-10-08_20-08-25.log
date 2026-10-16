@@ -1,0 +1,11 @@
+2026-10-08 20:08:25,551 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 20:08:26,427 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 409
+2026-10-08 20:08:27,270 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 422
+2026-10-08 20:08:28,115 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool -> 422
+2026-10-08 20:08:28,116 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-08 20:08:28,969 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 409
+2026-10-08 20:08:28,971 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_pool_already_existed passed.
+2026-10-08 20:08:28,972 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-10-08 20:08:28,972 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-10-08 20:08:28,973 - conftest.py - Line: 110 - INFO - Total tests failed: 0

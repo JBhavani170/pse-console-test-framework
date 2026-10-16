@@ -1,0 +1,135 @@
+2026-09-26 15:16:48,574 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 15:16:50,606 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 200
+2026-09-26 15:16:50,607 - resource_management.py - Line: 367 - INFO - selected Program Pool:{
+    "pid": "d7bcfa4f60204e84809fa878a3ae9794",
+    "name": "!@#$$%^&**((()_+{}:\"<>?|1234567890-=[]\\;',./\\|.,abcdefjhijklmnop",
+    "description": "testingggggggggggggggggggggggggggggg!@#$%^&*()",
+    "insert_time": "2026-07-01T06:00:46.745000",
+    "owners": [
+        "anjalix.na@intel.com"
+    ]
+}
+2026-09-26 15:16:50,607 - resource_management.py - Line: 368 - INFO - selected pid:d7bcfa4f60204e84809fa878a3ae9794
+2026-09-26 15:16:50,607 - resource_management.py - Line: 376 - INFO - Patch payload for Program Pool:
+{
+    "name": "!@#$$%^&**((()_+{}:\"<>?|1234567890-=[]\\;',./\\|.,abcdefjhijklmnop",
+    "description": "testing7",
+    "owners": [
+        "anjalix.na@intel.com"
+    ]
+}
+2026-09-26 15:16:50,608 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 15:16:51,640 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/d7bcfa4f60204e84809fa878a3ae9794 -> 200
+2026-09-26 15:16:51,640 - resource_management.py - Line: 383 - INFO - Program Pool after update
+2026-09-26 15:16:51,641 - resource_management.py - Line: 384 - INFO - Patch response:
+{
+    "pid": "d7bcfa4f60204e84809fa878a3ae9794",
+    "name": "!@#$$%^&**((()_+{}:\"<>?|1234567890-=[]\\;',./\\|.,abcdefjhijklmnop",
+    "description": "testing7",
+    "insert_time": "2026-07-01T06:00:46.745000",
+    "owners": [
+        "anjalix.na@intel.com"
+    ]
+}
+2026-09-26 15:16:51,642 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_update_existing_pool[Program Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool/program] passed.
+2026-09-26 15:16:51,644 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 15:16:52,689 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 200
+2026-09-26 15:16:52,690 - resource_management.py - Line: 367 - INFO - selected Master Pool:{
+    "pid": "02482bc2853747c28fe72e1edb5b092f",
+    "name": "testing=testing-pool-feat",
+    "description": "testing=testing-pool-feattttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+    "insert_time": "2026-07-01T06:58:55.307000",
+    "owners": [
+        "anjalix.na@intel.com",
+        "reetux.d@intel.com"
+    ],
+    "ppid": "10bff9db47e042e6bdf3c29c553b36a3",
+    "program_pool": "testing_pool_feat"
+}
+2026-09-26 15:16:52,690 - resource_management.py - Line: 368 - INFO - selected pid:02482bc2853747c28fe72e1edb5b092f
+2026-09-26 15:16:52,690 - resource_management.py - Line: 376 - INFO - Patch payload for Master Pool:
+{
+    "name": "testing=testing-pool-feat",
+    "description": "testing5",
+    "owners": [
+        "anjalix.na@intel.com",
+        "reetux.d@intel.com"
+    ],
+    "ppid": "10bff9db47e042e6bdf3c29c553b36a3"
+}
+2026-09-26 15:16:52,691 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 15:16:53,771 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/02482bc2853747c28fe72e1edb5b092f -> 200
+2026-09-26 15:16:53,772 - resource_management.py - Line: 383 - INFO - Master Pool after update
+2026-09-26 15:16:53,773 - resource_management.py - Line: 384 - INFO - Patch response:
+{
+    "pid": "02482bc2853747c28fe72e1edb5b092f",
+    "name": "testing=testing-pool-feat",
+    "description": "testing5",
+    "insert_time": "2026-07-01T06:58:55.307000",
+    "owners": [
+        "anjalix.na@intel.com",
+        "reetux.d@intel.com"
+    ],
+    "ppid": "10bff9db47e042e6bdf3c29c553b36a3"
+}
+2026-09-26 15:16:53,776 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_update_existing_pool[Master Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool/master] passed.
+2026-09-26 15:16:53,780 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 15:16:55,106 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 200
+2026-09-26 15:16:55,106 - resource_management.py - Line: 367 - INFO - selected System Pool:{
+    "pid": "d1ec074f40744b59946db90accc76989",
+    "name": "val_group",
+    "description": "vali dation",
+    "insert_time": "2026-08-18T11:07:50.181000",
+    "owners": [
+        "anjalix.na@intel.com",
+        "himansu@intel.com",
+        "sumitx.dahiya@intel.com"
+    ],
+    "mpid": "790bf7b512f94f12b64c9a3942f3eb48",
+    "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+    "program_pool": "validation team",
+    "master_pool": "val",
+    "utilization_threshold": 10.0,
+    "planned_capacity": 5
+}
+2026-09-26 15:16:55,106 - resource_management.py - Line: 368 - INFO - selected pid:d1ec074f40744b59946db90accc76989
+2026-09-26 15:16:55,107 - resource_management.py - Line: 376 - INFO - Patch payload for System Pool:
+{
+    "name": "val_group",
+    "description": "testing",
+    "owners": [
+        "anjalix.na@intel.com",
+        "himansu@intel.com",
+        "sumitx.dahiya@intel.com"
+    ],
+    "utilization_threshold": 10.0,
+    "planned_capacity": 5,
+    "mpid": "790bf7b512f94f12b64c9a3942f3eb48",
+    "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76"
+}
+2026-09-26 15:16:55,107 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 15:16:56,229 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/d1ec074f40744b59946db90accc76989 -> 200
+2026-09-26 15:16:56,230 - resource_management.py - Line: 383 - INFO - System Pool after update
+2026-09-26 15:16:56,231 - resource_management.py - Line: 384 - INFO - Patch response:
+{
+    "pid": "d1ec074f40744b59946db90accc76989",
+    "name": "val_group",
+    "description": "testing",
+    "insert_time": "2026-08-18T11:07:50.181000",
+    "owners": [
+        "anjalix.na@intel.com",
+        "himansu@intel.com",
+        "sumitx.dahiya@intel.com"
+    ],
+    "mpid": "790bf7b512f94f12b64c9a3942f3eb48",
+    "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+    "program_pool": "validation team",
+    "master_pool": "val",
+    "utilization_threshold": 10.0,
+    "planned_capacity": 5
+}
+2026-09-26 15:16:56,234 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_update_existing_pool[System Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool/system] passed.
+2026-09-26 15:16:56,236 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-26 15:16:56,237 - conftest.py - Line: 109 - INFO - Total tests passed: 3
+2026-09-26 15:16:56,237 - conftest.py - Line: 110 - INFO - Total tests failed: 0

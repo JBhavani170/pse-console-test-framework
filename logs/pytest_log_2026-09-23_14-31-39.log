@@ -1,0 +1,35 @@
+2026-09-23 14:31:39,405 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:31:40,392 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/options?fields=tags.supergroup,tags.group,tags.discipline,tags.team,tags.val_team,tags.project,tags.product,tags.activity,tags.active_state,tags.hw_config,tags.prognos_id -> 200
+2026-09-23 14:31:40,393 - resource_management.py - Line: 78 - INFO - <class 'list'>
+2026-09-23 14:31:40,394 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:31:41,389 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-23 14:31:41,389 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:31:42,145 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-23 14:31:42,146 - resource_management.py - Line: 87 - INFO - Status Code:201
+2026-09-23 14:31:42,146 - resource_management.py - Line: 92 - INFO - {
+    "pid": "ce083057a93a4024a801c4c25027f2e0",
+    "name": "DNL",
+    "description": "oKrkfakOaCgBh8jCrcqDaOZwmoisPOTNbYJETE6tZwPvf4Q4PCP7sQ0A8C2HoK94AdVnre41BPr2QcFdsvsVmo6OgfATEeeKiKx9XtGbS2fB1eGuteZom6VEG57Ky3kow3XaU5hNy5W97qaHIF8DEGJNg0HaMKfCHl3BEsWLrn8V8k9b4zi1nLOu9jtWiGU4R4aDxvLOoI7cW3onGIQ65kDHK2yJ4rXxcX3K1hRvbJy83YiUTMGxSqTDkRL8ru",
+    "insert_time": "2026-09-23T09:01:44.425999Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-23 14:31:42,149 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:31:43,008 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/ce083057a93a4024a801c4c25027f2e0 -> 200
+2026-09-23 14:31:43,008 - resource_management.py - Line: 121 - INFO - PATCH URL: https://pse-console-cloud-dev.intel.com/api/v1/pool/program/ce083057a93a4024a801c4c25027f2e0
+2026-09-23 14:31:43,009 - resource_management.py - Line: 123 - INFO - Status Code: 200
+2026-09-23 14:31:43,009 - resource_management.py - Line: 128 - INFO - {
+    "pid": "ce083057a93a4024a801c4c25027f2e0",
+    "name": "DNL",
+    "description": "ZtLcauSEBtKvFLpEBgi3N4qD8ziycS2si6OdHQB2HhIVJrhZIdlGaom1Ll4X7gV4N06r0rzq84eAqpFysHSG0dFrfT3NkobyMY81eQwM7vfLGKiHHZ7gtT1AV5cobG9SSkJGvhg9TDcZs21KPSiHgvzNCMCbhoi5FQXHCVjWt7snNWMRaOqSCvtHq5ftv4NhN8RGbITZRzj6gaiCmZKNbdpE5ArKpzt1VDJrSB8wwAE4OXHnMvUsHDSOCqqmpwBywspdszXZy9djFSBzNMXGFEHGPmEEh8lkOGfy7miyLnGXHZP7ZtaQI5L3J4KA1OLN5v9AsM5XhXyqpDomWTDPPmHwEWXfSjp5P17al8Jsb0c6bAm7pzpsXCZ7SYRbcFV1ZNm5kdRpONn8X9gWeMY7h8YGZSlJdQhniVMiJbLC3SYvyFFG3894JYnI8Iv7rsZQzfvpHjDWyo0pnhJjyGoi",
+    "insert_time": "2026-09-23T09:01:44.425000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-23 14:31:43,010 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_patch_program_pool passed.
+2026-09-23 14:31:43,011 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-23 14:31:43,029 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-23 14:31:43,029 - conftest.py - Line: 110 - INFO - Total tests failed: 0

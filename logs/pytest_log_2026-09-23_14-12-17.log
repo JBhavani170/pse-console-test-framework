@@ -1,0 +1,26 @@
+2026-09-23 14:12:17,396 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:12:18,383 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/options?fields=tags.supergroup,tags.group,tags.discipline,tags.team,tags.val_team,tags.project,tags.product,tags.activity,tags.active_state,tags.hw_config,tags.prognos_id -> 200
+2026-09-23 14:12:18,385 - resource_management.py - Line: 78 - INFO - <class 'list'>
+2026-09-23 14:12:18,386 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:12:19,349 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-23 14:12:19,350 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:12:20,076 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-23 14:12:20,076 - resource_management.py - Line: 87 - INFO - Status Code:201
+2026-09-23 14:12:20,076 - resource_management.py - Line: 92 - INFO - {
+    "pid": "c4f7cf34b8e44026bde6367b1f1d2a22",
+    "name": "HSX",
+    "description": "E1BgLVsPRfRUDf3StECTaTvWty7huTEI1UNkN7UOVOAwfiSyARdPE7rAa3tAXD61D9XWscUbhydgZDrNv8KpQR5AmRsEAnjXmxqax5mX5XBxBhuPS2sUstkj0FsncYxgN6vE3ZKLbdilNd6KVIAkYzmMrMAosoyPx7PP5OeJos5MoRjd2BusTF4SiWJAo1qUimHIebPxvECKrBfhQw2pr5F8VFqHzSrt3e5eZivDis8AjcuigDmo99TLPUte9IsKeHsroyRv5VYV84zhpaFbjNIFz6Py8H5nANbIeybVUXjiBPkTQ8f8xUzvXPpE8f7MHhYXh20SwiUGL2f9fV5uhzI1pBkIqB4r16fMEe4a0cgElppiwf2Y9HzSnu5iIxOa",
+    "insert_time": "2026-09-23T08:42:22.266950Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-23 14:12:20,175 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_patch_program_pool failed
+2026-09-23 14:12:20,176 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-23 14:12:20,177 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-23 14:12:20,177 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-23 14:12:20,177 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-23 14:12:20,178 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-23 14:12:20,178 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_patch_program_pool failed
+2026-09-23 14:12:20,178 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

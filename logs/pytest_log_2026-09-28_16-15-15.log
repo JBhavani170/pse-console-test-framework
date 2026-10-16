@@ -1,0 +1,13 @@
+2026-09-28 16:15:15,210 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 16:15:16,176 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 422
+2026-09-28 16:15:16,176 - resource_management.py - Line: 113 - INFO - status code:422
+2026-09-28 16:15:16,177 - resource_management.py - Line: 114 - INFO - response:{"detail":[{"type":"string_type","loc":["body","ppid"],"msg":"Input should be a valid string","input":null}]}
+2026-09-28 16:15:16,315 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_create_master_pool failed
+2026-09-28 16:15:16,317 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-28 16:15:16,318 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-28 16:15:16,318 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-28 16:15:16,319 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-28 16:15:16,319 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-28 16:15:16,319 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_create_master_pool failed
+2026-09-28 16:15:16,320 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

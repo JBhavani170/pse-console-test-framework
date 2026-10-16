@@ -1,0 +1,619 @@
+2026-09-27 12:12:53,117 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 12:12:54,675 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-27 12:12:54,675 - resource_management.py - Line: 528 - INFO - system_ids:[
+    "an411bm18bs0301",
+    "an411bm18bs0302",
+    "an411bm18bs0303",
+    "an411bm18bs0401",
+    "an411bm18bs0402",
+    "an411bm18bs0403",
+    "an411bm18bs0501",
+    "an411bm18bs0502",
+    "cr31h43tl3s0102",
+    "cr31h43tl3s0203"
+]
+2026-09-27 12:12:54,676 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 12:12:55,915 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-27 12:12:55,916 - resource_management.py - Line: 538 - INFO - selected pool name:DMR ProgramPool
+2026-09-27 12:12:55,917 - resource_management.py - Line: 539 - INFO - selected_pool_id:64e658a00f1343ff86f64b531a65dd26
+2026-09-27 12:12:55,917 - resource_management.py - Line: 555 - INFO - Bulk payload:[
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": "64e658a00f1343ff86f64b531a65dd26"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": "64e658a00f1343ff86f64b531a65dd26"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": "64e658a00f1343ff86f64b531a65dd26"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": "64e658a00f1343ff86f64b531a65dd26"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": "64e658a00f1343ff86f64b531a65dd26"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": "64e658a00f1343ff86f64b531a65dd26"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": "64e658a00f1343ff86f64b531a65dd26"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": "64e658a00f1343ff86f64b531a65dd26"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": "64e658a00f1343ff86f64b531a65dd26"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": "64e658a00f1343ff86f64b531a65dd26"
+        }
+    }
+]
+2026-09-27 12:12:55,918 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 12:12:57,257 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 422
+2026-09-27 12:12:57,355 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_system_move[Program Pool-program] failed
+2026-09-27 12:12:57,357 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 12:12:58,472 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-27 12:12:58,473 - resource_management.py - Line: 528 - INFO - system_ids:[
+    "an411bm18bs0301",
+    "an411bm18bs0302",
+    "an411bm18bs0303",
+    "an411bm18bs0401",
+    "an411bm18bs0402",
+    "an411bm18bs0403",
+    "an411bm18bs0501",
+    "an411bm18bs0502",
+    "cr31h43tl3s0102",
+    "cr31h43tl3s0203"
+]
+2026-09-27 12:12:58,473 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 12:12:59,745 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-27 12:12:59,746 - resource_management.py - Line: 538 - INFO - selected pool name:DEFht
+2026-09-27 12:12:59,746 - resource_management.py - Line: 539 - INFO - selected_pool_id:ce68c7fb77de45e19c732ab7f2de0cb1
+2026-09-27 12:12:59,747 - resource_management.py - Line: 555 - INFO - Bulk payload:[
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1"
+        }
+    }
+]
+2026-09-27 12:12:59,749 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 12:13:00,934 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 422
+2026-09-27 12:13:00,960 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_system_move[Master Pool-master] failed
+2026-09-27 12:13:00,962 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 12:13:02,049 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-27 12:13:02,050 - resource_management.py - Line: 528 - INFO - system_ids:[
+    "an411bm18bs0301",
+    "an411bm18bs0302",
+    "an411bm18bs0303",
+    "an411bm18bs0401",
+    "an411bm18bs0402",
+    "an411bm18bs0403",
+    "an411bm18bs0501",
+    "an411bm18bs0502",
+    "cr31h43tl3s0102",
+    "cr31h43tl3s0203"
+]
+2026-09-27 12:13:02,050 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 12:13:03,249 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-27 12:13:03,250 - resource_management.py - Line: 538 - INFO - selected pool name:RWS123
+2026-09-27 12:13:03,250 - resource_management.py - Line: 539 - INFO - selected_pool_id:8c729abd661c457b891c83ca0fea6eed
+2026-09-27 12:13:03,251 - resource_management.py - Line: 555 - INFO - Bulk payload:[
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": null,
+            "spid": "8c729abd661c457b891c83ca0fea6eed"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": null,
+            "spid": "8c729abd661c457b891c83ca0fea6eed"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": null,
+            "spid": "8c729abd661c457b891c83ca0fea6eed"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": null,
+            "spid": "8c729abd661c457b891c83ca0fea6eed"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": null,
+            "spid": "8c729abd661c457b891c83ca0fea6eed"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": null,
+            "spid": "8c729abd661c457b891c83ca0fea6eed"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": null,
+            "spid": "8c729abd661c457b891c83ca0fea6eed"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": null,
+            "spid": "8c729abd661c457b891c83ca0fea6eed"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": null,
+            "spid": "8c729abd661c457b891c83ca0fea6eed"
+        }
+    },
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": null,
+            "spid": "8c729abd661c457b891c83ca0fea6eed"
+        }
+    }
+]
+2026-09-27 12:13:03,253 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 12:13:04,410 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 422
+2026-09-27 12:13:04,429 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_system_move[System Pool-system] failed
+2026-09-27 12:13:04,430 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-27 12:13:04,431 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-27 12:13:04,431 - conftest.py - Line: 110 - INFO - Total tests failed: 3
+2026-09-27 12:13:04,431 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-27 12:13:04,431 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-27 12:13:04,432 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_system_move[Program Pool-program] failed
+2026-09-27 12:13:04,432 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_system_move[Master Pool-master] failed
+2026-09-27 12:13:04,432 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_system_move[System Pool-system] failed
+2026-09-27 12:13:04,432 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

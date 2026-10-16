@@ -1,0 +1,17 @@
+2026-10-05 22:30:04,345 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-05 22:30:05,360 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 201
+2026-10-05 22:30:06,368 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 201
+2026-10-05 22:30:07,397 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool -> 201
+2026-10-05 22:30:07,399 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-05 22:30:08,377 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope/028282e9b6bb456e8965ccdccc712886 -> 200
+2026-10-05 22:30:08,378 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_update_pools[program-scope-program_pid-patch_payload0] passed.
+2026-10-05 22:30:08,380 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-05 22:30:09,352 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool/c02ecbd6418b42c4905c6dc860e4c1b4 -> 200
+2026-10-05 22:30:09,353 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_update_pools[pool-pool_pid-patch_payload1] passed.
+2026-10-05 22:30:09,355 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-05 22:30:10,658 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool/cc53a29ea465419c87c42541962c3c36 -> 200
+2026-10-05 22:30:10,659 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_management.py::test_update_pools[sub-pool-sub_pool_pid-patch_payload2] passed.
+2026-10-05 22:30:10,660 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-10-05 22:30:10,661 - conftest.py - Line: 109 - INFO - Total tests passed: 3
+2026-10-05 22:30:10,661 - conftest.py - Line: 110 - INFO - Total tests failed: 0

@@ -1,0 +1,109 @@
+2026-09-24 22:53:11,639 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-24 22:53:13,754 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=10 -> 200
+2026-09-24 22:53:13,755 - resource_management.py - Line: 57 - INFO - {
+    "data": [
+        {
+            "pid": "f623d6407c85496394b714481a8ff8bb",
+            "name": "RPL-E Refresh",
+            "description": "**validation**",
+            "insert_time": "2026-06-24T07:16:00.471000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "reetux.d@intel.com"
+            ]
+        },
+        {
+            "pid": "e1c184b8a9c84405b6dc4b308a0f07f6",
+            "name": "SPR-SP",
+            "description": "testing",
+            "insert_time": "2026-06-24T07:16:33.545000",
+            "owners": [
+                "kesamsettix.gayatri@intel.com",
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "f47067f5e9594746a0dca854a8841cfb",
+            "name": "SNR",
+            "description": "1234567890qwerttyuiopasddfghjjkl;;;;;,mnvzm,.yhgfvccv",
+            "insert_time": "2026-06-24T07:17:15.365000",
+            "owners": [
+                "sumitx.dahiya@intel.com"
+            ]
+        },
+        {
+            "pid": "8eb2fdd9c94940bda7c292bd6e43a77b",
+            "name": "SRF-AP",
+            "description": "testing",
+            "insert_time": "2026-06-24T07:18:09.731000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "729078498c9b476196b4eab9406e4066",
+            "name": "DMR-D",
+            "description": "testing spr-sp",
+            "insert_time": "2026-06-25T04:36:40.669000",
+            "owners": [
+                "sumitx.dahiya@intel.com"
+            ]
+        },
+        {
+            "pid": "d7bcfa4f60204e84809fa878a3ae9794",
+            "name": "!@#$$%^&**((()_+{}:\"<>?|1234567890-=[]\\;',./\\|.,abcdefjhijklmnop",
+            "description": "testingggggggggggggggggggggggggggggg!@#$%^&*()",
+            "insert_time": "2026-07-01T06:00:46.745000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "10bff9db47e042e6bdf3c29c553b36a3",
+            "name": "testing_pool_feat",
+            "description": "testing_pool_feat",
+            "insert_time": "2026-07-01T06:57:48.732000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "kesamsettix.gayatri@intel.com"
+            ]
+        },
+        {
+            "pid": "b91dfccdbce1456899308f1b5b71ac1e",
+            "name": "DMR- Pool",
+            "description": "ddddddddddd",
+            "insert_time": "2026-07-08T09:36:42.067000",
+            "owners": [
+                "santosh.gore@intel.com"
+            ]
+        },
+        {
+            "pid": "85d3e9cea59f43a0b0e8b2e961ed4fa2",
+            "name": "new",
+            "description": "newww",
+            "insert_time": "2026-07-13T05:49:51.790000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "c621852474c6437197244dfcbe6bd699",
+            "name": "testing_pool_11",
+            "description": "testing_pool_1",
+            "insert_time": "2026-07-14T11:03:47.703000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        }
+    ],
+    "total_records": 21
+}
+2026-09-24 22:53:13,831 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_patch_program_pool failed
+2026-09-24 22:53:13,833 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-24 22:53:13,833 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-24 22:53:13,833 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-24 22:53:13,833 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-24 22:53:13,834 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-24 22:53:13,834 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_patch_program_pool failed
+2026-09-24 22:53:13,834 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

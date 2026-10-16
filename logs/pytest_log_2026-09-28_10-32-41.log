@@ -1,0 +1,25 @@
+2026-09-28 10:32:41,539 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 10:32:42,610 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-28 10:32:42,611 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 10:32:43,376 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 201
+2026-09-28 10:32:43,378 - resource_management.py - Line: 206 - INFO - Status Code:201
+2026-09-28 10:32:43,378 - resource_management.py - Line: 207 - INFO - response:{"pid":"673176f80ab648a3b0cfd02abdf99bee","name":"RWS1243","description":"testing1","insert_time":"2026-09-28T05:02:44.006496Z","owners":["jx.bhavani@intel.com","jx.bhavani@intel.com"],"mpid":"93038e3af89b468c8c663422453ae685","ppid":"cac69d11ba5a42228ba8bf5295a6e2b5"}
+2026-09-28 10:32:43,379 - resource_management.py - Line: 209 - INFO - Response:{
+    "pid": "673176f80ab648a3b0cfd02abdf99bee",
+    "name": "RWS1243",
+    "description": "testing1",
+    "insert_time": "2026-09-28T05:02:44.006496Z",
+    "owners": [
+        "jx.bhavani@intel.com",
+        "jx.bhavani@intel.com"
+    ],
+    "mpid": "93038e3af89b468c8c663422453ae685",
+    "ppid": "cac69d11ba5a42228ba8bf5295a6e2b5"
+}
+2026-09-28 10:32:43,381 - resource_management.py - Line: 221 - INFO - selected pid:673176f80ab648a3b0cfd02abdf99bee
+2026-09-28 10:32:43,381 - resource_management.py - Line: 226 - INFO - System pool created successfully
+2026-09-28 10:32:43,382 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_create_system_pool passed.
+2026-09-28 10:32:43,384 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-28 10:32:43,384 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-28 10:32:43,385 - conftest.py - Line: 110 - INFO - Total tests failed: 0

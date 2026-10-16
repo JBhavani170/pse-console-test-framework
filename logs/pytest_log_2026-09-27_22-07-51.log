@@ -1,0 +1,17 @@
+2026-09-27 22:07:51,593 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 22:07:53,229 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=40&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-27 22:07:53,230 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 22:07:54,538 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-27 22:07:54,545 - resource_management.py - Line: 632 - INFO - program pool name:{'pid': '1d32d7d4b0fe4cfba11c6ee71974003d', 'name': 'ABC'}
+2026-09-27 22:07:54,546 - resource_management.py - Line: 634 - INFO - pid:['1d32d7d4b0fe4cfba11c6ee71974003d']
+2026-09-27 22:07:54,546 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 22:07:55,521 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 422
+2026-09-27 22:07:55,619 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_assigning_pool failed
+2026-09-27 22:07:55,621 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-27 22:07:55,621 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-27 22:07:55,622 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-27 22:07:55,622 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-27 22:07:55,622 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-27 22:07:55,623 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_assigning_pool failed
+2026-09-27 22:07:55,623 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

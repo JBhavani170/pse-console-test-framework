@@ -1,0 +1,21 @@
+2026-09-23 11:42:28,941 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 11:42:30,201 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/options?fields=tags.supergroup,tags.group,tags.discipline,tags.team,tags.val_team,tags.project,tags.product,tags.activity,tags.active_state,tags.hw_config,tags.prognos_id -> 200
+2026-09-23 11:42:30,202 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 11:42:31,233 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-23 11:42:31,235 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 11:42:31,955 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-23 11:42:31,955 - resource_management.py - Line: 87 - INFO - Status Code:201
+2026-09-23 11:42:31,956 - resource_management.py - Line: 90 - INFO - {
+    "pid": "f26bb332900542629223778f39c7f779",
+    "name": "BDX",
+    "description": "Fs1X5sIFhindIe1RnqClWB4c1A88mYsLPw741Vc2Bs7MHcrLbJ7OdupReiqkYOjQknIRE3SVOprHJ8sW0qqSRtZ8HWnEUpCkUwRaSXhRPi21022ojTlhWWNBNbaU7rhKcqc4PGs0cK9Eokts1cGaNxR5DxecbBjQUHnk9tZl8iiexgfOOYZyRVqWSsCeqBzUZMudkE7aMoWBreQrkKbnaXWb35Qxw7z2yti1wnFS9tRkzgslrLxzu0cezIpT4CuNTxx8ZYahqfO4YkOwWbp86HJA7mIUGgwXuGyfuDYPZjPFWT7r5ZKruTFs3qL8IYfSs9293euFrFM42f7qwWLrL29OZc5dDc75PAUaiyxzuM2eQpeLNPQSpi3baWtUyrlxP2ewr6YojP94BgDnNqYrUaA8ut22P3qP1c3ndMKXRhxaGTs2424962I1M01PDDMkvtXB7U8LqM7ptCVtHvr3lfadxo7k0wXscl5aqpGBGBxXO0G3xZFGm0pMcn6t09Q",
+    "insert_time": "2026-09-23T06:12:33.475010Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-23 11:42:31,959 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_create_program_pool passed.
+2026-09-23 11:42:31,961 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-23 11:42:31,963 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-23 11:42:31,963 - conftest.py - Line: 110 - INFO - Total tests failed: 0

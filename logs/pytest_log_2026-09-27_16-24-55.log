@@ -1,0 +1,15 @@
+2026-09-27 16:24:55,963 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 16:24:57,546 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-27 16:24:57,546 - resource_management.py - Line: 560 - INFO - {'pid': '1b07fdb5e813457185af4d93b73b2868', 'name': 'SECOE'}
+2026-09-27 16:24:57,547 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 16:24:58,769 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-27 16:24:58,770 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 16:24:59,848 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 200
+2026-09-27 16:24:59,849 - resource_management.py - Line: 592 - INFO - {
+    "success": 0,
+    "failure": 10
+}
+2026-09-27 16:24:59,850 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-27 16:24:59,851 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-27 16:24:59,851 - conftest.py - Line: 110 - INFO - Total tests failed: 0

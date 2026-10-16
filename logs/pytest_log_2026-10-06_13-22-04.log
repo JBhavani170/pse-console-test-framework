@@ -1,0 +1,6 @@
+2026-10-06 13:22:04,820 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-06 13:22:05,706 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 422
+2026-10-06 13:22:05,741 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-10-06 13:22:05,742 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-10-06 13:22:05,742 - conftest.py - Line: 110 - INFO - Total tests failed: 0

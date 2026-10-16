@@ -1,0 +1,218 @@
+2026-09-28 10:34:41,686 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 10:34:42,819 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-28 10:34:42,820 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 10:34:43,677 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 201
+2026-09-28 10:34:43,679 - resource_management.py - Line: 206 - INFO - Status Code:201
+2026-09-28 10:34:43,685 - resource_management.py - Line: 207 - INFO - response:{"pid":"4e58bf15cfc54c27b32ea429420f7f30","name":"RWS1243","description":"testing1","insert_time":"2026-09-28T05:04:44.301211Z","owners":["jx.bhavani@intel.com","jx.bhavani@intel.com"],"mpid":"ce68c7fb77de45e19c732ab7f2de0cb1","ppid":"d51ae3b4d9e94c51a97860436ac3b833"}
+2026-09-28 10:34:43,685 - resource_management.py - Line: 209 - INFO - Response:{
+    "pid": "4e58bf15cfc54c27b32ea429420f7f30",
+    "name": "RWS1243",
+    "description": "testing1",
+    "insert_time": "2026-09-28T05:04:44.301211Z",
+    "owners": [
+        "jx.bhavani@intel.com",
+        "jx.bhavani@intel.com"
+    ],
+    "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+    "ppid": "d51ae3b4d9e94c51a97860436ac3b833"
+}
+2026-09-28 10:34:43,687 - resource_management.py - Line: 221 - INFO - selected pid:4e58bf15cfc54c27b32ea429420f7f30
+2026-09-28 10:34:43,688 - resource_management.py - Line: 226 - INFO - System pool created successfully
+2026-09-28 10:34:43,688 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_create_system_pool passed.
+2026-09-28 10:34:43,690 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 10:34:44,994 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system?skip=0&limit=10 -> 200
+2026-09-28 10:34:44,994 - resource_management.py - Line: 235 - INFO - {
+    "data": [
+        {
+            "pid": "ee375fab1870465db470182d6a68d2fa",
+            "name": "Accelerator",
+            "description": "testinggg",
+            "insert_time": "2026-07-09T06:37:22.650000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "0deece40b7db4a71bea12dad8805afd2",
+            "ppid": "f623d6407c85496394b714481a8ff8bb",
+            "program_pool": "RPL-E Refresh",
+            "master_pool": "test __",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 0
+        },
+        {
+            "pid": "62a63e5cc0044c868f30526a22fcd9b3",
+            "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggdfdfdfd",
+            "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestinggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "insert_time": "2026-08-14T06:49:49.149000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "863a7b3d72954306b572229bc845ab17",
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+            "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "master_pool": "PPV-testing",
+            "utilization_threshold": 4.0,
+            "planned_capacity": 100
+        },
+        {
+            "pid": "5d6d53a85ada4efda12fa8ddc4da9071",
+            "name": "test_demo_2",
+            "description": "testing",
+            "insert_time": "2026-08-14T09:25:33.258000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "523348f5737e4b099e11a973f52f09d7",
+            "ppid": "9f980966c4274acfb84a6951ee6474d1",
+            "program_pool": "test_demo",
+            "master_pool": "test_demo_1",
+            "utilization_threshold": 70.0,
+            "planned_capacity": 60
+        },
+        {
+            "pid": "9807f032ad05468a8159865ad23909fd",
+            "name": "UI_3",
+            "description": "UI_Testing",
+            "insert_time": "2026-08-17T06:16:54.564000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ],
+            "mpid": "a6b0837c5ddf497692624edb20afbccd",
+            "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "program_pool": "UI",
+            "master_pool": "UI_2",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 65
+        },
+        {
+            "pid": "d1ec074f40744b59946db90accc76989",
+            "name": "val_group",
+            "description": "vali dation",
+            "insert_time": "2026-08-18T11:07:50.181000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "himansu@intel.com",
+                "sumitx.dahiya@intel.com"
+            ],
+            "mpid": "790bf7b512f94f12b64c9a3942f3eb48",
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "program_pool": "validation team",
+            "master_pool": "val",
+            "utilization_threshold": 10.0,
+            "planned_capacity": 5
+        },
+        {
+            "pid": "bfcfb5177e184aab899f326388f6494c",
+            "name": "RWS123",
+            "description": "testing",
+            "insert_time": "2026-09-26T14:04:15.270000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "1b07fdb5e813457185af4d93b73b2868",
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b",
+            "program_pool": "SRF-AP",
+            "master_pool": "SECOE",
+            "utilization_threshold": 76.0,
+            "planned_capacity": 22364
+        },
+        {
+            "pid": "8c729abd661c457b891c83ca0fea6eed",
+            "name": "RWS123",
+            "description": "testing",
+            "insert_time": "2026-09-26T14:04:21.107000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "523348f5737e4b099e11a973f52f09d7",
+            "ppid": "577885727acf44b0a2d523f94b2e2205",
+            "program_pool": "tqhgswjhefiufqoiwjrknqmbnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+            "master_pool": "test_demo_1",
+            "utilization_threshold": 89.0,
+            "planned_capacity": 17443
+        },
+        {
+            "pid": "0d8c7da522c841f3b66dd5b2cf9cb0b3",
+            "name": "RWS123",
+            "description": "testing",
+            "insert_time": "2026-09-26T14:04:31.453000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "cf3891f3756246fd9e31ed49efc8e3bd",
+            "ppid": "499c72be1f2b4430835bf42c8fb9e7ce",
+            "program_pool": "SRF-SP",
+            "master_pool": "EV",
+            "utilization_threshold": 7.0,
+            "planned_capacity": 38375
+        },
+        {
+            "pid": "392b8ff51eaf4148b15e20fe57528efd",
+            "name": "RWS123",
+            "description": "testing",
+            "insert_time": "2026-09-28T04:54:53.635000",
+            "owners": [
+                "jx.bhavani@intel.com",
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "863a7b3d72954306b572229bc845ab17",
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "program_pool": "validation team",
+            "master_pool": "PPV-testing",
+            "utilization_threshold": 21.0,
+            "planned_capacity": 42463
+        },
+        {
+            "pid": "fb52147b7b074fb1b46d0194939e92be",
+            "name": "RWS123",
+            "description": "testing1",
+            "insert_time": "2026-09-28T04:56:01.654000",
+            "owners": [
+                "jx.bhavani@intel.com",
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "a6b0837c5ddf497692624edb20afbccd",
+            "ppid": "f623d6407c85496394b714481a8ff8bb",
+            "program_pool": "RPL-E Refresh",
+            "master_pool": "UI_2",
+            "utilization_threshold": 35.0,
+            "planned_capacity": 41278
+        }
+    ],
+    "total_records": 12
+}
+2026-09-28 10:34:44,995 - resource_management.py - Line: 238 - INFO - pid:ee375fab1870465db470182d6a68d2fa,name:Accelerator
+2026-09-28 10:34:44,995 - resource_management.py - Line: 238 - INFO - pid:62a63e5cc0044c868f30526a22fcd9b3,name:testingggggggggggggggggggggggggggggggggggggggggggggggggggdfdfdfd
+2026-09-28 10:34:44,995 - resource_management.py - Line: 238 - INFO - pid:5d6d53a85ada4efda12fa8ddc4da9071,name:test_demo_2
+2026-09-28 10:34:44,996 - resource_management.py - Line: 238 - INFO - pid:9807f032ad05468a8159865ad23909fd,name:UI_3
+2026-09-28 10:34:44,996 - resource_management.py - Line: 238 - INFO - pid:d1ec074f40744b59946db90accc76989,name:val_group
+2026-09-28 10:34:44,997 - resource_management.py - Line: 238 - INFO - pid:bfcfb5177e184aab899f326388f6494c,name:RWS123
+2026-09-28 10:34:44,997 - resource_management.py - Line: 238 - INFO - pid:8c729abd661c457b891c83ca0fea6eed,name:RWS123
+2026-09-28 10:34:44,997 - resource_management.py - Line: 238 - INFO - pid:0d8c7da522c841f3b66dd5b2cf9cb0b3,name:RWS123
+2026-09-28 10:34:44,998 - resource_management.py - Line: 238 - INFO - pid:392b8ff51eaf4148b15e20fe57528efd,name:RWS123
+2026-09-28 10:34:44,998 - resource_management.py - Line: 238 - INFO - pid:fb52147b7b074fb1b46d0194939e92be,name:RWS123
+2026-09-28 10:34:45,139 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_get_system_pool failed
+2026-09-28 10:34:45,144 - resource_management.py - Line: 249 - INFO - update payload:{
+    "name": "1234",
+    "description": "testing",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-28 10:34:45,157 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 10:34:45,993 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/None -> 404
+2026-09-28 10:34:46,025 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_update_system_pool failed
+2026-09-28 10:34:46,027 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 10:34:46,847 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/None -> 404
+2026-09-28 10:34:46,847 - resource_management.py - Line: 270 - INFO - Delete Status Code: 404
+2026-09-28 10:34:46,848 - resource_management.py - Line: 271 - INFO - delete:{"detail":"System pool None not found."}
+2026-09-28 10:34:46,873 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_delete_system_pool failed
+2026-09-28 10:34:46,875 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-28 10:34:46,876 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-28 10:34:46,876 - conftest.py - Line: 110 - INFO - Total tests failed: 3
+2026-09-28 10:34:46,877 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-28 10:34:46,877 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-28 10:34:46,877 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_get_system_pool failed
+2026-09-28 10:34:46,878 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_update_system_pool failed
+2026-09-28 10:34:46,878 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_delete_system_pool failed
+2026-09-28 10:34:46,879 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

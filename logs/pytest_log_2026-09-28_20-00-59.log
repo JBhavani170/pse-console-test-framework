@@ -1,0 +1,3521 @@
+2026-09-28 20:00:59,792 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 20:01:01,029 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 200
+2026-09-28 20:01:01,029 - resource_management.py - Line: 464 - INFO - get response:{
+    "data": [
+        {
+            "pid": "f623d6407c85496394b714481a8ff8bb",
+            "name": "RPL-E Refresh",
+            "description": "**validation**",
+            "insert_time": "2026-06-24T07:16:00.471000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "reetux.d@intel.com"
+            ]
+        },
+        {
+            "pid": "e1c184b8a9c84405b6dc4b308a0f07f6",
+            "name": "SPR-SP",
+            "description": "testing",
+            "insert_time": "2026-06-24T07:16:33.545000",
+            "owners": [
+                "kesamsettix.gayatri@intel.com",
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "f47067f5e9594746a0dca854a8841cfb",
+            "name": "SNR",
+            "description": "1234567890qwerttyuiopasddfghjjkl;;;;;,mnvzm,.yhgfvccv",
+            "insert_time": "2026-06-24T07:17:15.365000",
+            "owners": [
+                "sumitx.dahiya@intel.com"
+            ]
+        },
+        {
+            "pid": "8eb2fdd9c94940bda7c292bd6e43a77b",
+            "name": "SRF-AP",
+            "description": "testing",
+            "insert_time": "2026-06-24T07:18:09.731000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "729078498c9b476196b4eab9406e4066",
+            "name": "DMR-D",
+            "description": "testing spr-sp",
+            "insert_time": "2026-06-25T04:36:40.669000",
+            "owners": [
+                "sumitx.dahiya@intel.com"
+            ]
+        },
+        {
+            "pid": "d7bcfa4f60204e84809fa878a3ae9794",
+            "name": "!@#$$%^&**((()_+{}:\"<>?|1234567890-=[]\\;',./\\|.,abcdefjhijklmnop",
+            "description": "testingggggggggggggggggggggggggggggg!@#$%^&*()",
+            "insert_time": "2026-07-01T06:00:46.745000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "10bff9db47e042e6bdf3c29c553b36a3",
+            "name": "testing_pool_feat",
+            "description": "testing_pool_feat",
+            "insert_time": "2026-07-01T06:57:48.732000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "kesamsettix.gayatri@intel.com"
+            ]
+        },
+        {
+            "pid": "b91dfccdbce1456899308f1b5b71ac1e",
+            "name": "DMR- Pool",
+            "description": "ddddddddddd",
+            "insert_time": "2026-07-08T09:36:42.067000",
+            "owners": [
+                "santosh.gore@intel.com"
+            ]
+        },
+        {
+            "pid": "85d3e9cea59f43a0b0e8b2e961ed4fa2",
+            "name": "new",
+            "description": "newww",
+            "insert_time": "2026-07-13T05:49:51.790000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "c621852474c6437197244dfcbe6bd699",
+            "name": "testing_pool_11",
+            "description": "testing_pool_1",
+            "insert_time": "2026-07-14T11:03:47.703000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "name": "new3",
+            "description": "testing",
+            "insert_time": "2026-08-03T08:50:51.963000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ]
+        },
+        {
+            "pid": "8a14f439e84e4353937bccedffdb8e26",
+            "name": "SRF-AP1",
+            "description": "prg pool1",
+            "insert_time": "2026-08-03T09:54:55.587000",
+            "owners": [
+                "kesamsettix.gayatri@intel.com",
+                "anjalix.na@intel.com",
+                "janardhanx.gs@intel.com",
+                "reetux.d@intel.com",
+                "ragini.ramachandran@intel.com",
+                "sumitx.dahiya@intel.com",
+                "asimx.ghosh@intel.com"
+            ]
+        },
+        {
+            "pid": "e4729a1281774a09bf36bb13880e6b0f",
+            "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "description": "testing",
+            "insert_time": "2026-08-14T06:00:17.127000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "kesamsettix.gayatri@intel.com"
+            ]
+        },
+        {
+            "pid": "aa7a60a12b4f4479a0491f9e5c50c600",
+            "name": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "description": "tetinggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "insert_time": "2026-08-14T06:14:53.578000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "sumitx.dahiya@intel.com",
+                "kesamsettix.gayatri@intel.com",
+                "reetux.d@intel.com",
+                "pse_user@intel.com",
+                "ragini.ramachandran@intel.com",
+                "asimx.ghosh@intel.com"
+            ]
+        },
+        {
+            "pid": "9f980966c4274acfb84a6951ee6474d1",
+            "name": "test_demo",
+            "description": "test_demo",
+            "insert_time": "2026-08-14T09:23:24.384000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "name": "UI",
+            "description": "UI_Testing",
+            "insert_time": "2026-08-17T06:15:33.109000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ]
+        },
+        {
+            "pid": "577885727acf44b0a2d523f94b2e2205",
+            "name": "tqhgswjhefiufqoiwjrknqmbnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+            "description": "hjhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhuuuuuuuuuuuuuuuuuuuuuuuuuutttttt",
+            "insert_time": "2026-08-17T06:34:57.672000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "name": "validation team",
+            "description": "val team",
+            "insert_time": "2026-08-18T11:05:46.806000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "himansu@intel.com",
+                "sys_evf_jira@intel.com"
+            ]
+        },
+        {
+            "pid": "499c72be1f2b4430835bf42c8fb9e7ce",
+            "name": "SRF-SP",
+            "description": "testing",
+            "insert_time": "2026-09-11T05:14:55.619000",
+            "owners": [
+                "test_user_pse@intel.com",
+                "anjalix.na@intel.com"
+            ]
+        },
+        {
+            "pid": "64e658a00f1343ff86f64b531a65dd26",
+            "name": "DMR ProgramPool",
+            "description": "Description of program pool",
+            "insert_time": "2026-09-17T14:43:21.003000",
+            "owners": [
+                "santosh.gore@intel.com"
+            ]
+        },
+        {
+            "pid": "1d32d7d4b0fe4cfba11c6ee71974003d",
+            "name": "ABC",
+            "description": "testing",
+            "insert_time": "2026-09-27T11:52:48.899000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        },
+        {
+            "pid": "6b6604a79e8544969dac6b9e9ce86f27",
+            "name": "UpdatedProgram",
+            "description": "updated",
+            "insert_time": "2026-09-28T12:51:54.012000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ]
+        }
+    ],
+    "total_records": 32
+}
+2026-09-28 20:01:01,031 - resource_management.py - Line: 466 - INFO - get response:[
+    {
+        "pid": "f623d6407c85496394b714481a8ff8bb",
+        "name": "RPL-E Refresh",
+        "description": "**validation**",
+        "insert_time": "2026-06-24T07:16:00.471000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "reetux.d@intel.com"
+        ]
+    },
+    {
+        "pid": "e1c184b8a9c84405b6dc4b308a0f07f6",
+        "name": "SPR-SP",
+        "description": "testing",
+        "insert_time": "2026-06-24T07:16:33.545000",
+        "owners": [
+            "kesamsettix.gayatri@intel.com",
+            "anjalix.na@intel.com"
+        ]
+    },
+    {
+        "pid": "f47067f5e9594746a0dca854a8841cfb",
+        "name": "SNR",
+        "description": "1234567890qwerttyuiopasddfghjjkl;;;;;,mnvzm,.yhgfvccv",
+        "insert_time": "2026-06-24T07:17:15.365000",
+        "owners": [
+            "sumitx.dahiya@intel.com"
+        ]
+    },
+    {
+        "pid": "8eb2fdd9c94940bda7c292bd6e43a77b",
+        "name": "SRF-AP",
+        "description": "testing",
+        "insert_time": "2026-06-24T07:18:09.731000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ]
+    },
+    {
+        "pid": "729078498c9b476196b4eab9406e4066",
+        "name": "DMR-D",
+        "description": "testing spr-sp",
+        "insert_time": "2026-06-25T04:36:40.669000",
+        "owners": [
+            "sumitx.dahiya@intel.com"
+        ]
+    },
+    {
+        "pid": "d7bcfa4f60204e84809fa878a3ae9794",
+        "name": "!@#$$%^&**((()_+{}:\"<>?|1234567890-=[]\\;',./\\|.,abcdefjhijklmnop",
+        "description": "testingggggggggggggggggggggggggggggg!@#$%^&*()",
+        "insert_time": "2026-07-01T06:00:46.745000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ]
+    },
+    {
+        "pid": "10bff9db47e042e6bdf3c29c553b36a3",
+        "name": "testing_pool_feat",
+        "description": "testing_pool_feat",
+        "insert_time": "2026-07-01T06:57:48.732000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "kesamsettix.gayatri@intel.com"
+        ]
+    },
+    {
+        "pid": "b91dfccdbce1456899308f1b5b71ac1e",
+        "name": "DMR- Pool",
+        "description": "ddddddddddd",
+        "insert_time": "2026-07-08T09:36:42.067000",
+        "owners": [
+            "santosh.gore@intel.com"
+        ]
+    },
+    {
+        "pid": "85d3e9cea59f43a0b0e8b2e961ed4fa2",
+        "name": "new",
+        "description": "newww",
+        "insert_time": "2026-07-13T05:49:51.790000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ]
+    },
+    {
+        "pid": "c621852474c6437197244dfcbe6bd699",
+        "name": "testing_pool_11",
+        "description": "testing_pool_1",
+        "insert_time": "2026-07-14T11:03:47.703000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ]
+    },
+    {
+        "pid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+        "name": "new3",
+        "description": "testing",
+        "insert_time": "2026-08-03T08:50:51.963000",
+        "owners": [
+            "sys_evf_jira@intel.com"
+        ]
+    },
+    {
+        "pid": "8a14f439e84e4353937bccedffdb8e26",
+        "name": "SRF-AP1",
+        "description": "prg pool1",
+        "insert_time": "2026-08-03T09:54:55.587000",
+        "owners": [
+            "kesamsettix.gayatri@intel.com",
+            "anjalix.na@intel.com",
+            "janardhanx.gs@intel.com",
+            "reetux.d@intel.com",
+            "ragini.ramachandran@intel.com",
+            "sumitx.dahiya@intel.com",
+            "asimx.ghosh@intel.com"
+        ]
+    },
+    {
+        "pid": "e4729a1281774a09bf36bb13880e6b0f",
+        "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "description": "testing",
+        "insert_time": "2026-08-14T06:00:17.127000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "kesamsettix.gayatri@intel.com"
+        ]
+    },
+    {
+        "pid": "aa7a60a12b4f4479a0491f9e5c50c600",
+        "name": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "description": "tetinggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "insert_time": "2026-08-14T06:14:53.578000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "sumitx.dahiya@intel.com",
+            "kesamsettix.gayatri@intel.com",
+            "reetux.d@intel.com",
+            "pse_user@intel.com",
+            "ragini.ramachandran@intel.com",
+            "asimx.ghosh@intel.com"
+        ]
+    },
+    {
+        "pid": "9f980966c4274acfb84a6951ee6474d1",
+        "name": "test_demo",
+        "description": "test_demo",
+        "insert_time": "2026-08-14T09:23:24.384000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ]
+    },
+    {
+        "pid": "d51ae3b4d9e94c51a97860436ac3b833",
+        "name": "UI",
+        "description": "UI_Testing",
+        "insert_time": "2026-08-17T06:15:33.109000",
+        "owners": [
+            "sys_evf_jira@intel.com"
+        ]
+    },
+    {
+        "pid": "577885727acf44b0a2d523f94b2e2205",
+        "name": "tqhgswjhefiufqoiwjrknqmbnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+        "description": "hjhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhuuuuuuuuuuuuuuuuuuuuuuuuuutttttt",
+        "insert_time": "2026-08-17T06:34:57.672000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ]
+    },
+    {
+        "pid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+        "name": "validation team",
+        "description": "val team",
+        "insert_time": "2026-08-18T11:05:46.806000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "himansu@intel.com",
+            "sys_evf_jira@intel.com"
+        ]
+    },
+    {
+        "pid": "499c72be1f2b4430835bf42c8fb9e7ce",
+        "name": "SRF-SP",
+        "description": "testing",
+        "insert_time": "2026-09-11T05:14:55.619000",
+        "owners": [
+            "test_user_pse@intel.com",
+            "anjalix.na@intel.com"
+        ]
+    },
+    {
+        "pid": "64e658a00f1343ff86f64b531a65dd26",
+        "name": "DMR ProgramPool",
+        "description": "Description of program pool",
+        "insert_time": "2026-09-17T14:43:21.003000",
+        "owners": [
+            "santosh.gore@intel.com"
+        ]
+    },
+    {
+        "pid": "1d32d7d4b0fe4cfba11c6ee71974003d",
+        "name": "ABC",
+        "description": "testing",
+        "insert_time": "2026-09-27T11:52:48.899000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ]
+    },
+    {
+        "pid": "6b6604a79e8544969dac6b9e9ce86f27",
+        "name": "UpdatedProgram",
+        "description": "updated",
+        "insert_time": "2026-09-28T12:51:54.012000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ]
+    }
+]
+2026-09-28 20:01:01,032 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "1d32d7d4b0fe4cfba11c6ee71974003d",
+    "name": "ABC",
+    "description": "testing",
+    "insert_time": "2026-09-27T11:52:48.899000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-28 20:01:01,032 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "6b6604a79e8544969dac6b9e9ce86f27",
+    "name": "UpdatedProgram",
+    "description": "updated",
+    "insert_time": "2026-09-28T12:51:54.012000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-28 20:01:01,032 - resource_management.py - Line: 429 - INFO - selected Program Pool:{
+    "pid": "1d32d7d4b0fe4cfba11c6ee71974003d",
+    "name": "ABC",
+    "description": "testing",
+    "insert_time": "2026-09-27T11:52:48.899000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-28 20:01:01,033 - resource_management.py - Line: 430 - INFO - selected pid:1d32d7d4b0fe4cfba11c6ee71974003d
+2026-09-28 20:01:01,033 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 20:01:02,291 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=50 -> 200
+2026-09-28 20:01:02,292 - resource_management.py - Line: 464 - INFO - get response:{
+    "data": [
+        {
+            "pid": "1b07fdb5e813457185af4d93b73b2868",
+            "name": "SECOE",
+            "description": "testiing",
+            "insert_time": "2026-06-24T07:24:02.159000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "f47067f5e9594746a0dca854a8841cfb",
+            "program_pool": "SNR"
+        },
+        {
+            "pid": "0deece40b7db4a71bea12dad8805afd2",
+            "name": "test __",
+            "description": "validation",
+            "insert_time": "2026-06-24T07:28:23.193000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "f623d6407c85496394b714481a8ff8bb",
+            "program_pool": "RPL-E Refresh"
+        },
+        {
+            "pid": "93038e3af89b468c8c663422453ae685",
+            "name": "testing",
+            "description": "testing",
+            "insert_time": "2026-07-01T04:44:49.542000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6",
+            "program_pool": "SPR-SP"
+        },
+        {
+            "pid": "02482bc2853747c28fe72e1edb5b092f",
+            "name": "testing=testing-pool-feat",
+            "description": "testing=testing-pool-feattttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+            "insert_time": "2026-07-01T06:58:55.307000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "reetux.d@intel.com"
+            ],
+            "ppid": "10bff9db47e042e6bdf3c29c553b36a3",
+            "program_pool": "testing_pool_feat"
+        },
+        {
+            "pid": "6f62111464404fa885675bc1d0367fff",
+            "name": "DAES",
+            "description": "testing",
+            "insert_time": "2026-07-07T09:21:19.246000",
+            "owners": [
+                "sumitx.dahiya@intel.com"
+            ],
+            "ppid": "f47067f5e9594746a0dca854a8841cfb",
+            "program_pool": "SNR"
+        },
+        {
+            "pid": "0edfe8a1d38240669c47e21508e928a6",
+            "name": "test-001",
+            "description": "testing-0001",
+            "insert_time": "2026-07-14T11:07:15.204000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "c621852474c6437197244dfcbe6bd699",
+            "program_pool": "testing_pool_11"
+        },
+        {
+            "pid": "cf3891f3756246fd9e31ed49efc8e3bd",
+            "name": "EV",
+            "description": "testing",
+            "insert_time": "2026-08-03T08:54:33.085000",
+            "owners": [
+                "reetux.d@intel.com"
+            ],
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "program_pool": "new3"
+        },
+        {
+            "pid": "863a7b3d72954306b572229bc845ab17",
+            "name": "PPV-testing",
+            "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "insert_time": "2026-08-14T06:29:49.589000",
+            "owners": [
+                "test_user_pse@intel.com",
+                "anjalix.na@intel.com",
+                "sumitx.dahiya@intel.com",
+                "asimx.ghosh@intel.com",
+                "ragini.ramachandran@intel.com"
+            ],
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+            "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+        },
+        {
+            "pid": "523348f5737e4b099e11a973f52f09d7",
+            "name": "test_demo_1",
+            "description": "testing5",
+            "insert_time": "2026-08-14T09:23:54.680000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "9f980966c4274acfb84a6951ee6474d1",
+            "program_pool": "test_demo"
+        },
+        {
+            "pid": "a6b0837c5ddf497692624edb20afbccd",
+            "name": "UI_2",
+            "description": "UI_Testing",
+            "insert_time": "2026-08-17T06:16:08.874000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ],
+            "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "program_pool": "UI"
+        },
+        {
+            "pid": "790bf7b512f94f12b64c9a3942f3eb48",
+            "name": "val",
+            "description": "validation",
+            "insert_time": "2026-08-18T11:06:23.082000",
+            "owners": [
+                "kesamsettix.gayatri@intel.com",
+                "himansu@intel.com",
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "program_pool": "validation team"
+        },
+        {
+            "pid": "7832f19b187a44f7bfce17007f3b89da",
+            "name": "testing",
+            "description": "testing",
+            "insert_time": "2026-09-11T05:17:11.701000",
+            "owners": [
+                "test_user_pse@intel.com"
+            ],
+            "ppid": "499c72be1f2b4430835bf42c8fb9e7ce",
+            "program_pool": "SRF-SP"
+        },
+        {
+            "pid": "170fa43697ba487086af2ac4ca8a1396",
+            "name": "DEFht",
+            "description": "testing",
+            "insert_time": "2026-09-26T14:03:55.243000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "program_pool": "new3"
+        },
+        {
+            "pid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "name": "DEFht",
+            "description": "testing",
+            "insert_time": "2026-09-26T14:04:06.222000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "499c72be1f2b4430835bf42c8fb9e7ce",
+            "program_pool": "SRF-SP"
+        },
+        {
+            "pid": "963436ddf03b49169ee3f5c3923e7cb8",
+            "name": "DEFht",
+            "description": "testing",
+            "insert_time": "2026-09-28T10:46:56.877000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "program_pool": "validation team"
+        },
+        {
+            "pid": "cda077a0d09748f0962e2aa9ce95ea31",
+            "name": "DEFht",
+            "description": "testing",
+            "insert_time": "2026-09-28T10:57:33.258000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "85d3e9cea59f43a0b0e8b2e961ed4fa2",
+            "program_pool": "new"
+        },
+        {
+            "pid": "c3b21f6ac3cc40558a9a896a6e2f2670",
+            "name": "UpdatedMaster",
+            "description": "updated",
+            "insert_time": "2026-09-28T12:51:55.113000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "6b6604a79e8544969dac6b9e9ce86f27",
+            "program_pool": "UpdatedProgram"
+        },
+        {
+            "pid": "83186067ab654463babadaa9e4419328",
+            "name": "MasterPool",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:19:18.132000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "0c1e86444a63404b91e7213721567f87",
+            "program_pool": "ProgramPool"
+        },
+        {
+            "pid": "ed739b2e29444da597eb026a143f83f7",
+            "name": "MasterPool",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:27:06.456000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "f4d2acf48e9244dc98c5b15dc821b163",
+            "program_pool": "ProgramPool1"
+        },
+        {
+            "pid": "97ec5bf170c54715963f83a957a9caa6",
+            "name": "MasterPool",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:42:15.079000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "333a01118bf04281a81fde99aab2a078",
+            "program_pool": "ProgramPool2"
+        },
+        {
+            "pid": "7322e8dec0d94dab8fc8332128cb1ca4",
+            "name": "MasterPool1",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:50:13.718000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "729e41bf8fe049f589c615debc8c98f7",
+            "program_pool": "ProgramPool3"
+        },
+        {
+            "pid": "96143e1a6938443a84cb494211121f2c",
+            "name": "BHAVANI_MASTER_POOL_2026_001",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:54:54.090000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "1308f57c16ae4b6e8fa815ab260086e2",
+            "program_pool": "BHAVANI_PROGRAM_POOL_2026_001"
+        }
+    ],
+    "total_records": 27
+}
+2026-09-28 20:01:02,293 - resource_management.py - Line: 466 - INFO - get response:[
+    {
+        "pid": "1b07fdb5e813457185af4d93b73b2868",
+        "name": "SECOE",
+        "description": "testiing",
+        "insert_time": "2026-06-24T07:24:02.159000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "f47067f5e9594746a0dca854a8841cfb",
+        "program_pool": "SNR"
+    },
+    {
+        "pid": "0deece40b7db4a71bea12dad8805afd2",
+        "name": "test __",
+        "description": "validation",
+        "insert_time": "2026-06-24T07:28:23.193000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "f623d6407c85496394b714481a8ff8bb",
+        "program_pool": "RPL-E Refresh"
+    },
+    {
+        "pid": "93038e3af89b468c8c663422453ae685",
+        "name": "testing",
+        "description": "testing",
+        "insert_time": "2026-07-01T04:44:49.542000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6",
+        "program_pool": "SPR-SP"
+    },
+    {
+        "pid": "02482bc2853747c28fe72e1edb5b092f",
+        "name": "testing=testing-pool-feat",
+        "description": "testing=testing-pool-feattttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+        "insert_time": "2026-07-01T06:58:55.307000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "reetux.d@intel.com"
+        ],
+        "ppid": "10bff9db47e042e6bdf3c29c553b36a3",
+        "program_pool": "testing_pool_feat"
+    },
+    {
+        "pid": "6f62111464404fa885675bc1d0367fff",
+        "name": "DAES",
+        "description": "testing",
+        "insert_time": "2026-07-07T09:21:19.246000",
+        "owners": [
+            "sumitx.dahiya@intel.com"
+        ],
+        "ppid": "f47067f5e9594746a0dca854a8841cfb",
+        "program_pool": "SNR"
+    },
+    {
+        "pid": "0edfe8a1d38240669c47e21508e928a6",
+        "name": "test-001",
+        "description": "testing-0001",
+        "insert_time": "2026-07-14T11:07:15.204000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "c621852474c6437197244dfcbe6bd699",
+        "program_pool": "testing_pool_11"
+    },
+    {
+        "pid": "cf3891f3756246fd9e31ed49efc8e3bd",
+        "name": "EV",
+        "description": "testing",
+        "insert_time": "2026-08-03T08:54:33.085000",
+        "owners": [
+            "reetux.d@intel.com"
+        ],
+        "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+        "program_pool": "new3"
+    },
+    {
+        "pid": "863a7b3d72954306b572229bc845ab17",
+        "name": "PPV-testing",
+        "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "insert_time": "2026-08-14T06:29:49.589000",
+        "owners": [
+            "test_user_pse@intel.com",
+            "anjalix.na@intel.com",
+            "sumitx.dahiya@intel.com",
+            "asimx.ghosh@intel.com",
+            "ragini.ramachandran@intel.com"
+        ],
+        "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+        "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+    },
+    {
+        "pid": "523348f5737e4b099e11a973f52f09d7",
+        "name": "test_demo_1",
+        "description": "testing5",
+        "insert_time": "2026-08-14T09:23:54.680000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "9f980966c4274acfb84a6951ee6474d1",
+        "program_pool": "test_demo"
+    },
+    {
+        "pid": "a6b0837c5ddf497692624edb20afbccd",
+        "name": "UI_2",
+        "description": "UI_Testing",
+        "insert_time": "2026-08-17T06:16:08.874000",
+        "owners": [
+            "sys_evf_jira@intel.com"
+        ],
+        "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+        "program_pool": "UI"
+    },
+    {
+        "pid": "790bf7b512f94f12b64c9a3942f3eb48",
+        "name": "val",
+        "description": "validation",
+        "insert_time": "2026-08-18T11:06:23.082000",
+        "owners": [
+            "kesamsettix.gayatri@intel.com",
+            "himansu@intel.com",
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+        "program_pool": "validation team"
+    },
+    {
+        "pid": "7832f19b187a44f7bfce17007f3b89da",
+        "name": "testing",
+        "description": "testing",
+        "insert_time": "2026-09-11T05:17:11.701000",
+        "owners": [
+            "test_user_pse@intel.com"
+        ],
+        "ppid": "499c72be1f2b4430835bf42c8fb9e7ce",
+        "program_pool": "SRF-SP"
+    },
+    {
+        "pid": "170fa43697ba487086af2ac4ca8a1396",
+        "name": "DEFht",
+        "description": "testing",
+        "insert_time": "2026-09-26T14:03:55.243000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+        "program_pool": "new3"
+    },
+    {
+        "pid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+        "name": "DEFht",
+        "description": "testing",
+        "insert_time": "2026-09-26T14:04:06.222000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "499c72be1f2b4430835bf42c8fb9e7ce",
+        "program_pool": "SRF-SP"
+    },
+    {
+        "pid": "963436ddf03b49169ee3f5c3923e7cb8",
+        "name": "DEFht",
+        "description": "testing",
+        "insert_time": "2026-09-28T10:46:56.877000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+        "program_pool": "validation team"
+    },
+    {
+        "pid": "cda077a0d09748f0962e2aa9ce95ea31",
+        "name": "DEFht",
+        "description": "testing",
+        "insert_time": "2026-09-28T10:57:33.258000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "85d3e9cea59f43a0b0e8b2e961ed4fa2",
+        "program_pool": "new"
+    },
+    {
+        "pid": "c3b21f6ac3cc40558a9a896a6e2f2670",
+        "name": "UpdatedMaster",
+        "description": "updated",
+        "insert_time": "2026-09-28T12:51:55.113000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "6b6604a79e8544969dac6b9e9ce86f27",
+        "program_pool": "UpdatedProgram"
+    },
+    {
+        "pid": "83186067ab654463babadaa9e4419328",
+        "name": "MasterPool",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:19:18.132000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "0c1e86444a63404b91e7213721567f87",
+        "program_pool": "ProgramPool"
+    },
+    {
+        "pid": "ed739b2e29444da597eb026a143f83f7",
+        "name": "MasterPool",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:27:06.456000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "f4d2acf48e9244dc98c5b15dc821b163",
+        "program_pool": "ProgramPool1"
+    },
+    {
+        "pid": "97ec5bf170c54715963f83a957a9caa6",
+        "name": "MasterPool",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:42:15.079000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "333a01118bf04281a81fde99aab2a078",
+        "program_pool": "ProgramPool2"
+    },
+    {
+        "pid": "7322e8dec0d94dab8fc8332128cb1ca4",
+        "name": "MasterPool1",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:50:13.718000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "729e41bf8fe049f589c615debc8c98f7",
+        "program_pool": "ProgramPool3"
+    },
+    {
+        "pid": "96143e1a6938443a84cb494211121f2c",
+        "name": "BHAVANI_MASTER_POOL_2026_001",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:54:54.090000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "1308f57c16ae4b6e8fa815ab260086e2",
+        "program_pool": "BHAVANI_PROGRAM_POOL_2026_001"
+    }
+]
+2026-09-28 20:01:02,294 - resource_management.py - Line: 437 - INFO - Related master pools:[]
+2026-09-28 20:01:02,295 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 20:01:03,726 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 200
+2026-09-28 20:01:03,726 - resource_management.py - Line: 464 - INFO - get response:{
+    "data": [
+        {
+            "pid": "ee375fab1870465db470182d6a68d2fa",
+            "name": "Accelerator",
+            "description": "testinggg",
+            "insert_time": "2026-07-09T06:37:22.650000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "0deece40b7db4a71bea12dad8805afd2",
+            "ppid": "f623d6407c85496394b714481a8ff8bb",
+            "program_pool": "RPL-E Refresh",
+            "master_pool": "test __",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 0
+        },
+        {
+            "pid": "62a63e5cc0044c868f30526a22fcd9b3",
+            "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggdfdfdfd",
+            "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestinggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "insert_time": "2026-08-14T06:49:49.149000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "863a7b3d72954306b572229bc845ab17",
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+            "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "master_pool": "PPV-testing",
+            "utilization_threshold": 4.0,
+            "planned_capacity": 100
+        },
+        {
+            "pid": "5d6d53a85ada4efda12fa8ddc4da9071",
+            "name": "test_demo_2",
+            "description": "testing",
+            "insert_time": "2026-08-14T09:25:33.258000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "523348f5737e4b099e11a973f52f09d7",
+            "ppid": "9f980966c4274acfb84a6951ee6474d1",
+            "program_pool": "test_demo",
+            "master_pool": "test_demo_1",
+            "utilization_threshold": 70.0,
+            "planned_capacity": 60
+        },
+        {
+            "pid": "9807f032ad05468a8159865ad23909fd",
+            "name": "UI_3",
+            "description": "UI_Testing",
+            "insert_time": "2026-08-17T06:16:54.564000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ],
+            "mpid": "a6b0837c5ddf497692624edb20afbccd",
+            "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "program_pool": "UI",
+            "master_pool": "UI_2",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 65
+        },
+        {
+            "pid": "d1ec074f40744b59946db90accc76989",
+            "name": "val_group",
+            "description": "vali dation",
+            "insert_time": "2026-08-18T11:07:50.181000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "himansu@intel.com",
+                "sumitx.dahiya@intel.com"
+            ],
+            "mpid": "790bf7b512f94f12b64c9a3942f3eb48",
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "program_pool": "validation team",
+            "master_pool": "val",
+            "utilization_threshold": 10.0,
+            "planned_capacity": 5
+        },
+        {
+            "pid": "2e662933e5b74133986e6009f8392474",
+            "name": "RWS124345",
+            "description": "testing1",
+            "insert_time": "2026-09-28T06:04:36.611000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "02482bc2853747c28fe72e1edb5b092f",
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "program_pool": "new3",
+            "master_pool": "testing=testing-pool-feat",
+            "utilization_threshold": 74.0,
+            "planned_capacity": 12263
+        },
+        {
+            "pid": "fd628dcfd659417bb9910f84e0e18dc0",
+            "name": "RWS124345",
+            "description": "testing1",
+            "insert_time": "2026-09-28T06:06:04.369000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "02482bc2853747c28fe72e1edb5b092f",
+            "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "program_pool": "UI",
+            "master_pool": "testing=testing-pool-feat",
+            "utilization_threshold": 81.0,
+            "planned_capacity": 17891
+        },
+        {
+            "pid": "1e4887e17fc548e39b778cb5a07bc6c6",
+            "name": "RWS124345",
+            "description": "testing1",
+            "insert_time": "2026-09-28T06:07:55.387000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "a6b0837c5ddf497692624edb20afbccd",
+            "ppid": "f623d6407c85496394b714481a8ff8bb",
+            "program_pool": "RPL-E Refresh",
+            "master_pool": "UI_2",
+            "utilization_threshold": 82.0,
+            "planned_capacity": 20613
+        },
+        {
+            "pid": "8270c725eb2f420b8686ba4fc27aaf0d",
+            "name": "UpdatedSystem",
+            "description": "updated",
+            "insert_time": "2026-09-28T12:51:56.117000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "c3b21f6ac3cc40558a9a896a6e2f2670",
+            "ppid": "6b6604a79e8544969dac6b9e9ce86f27",
+            "program_pool": "UpdatedProgram",
+            "master_pool": "UpdatedMaster",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "42713f628f274e9493f81b4f090dbaee",
+            "name": "SystemPool",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:19:19.126000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "83186067ab654463babadaa9e4419328",
+            "ppid": "0c1e86444a63404b91e7213721567f87",
+            "program_pool": "ProgramPool",
+            "master_pool": "MasterPool",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "2b5678a797dd478a9e51f97c1361cf7b",
+            "name": "SystemPool",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:27:07.473000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "ed739b2e29444da597eb026a143f83f7",
+            "ppid": "f4d2acf48e9244dc98c5b15dc821b163",
+            "program_pool": "ProgramPool1",
+            "master_pool": "MasterPool",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "a1580c27271440de87125bbf6ff1752c",
+            "name": "SystemPool",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:42:16.262000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "97ec5bf170c54715963f83a957a9caa6",
+            "ppid": "333a01118bf04281a81fde99aab2a078",
+            "program_pool": "ProgramPool2",
+            "master_pool": "MasterPool",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "308fd594adcf4b398e504b988b6d8006",
+            "name": "SystemPool1",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:50:14.882000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "7322e8dec0d94dab8fc8332128cb1ca4",
+            "ppid": "729e41bf8fe049f589c615debc8c98f7",
+            "program_pool": "ProgramPool3",
+            "master_pool": "MasterPool1",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "2c69258ea0224220924eb24898a4cf4a",
+            "name": "SYSTEM_POOL_2026_001",
+            "description": "testing",
+            "insert_time": "2026-09-28T14:00:50.538000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "95bfcd43f47e480398a6a6171f4daedf",
+            "ppid": "272002df2edf4be5bd92f5d97c7f6e57",
+            "program_pool": "UpdatedProgram1",
+            "master_pool": "MASTER_POOL_2026_001",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "203d38b2770347e7b61bbbd141dbec71",
+            "name": "UpdatedSystem1",
+            "description": "updated",
+            "insert_time": "2026-09-28T14:01:29.915000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "7055b998d31e4e3ba550eb9069045ca9",
+            "ppid": "5b7203be600e4932967a9d0e6f523648",
+            "program_pool": "PROGRAM_POOL_2026_001",
+            "master_pool": "MASTER_POOL_2026_001",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "235fd42fc0b14f6c82e3f40466986042",
+            "name": "SYSTEM_POOL_2026_001",
+            "description": "testing",
+            "insert_time": "2026-09-28T14:07:18.410000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "91928ed0444d4b81b874331f5e6c0525",
+            "ppid": "29ad7fedc20046998c2364ccf09e6e09",
+            "program_pool": "PROGRAM_POOL",
+            "master_pool": "MASTER_POOL_2026_001",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "dd690f93234447249ddfcdce6982110f",
+            "name": "UpdatedSystem1",
+            "description": "updated",
+            "insert_time": "2026-09-28T14:10:18.490000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "2095b0c20fae42758f5e1659e9541434",
+            "ppid": "eb4d009d97154962b26ca42eb01c79b4",
+            "program_pool": "PROGRAM_POO",
+            "master_pool": "MASTER_POOL_2026_001",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "7d2f6a45e44a450aa98af24d5e666784",
+            "name": "UpdatedSystem12",
+            "description": "updated",
+            "insert_time": "2026-09-28T14:15:19.276000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "65192f70e5be49bbb0aaa483e6ce5e93",
+            "ppid": "cde7cb83e2974eb0afa6601f48132f92",
+            "program_pool": "UpdatedProgram12",
+            "master_pool": "UpdatedMaster12",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        }
+    ],
+    "total_records": 18
+}
+2026-09-28 20:01:03,727 - resource_management.py - Line: 466 - INFO - get response:[
+    {
+        "pid": "ee375fab1870465db470182d6a68d2fa",
+        "name": "Accelerator",
+        "description": "testinggg",
+        "insert_time": "2026-07-09T06:37:22.650000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "mpid": "0deece40b7db4a71bea12dad8805afd2",
+        "ppid": "f623d6407c85496394b714481a8ff8bb",
+        "program_pool": "RPL-E Refresh",
+        "master_pool": "test __",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 0
+    },
+    {
+        "pid": "62a63e5cc0044c868f30526a22fcd9b3",
+        "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggdfdfdfd",
+        "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestinggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "insert_time": "2026-08-14T06:49:49.149000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "mpid": "863a7b3d72954306b572229bc845ab17",
+        "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+        "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "master_pool": "PPV-testing",
+        "utilization_threshold": 4.0,
+        "planned_capacity": 100
+    },
+    {
+        "pid": "5d6d53a85ada4efda12fa8ddc4da9071",
+        "name": "test_demo_2",
+        "description": "testing",
+        "insert_time": "2026-08-14T09:25:33.258000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "mpid": "523348f5737e4b099e11a973f52f09d7",
+        "ppid": "9f980966c4274acfb84a6951ee6474d1",
+        "program_pool": "test_demo",
+        "master_pool": "test_demo_1",
+        "utilization_threshold": 70.0,
+        "planned_capacity": 60
+    },
+    {
+        "pid": "9807f032ad05468a8159865ad23909fd",
+        "name": "UI_3",
+        "description": "UI_Testing",
+        "insert_time": "2026-08-17T06:16:54.564000",
+        "owners": [
+            "sys_evf_jira@intel.com"
+        ],
+        "mpid": "a6b0837c5ddf497692624edb20afbccd",
+        "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+        "program_pool": "UI",
+        "master_pool": "UI_2",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 65
+    },
+    {
+        "pid": "d1ec074f40744b59946db90accc76989",
+        "name": "val_group",
+        "description": "vali dation",
+        "insert_time": "2026-08-18T11:07:50.181000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "himansu@intel.com",
+            "sumitx.dahiya@intel.com"
+        ],
+        "mpid": "790bf7b512f94f12b64c9a3942f3eb48",
+        "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+        "program_pool": "validation team",
+        "master_pool": "val",
+        "utilization_threshold": 10.0,
+        "planned_capacity": 5
+    },
+    {
+        "pid": "2e662933e5b74133986e6009f8392474",
+        "name": "RWS124345",
+        "description": "testing1",
+        "insert_time": "2026-09-28T06:04:36.611000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "02482bc2853747c28fe72e1edb5b092f",
+        "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+        "program_pool": "new3",
+        "master_pool": "testing=testing-pool-feat",
+        "utilization_threshold": 74.0,
+        "planned_capacity": 12263
+    },
+    {
+        "pid": "fd628dcfd659417bb9910f84e0e18dc0",
+        "name": "RWS124345",
+        "description": "testing1",
+        "insert_time": "2026-09-28T06:06:04.369000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "02482bc2853747c28fe72e1edb5b092f",
+        "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+        "program_pool": "UI",
+        "master_pool": "testing=testing-pool-feat",
+        "utilization_threshold": 81.0,
+        "planned_capacity": 17891
+    },
+    {
+        "pid": "1e4887e17fc548e39b778cb5a07bc6c6",
+        "name": "RWS124345",
+        "description": "testing1",
+        "insert_time": "2026-09-28T06:07:55.387000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "a6b0837c5ddf497692624edb20afbccd",
+        "ppid": "f623d6407c85496394b714481a8ff8bb",
+        "program_pool": "RPL-E Refresh",
+        "master_pool": "UI_2",
+        "utilization_threshold": 82.0,
+        "planned_capacity": 20613
+    },
+    {
+        "pid": "8270c725eb2f420b8686ba4fc27aaf0d",
+        "name": "UpdatedSystem",
+        "description": "updated",
+        "insert_time": "2026-09-28T12:51:56.117000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "c3b21f6ac3cc40558a9a896a6e2f2670",
+        "ppid": "6b6604a79e8544969dac6b9e9ce86f27",
+        "program_pool": "UpdatedProgram",
+        "master_pool": "UpdatedMaster",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "42713f628f274e9493f81b4f090dbaee",
+        "name": "SystemPool",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:19:19.126000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "83186067ab654463babadaa9e4419328",
+        "ppid": "0c1e86444a63404b91e7213721567f87",
+        "program_pool": "ProgramPool",
+        "master_pool": "MasterPool",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "2b5678a797dd478a9e51f97c1361cf7b",
+        "name": "SystemPool",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:27:07.473000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "ed739b2e29444da597eb026a143f83f7",
+        "ppid": "f4d2acf48e9244dc98c5b15dc821b163",
+        "program_pool": "ProgramPool1",
+        "master_pool": "MasterPool",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "a1580c27271440de87125bbf6ff1752c",
+        "name": "SystemPool",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:42:16.262000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "97ec5bf170c54715963f83a957a9caa6",
+        "ppid": "333a01118bf04281a81fde99aab2a078",
+        "program_pool": "ProgramPool2",
+        "master_pool": "MasterPool",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "308fd594adcf4b398e504b988b6d8006",
+        "name": "SystemPool1",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:50:14.882000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "7322e8dec0d94dab8fc8332128cb1ca4",
+        "ppid": "729e41bf8fe049f589c615debc8c98f7",
+        "program_pool": "ProgramPool3",
+        "master_pool": "MasterPool1",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "2c69258ea0224220924eb24898a4cf4a",
+        "name": "SYSTEM_POOL_2026_001",
+        "description": "testing",
+        "insert_time": "2026-09-28T14:00:50.538000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "95bfcd43f47e480398a6a6171f4daedf",
+        "ppid": "272002df2edf4be5bd92f5d97c7f6e57",
+        "program_pool": "UpdatedProgram1",
+        "master_pool": "MASTER_POOL_2026_001",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "203d38b2770347e7b61bbbd141dbec71",
+        "name": "UpdatedSystem1",
+        "description": "updated",
+        "insert_time": "2026-09-28T14:01:29.915000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "7055b998d31e4e3ba550eb9069045ca9",
+        "ppid": "5b7203be600e4932967a9d0e6f523648",
+        "program_pool": "PROGRAM_POOL_2026_001",
+        "master_pool": "MASTER_POOL_2026_001",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "235fd42fc0b14f6c82e3f40466986042",
+        "name": "SYSTEM_POOL_2026_001",
+        "description": "testing",
+        "insert_time": "2026-09-28T14:07:18.410000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "91928ed0444d4b81b874331f5e6c0525",
+        "ppid": "29ad7fedc20046998c2364ccf09e6e09",
+        "program_pool": "PROGRAM_POOL",
+        "master_pool": "MASTER_POOL_2026_001",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "dd690f93234447249ddfcdce6982110f",
+        "name": "UpdatedSystem1",
+        "description": "updated",
+        "insert_time": "2026-09-28T14:10:18.490000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "2095b0c20fae42758f5e1659e9541434",
+        "ppid": "eb4d009d97154962b26ca42eb01c79b4",
+        "program_pool": "PROGRAM_POO",
+        "master_pool": "MASTER_POOL_2026_001",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "7d2f6a45e44a450aa98af24d5e666784",
+        "name": "UpdatedSystem12",
+        "description": "updated",
+        "insert_time": "2026-09-28T14:15:19.276000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "65192f70e5be49bbb0aaa483e6ce5e93",
+        "ppid": "cde7cb83e2974eb0afa6601f48132f92",
+        "program_pool": "UpdatedProgram12",
+        "master_pool": "UpdatedMaster12",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    }
+]
+2026-09-28 20:01:03,728 - resource_management.py - Line: 441 - INFO - Related system:[]
+2026-09-28 20:01:03,728 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 20:01:04,884 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/1d32d7d4b0fe4cfba11c6ee71974003d -> 204
+2026-09-28 20:01:04,885 - resource_management.py - Line: 456 - INFO - Delete response status code:204
+2026-09-28 20:01:04,886 - resource_management.py - Line: 458 - INFO - Program Pool deleted successfully
+2026-09-28 20:01:04,888 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_deleting_the_pool[Program Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool/program] passed.
+2026-09-28 20:01:04,892 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 20:01:06,175 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=50 -> 200
+2026-09-28 20:01:06,177 - resource_management.py - Line: 464 - INFO - get response:{
+    "data": [
+        {
+            "pid": "1b07fdb5e813457185af4d93b73b2868",
+            "name": "SECOE",
+            "description": "testiing",
+            "insert_time": "2026-06-24T07:24:02.159000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "f47067f5e9594746a0dca854a8841cfb",
+            "program_pool": "SNR"
+        },
+        {
+            "pid": "0deece40b7db4a71bea12dad8805afd2",
+            "name": "test __",
+            "description": "validation",
+            "insert_time": "2026-06-24T07:28:23.193000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "f623d6407c85496394b714481a8ff8bb",
+            "program_pool": "RPL-E Refresh"
+        },
+        {
+            "pid": "93038e3af89b468c8c663422453ae685",
+            "name": "testing",
+            "description": "testing",
+            "insert_time": "2026-07-01T04:44:49.542000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6",
+            "program_pool": "SPR-SP"
+        },
+        {
+            "pid": "02482bc2853747c28fe72e1edb5b092f",
+            "name": "testing=testing-pool-feat",
+            "description": "testing=testing-pool-feattttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+            "insert_time": "2026-07-01T06:58:55.307000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "reetux.d@intel.com"
+            ],
+            "ppid": "10bff9db47e042e6bdf3c29c553b36a3",
+            "program_pool": "testing_pool_feat"
+        },
+        {
+            "pid": "6f62111464404fa885675bc1d0367fff",
+            "name": "DAES",
+            "description": "testing",
+            "insert_time": "2026-07-07T09:21:19.246000",
+            "owners": [
+                "sumitx.dahiya@intel.com"
+            ],
+            "ppid": "f47067f5e9594746a0dca854a8841cfb",
+            "program_pool": "SNR"
+        },
+        {
+            "pid": "0edfe8a1d38240669c47e21508e928a6",
+            "name": "test-001",
+            "description": "testing-0001",
+            "insert_time": "2026-07-14T11:07:15.204000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "c621852474c6437197244dfcbe6bd699",
+            "program_pool": "testing_pool_11"
+        },
+        {
+            "pid": "cf3891f3756246fd9e31ed49efc8e3bd",
+            "name": "EV",
+            "description": "testing",
+            "insert_time": "2026-08-03T08:54:33.085000",
+            "owners": [
+                "reetux.d@intel.com"
+            ],
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "program_pool": "new3"
+        },
+        {
+            "pid": "863a7b3d72954306b572229bc845ab17",
+            "name": "PPV-testing",
+            "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "insert_time": "2026-08-14T06:29:49.589000",
+            "owners": [
+                "test_user_pse@intel.com",
+                "anjalix.na@intel.com",
+                "sumitx.dahiya@intel.com",
+                "asimx.ghosh@intel.com",
+                "ragini.ramachandran@intel.com"
+            ],
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+            "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+        },
+        {
+            "pid": "523348f5737e4b099e11a973f52f09d7",
+            "name": "test_demo_1",
+            "description": "testing5",
+            "insert_time": "2026-08-14T09:23:54.680000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "9f980966c4274acfb84a6951ee6474d1",
+            "program_pool": "test_demo"
+        },
+        {
+            "pid": "a6b0837c5ddf497692624edb20afbccd",
+            "name": "UI_2",
+            "description": "UI_Testing",
+            "insert_time": "2026-08-17T06:16:08.874000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ],
+            "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "program_pool": "UI"
+        },
+        {
+            "pid": "790bf7b512f94f12b64c9a3942f3eb48",
+            "name": "val",
+            "description": "validation",
+            "insert_time": "2026-08-18T11:06:23.082000",
+            "owners": [
+                "kesamsettix.gayatri@intel.com",
+                "himansu@intel.com",
+                "anjalix.na@intel.com"
+            ],
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "program_pool": "validation team"
+        },
+        {
+            "pid": "7832f19b187a44f7bfce17007f3b89da",
+            "name": "testing",
+            "description": "testing",
+            "insert_time": "2026-09-11T05:17:11.701000",
+            "owners": [
+                "test_user_pse@intel.com"
+            ],
+            "ppid": "499c72be1f2b4430835bf42c8fb9e7ce",
+            "program_pool": "SRF-SP"
+        },
+        {
+            "pid": "170fa43697ba487086af2ac4ca8a1396",
+            "name": "DEFht",
+            "description": "testing",
+            "insert_time": "2026-09-26T14:03:55.243000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "program_pool": "new3"
+        },
+        {
+            "pid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "name": "DEFht",
+            "description": "testing",
+            "insert_time": "2026-09-26T14:04:06.222000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "499c72be1f2b4430835bf42c8fb9e7ce",
+            "program_pool": "SRF-SP"
+        },
+        {
+            "pid": "963436ddf03b49169ee3f5c3923e7cb8",
+            "name": "DEFht",
+            "description": "testing",
+            "insert_time": "2026-09-28T10:46:56.877000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "program_pool": "validation team"
+        },
+        {
+            "pid": "cda077a0d09748f0962e2aa9ce95ea31",
+            "name": "DEFht",
+            "description": "testing",
+            "insert_time": "2026-09-28T10:57:33.258000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "85d3e9cea59f43a0b0e8b2e961ed4fa2",
+            "program_pool": "new"
+        },
+        {
+            "pid": "c3b21f6ac3cc40558a9a896a6e2f2670",
+            "name": "UpdatedMaster",
+            "description": "updated",
+            "insert_time": "2026-09-28T12:51:55.113000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "6b6604a79e8544969dac6b9e9ce86f27",
+            "program_pool": "UpdatedProgram"
+        },
+        {
+            "pid": "83186067ab654463babadaa9e4419328",
+            "name": "MasterPool",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:19:18.132000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "0c1e86444a63404b91e7213721567f87",
+            "program_pool": "ProgramPool"
+        },
+        {
+            "pid": "ed739b2e29444da597eb026a143f83f7",
+            "name": "MasterPool",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:27:06.456000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "f4d2acf48e9244dc98c5b15dc821b163",
+            "program_pool": "ProgramPool1"
+        },
+        {
+            "pid": "97ec5bf170c54715963f83a957a9caa6",
+            "name": "MasterPool",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:42:15.079000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "333a01118bf04281a81fde99aab2a078",
+            "program_pool": "ProgramPool2"
+        },
+        {
+            "pid": "7322e8dec0d94dab8fc8332128cb1ca4",
+            "name": "MasterPool1",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:50:13.718000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "729e41bf8fe049f589c615debc8c98f7",
+            "program_pool": "ProgramPool3"
+        },
+        {
+            "pid": "96143e1a6938443a84cb494211121f2c",
+            "name": "BHAVANI_MASTER_POOL_2026_001",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:54:54.090000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "ppid": "1308f57c16ae4b6e8fa815ab260086e2",
+            "program_pool": "BHAVANI_PROGRAM_POOL_2026_001"
+        }
+    ],
+    "total_records": 27
+}
+2026-09-28 20:01:06,179 - resource_management.py - Line: 466 - INFO - get response:[
+    {
+        "pid": "1b07fdb5e813457185af4d93b73b2868",
+        "name": "SECOE",
+        "description": "testiing",
+        "insert_time": "2026-06-24T07:24:02.159000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "f47067f5e9594746a0dca854a8841cfb",
+        "program_pool": "SNR"
+    },
+    {
+        "pid": "0deece40b7db4a71bea12dad8805afd2",
+        "name": "test __",
+        "description": "validation",
+        "insert_time": "2026-06-24T07:28:23.193000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "f623d6407c85496394b714481a8ff8bb",
+        "program_pool": "RPL-E Refresh"
+    },
+    {
+        "pid": "93038e3af89b468c8c663422453ae685",
+        "name": "testing",
+        "description": "testing",
+        "insert_time": "2026-07-01T04:44:49.542000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6",
+        "program_pool": "SPR-SP"
+    },
+    {
+        "pid": "02482bc2853747c28fe72e1edb5b092f",
+        "name": "testing=testing-pool-feat",
+        "description": "testing=testing-pool-feattttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+        "insert_time": "2026-07-01T06:58:55.307000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "reetux.d@intel.com"
+        ],
+        "ppid": "10bff9db47e042e6bdf3c29c553b36a3",
+        "program_pool": "testing_pool_feat"
+    },
+    {
+        "pid": "6f62111464404fa885675bc1d0367fff",
+        "name": "DAES",
+        "description": "testing",
+        "insert_time": "2026-07-07T09:21:19.246000",
+        "owners": [
+            "sumitx.dahiya@intel.com"
+        ],
+        "ppid": "f47067f5e9594746a0dca854a8841cfb",
+        "program_pool": "SNR"
+    },
+    {
+        "pid": "0edfe8a1d38240669c47e21508e928a6",
+        "name": "test-001",
+        "description": "testing-0001",
+        "insert_time": "2026-07-14T11:07:15.204000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "c621852474c6437197244dfcbe6bd699",
+        "program_pool": "testing_pool_11"
+    },
+    {
+        "pid": "cf3891f3756246fd9e31ed49efc8e3bd",
+        "name": "EV",
+        "description": "testing",
+        "insert_time": "2026-08-03T08:54:33.085000",
+        "owners": [
+            "reetux.d@intel.com"
+        ],
+        "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+        "program_pool": "new3"
+    },
+    {
+        "pid": "863a7b3d72954306b572229bc845ab17",
+        "name": "PPV-testing",
+        "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "insert_time": "2026-08-14T06:29:49.589000",
+        "owners": [
+            "test_user_pse@intel.com",
+            "anjalix.na@intel.com",
+            "sumitx.dahiya@intel.com",
+            "asimx.ghosh@intel.com",
+            "ragini.ramachandran@intel.com"
+        ],
+        "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+        "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+    },
+    {
+        "pid": "523348f5737e4b099e11a973f52f09d7",
+        "name": "test_demo_1",
+        "description": "testing5",
+        "insert_time": "2026-08-14T09:23:54.680000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "9f980966c4274acfb84a6951ee6474d1",
+        "program_pool": "test_demo"
+    },
+    {
+        "pid": "a6b0837c5ddf497692624edb20afbccd",
+        "name": "UI_2",
+        "description": "UI_Testing",
+        "insert_time": "2026-08-17T06:16:08.874000",
+        "owners": [
+            "sys_evf_jira@intel.com"
+        ],
+        "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+        "program_pool": "UI"
+    },
+    {
+        "pid": "790bf7b512f94f12b64c9a3942f3eb48",
+        "name": "val",
+        "description": "validation",
+        "insert_time": "2026-08-18T11:06:23.082000",
+        "owners": [
+            "kesamsettix.gayatri@intel.com",
+            "himansu@intel.com",
+            "anjalix.na@intel.com"
+        ],
+        "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+        "program_pool": "validation team"
+    },
+    {
+        "pid": "7832f19b187a44f7bfce17007f3b89da",
+        "name": "testing",
+        "description": "testing",
+        "insert_time": "2026-09-11T05:17:11.701000",
+        "owners": [
+            "test_user_pse@intel.com"
+        ],
+        "ppid": "499c72be1f2b4430835bf42c8fb9e7ce",
+        "program_pool": "SRF-SP"
+    },
+    {
+        "pid": "170fa43697ba487086af2ac4ca8a1396",
+        "name": "DEFht",
+        "description": "testing",
+        "insert_time": "2026-09-26T14:03:55.243000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+        "program_pool": "new3"
+    },
+    {
+        "pid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+        "name": "DEFht",
+        "description": "testing",
+        "insert_time": "2026-09-26T14:04:06.222000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "499c72be1f2b4430835bf42c8fb9e7ce",
+        "program_pool": "SRF-SP"
+    },
+    {
+        "pid": "963436ddf03b49169ee3f5c3923e7cb8",
+        "name": "DEFht",
+        "description": "testing",
+        "insert_time": "2026-09-28T10:46:56.877000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+        "program_pool": "validation team"
+    },
+    {
+        "pid": "cda077a0d09748f0962e2aa9ce95ea31",
+        "name": "DEFht",
+        "description": "testing",
+        "insert_time": "2026-09-28T10:57:33.258000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "85d3e9cea59f43a0b0e8b2e961ed4fa2",
+        "program_pool": "new"
+    },
+    {
+        "pid": "c3b21f6ac3cc40558a9a896a6e2f2670",
+        "name": "UpdatedMaster",
+        "description": "updated",
+        "insert_time": "2026-09-28T12:51:55.113000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "6b6604a79e8544969dac6b9e9ce86f27",
+        "program_pool": "UpdatedProgram"
+    },
+    {
+        "pid": "83186067ab654463babadaa9e4419328",
+        "name": "MasterPool",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:19:18.132000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "0c1e86444a63404b91e7213721567f87",
+        "program_pool": "ProgramPool"
+    },
+    {
+        "pid": "ed739b2e29444da597eb026a143f83f7",
+        "name": "MasterPool",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:27:06.456000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "f4d2acf48e9244dc98c5b15dc821b163",
+        "program_pool": "ProgramPool1"
+    },
+    {
+        "pid": "97ec5bf170c54715963f83a957a9caa6",
+        "name": "MasterPool",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:42:15.079000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "333a01118bf04281a81fde99aab2a078",
+        "program_pool": "ProgramPool2"
+    },
+    {
+        "pid": "7322e8dec0d94dab8fc8332128cb1ca4",
+        "name": "MasterPool1",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:50:13.718000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "729e41bf8fe049f589c615debc8c98f7",
+        "program_pool": "ProgramPool3"
+    },
+    {
+        "pid": "96143e1a6938443a84cb494211121f2c",
+        "name": "BHAVANI_MASTER_POOL_2026_001",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:54:54.090000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "ppid": "1308f57c16ae4b6e8fa815ab260086e2",
+        "program_pool": "BHAVANI_PROGRAM_POOL_2026_001"
+    }
+]
+2026-09-28 20:01:06,181 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "170fa43697ba487086af2ac4ca8a1396",
+    "name": "DEFht",
+    "description": "testing",
+    "insert_time": "2026-09-26T14:03:55.243000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+    "program_pool": "new3"
+}
+2026-09-28 20:01:06,181 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+    "name": "DEFht",
+    "description": "testing",
+    "insert_time": "2026-09-26T14:04:06.222000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "ppid": "499c72be1f2b4430835bf42c8fb9e7ce",
+    "program_pool": "SRF-SP"
+}
+2026-09-28 20:01:06,182 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "963436ddf03b49169ee3f5c3923e7cb8",
+    "name": "DEFht",
+    "description": "testing",
+    "insert_time": "2026-09-28T10:46:56.877000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+    "program_pool": "validation team"
+}
+2026-09-28 20:01:06,182 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "cda077a0d09748f0962e2aa9ce95ea31",
+    "name": "DEFht",
+    "description": "testing",
+    "insert_time": "2026-09-28T10:57:33.258000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "ppid": "85d3e9cea59f43a0b0e8b2e961ed4fa2",
+    "program_pool": "new"
+}
+2026-09-28 20:01:06,182 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "c3b21f6ac3cc40558a9a896a6e2f2670",
+    "name": "UpdatedMaster",
+    "description": "updated",
+    "insert_time": "2026-09-28T12:51:55.113000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "ppid": "6b6604a79e8544969dac6b9e9ce86f27",
+    "program_pool": "UpdatedProgram"
+}
+2026-09-28 20:01:06,183 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "83186067ab654463babadaa9e4419328",
+    "name": "MasterPool",
+    "description": "testing",
+    "insert_time": "2026-09-28T13:19:18.132000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "ppid": "0c1e86444a63404b91e7213721567f87",
+    "program_pool": "ProgramPool"
+}
+2026-09-28 20:01:06,183 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "ed739b2e29444da597eb026a143f83f7",
+    "name": "MasterPool",
+    "description": "testing",
+    "insert_time": "2026-09-28T13:27:06.456000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "ppid": "f4d2acf48e9244dc98c5b15dc821b163",
+    "program_pool": "ProgramPool1"
+}
+2026-09-28 20:01:06,183 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "97ec5bf170c54715963f83a957a9caa6",
+    "name": "MasterPool",
+    "description": "testing",
+    "insert_time": "2026-09-28T13:42:15.079000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "ppid": "333a01118bf04281a81fde99aab2a078",
+    "program_pool": "ProgramPool2"
+}
+2026-09-28 20:01:06,183 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "7322e8dec0d94dab8fc8332128cb1ca4",
+    "name": "MasterPool1",
+    "description": "testing",
+    "insert_time": "2026-09-28T13:50:13.718000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "ppid": "729e41bf8fe049f589c615debc8c98f7",
+    "program_pool": "ProgramPool3"
+}
+2026-09-28 20:01:06,184 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "96143e1a6938443a84cb494211121f2c",
+    "name": "BHAVANI_MASTER_POOL_2026_001",
+    "description": "testing",
+    "insert_time": "2026-09-28T13:54:54.090000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "ppid": "1308f57c16ae4b6e8fa815ab260086e2",
+    "program_pool": "BHAVANI_PROGRAM_POOL_2026_001"
+}
+2026-09-28 20:01:06,184 - resource_management.py - Line: 429 - INFO - selected Master Pool:{
+    "pid": "83186067ab654463babadaa9e4419328",
+    "name": "MasterPool",
+    "description": "testing",
+    "insert_time": "2026-09-28T13:19:18.132000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "ppid": "0c1e86444a63404b91e7213721567f87",
+    "program_pool": "ProgramPool"
+}
+2026-09-28 20:01:06,184 - resource_management.py - Line: 430 - INFO - selected pid:83186067ab654463babadaa9e4419328
+2026-09-28 20:01:06,185 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 20:01:07,954 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 200
+2026-09-28 20:01:07,956 - resource_management.py - Line: 464 - INFO - get response:{
+    "data": [
+        {
+            "pid": "ee375fab1870465db470182d6a68d2fa",
+            "name": "Accelerator",
+            "description": "testinggg",
+            "insert_time": "2026-07-09T06:37:22.650000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "0deece40b7db4a71bea12dad8805afd2",
+            "ppid": "f623d6407c85496394b714481a8ff8bb",
+            "program_pool": "RPL-E Refresh",
+            "master_pool": "test __",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 0
+        },
+        {
+            "pid": "62a63e5cc0044c868f30526a22fcd9b3",
+            "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggdfdfdfd",
+            "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestinggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "insert_time": "2026-08-14T06:49:49.149000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "863a7b3d72954306b572229bc845ab17",
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+            "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "master_pool": "PPV-testing",
+            "utilization_threshold": 4.0,
+            "planned_capacity": 100
+        },
+        {
+            "pid": "5d6d53a85ada4efda12fa8ddc4da9071",
+            "name": "test_demo_2",
+            "description": "testing",
+            "insert_time": "2026-08-14T09:25:33.258000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "523348f5737e4b099e11a973f52f09d7",
+            "ppid": "9f980966c4274acfb84a6951ee6474d1",
+            "program_pool": "test_demo",
+            "master_pool": "test_demo_1",
+            "utilization_threshold": 70.0,
+            "planned_capacity": 60
+        },
+        {
+            "pid": "9807f032ad05468a8159865ad23909fd",
+            "name": "UI_3",
+            "description": "UI_Testing",
+            "insert_time": "2026-08-17T06:16:54.564000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ],
+            "mpid": "a6b0837c5ddf497692624edb20afbccd",
+            "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "program_pool": "UI",
+            "master_pool": "UI_2",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 65
+        },
+        {
+            "pid": "d1ec074f40744b59946db90accc76989",
+            "name": "val_group",
+            "description": "vali dation",
+            "insert_time": "2026-08-18T11:07:50.181000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "himansu@intel.com",
+                "sumitx.dahiya@intel.com"
+            ],
+            "mpid": "790bf7b512f94f12b64c9a3942f3eb48",
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "program_pool": "validation team",
+            "master_pool": "val",
+            "utilization_threshold": 10.0,
+            "planned_capacity": 5
+        },
+        {
+            "pid": "2e662933e5b74133986e6009f8392474",
+            "name": "RWS124345",
+            "description": "testing1",
+            "insert_time": "2026-09-28T06:04:36.611000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "02482bc2853747c28fe72e1edb5b092f",
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "program_pool": "new3",
+            "master_pool": "testing=testing-pool-feat",
+            "utilization_threshold": 74.0,
+            "planned_capacity": 12263
+        },
+        {
+            "pid": "fd628dcfd659417bb9910f84e0e18dc0",
+            "name": "RWS124345",
+            "description": "testing1",
+            "insert_time": "2026-09-28T06:06:04.369000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "02482bc2853747c28fe72e1edb5b092f",
+            "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "program_pool": "UI",
+            "master_pool": "testing=testing-pool-feat",
+            "utilization_threshold": 81.0,
+            "planned_capacity": 17891
+        },
+        {
+            "pid": "1e4887e17fc548e39b778cb5a07bc6c6",
+            "name": "RWS124345",
+            "description": "testing1",
+            "insert_time": "2026-09-28T06:07:55.387000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "a6b0837c5ddf497692624edb20afbccd",
+            "ppid": "f623d6407c85496394b714481a8ff8bb",
+            "program_pool": "RPL-E Refresh",
+            "master_pool": "UI_2",
+            "utilization_threshold": 82.0,
+            "planned_capacity": 20613
+        },
+        {
+            "pid": "8270c725eb2f420b8686ba4fc27aaf0d",
+            "name": "UpdatedSystem",
+            "description": "updated",
+            "insert_time": "2026-09-28T12:51:56.117000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "c3b21f6ac3cc40558a9a896a6e2f2670",
+            "ppid": "6b6604a79e8544969dac6b9e9ce86f27",
+            "program_pool": "UpdatedProgram",
+            "master_pool": "UpdatedMaster",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "42713f628f274e9493f81b4f090dbaee",
+            "name": "SystemPool",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:19:19.126000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "83186067ab654463babadaa9e4419328",
+            "ppid": "0c1e86444a63404b91e7213721567f87",
+            "program_pool": "ProgramPool",
+            "master_pool": "MasterPool",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "2b5678a797dd478a9e51f97c1361cf7b",
+            "name": "SystemPool",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:27:07.473000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "ed739b2e29444da597eb026a143f83f7",
+            "ppid": "f4d2acf48e9244dc98c5b15dc821b163",
+            "program_pool": "ProgramPool1",
+            "master_pool": "MasterPool",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "a1580c27271440de87125bbf6ff1752c",
+            "name": "SystemPool",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:42:16.262000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "97ec5bf170c54715963f83a957a9caa6",
+            "ppid": "333a01118bf04281a81fde99aab2a078",
+            "program_pool": "ProgramPool2",
+            "master_pool": "MasterPool",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "308fd594adcf4b398e504b988b6d8006",
+            "name": "SystemPool1",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:50:14.882000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "7322e8dec0d94dab8fc8332128cb1ca4",
+            "ppid": "729e41bf8fe049f589c615debc8c98f7",
+            "program_pool": "ProgramPool3",
+            "master_pool": "MasterPool1",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "2c69258ea0224220924eb24898a4cf4a",
+            "name": "SYSTEM_POOL_2026_001",
+            "description": "testing",
+            "insert_time": "2026-09-28T14:00:50.538000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "95bfcd43f47e480398a6a6171f4daedf",
+            "ppid": "272002df2edf4be5bd92f5d97c7f6e57",
+            "program_pool": "UpdatedProgram1",
+            "master_pool": "MASTER_POOL_2026_001",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "203d38b2770347e7b61bbbd141dbec71",
+            "name": "UpdatedSystem1",
+            "description": "updated",
+            "insert_time": "2026-09-28T14:01:29.915000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "7055b998d31e4e3ba550eb9069045ca9",
+            "ppid": "5b7203be600e4932967a9d0e6f523648",
+            "program_pool": "PROGRAM_POOL_2026_001",
+            "master_pool": "MASTER_POOL_2026_001",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "235fd42fc0b14f6c82e3f40466986042",
+            "name": "SYSTEM_POOL_2026_001",
+            "description": "testing",
+            "insert_time": "2026-09-28T14:07:18.410000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "91928ed0444d4b81b874331f5e6c0525",
+            "ppid": "29ad7fedc20046998c2364ccf09e6e09",
+            "program_pool": "PROGRAM_POOL",
+            "master_pool": "MASTER_POOL_2026_001",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "dd690f93234447249ddfcdce6982110f",
+            "name": "UpdatedSystem1",
+            "description": "updated",
+            "insert_time": "2026-09-28T14:10:18.490000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "2095b0c20fae42758f5e1659e9541434",
+            "ppid": "eb4d009d97154962b26ca42eb01c79b4",
+            "program_pool": "PROGRAM_POO",
+            "master_pool": "MASTER_POOL_2026_001",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "7d2f6a45e44a450aa98af24d5e666784",
+            "name": "UpdatedSystem12",
+            "description": "updated",
+            "insert_time": "2026-09-28T14:15:19.276000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "65192f70e5be49bbb0aaa483e6ce5e93",
+            "ppid": "cde7cb83e2974eb0afa6601f48132f92",
+            "program_pool": "UpdatedProgram12",
+            "master_pool": "UpdatedMaster12",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        }
+    ],
+    "total_records": 18
+}
+2026-09-28 20:01:07,958 - resource_management.py - Line: 466 - INFO - get response:[
+    {
+        "pid": "ee375fab1870465db470182d6a68d2fa",
+        "name": "Accelerator",
+        "description": "testinggg",
+        "insert_time": "2026-07-09T06:37:22.650000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "mpid": "0deece40b7db4a71bea12dad8805afd2",
+        "ppid": "f623d6407c85496394b714481a8ff8bb",
+        "program_pool": "RPL-E Refresh",
+        "master_pool": "test __",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 0
+    },
+    {
+        "pid": "62a63e5cc0044c868f30526a22fcd9b3",
+        "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggdfdfdfd",
+        "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestinggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "insert_time": "2026-08-14T06:49:49.149000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "mpid": "863a7b3d72954306b572229bc845ab17",
+        "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+        "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "master_pool": "PPV-testing",
+        "utilization_threshold": 4.0,
+        "planned_capacity": 100
+    },
+    {
+        "pid": "5d6d53a85ada4efda12fa8ddc4da9071",
+        "name": "test_demo_2",
+        "description": "testing",
+        "insert_time": "2026-08-14T09:25:33.258000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "mpid": "523348f5737e4b099e11a973f52f09d7",
+        "ppid": "9f980966c4274acfb84a6951ee6474d1",
+        "program_pool": "test_demo",
+        "master_pool": "test_demo_1",
+        "utilization_threshold": 70.0,
+        "planned_capacity": 60
+    },
+    {
+        "pid": "9807f032ad05468a8159865ad23909fd",
+        "name": "UI_3",
+        "description": "UI_Testing",
+        "insert_time": "2026-08-17T06:16:54.564000",
+        "owners": [
+            "sys_evf_jira@intel.com"
+        ],
+        "mpid": "a6b0837c5ddf497692624edb20afbccd",
+        "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+        "program_pool": "UI",
+        "master_pool": "UI_2",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 65
+    },
+    {
+        "pid": "d1ec074f40744b59946db90accc76989",
+        "name": "val_group",
+        "description": "vali dation",
+        "insert_time": "2026-08-18T11:07:50.181000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "himansu@intel.com",
+            "sumitx.dahiya@intel.com"
+        ],
+        "mpid": "790bf7b512f94f12b64c9a3942f3eb48",
+        "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+        "program_pool": "validation team",
+        "master_pool": "val",
+        "utilization_threshold": 10.0,
+        "planned_capacity": 5
+    },
+    {
+        "pid": "2e662933e5b74133986e6009f8392474",
+        "name": "RWS124345",
+        "description": "testing1",
+        "insert_time": "2026-09-28T06:04:36.611000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "02482bc2853747c28fe72e1edb5b092f",
+        "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+        "program_pool": "new3",
+        "master_pool": "testing=testing-pool-feat",
+        "utilization_threshold": 74.0,
+        "planned_capacity": 12263
+    },
+    {
+        "pid": "fd628dcfd659417bb9910f84e0e18dc0",
+        "name": "RWS124345",
+        "description": "testing1",
+        "insert_time": "2026-09-28T06:06:04.369000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "02482bc2853747c28fe72e1edb5b092f",
+        "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+        "program_pool": "UI",
+        "master_pool": "testing=testing-pool-feat",
+        "utilization_threshold": 81.0,
+        "planned_capacity": 17891
+    },
+    {
+        "pid": "1e4887e17fc548e39b778cb5a07bc6c6",
+        "name": "RWS124345",
+        "description": "testing1",
+        "insert_time": "2026-09-28T06:07:55.387000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "a6b0837c5ddf497692624edb20afbccd",
+        "ppid": "f623d6407c85496394b714481a8ff8bb",
+        "program_pool": "RPL-E Refresh",
+        "master_pool": "UI_2",
+        "utilization_threshold": 82.0,
+        "planned_capacity": 20613
+    },
+    {
+        "pid": "8270c725eb2f420b8686ba4fc27aaf0d",
+        "name": "UpdatedSystem",
+        "description": "updated",
+        "insert_time": "2026-09-28T12:51:56.117000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "c3b21f6ac3cc40558a9a896a6e2f2670",
+        "ppid": "6b6604a79e8544969dac6b9e9ce86f27",
+        "program_pool": "UpdatedProgram",
+        "master_pool": "UpdatedMaster",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "42713f628f274e9493f81b4f090dbaee",
+        "name": "SystemPool",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:19:19.126000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "83186067ab654463babadaa9e4419328",
+        "ppid": "0c1e86444a63404b91e7213721567f87",
+        "program_pool": "ProgramPool",
+        "master_pool": "MasterPool",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "2b5678a797dd478a9e51f97c1361cf7b",
+        "name": "SystemPool",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:27:07.473000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "ed739b2e29444da597eb026a143f83f7",
+        "ppid": "f4d2acf48e9244dc98c5b15dc821b163",
+        "program_pool": "ProgramPool1",
+        "master_pool": "MasterPool",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "a1580c27271440de87125bbf6ff1752c",
+        "name": "SystemPool",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:42:16.262000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "97ec5bf170c54715963f83a957a9caa6",
+        "ppid": "333a01118bf04281a81fde99aab2a078",
+        "program_pool": "ProgramPool2",
+        "master_pool": "MasterPool",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "308fd594adcf4b398e504b988b6d8006",
+        "name": "SystemPool1",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:50:14.882000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "7322e8dec0d94dab8fc8332128cb1ca4",
+        "ppid": "729e41bf8fe049f589c615debc8c98f7",
+        "program_pool": "ProgramPool3",
+        "master_pool": "MasterPool1",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "2c69258ea0224220924eb24898a4cf4a",
+        "name": "SYSTEM_POOL_2026_001",
+        "description": "testing",
+        "insert_time": "2026-09-28T14:00:50.538000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "95bfcd43f47e480398a6a6171f4daedf",
+        "ppid": "272002df2edf4be5bd92f5d97c7f6e57",
+        "program_pool": "UpdatedProgram1",
+        "master_pool": "MASTER_POOL_2026_001",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "203d38b2770347e7b61bbbd141dbec71",
+        "name": "UpdatedSystem1",
+        "description": "updated",
+        "insert_time": "2026-09-28T14:01:29.915000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "7055b998d31e4e3ba550eb9069045ca9",
+        "ppid": "5b7203be600e4932967a9d0e6f523648",
+        "program_pool": "PROGRAM_POOL_2026_001",
+        "master_pool": "MASTER_POOL_2026_001",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "235fd42fc0b14f6c82e3f40466986042",
+        "name": "SYSTEM_POOL_2026_001",
+        "description": "testing",
+        "insert_time": "2026-09-28T14:07:18.410000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "91928ed0444d4b81b874331f5e6c0525",
+        "ppid": "29ad7fedc20046998c2364ccf09e6e09",
+        "program_pool": "PROGRAM_POOL",
+        "master_pool": "MASTER_POOL_2026_001",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "dd690f93234447249ddfcdce6982110f",
+        "name": "UpdatedSystem1",
+        "description": "updated",
+        "insert_time": "2026-09-28T14:10:18.490000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "2095b0c20fae42758f5e1659e9541434",
+        "ppid": "eb4d009d97154962b26ca42eb01c79b4",
+        "program_pool": "PROGRAM_POO",
+        "master_pool": "MASTER_POOL_2026_001",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "7d2f6a45e44a450aa98af24d5e666784",
+        "name": "UpdatedSystem12",
+        "description": "updated",
+        "insert_time": "2026-09-28T14:15:19.276000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "65192f70e5be49bbb0aaa483e6ce5e93",
+        "ppid": "cde7cb83e2974eb0afa6601f48132f92",
+        "program_pool": "UpdatedProgram12",
+        "master_pool": "UpdatedMaster12",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    }
+]
+2026-09-28 20:01:07,961 - resource_management.py - Line: 447 - INFO - related system pools:[
+    {
+        "pid": "42713f628f274e9493f81b4f090dbaee",
+        "name": "SystemPool",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:19:19.126000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "83186067ab654463babadaa9e4419328",
+        "ppid": "0c1e86444a63404b91e7213721567f87",
+        "program_pool": "ProgramPool",
+        "master_pool": "MasterPool",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    }
+]
+2026-09-28 20:01:07,962 - resource_management.py - Line: 448 - INFO - parent program pool id:0c1e86444a63404b91e7213721567f87
+2026-09-28 20:01:07,962 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 20:01:08,878 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=50/83186067ab654463babadaa9e4419328 -> 405
+2026-09-28 20:01:08,879 - resource_management.py - Line: 456 - INFO - Delete response status code:405
+2026-09-28 20:01:08,973 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_deleting_the_pool[Master Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=50] failed
+2026-09-28 20:01:08,975 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 20:01:10,428 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 200
+2026-09-28 20:01:10,429 - resource_management.py - Line: 464 - INFO - get response:{
+    "data": [
+        {
+            "pid": "ee375fab1870465db470182d6a68d2fa",
+            "name": "Accelerator",
+            "description": "testinggg",
+            "insert_time": "2026-07-09T06:37:22.650000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "0deece40b7db4a71bea12dad8805afd2",
+            "ppid": "f623d6407c85496394b714481a8ff8bb",
+            "program_pool": "RPL-E Refresh",
+            "master_pool": "test __",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 0
+        },
+        {
+            "pid": "62a63e5cc0044c868f30526a22fcd9b3",
+            "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggdfdfdfd",
+            "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestinggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "insert_time": "2026-08-14T06:49:49.149000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "863a7b3d72954306b572229bc845ab17",
+            "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+            "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+            "master_pool": "PPV-testing",
+            "utilization_threshold": 4.0,
+            "planned_capacity": 100
+        },
+        {
+            "pid": "5d6d53a85ada4efda12fa8ddc4da9071",
+            "name": "test_demo_2",
+            "description": "testing",
+            "insert_time": "2026-08-14T09:25:33.258000",
+            "owners": [
+                "anjalix.na@intel.com"
+            ],
+            "mpid": "523348f5737e4b099e11a973f52f09d7",
+            "ppid": "9f980966c4274acfb84a6951ee6474d1",
+            "program_pool": "test_demo",
+            "master_pool": "test_demo_1",
+            "utilization_threshold": 70.0,
+            "planned_capacity": 60
+        },
+        {
+            "pid": "9807f032ad05468a8159865ad23909fd",
+            "name": "UI_3",
+            "description": "UI_Testing",
+            "insert_time": "2026-08-17T06:16:54.564000",
+            "owners": [
+                "sys_evf_jira@intel.com"
+            ],
+            "mpid": "a6b0837c5ddf497692624edb20afbccd",
+            "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "program_pool": "UI",
+            "master_pool": "UI_2",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 65
+        },
+        {
+            "pid": "d1ec074f40744b59946db90accc76989",
+            "name": "val_group",
+            "description": "vali dation",
+            "insert_time": "2026-08-18T11:07:50.181000",
+            "owners": [
+                "anjalix.na@intel.com",
+                "himansu@intel.com",
+                "sumitx.dahiya@intel.com"
+            ],
+            "mpid": "790bf7b512f94f12b64c9a3942f3eb48",
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "program_pool": "validation team",
+            "master_pool": "val",
+            "utilization_threshold": 10.0,
+            "planned_capacity": 5
+        },
+        {
+            "pid": "2e662933e5b74133986e6009f8392474",
+            "name": "RWS124345",
+            "description": "testing1",
+            "insert_time": "2026-09-28T06:04:36.611000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "02482bc2853747c28fe72e1edb5b092f",
+            "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+            "program_pool": "new3",
+            "master_pool": "testing=testing-pool-feat",
+            "utilization_threshold": 74.0,
+            "planned_capacity": 12263
+        },
+        {
+            "pid": "fd628dcfd659417bb9910f84e0e18dc0",
+            "name": "RWS124345",
+            "description": "testing1",
+            "insert_time": "2026-09-28T06:06:04.369000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "02482bc2853747c28fe72e1edb5b092f",
+            "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+            "program_pool": "UI",
+            "master_pool": "testing=testing-pool-feat",
+            "utilization_threshold": 81.0,
+            "planned_capacity": 17891
+        },
+        {
+            "pid": "1e4887e17fc548e39b778cb5a07bc6c6",
+            "name": "RWS124345",
+            "description": "testing1",
+            "insert_time": "2026-09-28T06:07:55.387000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "a6b0837c5ddf497692624edb20afbccd",
+            "ppid": "f623d6407c85496394b714481a8ff8bb",
+            "program_pool": "RPL-E Refresh",
+            "master_pool": "UI_2",
+            "utilization_threshold": 82.0,
+            "planned_capacity": 20613
+        },
+        {
+            "pid": "8270c725eb2f420b8686ba4fc27aaf0d",
+            "name": "UpdatedSystem",
+            "description": "updated",
+            "insert_time": "2026-09-28T12:51:56.117000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "c3b21f6ac3cc40558a9a896a6e2f2670",
+            "ppid": "6b6604a79e8544969dac6b9e9ce86f27",
+            "program_pool": "UpdatedProgram",
+            "master_pool": "UpdatedMaster",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "42713f628f274e9493f81b4f090dbaee",
+            "name": "SystemPool",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:19:19.126000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "83186067ab654463babadaa9e4419328",
+            "ppid": "0c1e86444a63404b91e7213721567f87",
+            "program_pool": "ProgramPool",
+            "master_pool": "MasterPool",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "2b5678a797dd478a9e51f97c1361cf7b",
+            "name": "SystemPool",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:27:07.473000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "ed739b2e29444da597eb026a143f83f7",
+            "ppid": "f4d2acf48e9244dc98c5b15dc821b163",
+            "program_pool": "ProgramPool1",
+            "master_pool": "MasterPool",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "a1580c27271440de87125bbf6ff1752c",
+            "name": "SystemPool",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:42:16.262000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "97ec5bf170c54715963f83a957a9caa6",
+            "ppid": "333a01118bf04281a81fde99aab2a078",
+            "program_pool": "ProgramPool2",
+            "master_pool": "MasterPool",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "308fd594adcf4b398e504b988b6d8006",
+            "name": "SystemPool1",
+            "description": "testing",
+            "insert_time": "2026-09-28T13:50:14.882000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "7322e8dec0d94dab8fc8332128cb1ca4",
+            "ppid": "729e41bf8fe049f589c615debc8c98f7",
+            "program_pool": "ProgramPool3",
+            "master_pool": "MasterPool1",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "2c69258ea0224220924eb24898a4cf4a",
+            "name": "SYSTEM_POOL_2026_001",
+            "description": "testing",
+            "insert_time": "2026-09-28T14:00:50.538000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "95bfcd43f47e480398a6a6171f4daedf",
+            "ppid": "272002df2edf4be5bd92f5d97c7f6e57",
+            "program_pool": "UpdatedProgram1",
+            "master_pool": "MASTER_POOL_2026_001",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "203d38b2770347e7b61bbbd141dbec71",
+            "name": "UpdatedSystem1",
+            "description": "updated",
+            "insert_time": "2026-09-28T14:01:29.915000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "7055b998d31e4e3ba550eb9069045ca9",
+            "ppid": "5b7203be600e4932967a9d0e6f523648",
+            "program_pool": "PROGRAM_POOL_2026_001",
+            "master_pool": "MASTER_POOL_2026_001",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "235fd42fc0b14f6c82e3f40466986042",
+            "name": "SYSTEM_POOL_2026_001",
+            "description": "testing",
+            "insert_time": "2026-09-28T14:07:18.410000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "91928ed0444d4b81b874331f5e6c0525",
+            "ppid": "29ad7fedc20046998c2364ccf09e6e09",
+            "program_pool": "PROGRAM_POOL",
+            "master_pool": "MASTER_POOL_2026_001",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "dd690f93234447249ddfcdce6982110f",
+            "name": "UpdatedSystem1",
+            "description": "updated",
+            "insert_time": "2026-09-28T14:10:18.490000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "2095b0c20fae42758f5e1659e9541434",
+            "ppid": "eb4d009d97154962b26ca42eb01c79b4",
+            "program_pool": "PROGRAM_POO",
+            "master_pool": "MASTER_POOL_2026_001",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        },
+        {
+            "pid": "7d2f6a45e44a450aa98af24d5e666784",
+            "name": "UpdatedSystem12",
+            "description": "updated",
+            "insert_time": "2026-09-28T14:15:19.276000",
+            "owners": [
+                "jx.bhavani@intel.com"
+            ],
+            "mpid": "65192f70e5be49bbb0aaa483e6ce5e93",
+            "ppid": "cde7cb83e2974eb0afa6601f48132f92",
+            "program_pool": "UpdatedProgram12",
+            "master_pool": "UpdatedMaster12",
+            "utilization_threshold": 100.0,
+            "planned_capacity": 1000
+        }
+    ],
+    "total_records": 18
+}
+2026-09-28 20:01:10,430 - resource_management.py - Line: 466 - INFO - get response:[
+    {
+        "pid": "ee375fab1870465db470182d6a68d2fa",
+        "name": "Accelerator",
+        "description": "testinggg",
+        "insert_time": "2026-07-09T06:37:22.650000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "mpid": "0deece40b7db4a71bea12dad8805afd2",
+        "ppid": "f623d6407c85496394b714481a8ff8bb",
+        "program_pool": "RPL-E Refresh",
+        "master_pool": "test __",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 0
+    },
+    {
+        "pid": "62a63e5cc0044c868f30526a22fcd9b3",
+        "name": "testingggggggggggggggggggggggggggggggggggggggggggggggggggdfdfdfd",
+        "description": "testingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggtestinggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "insert_time": "2026-08-14T06:49:49.149000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "mpid": "863a7b3d72954306b572229bc845ab17",
+        "ppid": "aa7a60a12b4f4479a0491f9e5c50c600",
+        "program_pool": "tetingggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "master_pool": "PPV-testing",
+        "utilization_threshold": 4.0,
+        "planned_capacity": 100
+    },
+    {
+        "pid": "5d6d53a85ada4efda12fa8ddc4da9071",
+        "name": "test_demo_2",
+        "description": "testing",
+        "insert_time": "2026-08-14T09:25:33.258000",
+        "owners": [
+            "anjalix.na@intel.com"
+        ],
+        "mpid": "523348f5737e4b099e11a973f52f09d7",
+        "ppid": "9f980966c4274acfb84a6951ee6474d1",
+        "program_pool": "test_demo",
+        "master_pool": "test_demo_1",
+        "utilization_threshold": 70.0,
+        "planned_capacity": 60
+    },
+    {
+        "pid": "9807f032ad05468a8159865ad23909fd",
+        "name": "UI_3",
+        "description": "UI_Testing",
+        "insert_time": "2026-08-17T06:16:54.564000",
+        "owners": [
+            "sys_evf_jira@intel.com"
+        ],
+        "mpid": "a6b0837c5ddf497692624edb20afbccd",
+        "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+        "program_pool": "UI",
+        "master_pool": "UI_2",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 65
+    },
+    {
+        "pid": "d1ec074f40744b59946db90accc76989",
+        "name": "val_group",
+        "description": "vali dation",
+        "insert_time": "2026-08-18T11:07:50.181000",
+        "owners": [
+            "anjalix.na@intel.com",
+            "himansu@intel.com",
+            "sumitx.dahiya@intel.com"
+        ],
+        "mpid": "790bf7b512f94f12b64c9a3942f3eb48",
+        "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+        "program_pool": "validation team",
+        "master_pool": "val",
+        "utilization_threshold": 10.0,
+        "planned_capacity": 5
+    },
+    {
+        "pid": "2e662933e5b74133986e6009f8392474",
+        "name": "RWS124345",
+        "description": "testing1",
+        "insert_time": "2026-09-28T06:04:36.611000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "02482bc2853747c28fe72e1edb5b092f",
+        "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+        "program_pool": "new3",
+        "master_pool": "testing=testing-pool-feat",
+        "utilization_threshold": 74.0,
+        "planned_capacity": 12263
+    },
+    {
+        "pid": "fd628dcfd659417bb9910f84e0e18dc0",
+        "name": "RWS124345",
+        "description": "testing1",
+        "insert_time": "2026-09-28T06:06:04.369000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "02482bc2853747c28fe72e1edb5b092f",
+        "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+        "program_pool": "UI",
+        "master_pool": "testing=testing-pool-feat",
+        "utilization_threshold": 81.0,
+        "planned_capacity": 17891
+    },
+    {
+        "pid": "1e4887e17fc548e39b778cb5a07bc6c6",
+        "name": "RWS124345",
+        "description": "testing1",
+        "insert_time": "2026-09-28T06:07:55.387000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "a6b0837c5ddf497692624edb20afbccd",
+        "ppid": "f623d6407c85496394b714481a8ff8bb",
+        "program_pool": "RPL-E Refresh",
+        "master_pool": "UI_2",
+        "utilization_threshold": 82.0,
+        "planned_capacity": 20613
+    },
+    {
+        "pid": "8270c725eb2f420b8686ba4fc27aaf0d",
+        "name": "UpdatedSystem",
+        "description": "updated",
+        "insert_time": "2026-09-28T12:51:56.117000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "c3b21f6ac3cc40558a9a896a6e2f2670",
+        "ppid": "6b6604a79e8544969dac6b9e9ce86f27",
+        "program_pool": "UpdatedProgram",
+        "master_pool": "UpdatedMaster",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "42713f628f274e9493f81b4f090dbaee",
+        "name": "SystemPool",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:19:19.126000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "83186067ab654463babadaa9e4419328",
+        "ppid": "0c1e86444a63404b91e7213721567f87",
+        "program_pool": "ProgramPool",
+        "master_pool": "MasterPool",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "2b5678a797dd478a9e51f97c1361cf7b",
+        "name": "SystemPool",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:27:07.473000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "ed739b2e29444da597eb026a143f83f7",
+        "ppid": "f4d2acf48e9244dc98c5b15dc821b163",
+        "program_pool": "ProgramPool1",
+        "master_pool": "MasterPool",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "a1580c27271440de87125bbf6ff1752c",
+        "name": "SystemPool",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:42:16.262000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "97ec5bf170c54715963f83a957a9caa6",
+        "ppid": "333a01118bf04281a81fde99aab2a078",
+        "program_pool": "ProgramPool2",
+        "master_pool": "MasterPool",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "308fd594adcf4b398e504b988b6d8006",
+        "name": "SystemPool1",
+        "description": "testing",
+        "insert_time": "2026-09-28T13:50:14.882000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "7322e8dec0d94dab8fc8332128cb1ca4",
+        "ppid": "729e41bf8fe049f589c615debc8c98f7",
+        "program_pool": "ProgramPool3",
+        "master_pool": "MasterPool1",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "2c69258ea0224220924eb24898a4cf4a",
+        "name": "SYSTEM_POOL_2026_001",
+        "description": "testing",
+        "insert_time": "2026-09-28T14:00:50.538000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "95bfcd43f47e480398a6a6171f4daedf",
+        "ppid": "272002df2edf4be5bd92f5d97c7f6e57",
+        "program_pool": "UpdatedProgram1",
+        "master_pool": "MASTER_POOL_2026_001",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "203d38b2770347e7b61bbbd141dbec71",
+        "name": "UpdatedSystem1",
+        "description": "updated",
+        "insert_time": "2026-09-28T14:01:29.915000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "7055b998d31e4e3ba550eb9069045ca9",
+        "ppid": "5b7203be600e4932967a9d0e6f523648",
+        "program_pool": "PROGRAM_POOL_2026_001",
+        "master_pool": "MASTER_POOL_2026_001",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "235fd42fc0b14f6c82e3f40466986042",
+        "name": "SYSTEM_POOL_2026_001",
+        "description": "testing",
+        "insert_time": "2026-09-28T14:07:18.410000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "91928ed0444d4b81b874331f5e6c0525",
+        "ppid": "29ad7fedc20046998c2364ccf09e6e09",
+        "program_pool": "PROGRAM_POOL",
+        "master_pool": "MASTER_POOL_2026_001",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "dd690f93234447249ddfcdce6982110f",
+        "name": "UpdatedSystem1",
+        "description": "updated",
+        "insert_time": "2026-09-28T14:10:18.490000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "2095b0c20fae42758f5e1659e9541434",
+        "ppid": "eb4d009d97154962b26ca42eb01c79b4",
+        "program_pool": "PROGRAM_POO",
+        "master_pool": "MASTER_POOL_2026_001",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    },
+    {
+        "pid": "7d2f6a45e44a450aa98af24d5e666784",
+        "name": "UpdatedSystem12",
+        "description": "updated",
+        "insert_time": "2026-09-28T14:15:19.276000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ],
+        "mpid": "65192f70e5be49bbb0aaa483e6ce5e93",
+        "ppid": "cde7cb83e2974eb0afa6601f48132f92",
+        "program_pool": "UpdatedProgram12",
+        "master_pool": "UpdatedMaster12",
+        "utilization_threshold": 100.0,
+        "planned_capacity": 1000
+    }
+]
+2026-09-28 20:01:10,431 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "2e662933e5b74133986e6009f8392474",
+    "name": "RWS124345",
+    "description": "testing1",
+    "insert_time": "2026-09-28T06:04:36.611000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "mpid": "02482bc2853747c28fe72e1edb5b092f",
+    "ppid": "539cb8cbe3df44e6b5da84aa464a8ea0",
+    "program_pool": "new3",
+    "master_pool": "testing=testing-pool-feat",
+    "utilization_threshold": 74.0,
+    "planned_capacity": 12263
+}
+2026-09-28 20:01:10,431 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "fd628dcfd659417bb9910f84e0e18dc0",
+    "name": "RWS124345",
+    "description": "testing1",
+    "insert_time": "2026-09-28T06:06:04.369000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "mpid": "02482bc2853747c28fe72e1edb5b092f",
+    "ppid": "d51ae3b4d9e94c51a97860436ac3b833",
+    "program_pool": "UI",
+    "master_pool": "testing=testing-pool-feat",
+    "utilization_threshold": 81.0,
+    "planned_capacity": 17891
+}
+2026-09-28 20:01:10,431 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "1e4887e17fc548e39b778cb5a07bc6c6",
+    "name": "RWS124345",
+    "description": "testing1",
+    "insert_time": "2026-09-28T06:07:55.387000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "mpid": "a6b0837c5ddf497692624edb20afbccd",
+    "ppid": "f623d6407c85496394b714481a8ff8bb",
+    "program_pool": "RPL-E Refresh",
+    "master_pool": "UI_2",
+    "utilization_threshold": 82.0,
+    "planned_capacity": 20613
+}
+2026-09-28 20:01:10,432 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "8270c725eb2f420b8686ba4fc27aaf0d",
+    "name": "UpdatedSystem",
+    "description": "updated",
+    "insert_time": "2026-09-28T12:51:56.117000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "mpid": "c3b21f6ac3cc40558a9a896a6e2f2670",
+    "ppid": "6b6604a79e8544969dac6b9e9ce86f27",
+    "program_pool": "UpdatedProgram",
+    "master_pool": "UpdatedMaster",
+    "utilization_threshold": 100.0,
+    "planned_capacity": 1000
+}
+2026-09-28 20:01:10,432 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "42713f628f274e9493f81b4f090dbaee",
+    "name": "SystemPool",
+    "description": "testing",
+    "insert_time": "2026-09-28T13:19:19.126000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "mpid": "83186067ab654463babadaa9e4419328",
+    "ppid": "0c1e86444a63404b91e7213721567f87",
+    "program_pool": "ProgramPool",
+    "master_pool": "MasterPool",
+    "utilization_threshold": 100.0,
+    "planned_capacity": 1000
+}
+2026-09-28 20:01:10,432 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "2b5678a797dd478a9e51f97c1361cf7b",
+    "name": "SystemPool",
+    "description": "testing",
+    "insert_time": "2026-09-28T13:27:07.473000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "mpid": "ed739b2e29444da597eb026a143f83f7",
+    "ppid": "f4d2acf48e9244dc98c5b15dc821b163",
+    "program_pool": "ProgramPool1",
+    "master_pool": "MasterPool",
+    "utilization_threshold": 100.0,
+    "planned_capacity": 1000
+}
+2026-09-28 20:01:10,432 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "a1580c27271440de87125bbf6ff1752c",
+    "name": "SystemPool",
+    "description": "testing",
+    "insert_time": "2026-09-28T13:42:16.262000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "mpid": "97ec5bf170c54715963f83a957a9caa6",
+    "ppid": "333a01118bf04281a81fde99aab2a078",
+    "program_pool": "ProgramPool2",
+    "master_pool": "MasterPool",
+    "utilization_threshold": 100.0,
+    "planned_capacity": 1000
+}
+2026-09-28 20:01:10,432 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "308fd594adcf4b398e504b988b6d8006",
+    "name": "SystemPool1",
+    "description": "testing",
+    "insert_time": "2026-09-28T13:50:14.882000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "mpid": "7322e8dec0d94dab8fc8332128cb1ca4",
+    "ppid": "729e41bf8fe049f589c615debc8c98f7",
+    "program_pool": "ProgramPool3",
+    "master_pool": "MasterPool1",
+    "utilization_threshold": 100.0,
+    "planned_capacity": 1000
+}
+2026-09-28 20:01:10,433 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "2c69258ea0224220924eb24898a4cf4a",
+    "name": "SYSTEM_POOL_2026_001",
+    "description": "testing",
+    "insert_time": "2026-09-28T14:00:50.538000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "mpid": "95bfcd43f47e480398a6a6171f4daedf",
+    "ppid": "272002df2edf4be5bd92f5d97c7f6e57",
+    "program_pool": "UpdatedProgram1",
+    "master_pool": "MASTER_POOL_2026_001",
+    "utilization_threshold": 100.0,
+    "planned_capacity": 1000
+}
+2026-09-28 20:01:10,433 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "203d38b2770347e7b61bbbd141dbec71",
+    "name": "UpdatedSystem1",
+    "description": "updated",
+    "insert_time": "2026-09-28T14:01:29.915000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "mpid": "7055b998d31e4e3ba550eb9069045ca9",
+    "ppid": "5b7203be600e4932967a9d0e6f523648",
+    "program_pool": "PROGRAM_POOL_2026_001",
+    "master_pool": "MASTER_POOL_2026_001",
+    "utilization_threshold": 100.0,
+    "planned_capacity": 1000
+}
+2026-09-28 20:01:10,434 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "235fd42fc0b14f6c82e3f40466986042",
+    "name": "SYSTEM_POOL_2026_001",
+    "description": "testing",
+    "insert_time": "2026-09-28T14:07:18.410000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "mpid": "91928ed0444d4b81b874331f5e6c0525",
+    "ppid": "29ad7fedc20046998c2364ccf09e6e09",
+    "program_pool": "PROGRAM_POOL",
+    "master_pool": "MASTER_POOL_2026_001",
+    "utilization_threshold": 100.0,
+    "planned_capacity": 1000
+}
+2026-09-28 20:01:10,434 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "dd690f93234447249ddfcdce6982110f",
+    "name": "UpdatedSystem1",
+    "description": "updated",
+    "insert_time": "2026-09-28T14:10:18.490000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "mpid": "2095b0c20fae42758f5e1659e9541434",
+    "ppid": "eb4d009d97154962b26ca42eb01c79b4",
+    "program_pool": "PROGRAM_POO",
+    "master_pool": "MASTER_POOL_2026_001",
+    "utilization_threshold": 100.0,
+    "planned_capacity": 1000
+}
+2026-09-28 20:01:10,434 - resource_management.py - Line: 424 - INFO - pools:{
+    "pid": "7d2f6a45e44a450aa98af24d5e666784",
+    "name": "UpdatedSystem12",
+    "description": "updated",
+    "insert_time": "2026-09-28T14:15:19.276000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "mpid": "65192f70e5be49bbb0aaa483e6ce5e93",
+    "ppid": "cde7cb83e2974eb0afa6601f48132f92",
+    "program_pool": "UpdatedProgram12",
+    "master_pool": "UpdatedMaster12",
+    "utilization_threshold": 100.0,
+    "planned_capacity": 1000
+}
+2026-09-28 20:01:10,434 - resource_management.py - Line: 429 - INFO - selected System Pool:{
+    "pid": "235fd42fc0b14f6c82e3f40466986042",
+    "name": "SYSTEM_POOL_2026_001",
+    "description": "testing",
+    "insert_time": "2026-09-28T14:07:18.410000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "mpid": "91928ed0444d4b81b874331f5e6c0525",
+    "ppid": "29ad7fedc20046998c2364ccf09e6e09",
+    "program_pool": "PROGRAM_POOL",
+    "master_pool": "MASTER_POOL_2026_001",
+    "utilization_threshold": 100.0,
+    "planned_capacity": 1000
+}
+2026-09-28 20:01:10,435 - resource_management.py - Line: 430 - INFO - selected pid:235fd42fc0b14f6c82e3f40466986042
+2026-09-28 20:01:10,435 - resource_management.py - Line: 452 - INFO - master pool id:91928ed0444d4b81b874331f5e6c0525
+2026-09-28 20:01:10,435 - resource_management.py - Line: 453 - INFO - program pool id:29ad7fedc20046998c2364ccf09e6e09
+2026-09-28 20:01:10,435 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 20:01:11,527 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/235fd42fc0b14f6c82e3f40466986042 -> 204
+2026-09-28 20:01:11,528 - resource_management.py - Line: 456 - INFO - Delete response status code:204
+2026-09-28 20:01:11,529 - resource_management.py - Line: 458 - INFO - System Pool deleted successfully
+2026-09-28 20:01:11,531 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_deleting_the_pool[System Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool/system] passed.
+2026-09-28 20:01:11,532 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-28 20:01:11,533 - conftest.py - Line: 109 - INFO - Total tests passed: 2
+2026-09-28 20:01:11,533 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-28 20:01:11,534 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-28 20:01:11,534 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-28 20:01:11,535 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_deleting_the_pool[Master Pool-https://pse-console-cloud-dev.intel.com/api/v1/pool/master?skip=0&limit=50] failed
+2026-09-28 20:01:11,535 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

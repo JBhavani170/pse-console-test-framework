@@ -1,0 +1,27 @@
+2026-09-23 19:50:49,049 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 19:50:50,493 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/options?fields=tags.supergroup,tags.group,tags.discipline,tags.team,tags.val_team,tags.project,tags.product,tags.activity,tags.active_state,tags.hw_config,tags.prognos_id -> 200
+2026-09-23 19:50:50,493 - resource_management.py - Line: 21 - INFO - <class 'list'>
+2026-09-23 19:50:50,494 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 19:50:51,835 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-23 19:50:51,836 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 19:50:52,885 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-23 19:50:52,886 - resource_management.py - Line: 31 - INFO - Status Code:201
+2026-09-23 19:50:52,886 - resource_management.py - Line: 32 - INFO - response:{"pid":"bcf37f7f09164d789c076ab0082f6be1","name":"CLX","description":"ElMU0HpNCzvj5DwgpsrlgtwDPEb7NL68g3BMk6iGFTyvDHpl6XeQs8QeJi6YzgMpBiXRuLcbWifxZstJCjVyTsBHPpke7I66BDz8mWgaTMB784qHzTMYtQEjpEIE3qWIsOi342hzD4EIm9Wu9W6Hh0T0f8ZmGCkEVjBxqwqLIEuLpOrDWxZkkd9Xj7wnU7bAT9FJlry1QAhI9CtDuLbKBwqdRMLiHOgvNjMIUo9T5hk1h2yVxP1oghBVjHRG1PD7GQlOnPl7uELhKJHkQPFxulZgIVoeVzLc5wWPVviL9bVVfz11rXkfyMxkBdUDFjcgrL2cI0Pr3TcHF0PEO5kAjStJrWJEV1NEg6IjMjNViOtg3dto0rGS4HCe1T8KE3rBHrPlUwHSDyK68hY0ztdLJ9s7pCi5u5GUrBxfueDV1yxYEn5eYMysIb9v3TSAsWSpAQNlRuweu","insert_time":"2026-09-23T14:20:53.561571Z","owners":["jx.bhavani@intel.com"]}
+2026-09-23 19:50:52,887 - resource_management.py - Line: 35 - INFO - {
+    "pid": "bcf37f7f09164d789c076ab0082f6be1",
+    "name": "CLX",
+    "description": "ElMU0HpNCzvj5DwgpsrlgtwDPEb7NL68g3BMk6iGFTyvDHpl6XeQs8QeJi6YzgMpBiXRuLcbWifxZstJCjVyTsBHPpke7I66BDz8mWgaTMB784qHzTMYtQEjpEIE3qWIsOi342hzD4EIm9Wu9W6Hh0T0f8ZmGCkEVjBxqwqLIEuLpOrDWxZkkd9Xj7wnU7bAT9FJlry1QAhI9CtDuLbKBwqdRMLiHOgvNjMIUo9T5hk1h2yVxP1oghBVjHRG1PD7GQlOnPl7uELhKJHkQPFxulZgIVoeVzLc5wWPVviL9bVVfz11rXkfyMxkBdUDFjcgrL2cI0Pr3TcHF0PEO5kAjStJrWJEV1NEg6IjMjNViOtg3dto0rGS4HCe1T8KE3rBHrPlUwHSDyK68hY0ztdLJ9s7pCi5u5GUrBxfueDV1yxYEn5eYMysIb9v3TSAsWSpAQNlRuweu",
+    "insert_time": "2026-09-23T14:20:53.561571Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-23 19:50:53,014 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_create_program_pool failed
+2026-09-23 19:50:53,016 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-23 19:50:53,017 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-23 19:50:53,018 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-23 19:50:53,018 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-23 19:50:53,018 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-23 19:50:53,019 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_create_program_pool failed
+2026-09-23 19:50:53,019 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

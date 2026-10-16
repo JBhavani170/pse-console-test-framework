@@ -1,0 +1,10 @@
+2026-09-21 15:36:12,320 - resource_management.py - Line: 14 - INFO - Fetching pool statistics data
+2026-09-21 15:36:12,409 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_pool_management_view failed
+2026-09-21 15:36:12,411 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-21 15:36:12,411 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-21 15:36:12,412 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-21 15:36:12,412 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-21 15:36:12,412 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-21 15:36:12,413 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_pool_management_view failed
+2026-09-21 15:36:12,413 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

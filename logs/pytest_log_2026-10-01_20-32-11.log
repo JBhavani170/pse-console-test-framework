@@ -1,0 +1,21 @@
+2026-10-01 20:32:11,200 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 20:32:13,161 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-10-01 20:32:14,547 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 201
+2026-10-01 20:32:15,929 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 201
+2026-10-01 20:32:15,932 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 20:32:17,666 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system/62558df2a57d4830baca07ccb2506244 -> 204
+2026-10-01 20:32:17,667 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 20:32:19,317 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 200
+2026-10-01 20:32:19,317 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 20:32:20,740 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master/bab91154e66b4ca5a6e65915debd0c4b -> 204
+2026-10-01 20:32:20,741 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 20:32:21,961 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 200
+2026-10-01 20:32:21,962 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 20:32:23,045 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/c61a2f8922de422f8d386da1f1a31f7d -> 204
+2026-10-01 20:32:23,046 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-01 20:32:24,223 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 200
+2026-10-01 20:32:24,225 - conftest.py - Line: 100 - INFO - Test pse-cloud/pool_management/pool_manager.py::test_delete_pools passed.
+2026-10-01 20:32:24,246 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-10-01 20:32:24,246 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-10-01 20:32:24,247 - conftest.py - Line: 110 - INFO - Total tests failed: 0

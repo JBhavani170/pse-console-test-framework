@@ -1,0 +1,35 @@
+2026-09-23 14:43:19,918 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:43:20,949 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/options?fields=tags.supergroup,tags.group,tags.discipline,tags.team,tags.val_team,tags.project,tags.product,tags.activity,tags.active_state,tags.hw_config,tags.prognos_id -> 200
+2026-09-23 14:43:20,950 - resource_management.py - Line: 78 - INFO - <class 'list'>
+2026-09-23 14:43:20,951 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:43:21,901 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-23 14:43:21,901 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:43:22,651 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-23 14:43:22,651 - resource_management.py - Line: 87 - INFO - Status Code:201
+2026-09-23 14:43:22,652 - resource_management.py - Line: 92 - INFO - {
+    "pid": "394a5cd4555544a3b6bcca0b0b56bef4",
+    "name": "GRR",
+    "description": "Z1CAsvHfVRbx9hEYtzNFNOqeJNsAajPLwzJ6koSRA7STyq",
+    "insert_time": "2026-09-23T09:13:24.975402Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-23 14:43:22,654 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:43:23,551 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/394a5cd4555544a3b6bcca0b0b56bef4 -> 200
+2026-09-23 14:43:23,552 - resource_management.py - Line: 119 - INFO - PATCH URL: https://pse-console-cloud-dev.intel.com/api/v1/pool/program/394a5cd4555544a3b6bcca0b0b56bef4
+2026-09-23 14:43:23,552 - resource_management.py - Line: 121 - INFO - Status Code: 200
+2026-09-23 14:43:23,552 - resource_management.py - Line: 126 - INFO - {
+    "pid": "394a5cd4555544a3b6bcca0b0b56bef4",
+    "name": "GRR",
+    "description": "HhbUZOTPrUwsFNyQRjNyxsQ8Yvq6D4kX0",
+    "insert_time": "2026-09-23T09:13:24.975000",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-23 14:43:23,553 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_patch_program_pool passed.
+2026-09-23 14:43:23,555 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-23 14:43:23,555 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-23 14:43:23,555 - conftest.py - Line: 110 - INFO - Total tests failed: 0

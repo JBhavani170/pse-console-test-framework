@@ -1,0 +1,25 @@
+2026-09-25 18:17:15,627 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 18:17:22,547 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=50&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-25 18:17:22,548 - resource_management.py - Line: 277 - INFO - system id:cs16ca101as0602
+2026-09-25 18:17:22,549 - resource_management.py - Line: 278 - INFO - old program pool:
+2026-09-25 18:17:22,556 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 18:17:26,251 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-25 18:17:26,252 - resource_management.py - Line: 287 - INFO - program pool after update:new
+2026-09-25 18:17:26,252 - resource_management.py - Line: 288 - INFO - pid:85d3e9cea59f43a0b0e8b2e961ed4fa2
+2026-09-25 18:17:26,252 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-25 18:17:38,563 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 200
+2026-09-25 18:17:38,564 - resource_management.py - Line: 291 - INFO - response:{
+    "success": 1,
+    "failure": 0
+}
+2026-09-25 18:17:38,564 - resource_management.py - Line: 299 - INFO - system id:cs16ca101as0602
+2026-09-25 18:17:38,565 - resource_management.py - Line: 300 - INFO - program pool before:
+2026-09-25 18:17:38,635 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_pool_to_single_system failed
+2026-09-25 18:17:38,636 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-25 18:17:38,637 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-25 18:17:38,637 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-25 18:17:38,637 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-25 18:17:38,637 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-25 18:17:38,637 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_pool_to_single_system failed
+2026-09-25 18:17:38,637 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

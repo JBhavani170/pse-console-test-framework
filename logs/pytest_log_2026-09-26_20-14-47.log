@@ -1,0 +1,25 @@
+2026-09-26 20:14:47,866 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:14:49,186 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-26 20:14:49,186 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:14:50,300 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 500
+2026-09-26 20:14:50,396 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_system_level_filter[Program Pool-program] failed
+2026-09-26 20:14:50,398 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:14:51,620 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-26 20:14:51,620 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:14:52,701 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 500
+2026-09-26 20:14:52,716 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_system_level_filter[Master Pool-master] failed
+2026-09-26 20:14:52,718 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:14:54,105 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-26 20:14:54,106 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:14:55,086 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 500
+2026-09-26 20:14:55,103 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_system_level_filter[System Pool-system] failed
+2026-09-26 20:14:55,104 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-26 20:14:55,105 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-26 20:14:55,105 - conftest.py - Line: 110 - INFO - Total tests failed: 3
+2026-09-26 20:14:55,106 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-26 20:14:55,106 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-26 20:14:55,106 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_system_level_filter[Program Pool-program] failed
+2026-09-26 20:14:55,106 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_system_level_filter[Master Pool-master] failed
+2026-09-26 20:14:55,107 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_system_level_filter[System Pool-system] failed
+2026-09-26 20:14:55,107 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

@@ -1,0 +1,38 @@
+2026-09-28 10:11:33,383 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 10:11:34,253 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-28 10:11:34,254 - resource_management.py - Line: 21 - INFO - Status Code:201
+2026-09-28 10:11:34,254 - resource_management.py - Line: 22 - INFO - response body:{"pid":"10cff9ca7c184390aa79d7ca855e6a06","name":"ABCde","description":"testing*512","insert_time":"2026-09-28T04:41:34.724974Z","owners":["jx.bhavani@intel.com"]}
+2026-09-28 10:11:34,260 - resource_management.py - Line: 25 - INFO - create response:{
+    "pid": "10cff9ca7c184390aa79d7ca855e6a06",
+    "name": "ABCde",
+    "description": "testing*512",
+    "insert_time": "2026-09-28T04:41:34.724974Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-28 10:11:34,260 - resource_management.py - Line: 27 - INFO - created program pool pid:10cff9ca7c184390aa79d7ca855e6a06
+2026-09-28 10:11:34,261 - resource_management.py - Line: 37 - INFO - create response:{
+    "pid": "10cff9ca7c184390aa79d7ca855e6a06",
+    "name": "ABCde",
+    "description": "testing*512",
+    "insert_time": "2026-09-28T04:41:34.724974Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-28 10:11:34,262 - resource_management.py - Line: 39 - INFO - created pid:10cff9ca7c184390aa79d7ca855e6a06
+2026-09-28 10:11:34,262 - resource_management.py - Line: 43 - INFO - created pool response:{
+    "pid": "10cff9ca7c184390aa79d7ca855e6a06",
+    "name": "ABCde",
+    "description": "testing*512",
+    "insert_time": "2026-09-28T04:41:34.724974Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-28 10:11:34,263 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_program_pool passed.
+2026-09-28 10:11:34,264 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-28 10:11:34,264 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-28 10:11:34,265 - conftest.py - Line: 110 - INFO - Total tests failed: 0

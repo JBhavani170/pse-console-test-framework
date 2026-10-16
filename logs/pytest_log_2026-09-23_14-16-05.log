@@ -1,0 +1,26 @@
+2026-09-23 14:16:05,518 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:16:06,571 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/options?fields=tags.supergroup,tags.group,tags.discipline,tags.team,tags.val_team,tags.project,tags.product,tags.activity,tags.active_state,tags.hw_config,tags.prognos_id -> 200
+2026-09-23 14:16:06,572 - resource_management.py - Line: 78 - INFO - <class 'list'>
+2026-09-23 14:16:06,572 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:16:07,519 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-23 14:16:07,519 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:16:08,281 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-23 14:16:08,281 - resource_management.py - Line: 87 - INFO - Status Code:201
+2026-09-23 14:16:08,281 - resource_management.py - Line: 92 - INFO - {
+    "pid": "85315f3781c94c5983eadfb036e5e804",
+    "name": "DNV",
+    "description": "vnxbmbFXGsuZqyPFBMCN0IKidWQwJQzpWIA1aLKWGP76M5QK1jkWzSBRuv7WptIsa6Lluu9vtBPE2203z3NuEcjG7pClnTITxB8ahVSAnXD4YEZwksTpBKMnWMlOLIQrR4EcCEp4RLjuRz8p5B0kwOzpjgyRFtX5M0sRB5FkorjDvMFlE8U",
+    "insert_time": "2026-09-23T08:46:10.474513Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-23 14:16:08,380 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_patch_program_pool failed
+2026-09-23 14:16:08,382 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-23 14:16:08,382 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-23 14:16:08,382 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-23 14:16:08,383 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-23 14:16:08,383 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-23 14:16:08,383 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_patch_program_pool failed
+2026-09-23 14:16:08,383 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

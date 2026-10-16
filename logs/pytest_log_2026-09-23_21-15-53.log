@@ -1,0 +1,22 @@
+2026-09-23 21:15:53,828 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 21:15:54,921 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=10 -> 200
+2026-09-23 21:15:54,922 - resource_management.py - Line: 102 - INFO - program pool data:[
+    {
+        "pid": "c6df88b0e01b4665869496e604ba763b",
+        "name": "BDX",
+        "description": "dUCeIprEueSHP0qm7CizqfRST8SvLIHn87qOu6IJ1EadaYNWnJhDhzuEhNPH4qSCeTNAD",
+        "insert_time": "2026-09-23T14:01:50.969000",
+        "owners": [
+            "jx.bhavani@intel.com"
+        ]
+    }
+]
+2026-09-23 21:15:54,923 - resource_management.py - Line: 108 - INFO - Deleting Program Pool PID: c6df88b0e01b4665869496e604ba763b
+2026-09-23 21:15:54,924 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 21:15:56,163 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program/c6df88b0e01b4665869496e604ba763b -> 204
+2026-09-23 21:15:56,163 - resource_management.py - Line: 115 - INFO - Delete Status Code: 204
+2026-09-23 21:15:56,165 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_delete_program_pool passed.
+2026-09-23 21:15:56,166 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-23 21:15:56,166 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-23 21:15:56,166 - conftest.py - Line: 110 - INFO - Total tests failed: 0

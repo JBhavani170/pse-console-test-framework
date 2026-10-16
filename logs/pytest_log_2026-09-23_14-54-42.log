@@ -1,0 +1,31 @@
+2026-09-23 14:54:42,753 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:54:43,736 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/options?fields=tags.supergroup,tags.group,tags.discipline,tags.team,tags.val_team,tags.project,tags.product,tags.activity,tags.active_state,tags.hw_config,tags.prognos_id -> 200
+2026-09-23 14:54:43,738 - resource_management.py - Line: 78 - INFO - <class 'list'>
+2026-09-23 14:54:43,739 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:54:44,902 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-23 14:54:44,903 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-23 14:54:45,642 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 201
+2026-09-23 14:54:45,643 - resource_management.py - Line: 87 - INFO - Status Code:201
+2026-09-23 14:54:45,643 - resource_management.py - Line: 92 - INFO - {
+    "pid": "aeeda011bfd046718c91c5c191a1634e",
+    "name": "ICX-D",
+    "description": "Kg7zlBnvz49f30pgJIOlYmEwVoLLRQLGhFYFr9FFwvNIramLuEMvbYnkrUrx3QZMaCrEdQauFAcJ5tdL0XZEKX0oSimgvzduyPXLORKAtoVsqjRFxkNSNs1UChKcHyHvcyo9weeTtgdlnVTxR0Unsa0t2eZvmtN0PpMsFx1RTyi5feCxQ0Zolu1guGkPMKECvDJHMQXRzdmueO97YuqzgpGoSggeLhz1eMLgvdFxjMntFrMriDU8nhFwJYf0rgcdDpuxhS24tOrOoqR8xFG5nbi0Pmqb8xZVAcByg7",
+    "insert_time": "2026-09-23T09:24:48.023242Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-23 14:54:45,645 - resource_management.py - Line: 100 - INFO - {
+    "pid": "aeeda011bfd046718c91c5c191a1634e",
+    "name": "ICX-D",
+    "description": "Kg7zlBnvz49f30pgJIOlYmEwVoLLRQLGhFYFr9FFwvNIramLuEMvbYnkrUrx3QZMaCrEdQauFAcJ5tdL0XZEKX0oSimgvzduyPXLORKAtoVsqjRFxkNSNs1UChKcHyHvcyo9weeTtgdlnVTxR0Unsa0t2eZvmtN0PpMsFx1RTyi5feCxQ0Zolu1guGkPMKECvDJHMQXRzdmueO97YuqzgpGoSggeLhz1eMLgvdFxjMntFrMriDU8nhFwJYf0rgcdDpuxhS24tOrOoqR8xFG5nbi0Pmqb8xZVAcByg7",
+    "insert_time": "2026-09-23T09:24:48.023242Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ]
+}
+2026-09-23 14:54:45,646 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_create_program_pool passed.
+2026-09-23 14:54:45,647 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-23 14:54:45,647 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-23 14:54:45,648 - conftest.py - Line: 110 - INFO - Total tests failed: 0

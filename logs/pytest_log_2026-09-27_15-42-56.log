@@ -1,0 +1,78 @@
+2026-09-27 15:42:56,167 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 15:42:57,500 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-27 15:42:57,500 - resource_management.py - Line: 597 - INFO - ['an411bm18bs0502', 'an411bm18bs0403', 'an411bm18bs0401', 'an411bm18bs0402', 'cr31h43tl3s0203', 'cr31h43tl3s0102', 'an411bm18bs0303', 'an411bm18bs0501', 'an411bm18bs0302', 'an411bm18bs0301']
+2026-09-27 15:42:57,506 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 15:42:58,608 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-27 15:42:58,608 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 15:43:00,391 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 200
+2026-09-27 15:43:00,392 - resource_management.py - Line: 626 - INFO - {
+    "success": 10,
+    "failure": 0
+}
+2026-09-27 15:43:00,392 - resource_management.py - Line: 627 - INFO - [
+    {
+        "system_id": "an411bm18bs0502",
+        "pools": {
+            "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0403",
+        "pools": {
+            "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0401",
+        "pools": {
+            "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0402",
+        "pools": {
+            "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6"
+        }
+    },
+    {
+        "system_id": "cr31h43tl3s0203",
+        "pools": {
+            "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6"
+        }
+    },
+    {
+        "system_id": "cr31h43tl3s0102",
+        "pools": {
+            "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0303",
+        "pools": {
+            "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0501",
+        "pools": {
+            "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0302",
+        "pools": {
+            "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0301",
+        "pools": {
+            "ppid": "e1c184b8a9c84405b6dc4b308a0f07f6"
+        }
+    }
+]
+2026-09-27 15:43:00,394 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_move_systems_to_program_pool passed.
+2026-09-27 15:43:00,395 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-27 15:43:00,405 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-27 15:43:00,406 - conftest.py - Line: 110 - INFO - Total tests failed: 0

@@ -1,0 +1,19 @@
+2026-09-30 20:36:28,732 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 20:36:29,719 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program -> 422
+2026-09-30 20:36:29,835 - conftest.py - Line: 102 - ERROR - Test pse-cloud/pool_management/pool.py::test_pool_negative_scenarios[program-https://pse-console-cloud-dev.intel.com/api/v1/pool/program] failed
+2026-09-30 20:36:29,838 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 20:36:30,764 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 422
+2026-09-30 20:36:30,773 - conftest.py - Line: 102 - ERROR - Test pse-cloud/pool_management/pool.py::test_pool_negative_scenarios[master-https://pse-console-cloud-dev.intel.com/api/v1/pool/master] failed
+2026-09-30 20:36:30,776 - conftest.py - Line: 194 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-30 20:36:31,688 - conftest.py - Line: 308 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 422
+2026-09-30 20:36:31,696 - conftest.py - Line: 102 - ERROR - Test pse-cloud/pool_management/pool.py::test_pool_negative_scenarios[system-https://pse-console-cloud-dev.intel.com/api/v1/pool/system] failed
+2026-09-30 20:36:31,698 - conftest.py - Line: 112 - INFO - 
+Test execution complete.
+2026-09-30 20:36:31,699 - conftest.py - Line: 113 - INFO - Total tests passed: 0
+2026-09-30 20:36:31,699 - conftest.py - Line: 114 - INFO - Total tests failed: 3
+2026-09-30 20:36:31,699 - conftest.py - Line: 117 - ERROR - ===================================================================================================================
+2026-09-30 20:36:31,700 - conftest.py - Line: 118 - ERROR - Test Summary Info
+2026-09-30 20:36:31,700 - conftest.py - Line: 121 - ERROR - pse-cloud/pool_management/pool.py::test_pool_negative_scenarios[program-https://pse-console-cloud-dev.intel.com/api/v1/pool/program] failed
+2026-09-30 20:36:31,700 - conftest.py - Line: 121 - ERROR - pse-cloud/pool_management/pool.py::test_pool_negative_scenarios[master-https://pse-console-cloud-dev.intel.com/api/v1/pool/master] failed
+2026-09-30 20:36:31,700 - conftest.py - Line: 121 - ERROR - pse-cloud/pool_management/pool.py::test_pool_negative_scenarios[system-https://pse-console-cloud-dev.intel.com/api/v1/pool/system] failed
+2026-09-30 20:36:31,701 - conftest.py - Line: 122 - ERROR - ===================================================================================================================

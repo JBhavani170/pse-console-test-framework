@@ -1,0 +1,80 @@
+2026-09-27 23:52:33,848 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 23:52:35,323 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=40&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-27 23:52:35,324 - resource_management.py - Line: 530 - INFO - ['cs16ca101cs0403', 'cs16ca101cs0402', 'cs16ca101cs0406', 'cs16ca101ds0101', 'cs16ca101cs0404', 'cs16ca101cs0307', 'cs16ca101cs0401', 'cs16ca101cs0308', 'cs16ca101cs0405', 'cs16ca101ds0102']
+2026-09-27 23:52:35,324 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 23:52:36,533 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/program?skip=0&limit=20 -> 200
+2026-09-27 23:52:36,534 - resource_management.py - Line: 540 - INFO - current program ids:set()
+2026-09-27 23:52:36,535 - resource_management.py - Line: 541 - INFO - selected pool:{'pid': 'f47067f5e9594746a0dca854a8841cfb', 'name': 'SNR', 'description': '1234567890qwerttyuiopasddfghjjkl;;;;;,mnvzm,.yhgfvccv', 'insert_time': '2026-06-24T07:17:15.365000', 'owners': ['sumitx.dahiya@intel.com']}
+2026-09-27 23:52:36,535 - resource_management.py - Line: 548 - INFO - [
+    {
+        "system_id": "cs16ca101cs0403",
+        "pools": {
+            "ppid": "f47067f5e9594746a0dca854a8841cfb"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0402",
+        "pools": {
+            "ppid": "f47067f5e9594746a0dca854a8841cfb"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0406",
+        "pools": {
+            "ppid": "f47067f5e9594746a0dca854a8841cfb"
+        }
+    },
+    {
+        "system_id": "cs16ca101ds0101",
+        "pools": {
+            "ppid": "f47067f5e9594746a0dca854a8841cfb"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0404",
+        "pools": {
+            "ppid": "f47067f5e9594746a0dca854a8841cfb"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0307",
+        "pools": {
+            "ppid": "f47067f5e9594746a0dca854a8841cfb"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0401",
+        "pools": {
+            "ppid": "f47067f5e9594746a0dca854a8841cfb"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0308",
+        "pools": {
+            "ppid": "f47067f5e9594746a0dca854a8841cfb"
+        }
+    },
+    {
+        "system_id": "cs16ca101cs0405",
+        "pools": {
+            "ppid": "f47067f5e9594746a0dca854a8841cfb"
+        }
+    },
+    {
+        "system_id": "cs16ca101ds0102",
+        "pools": {
+            "ppid": "f47067f5e9594746a0dca854a8841cfb"
+        }
+    }
+]
+2026-09-27 23:52:36,536 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 23:52:38,141 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 200
+2026-09-27 23:52:38,142 - resource_management.py - Line: 552 - INFO - {
+    "success": 10,
+    "failure": 0
+}
+2026-09-27 23:52:38,144 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_move_systems_to_program_pool passed.
+2026-09-27 23:52:38,145 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-27 23:52:38,146 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-27 23:52:38,146 - conftest.py - Line: 110 - INFO - Total tests failed: 0

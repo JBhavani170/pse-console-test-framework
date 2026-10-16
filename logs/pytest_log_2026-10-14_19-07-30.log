@@ -1,0 +1,25 @@
+2026-10-14 19:07:30,181 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-14 19:07:32,004 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=100&fields=category_id,org_id,site_id,building_id,floor_id,lab_id,row_id,chassis_type,name,system_type,cpu_serial_number,cpu_cores,cpu_qdf,cpu_stepping,memory_size,memory_speed,bios_version,bmc_version,cpld_version,cpld_pfr_version,cluster_pool,board_product,board_serial,pba,supergroup,group,team,division,subdivision,discipline,val_team,function,pool,domain,processor,project,activity,product,owner,active_state,hw_config,nga_project,nga_automation_status,nga_execution_status,nga_pool,nga_activity,nga_config,nga_recipe,nga_notes,site,last_scan,pci_device,bat_result,hma_version,bat_version,location,label,host_type,sut_state,nuc_state,bmc_state,inv_inconsistent,sut_os,nga_station_url,hma_active,program_pool,master_pool,system_pool,program_scope,pool,sub_pool,system_utilization,hsdes_config,ramp_status,cpu_type,host_os,ram_vendor,ram_type,rank_and_chip -> 200
+2026-10-14 19:07:32,007 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-14 19:07:33,309 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/available?list_all=true -> 200
+2026-10-14 19:07:33,310 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-14 19:07:33,310 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-14 19:07:34,386 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/attribute-options?attributes_options=system_types,                        hw_config,pool,val_team,project,product,activity,active_state -> 200
+2026-10-14 19:07:35,261 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/program-scope -> 201
+2026-10-14 19:07:35,262 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-10-14 19:07:36,534 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/attribute-options?attributes_options=system_types,                            hw_config,pool,val_team,project,product,activity,active_state -> 200
+2026-10-14 19:07:37,493 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/pool -> 201
+2026-10-14 19:07:38,412 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool-mgmt/sub-pool -> 201
+2026-10-14 19:07:38,458 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_assign_100_systems_to_pool[program-scope] failed
+2026-10-14 19:07:38,472 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_assign_100_systems_to_pool[pool] failed
+2026-10-14 19:07:38,485 - conftest.py - Line: 98 - ERROR - Test pse-cloud/pool_management/pool_management.py::test_assign_100_systems_to_pool[sub-pool] failed
+2026-10-14 19:07:38,486 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-10-14 19:07:38,487 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-10-14 19:07:38,487 - conftest.py - Line: 110 - INFO - Total tests failed: 3
+2026-10-14 19:07:38,487 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-10-14 19:07:38,487 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-10-14 19:07:38,487 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_assign_100_systems_to_pool[program-scope] failed
+2026-10-14 19:07:38,488 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_assign_100_systems_to_pool[pool] failed
+2026-10-14 19:07:38,488 - conftest.py - Line: 117 - ERROR - pse-cloud/pool_management/pool_management.py::test_assign_100_systems_to_pool[sub-pool] failed
+2026-10-14 19:07:38,488 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

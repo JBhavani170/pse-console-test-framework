@@ -1,0 +1,148 @@
+2026-09-27 12:46:02,211 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 12:46:03,717 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-27 12:46:03,719 - resource_management.py - Line: 528 - INFO - system_ids:[
+    "an411bm18bs0301",
+    "an411bm18bs0302",
+    "an411bm18bs0303",
+    "an411bm18bs0401",
+    "an411bm18bs0402",
+    "an411bm18bs0403",
+    "an411bm18bs0501",
+    "an411bm18bs0502",
+    "cr31h43tl3s0102",
+    "cr31h43tl3s0203"
+]
+2026-09-27 12:46:03,720 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 12:46:04,996 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-27 12:46:04,997 - resource_management.py - Line: 538 - INFO - selected pool name:!@#$$%^&**((()_+{}:"<>?|1234567890-=[]\;',./\|.,abcdefjhijklmnop
+2026-09-27 12:46:04,997 - resource_management.py - Line: 539 - INFO - selected_pool_id:d7bcfa4f60204e84809fa878a3ae9794
+2026-09-27 12:46:04,997 - resource_management.py - Line: 555 - INFO - filter name:Program Pool
+2026-09-27 12:46:04,997 - resource_management.py - Line: 556 - INFO - pool_type:program
+2026-09-27 12:46:04,998 - resource_management.py - Line: 557 - INFO - program_pool_id:d7bcfa4f60204e84809fa878a3ae9794
+2026-09-27 12:46:04,998 - resource_management.py - Line: 558 - INFO - master_pool_id:None
+2026-09-27 12:46:04,998 - resource_management.py - Line: 559 - INFO - system_pool_id:None
+2026-09-27 12:46:04,999 - resource_management.py - Line: 560 - INFO - Bulk payload:[
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": "d7bcfa4f60204e84809fa878a3ae9794"
+        }
+    }
+]
+2026-09-27 12:46:04,999 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 12:46:05,925 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 422
+2026-09-27 12:46:06,014 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_system_move[Program Pool-program] failed
+2026-09-27 12:46:06,016 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 12:46:07,099 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-27 12:46:07,101 - resource_management.py - Line: 528 - INFO - system_ids:[
+    "an411bm18bs0301",
+    "an411bm18bs0302",
+    "an411bm18bs0303",
+    "an411bm18bs0401",
+    "an411bm18bs0402",
+    "an411bm18bs0403",
+    "an411bm18bs0501",
+    "an411bm18bs0502",
+    "cr31h43tl3s0102",
+    "cr31h43tl3s0203"
+]
+2026-09-27 12:46:07,102 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 12:46:08,396 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-27 12:46:08,397 - resource_management.py - Line: 538 - INFO - selected pool name:DAES
+2026-09-27 12:46:08,397 - resource_management.py - Line: 539 - INFO - selected_pool_id:6f62111464404fa885675bc1d0367fff
+2026-09-27 12:46:08,398 - resource_management.py - Line: 555 - INFO - filter name:Master Pool
+2026-09-27 12:46:08,399 - resource_management.py - Line: 556 - INFO - pool_type:master
+2026-09-27 12:46:08,400 - resource_management.py - Line: 557 - INFO - program_pool_id:None
+2026-09-27 12:46:08,401 - resource_management.py - Line: 558 - INFO - master_pool_id:6f62111464404fa885675bc1d0367fff
+2026-09-27 12:46:08,402 - resource_management.py - Line: 559 - INFO - system_pool_id:None
+2026-09-27 12:46:08,402 - resource_management.py - Line: 560 - INFO - Bulk payload:[
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    }
+]
+2026-09-27 12:46:08,403 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 12:46:09,115 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 422
+2026-09-27 12:46:09,140 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_system_move[Master Pool-master] failed
+2026-09-27 12:46:09,142 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 12:46:10,238 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-27 12:46:10,240 - resource_management.py - Line: 528 - INFO - system_ids:[
+    "an411bm18bs0301",
+    "an411bm18bs0302",
+    "an411bm18bs0303",
+    "an411bm18bs0401",
+    "an411bm18bs0402",
+    "an411bm18bs0403",
+    "an411bm18bs0501",
+    "an411bm18bs0502",
+    "cr31h43tl3s0102",
+    "cr31h43tl3s0203"
+]
+2026-09-27 12:46:10,240 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 12:46:11,431 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-27 12:46:11,431 - resource_management.py - Line: 538 - INFO - selected pool name:val_group
+2026-09-27 12:46:11,432 - resource_management.py - Line: 539 - INFO - selected_pool_id:d1ec074f40744b59946db90accc76989
+2026-09-27 12:46:11,432 - resource_management.py - Line: 555 - INFO - filter name:System Pool
+2026-09-27 12:46:11,432 - resource_management.py - Line: 556 - INFO - pool_type:system
+2026-09-27 12:46:11,433 - resource_management.py - Line: 557 - INFO - program_pool_id:None
+2026-09-27 12:46:11,433 - resource_management.py - Line: 558 - INFO - master_pool_id:None
+2026-09-27 12:46:11,433 - resource_management.py - Line: 559 - INFO - system_pool_id:d1ec074f40744b59946db90accc76989
+2026-09-27 12:46:11,433 - resource_management.py - Line: 560 - INFO - Bulk payload:[
+    {
+        "system_id": [
+            "an411bm18bs0301",
+            "an411bm18bs0302",
+            "an411bm18bs0303",
+            "an411bm18bs0401",
+            "an411bm18bs0402",
+            "an411bm18bs0403",
+            "an411bm18bs0501",
+            "an411bm18bs0502",
+            "cr31h43tl3s0102",
+            "cr31h43tl3s0203"
+        ],
+        "pools": {
+            "ppid": null,
+            "mpid": null,
+            "spid": "d1ec074f40744b59946db90accc76989"
+        }
+    }
+]
+2026-09-27 12:46:11,433 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 12:46:12,462 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 422
+2026-09-27 12:46:12,484 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_system_move[System Pool-system] failed
+2026-09-27 12:46:12,486 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-27 12:46:12,487 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-27 12:46:12,488 - conftest.py - Line: 110 - INFO - Total tests failed: 3
+2026-09-27 12:46:12,488 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-27 12:46:12,488 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-27 12:46:12,489 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_system_move[Program Pool-program] failed
+2026-09-27 12:46:12,489 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_system_move[Master Pool-master] failed
+2026-09-27 12:46:12,489 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_system_move[System Pool-system] failed
+2026-09-27 12:46:12,490 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

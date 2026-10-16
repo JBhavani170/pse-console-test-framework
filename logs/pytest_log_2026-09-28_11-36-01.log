@@ -1,0 +1,36 @@
+2026-09-28 11:36:01,481 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 11:36:02,458 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-28 11:36:02,460 - resource_management.py - Line: 205 - INFO - Response:{
+    "name": "RWS124345",
+    "description": "testing1",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "utilization_threshold": 81,
+    "planned_capacity": 17891,
+    "mpid": "02482bc2853747c28fe72e1edb5b092f",
+    "ppid": "d51ae3b4d9e94c51a97860436ac3b833"
+}
+2026-09-28 11:36:02,465 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-28 11:36:03,448 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/system -> 201
+2026-09-28 11:36:03,449 - resource_management.py - Line: 207 - INFO - Status Code:201
+2026-09-28 11:36:03,449 - resource_management.py - Line: 209 - INFO - Response:{
+    "pid": "fd628dcfd659417bb9910f84e0e18dc0",
+    "name": "RWS124345",
+    "description": "testing1",
+    "insert_time": "2026-09-28T06:06:04.369029Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "mpid": "02482bc2853747c28fe72e1edb5b092f",
+    "ppid": "d51ae3b4d9e94c51a97860436ac3b833"
+}
+2026-09-28 11:36:03,543 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_create_system_pool failed
+2026-09-28 11:36:03,544 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-28 11:36:03,545 - conftest.py - Line: 109 - INFO - Total tests passed: 0
+2026-09-28 11:36:03,545 - conftest.py - Line: 110 - INFO - Total tests failed: 1
+2026-09-28 11:36:03,545 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-28 11:36:03,546 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-28 11:36:03,546 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_create_system_pool failed
+2026-09-28 11:36:03,546 - conftest.py - Line: 118 - ERROR - ===================================================================================================================

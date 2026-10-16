@@ -1,0 +1,101 @@
+2026-09-26 20:27:29,326 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:27:30,603 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-26 20:27:30,604 - resource_management.py - Line: 472 - INFO - selected filter:filter type:Program Poolselected pool:SNR
+2026-09-26 20:27:30,604 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:27:31,789 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-26 20:27:31,790 - resource_management.py - Line: 485 - INFO - Program Pool filter returned
+selected pool name:SNR
+0 systems
+System:[]
+2026-09-26 20:27:31,792 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_system_level_filter[Program Pool-program] passed.
+2026-09-26 20:27:31,793 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:27:32,753 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-26 20:27:32,753 - resource_management.py - Line: 472 - INFO - selected filter:filter type:Master Poolselected pool:testing
+2026-09-26 20:27:32,754 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:27:33,874 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-26 20:27:33,876 - resource_management.py - Line: 485 - INFO - Master Pool filter returned
+selected pool name:testing
+3 systems
+System:[
+    {
+        "system_id": "an411bm18bs0402",
+        "sut_reachable": true,
+        "node_type": "rasp",
+        "system_state": "online",
+        "hma_timestamp": "",
+        "name": "an411bm18bs0402",
+        "system_type": "OKS-JC-DMR",
+        "program_pool": "SPR-SP",
+        "master_pool": "testing",
+        "system_pool": "",
+        "system_utilization": 0.06510416666666666,
+        "hsdes_config": "",
+        "hw_config": "",
+        "category_id": "xeon",
+        "org_id": "paiv",
+        "site_id": "an",
+        "building_id": "4",
+        "floor_id": "1",
+        "lab_id": "1bm",
+        "row_id": "18b"
+    },
+    {
+        "system_id": "an411bm18bs0502",
+        "sut_reachable": false,
+        "node_type": "rasp",
+        "system_state": "online",
+        "hma_timestamp": "",
+        "name": "an411bm18bs0502",
+        "system_type": "OKS-JC-DMR",
+        "program_pool": "SPR-SP",
+        "master_pool": "testing",
+        "system_pool": "",
+        "system_utilization": 96.05034722222221,
+        "hsdes_config": "",
+        "hw_config": "FDU5",
+        "category_id": "xeon",
+        "org_id": "paiv",
+        "site_id": "an",
+        "building_id": "4",
+        "floor_id": "1",
+        "lab_id": "1bm",
+        "row_id": "18b"
+    },
+    {
+        "system_id": "cr31h43tl3s0102",
+        "sut_reachable": false,
+        "node_type": "rasp",
+        "system_state": "online",
+        "hma_timestamp": "",
+        "name": "cr31h43tl3s0102",
+        "system_type": "OKS-JC-DMR",
+        "program_pool": "SPR-SP",
+        "master_pool": "testing",
+        "system_pool": "",
+        "system_utilization": 0.0,
+        "hsdes_config": "",
+        "hw_config": "",
+        "category_id": "xeon",
+        "org_id": "paiv",
+        "site_id": "cr",
+        "building_id": "3",
+        "floor_id": "1",
+        "lab_id": "h43",
+        "row_id": "tl3"
+    }
+]
+2026-09-26 20:27:33,880 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_system_level_filter[Master Pool-master] passed.
+2026-09-26 20:27:33,883 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:27:35,110 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-26 20:27:35,111 - resource_management.py - Line: 472 - INFO - selected filter:filter type:System Poolselected pool:RWS123
+2026-09-26 20:27:35,112 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:27:36,214 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-26 20:27:36,215 - resource_management.py - Line: 485 - INFO - System Pool filter returned
+selected pool name:RWS123
+0 systems
+System:[]
+2026-09-26 20:27:36,217 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_system_level_filter[System Pool-system] passed.
+2026-09-26 20:27:36,218 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-26 20:27:36,219 - conftest.py - Line: 109 - INFO - Total tests passed: 3
+2026-09-26 20:27:36,219 - conftest.py - Line: 110 - INFO - Total tests failed: 0

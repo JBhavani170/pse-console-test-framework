@@ -1,0 +1,22 @@
+2026-09-24 19:58:50,348 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-24 19:58:52,368 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?pool_type=program -> 200
+2026-09-24 19:58:52,369 - resource_management.py - Line: 142 - INFO - selected name:{'pid': 'f623d6407c85496394b714481a8ff8bb', 'name': 'RPL-E Refresh'}
+2026-09-24 19:58:52,369 - resource_management.py - Line: 144 - INFO - f623d6407c85496394b714481a8ff8bb
+2026-09-24 19:58:52,369 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-24 19:58:54,342 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/master -> 201
+2026-09-24 19:58:54,343 - resource_management.py - Line: 152 - INFO - {
+    "pid": "df92e1c4b709489aaff0b27e73fb6ad1",
+    "name": "CMV",
+    "description": "testing",
+    "insert_time": "2026-09-24T14:28:55.497446Z",
+    "owners": [
+        "jx.bhavani@intel.com"
+    ],
+    "ppid": "f623d6407c85496394b714481a8ff8bb"
+}
+2026-09-24 19:58:54,344 - resource_management.py - Line: 154 - INFO - master_pool_id:df92e1c4b709489aaff0b27e73fb6ad1
+2026-09-24 19:58:54,346 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_create_master_pool passed.
+2026-09-24 19:58:54,347 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-24 19:58:54,348 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-24 19:58:54,348 - conftest.py - Line: 110 - INFO - Total tests failed: 0

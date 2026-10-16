@@ -1,0 +1,57 @@
+2026-09-26 20:32:05,795 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:32:07,119 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-26 20:32:07,120 - resource_management.py - Line: 472 - INFO - selected filter:filter type:Program Poolselected pool:!@#$$%^&**((()_+{}:"<>?|1234567890-=[]\;',./\|.,abcdefjhijklmnop
+2026-09-26 20:32:07,121 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:32:08,456 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-26 20:32:08,457 - resource_management.py - Line: 485 - INFO - Program Pool filter returned
+selected pool name:!@#$$%^&**((()_+{}:"<>?|1234567890-=[]\;',./\|.,abcdefjhijklmnop
+0 systems
+System:[]
+2026-09-26 20:32:08,458 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_system_level_filter[Program Pool-program] passed.
+2026-09-26 20:32:08,460 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:32:09,639 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-26 20:32:09,640 - resource_management.py - Line: 472 - INFO - selected filter:filter type:Master Poolselected pool:val
+2026-09-26 20:32:09,640 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:32:10,736 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-26 20:32:10,737 - resource_management.py - Line: 485 - INFO - Master Pool filter returned
+selected pool name:val
+1 systems
+System:[
+    {
+        "system_id": "sr48dml023s0303",
+        "sut_reachable": true,
+        "node_type": "rasp",
+        "system_state": "online",
+        "hma_timestamp": "2026-09-26T14:46:16.988000",
+        "name": "sr48dml023s0303",
+        "system_type": "EGS-ARC-EMR",
+        "program_pool": "validation team",
+        "master_pool": "val",
+        "system_pool": "val_group",
+        "system_utilization": 0.13020833333333331,
+        "hsdes_config": "",
+        "hw_config": "",
+        "category_id": "xeon",
+        "org_id": "paiv",
+        "site_id": "sr",
+        "building_id": "4",
+        "floor_id": "8",
+        "lab_id": "dml",
+        "row_id": "023"
+    }
+]
+2026-09-26 20:32:10,740 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_system_level_filter[Master Pool-master] passed.
+2026-09-26 20:32:10,745 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:32:11,928 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-26 20:32:11,929 - resource_management.py - Line: 472 - INFO - selected filter:filter type:System Poolselected pool:Accelerator
+2026-09-26 20:32:11,929 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-26 20:32:13,034 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-26 20:32:13,035 - resource_management.py - Line: 485 - INFO - System Pool filter returned
+selected pool name:Accelerator
+0 systems
+System:[]
+2026-09-26 20:32:13,040 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_system_level_filter[System Pool-system] passed.
+2026-09-26 20:32:13,043 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-26 20:32:13,044 - conftest.py - Line: 109 - INFO - Total tests passed: 3
+2026-09-26 20:32:13,045 - conftest.py - Line: 110 - INFO - Total tests failed: 0

@@ -1,0 +1,537 @@
+2026-09-27 14:27:27,270 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 14:27:28,602 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-27 14:27:28,603 - resource_management.py - Line: 528 - INFO - system_ids:[
+    "an411bm18bs0301",
+    "an411bm18bs0302",
+    "an411bm18bs0303",
+    "an411bm18bs0401",
+    "an411bm18bs0402",
+    "an411bm18bs0403",
+    "an411bm18bs0501",
+    "an411bm18bs0502",
+    "cr31h43tl3s0102",
+    "cr31h43tl3s0203"
+]
+2026-09-27 14:27:28,603 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 14:27:29,815 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-27 14:27:29,815 - resource_management.py - Line: 537 - INFO - Selected Pool:
+{
+    "pid": "8eb2fdd9c94940bda7c292bd6e43a77b",
+    "name": "SRF-AP"
+}
+2026-09-27 14:27:29,816 - resource_management.py - Line: 540 - INFO - selected pool name:SRF-AP
+2026-09-27 14:27:29,816 - resource_management.py - Line: 541 - INFO - selected_pool_id:8eb2fdd9c94940bda7c292bd6e43a77b
+2026-09-27 14:27:29,816 - resource_management.py - Line: 561 - INFO - Bulk payload:[
+    {
+        "system_id": "an411bm18bs0301",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0302",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0303",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0401",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0402",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0403",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0501",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0502",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    },
+    {
+        "system_id": "cr31h43tl3s0102",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    },
+    {
+        "system_id": "cr31h43tl3s0203",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    }
+]
+2026-09-27 14:27:29,816 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 14:27:31,249 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 200
+2026-09-27 14:27:31,249 - resource_management.py - Line: 565 - INFO - Bulk payload:[
+    {
+        "system_id": "an411bm18bs0301",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0302",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0303",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0401",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0402",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0403",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0501",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0502",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    },
+    {
+        "system_id": "cr31h43tl3s0102",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    },
+    {
+        "system_id": "cr31h43tl3s0203",
+        "pools": {
+            "ppid": "8eb2fdd9c94940bda7c292bd6e43a77b"
+        }
+    }
+]
+2026-09-27 14:27:31,250 - resource_management.py - Line: 566 - INFO - Bulk move systems:{
+    "success": 10,
+    "failure": 0
+}
+2026-09-27 14:27:31,250 - resource_management.py - Line: 569 - INFO - success count:10
+2026-09-27 14:27:31,250 - resource_management.py - Line: 570 - INFO - failure count:0
+2026-09-27 14:27:31,252 - conftest.py - Line: 100 - INFO - Test pool_management/resource_management.py::test_system_move[Program Pool-program] passed.
+2026-09-27 14:27:31,254 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 14:27:32,348 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-27 14:27:32,348 - resource_management.py - Line: 528 - INFO - system_ids:[
+    "an411bm18bs0301",
+    "an411bm18bs0302",
+    "an411bm18bs0303",
+    "an411bm18bs0401",
+    "an411bm18bs0402",
+    "an411bm18bs0403",
+    "an411bm18bs0501",
+    "an411bm18bs0502",
+    "cr31h43tl3s0102",
+    "cr31h43tl3s0203"
+]
+2026-09-27 14:27:32,349 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 14:27:33,606 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-27 14:27:33,607 - resource_management.py - Line: 537 - INFO - Selected Pool:
+{
+    "pid": "6f62111464404fa885675bc1d0367fff",
+    "name": "DAES"
+}
+2026-09-27 14:27:33,607 - resource_management.py - Line: 540 - INFO - selected pool name:DAES
+2026-09-27 14:27:33,608 - resource_management.py - Line: 541 - INFO - selected_pool_id:6f62111464404fa885675bc1d0367fff
+2026-09-27 14:27:33,608 - resource_management.py - Line: 561 - INFO - Bulk payload:[
+    {
+        "system_id": "an411bm18bs0301",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0302",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0303",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0401",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0402",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0403",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0501",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0502",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    },
+    {
+        "system_id": "cr31h43tl3s0102",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    },
+    {
+        "system_id": "cr31h43tl3s0203",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    }
+]
+2026-09-27 14:27:33,608 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 14:27:35,234 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 200
+2026-09-27 14:27:35,234 - resource_management.py - Line: 565 - INFO - Bulk payload:[
+    {
+        "system_id": "an411bm18bs0301",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0302",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0303",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0401",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0402",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0403",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0501",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0502",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    },
+    {
+        "system_id": "cr31h43tl3s0102",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    },
+    {
+        "system_id": "cr31h43tl3s0203",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "6f62111464404fa885675bc1d0367fff"
+        }
+    }
+]
+2026-09-27 14:27:35,235 - resource_management.py - Line: 566 - INFO - Bulk move systems:{
+    "success": 0,
+    "failure": 10
+}
+2026-09-27 14:27:35,236 - resource_management.py - Line: 569 - INFO - success count:0
+2026-09-27 14:27:35,236 - resource_management.py - Line: 570 - INFO - failure count:10
+2026-09-27 14:27:35,325 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_system_move[Master Pool-master] failed
+2026-09-27 14:27:35,327 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 14:27:36,466 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-data-dev.intel.com/api/v1/systems/systems-filter?skip=0&limit=10&fields=name,system_type,program_pool,master_pool,system_pool,system_utilization,hsdes_config,hw_config,category_id,org_id,site_id,building_id,floor_id,lab_id,row_id -> 200
+2026-09-27 14:27:36,467 - resource_management.py - Line: 528 - INFO - system_ids:[
+    "an411bm18bs0301",
+    "an411bm18bs0302",
+    "an411bm18bs0303",
+    "an411bm18bs0401",
+    "an411bm18bs0402",
+    "an411bm18bs0403",
+    "an411bm18bs0501",
+    "an411bm18bs0502",
+    "cr31h43tl3s0102",
+    "cr31h43tl3s0203"
+]
+2026-09-27 14:27:36,467 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 14:27:37,709 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/available?list_all=true -> 200
+2026-09-27 14:27:37,710 - resource_management.py - Line: 537 - INFO - Selected Pool:
+{
+    "pid": "5d6d53a85ada4efda12fa8ddc4da9071",
+    "name": "test_demo_2"
+}
+2026-09-27 14:27:37,710 - resource_management.py - Line: 540 - INFO - selected pool name:test_demo_2
+2026-09-27 14:27:37,711 - resource_management.py - Line: 541 - INFO - selected_pool_id:5d6d53a85ada4efda12fa8ddc4da9071
+2026-09-27 14:27:37,711 - resource_management.py - Line: 561 - INFO - Bulk payload:[
+    {
+        "system_id": "an411bm18bs0301",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0302",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0303",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0401",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0402",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0403",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0501",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0502",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    },
+    {
+        "system_id": "cr31h43tl3s0102",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    },
+    {
+        "system_id": "cr31h43tl3s0203",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    }
+]
+2026-09-27 14:27:37,712 - conftest.py - Line: 190 - INFO - Using API_KEY_OPERATOR authentication
+2026-09-27 14:27:39,312 - conftest.py - Line: 304 - INFO - Status code for https://pse-console-cloud-dev.intel.com/api/v1/pool/config/bulk -> 200
+2026-09-27 14:27:39,313 - resource_management.py - Line: 565 - INFO - Bulk payload:[
+    {
+        "system_id": "an411bm18bs0301",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0302",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0303",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0401",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0402",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0403",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0501",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    },
+    {
+        "system_id": "an411bm18bs0502",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    },
+    {
+        "system_id": "cr31h43tl3s0102",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    },
+    {
+        "system_id": "cr31h43tl3s0203",
+        "pools": {
+            "ppid": "4f6f95d5fec64c9e91b8e433d3a6cd76",
+            "mpid": "ce68c7fb77de45e19c732ab7f2de0cb1",
+            "spid": "5d6d53a85ada4efda12fa8ddc4da9071"
+        }
+    }
+]
+2026-09-27 14:27:39,314 - resource_management.py - Line: 566 - INFO - Bulk move systems:{
+    "success": 0,
+    "failure": 10
+}
+2026-09-27 14:27:39,315 - resource_management.py - Line: 569 - INFO - success count:0
+2026-09-27 14:27:39,315 - resource_management.py - Line: 570 - INFO - failure count:10
+2026-09-27 14:27:39,337 - conftest.py - Line: 98 - ERROR - Test pool_management/resource_management.py::test_system_move[System Pool-system] failed
+2026-09-27 14:27:39,339 - conftest.py - Line: 108 - INFO - 
+Test execution complete.
+2026-09-27 14:27:39,340 - conftest.py - Line: 109 - INFO - Total tests passed: 1
+2026-09-27 14:27:39,340 - conftest.py - Line: 110 - INFO - Total tests failed: 2
+2026-09-27 14:27:39,341 - conftest.py - Line: 113 - ERROR - ===================================================================================================================
+2026-09-27 14:27:39,341 - conftest.py - Line: 114 - ERROR - Test Summary Info
+2026-09-27 14:27:39,341 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_system_move[Master Pool-master] failed
+2026-09-27 14:27:39,342 - conftest.py - Line: 117 - ERROR - pool_management/resource_management.py::test_system_move[System Pool-system] failed
+2026-09-27 14:27:39,342 - conftest.py - Line: 118 - ERROR - ===================================================================================================================
