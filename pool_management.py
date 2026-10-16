@@ -1,4 +1,3 @@
-git
 import allure
 import pytest
 import random
